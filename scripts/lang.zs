@@ -19,7 +19,6 @@ game.setLocalization("tile.witchwater.name", "Witchwater");
 game.setLocalization("fluid.troll_eye_goop", "Troll Eye Goop");
 game.setLocalization("fluid.liquid_blaze", "Liquid Blaze");
 game.setLocalization("fluid.blessed_life_essence", "Blessed Life Essence");
-game.setLocalization("fluid.pristine_glass", "Molten Pristine Glass");
 
 # Contenttweaker items
 game.setLocalization("item.contenttweaker.stone_shears.name", "Stone Shears");

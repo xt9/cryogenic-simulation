@@ -13,7 +13,3 @@ trollEyeGoop.register();
 
 var blessedLifeEssence = VanillaFactory.createFluid("blessed_life_essence", Color.fromHex("F72133"));
 blessedLifeEssence.register();
-
-var pristineGlass = VanillaFactory.createFluid("pristine_glass", Color.fromHex("A5F5FF"));
-pristineGlass.temperature = 599;
-pristineGlass.register();

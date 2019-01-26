@@ -34,14 +34,18 @@ recipes.remove(<mysticalagradditions:tier6_inferium_seeds>);
 # General Recipes
 # ----------------
 recipes.addShaped("tier1_inferium_seeds", <mysticalagriculture:tier1_inferium_seeds>, [
-    [<ore:essenceInferium>, <ore:essenceInferium>, <ore:essenceInferium>],
+    [<ore:blockInferiumEssence>, <ore:essenceInferium>, <ore:blockInferiumEssence>],
     [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>],
-    [<ore:essenceInferium>, <ore:essenceInferium>, <ore:essenceInferium>]
+    [<ore:blockInferiumEssence>, <ore:essenceInferium>, <ore:blockInferiumEssence>]
 ]);
 
 # ----------------
 # Tier 1 Recipes
 # ----------------
+recipes.replaceAllOccurences(<mysticalagriculture:chunk:7>, <minecraft:porkchop>, <mysticalagriculture:pig_seeds>);
+recipes.replaceAllOccurences(<mysticalagriculture:chunk:8>, <minecraft:feather>, <mysticalagriculture:chicken_seeds>);
+recipes.replaceAllOccurences(<mysticalagriculture:chunk:9>, <minecraft:leather>, <mysticalagriculture:cow_seeds>);
+recipes.replaceAllOccurences(<mysticalagriculture:chunk:10>, <minecraft:wool>, <mysticalagriculture:sheep_seeds>);
 
 # ----------------
 # Tooltip

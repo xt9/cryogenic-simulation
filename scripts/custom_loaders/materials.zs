@@ -7,12 +7,18 @@ import mods.contenttweaker.Material;
 var oldGod = MaterialSystem.getMaterialBuilder().setName("Sanguine Metal").setColor(Color.fromHex("a51318")).build();
 oldGod.registerParts(["gear", "plate", "nugget", "ingot", "rod"] as string[]);
 
-var molten = oldGod.registerPart("molten").getData();
-molten.addDataValue("temperature", "400");
-molten.addDataValue("luminosity", "10");
+var moltenSanguineMetal = oldGod.registerPart("molten").getData();
+moltenSanguineMetal.addDataValue("temperature", "400");
+moltenSanguineMetal.addDataValue("luminosity", "10");
 
-var block = oldGod.registerPart("block").getData();
-block.addDataValue("hardness", "5");
-block.addDataValue("resistance", "30");
-block.addDataValue("harvestTool", "pickaxe");
-block.addDataValue("harvestLevel", "1");
+var blockSanguineMetal = oldGod.registerPart("block").getData();
+blockSanguineMetal.addDataValue("hardness", "5");
+blockSanguineMetal.addDataValue("resistance", "30");
+blockSanguineMetal.addDataValue("harvestTool", "pickaxe");
+blockSanguineMetal.addDataValue("harvestLevel", "1");
+
+var pristineGlass = MaterialSystem.getMaterialBuilder().setName("Pristine Glass").setColor(Color.fromHex("A5F5FF")).build();
+
+var moltenPristineGlass = pristineGlass.registerPart("molten").getData();
+moltenPristineGlass.addDataValue("temperature", "599");
+moltenPristineGlass.addDataValue("luminosity", "10");

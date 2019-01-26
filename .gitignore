@@ -12,13 +12,17 @@
 /config/tellme/**
 /.mixin.out/**
 
+config/splash.properties
 config/jei/worldSettings.cfg
 config/BiomeTweaker/output
 
 # root files
+ModUpdaterPack.json
+patchouli_data.json
 realms_persistence.json
 usercache.json
 usernamecache.json
 crafttweaker.log
 zs_export.json
 notes.md
+icon.png
