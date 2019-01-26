@@ -1,0 +1,2 @@
+give @p tconstruct:book
+give @p inspirations:bookshelf 1 0 { texture: { id: "minecraft:wooden_slab" } }

@@ -1,0 +1,19 @@
+{
+    "name": "Sharing Knowledge",
+    "icon": "immersiveengineering:blueprint",
+    "category": "sim_1/knowledge",
+    "advancement": "triumph:cryosim/sim_2/visit",
+    "priority": true,
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ie_knowledge_blueprint",
+            "text": "After acquiring a certain $(item)Knowledge$() you can impart it to others by combining books with one of the craftables from that particular $(item)Knowledge$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "immersiveengineering:wooden_devices/workbench",
+            "text": "To craft these $(item)Books$() you need to put the $(item)Knowledge Blueprint$() on a $(item)Workbench$()."
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+Aluminum
+	oreAluminum
+	ingotAluminum
+	plateAluminum
+	gearAluminum
+	dustAluminum
+	nuggetAluminum
+	blockAluminum
+
+Lead
+	oreLead
+	ingotLead
+	plateLead
+	gearLead
+	dustLead
+	nuggetLead
+	blockLead
+
+Coal
+	dustCoal
+
+Silver
+	oreSilver
+	ingotSilver
+	plateSilver
+	gearSilver
+	dustSilver
+	nuggetSilver
+	blockSilver
+
+Nickel
+	oreNickel
+	ingotNickel
+	plateNickel
+	gearNickel
+	dustNickel
+	nuggetNickel
+	blockNickel
+
+Sulfur
+	dustSulfur
+
+Invar
+	ingotInvar
+	plateInvar
+	gearInvar
+	dustInvar
+	nuggetInvar
+	blockInvar
+
+Iron
+	oreIron
+	ingotIron
+	plateIron
+	gearIron
+	dustIron
+	nuggetIron
+	blockIron
+
+Steel
+	ingotSteel
+	plateSteel
+	gearSteel
+	dustSteel
+	nuggetSteel
+	blockSteel
+
+Bronze
+	ingotBronze
+	plateBronze
+	gearBronze
+	dustBronze
+	nuggetBronze
+	blockBronze
+
+Iridium
+	oreIridium
+	ingotIridium
+	plateIridium
+	gearIridium
+	dustIridium
+	nuggetIridium
+	blockIridium
+
+Gold
+	oreGold
+	ingotGold
+	plateGold
+	gearGold
+	dustGold
+	nuggetGold
+	blockGold
+
+Copper
+	oreCopper
+	ingotCopper
+	plateCopper
+	gearCopper
+	dustCopper
+	nuggetCopper
+	blockCopper
+
+Constantan
+	ingotConstantan
+	plateConstantan
+	gearConstantan
+	dustConstantan
+	nuggetConstantan
+	blockConstantan
+
+Obsidian
+	dustObsidian
+
+Electrum
+	ingotElectrum
+	plateElectrum
+	gearElectrum
+	dustElectrum
+	nuggetElectrum
+	blockElectrum
+
+Uranium
+	oreUranium
+	ingotUranium
+	plateUranium
+	dustUranium
+	nuggetUranium
+	blockUranium
+
+Tin
+	oreTin
+	ingotTin
+	plateTin
+	gearTin
+	dustTin
+	nuggetTin
+	blockTin
+
+Platinum
+	orePlatinum
+	ingotPlatinum
+	platePlatinum
+	gearPlatinum
+	dustPlatinum
+	nuggetPlatinum
+	blockPlatinum
+

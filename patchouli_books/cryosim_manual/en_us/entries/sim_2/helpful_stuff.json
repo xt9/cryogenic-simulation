@@ -1,0 +1,34 @@
+{
+    "name": "Quality of Life",
+    "icon": "cookingforblockheads:sink",
+    "category": "sim_2",
+    "advancement": "triumph:cryosim/sim_2/visit",
+    "priority": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A few quality of life things that can be nice to get while you're on the Lunar Plane."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ie_cloche",
+            "text": "A $(item)Garden Cloche$() can grow crops when given some $(item)Power$() and a steady supply of $(item)Water$().$(br2)Search for $(item)Cloche$() in $(item)JEI$() to see available $(item)Fertilizers$() and their potency."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:waystones_waystone",
+            "text": "Waystones let you travel around the world in a speedy manner.$(br2)You can travel to them using a $(item)Warp Stone$() or by activating another $(item)Waystone$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:waystones_warp_stone",
+            "text": "A $(item)Warp Stone$() will allow you to travel to previously placed $(item)Waystones$() around the world.$(br2)There is a 30 second cooldown period after using the stone."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:cfb_sink",
+            "text": "A source of $(item)Infinite Water$().$(br)Will be very helpful later on."
+        }
+    ]
+}

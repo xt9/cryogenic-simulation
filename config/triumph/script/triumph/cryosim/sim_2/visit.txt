@@ -1,0 +1,14 @@
+addParent("triumph:cryosim/sim_1/visit")
+
+setIcon(<cryosimadditions:block_blood_resin_log>)
+setTitle("The Lunar Plane")
+setDescription("A world bathed in starlight and blood, blessed by the gods, explore the lands to produce PLACEHOLDER to reach the next simulation.")
+setAnnounceToChat(true)
+setShowToast(true)
+
+criteria = addCriteria("entered_dim", "minecraft:location")
+criteria.setDimID(89)
+
+setCompletedIconColor(#32d9e5)
+setCompletedTitleColor(#32d9e5)
+setPos(79,27)

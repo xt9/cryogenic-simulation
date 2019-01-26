@@ -1,0 +1,56 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"rockcrystals": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "astralsorcery:blockcustomore",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 40,
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					89
+				]
+			}
+		},
+		"aqumarine_sand": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "astralsorcery:blockcustomsandore",
+						"weight": 40
+					},
+					{
+						"name": "minecraft:sand",
+						"weight": 60
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 14
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					89
+				]
+			}
+		}
+	}
+}

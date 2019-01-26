@@ -1,0 +1,7 @@
+{
+    "name": "Raw resources",
+    "description": "This chapter covers infomation about the resources you will find on the $(item)Lunar Plane$().",
+    "icon": "astralsorcery:blockcustomore",
+    "parent": "sim_2",
+    "sortnum": 1
+}

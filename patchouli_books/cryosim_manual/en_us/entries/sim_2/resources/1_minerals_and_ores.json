@@ -1,0 +1,21 @@
+{
+    "name": "Minerals and Ores",
+    "icon": "astralsorcery:blockcustomore",
+    "category": "sim_2/resources",
+    "advancement": "triumph:cryosim/sim_1/visit",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Aquamarine",
+            "item": "astralsorcery:blockcustomsandore",
+            "text": "Glimmering gemstones found between world height $(primary)0-64$()$(br2)Found in deposits of sand."
+        },
+        {
+            "type": "spotlight",
+            "title": "Rock Crystals",
+            "item": "astralsorcery:blockcustomore",
+            "text": "Valuable rock found between world height $(primary)0-55$()$(br2)Mining level: $(item)Obsidian$()"
+        }
+    ]
+}

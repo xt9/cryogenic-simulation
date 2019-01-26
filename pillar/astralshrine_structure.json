@@ -1,0 +1,28 @@
+{
+	"generatorType": "SURFACE",
+	"minY": -1,
+	"maxY": -1,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+	"dimensionSpawns": [
+		89
+	],
+	"biomeNameSpawns": [
+		"biometweaker:lp_badlands"
+	],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": false,
+	"generateEverywhere": false,
+	"integrity": 1,
+	"decay": 0,
+	"filling": "chisel:marble2",
+	"fillingMetadata": 7,
+	"fillingType": "AIR",
+	"rarity": 80
+}

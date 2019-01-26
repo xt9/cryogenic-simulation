@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube_all",
+    "textures": { "all": "contenttweaker:blocks/silver_dust" }
+    
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": { "transform": "forge:default-block" }
+  }
+}

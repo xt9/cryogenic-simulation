@@ -1,0 +1,1 @@
+give @p gamestagebooks:bm_stage

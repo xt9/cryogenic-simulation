@@ -1,0 +1,20 @@
+{
+    "name": "Smelting Knowledge",
+    "icon": "gamestagebooks:ticon_stage",
+    "category": "sim_1/knowledge",
+    "advancement": "triumph:cryosim/sim_1/visit",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Smelting Knowledge",
+            "item": "gamestagebooks:ticon_stage",
+            "text": "If you want the knowledge to $(l:sim_1/4_smeltery)Smelt$() things you're going to have to work for it.$(br2)Use your $(l:portal_hub/5_hook)Hook$() to climb one of the sky islands we have placed around this $(item)Simulation$().$(br2)If you lost your $(l:portal_hub/5_hook)Hook$() you are on your own, but I bet you can figure something out."
+        },
+        {
+            "type": "spotlight",
+            "item": "tconstruct:smeltery_controller",
+            "text": "This knowledge is required before you can make a $(l:sim_1/4_smeltery)Smeltery$() and start smelting $(item)Metals$().$(br2)This magic $(l:http://tinkers-construct.wikia.com/wiki/Smeltery)Link$() will tell you everything you need to know about setting up a $(l:sim_1/4_smeltery)Smeltery$()."
+        }
+    ]
+}

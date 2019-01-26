@@ -1,0 +1,20 @@
+{
+    "name": "Step #7: Into the Unknown",
+    "icon": "contenttweaker:faux_steel",
+    "category": "sim_1",
+    "advancement": "triumph:cryosim/sim_1/visit",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_faux_steel",
+            "text": "You have almost completed the first $(item)Simulation$(), good job!$(br2)To enter the next one you need to go back to the $(item)Portal Hub$() and enter the last piece of $(item)Faux Steel$() into the$(br)$(item)Portal Structure$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "immersiveengineering:tool",
+            "title": "Portal Activator",
+            "text": "The item that activates the $(item)Portal$() to the second $(item)Simulation$() is the $(item)Engineering Hammer$() you made earlier in this $(item)Simulation$()."
+        }
+    ]
+}

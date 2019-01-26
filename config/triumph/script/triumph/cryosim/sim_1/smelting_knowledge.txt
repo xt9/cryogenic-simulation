@@ -1,0 +1,17 @@
+addParent("triumph:cryosim/sim_1/visit")
+
+setIcon(<gamestagebooks:ticon_stage>)
+setTitle("Smelting Knowledge")
+setDescription("Learned how to make a Smeltery.")
+
+setAnnounceToChat(false)
+setShowToast(true)
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("ticon_stage")
+
+setCompletedIconColor(#32d9e5)
+setCompletedTitleColor(#32d9e5)
+
+addRewardFunction("triumph:cryosim/sim_1/ticon_reward")
+setPos(38,-29)

@@ -1,0 +1,50 @@
+[
+    {
+        "mob": "varodd:troll",
+        "dimension": 89,
+        "mincount": 25,
+        "result": "deny"
+    },
+    {
+        "mob": "varodd:raven",
+        "dimension": 89,
+        "mincount": 20,
+        "result": "deny"
+    },
+    {
+        "mob": "varodd:troll",
+        "dimension": 89,
+        "seesky": false,
+        "result": "allow",
+        "healthmultiply": 0.5,
+        "damagemultiply": 0.5
+    },
+    {
+        "mob": "varodd:raven",
+        "dimension": 89,
+        "result": "allow"
+    },
+    {
+        "mob": [
+            "minecraft:zombie",
+            "minecraft:spider",
+            "minecraft:creeper",
+            "minecraft:skeleton"
+        ],
+        "dimension": 88,
+        "minheight": 4,
+        "maxheight": 58,
+        "seesky": false,
+        "canspawnhere": true,
+        "result": "allow"
+    },
+    {
+        "passive": true,
+        "canspawnhere": true,
+        "dimension": 88,
+        "result": "allow"
+    },
+    {
+        "result": "deny"
+    }
+]

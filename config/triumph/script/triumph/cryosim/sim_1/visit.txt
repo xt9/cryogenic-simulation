@@ -1,0 +1,16 @@
+addParent("triumph:cryosim/root")
+
+setIcon(<chisel:antiblock:15>)
+setTitle("Contained Ecosystems")
+setDescription("A world filled with self contained ecosystems, scavenge the lands to produce steel to reach the next simulation.")
+setAnnounceToChat(true)
+setShowToast(true)
+
+criteria = addCriteria("entered_dim", "minecraft:location")
+criteria.setDimID(88)
+
+setCompletedIconColor(#32d9e5)
+setCompletedTitleColor(#32d9e5)
+
+addRewardFunction("triumph:cryosim/sim_1/visit_reward")
+setPos(38,27)

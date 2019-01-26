@@ -1,0 +1,33 @@
+{
+    "pools": [
+      {
+        "name": "main",
+        "rolls": 1,
+        "entries": [{
+          "entryName": "minecraft:ender_pearl",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ender_pearl"
+        }]
+      },
+      {
+        "name": "book",
+        "rolls": 1,
+        "entries": [{
+          "weight": 1,
+          "type": "item",
+          "name": "gamestagebooks:ie_stage"
+        }]
+      }
+    ]
+  }

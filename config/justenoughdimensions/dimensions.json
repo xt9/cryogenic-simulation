@@ -1,0 +1,27 @@
+{
+    "config_version": {
+        "id": "__default",
+        "version": 0
+    },
+    "dimensions": [
+        {
+            "dim": 89,
+            "dimensiontype": {
+                "id": 89,
+                "name": "lunar_plane",
+                "suffix": "_dim89",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "jed": {
+                "SkyColor": "68a9ff",
+                "CloudColor": "d6d6ff"
+            },
+            "worldinfo_onetime": {
+                "generatorName": "lostcities",
+                "generatorOptions": "{ \"profile\": \"lunar_plane\" }"
+            }
+        }
+    ]
+}

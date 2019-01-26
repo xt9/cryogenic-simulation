@@ -1,0 +1,11 @@
+{
+  "materialMappings": {
+    "sanguine_metal_plate": 15,
+    "sanguine_metal_rod": 18,
+    "sanguine_metal_ingot": 17,
+    "sanguine_metal_block": 20,
+    "sanguine_metal_molten": 19,
+    "sanguine_metal_gear": 14,
+    "sanguine_metal_nugget": 16
+  }
+}

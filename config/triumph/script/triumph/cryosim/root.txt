@@ -1,0 +1,16 @@
+setIcon(<chisel:futura:2>)
+setTitle("Cryogenic Simulation")
+setDescription("Entered the Simulation")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/stone.png")
+setAnnounceToChat(true)
+setShowToast(true)
+
+addCriteria("location", "minecraft:location")
+
+setCompletedIconColor(#32d9e5)
+setCompletedTitleColor(#32d9e5)
+setCompletedLineColor(#32d9e5)
+
+addRewardFunction("triumph:cryosim/init")
+setPos(0,27)

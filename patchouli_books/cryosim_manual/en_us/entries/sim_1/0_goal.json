@@ -1,0 +1,20 @@
+{
+    "name": "Simulation Goal",
+    "icon": "immersiveengineering:stone_device:2",
+    "category": "sim_1",
+    "advancement": "triumph:cryosim/sim_1/visit",
+    "sortnum": 0,
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The goal of the first simulation is to produce$(br)$(item)Steel$().$(br2)A task that can seem daunting at first, but fret not this manual will guide you through the process."
+        },
+        {
+            "type": "spotlight",
+            "item": "immersiveengineering:stone_device:2",
+            "title": "Steel",
+            "text": "$(item)Steel$() can be produced using an $(item)Improved Blast Furnace$(), so most of the tasks in this chapter will bring us closer to being able to make one of those."
+        }
+    ]
+}

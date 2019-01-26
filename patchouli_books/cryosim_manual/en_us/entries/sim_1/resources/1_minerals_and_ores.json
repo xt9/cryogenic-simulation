@@ -1,0 +1,87 @@
+{
+    "name": "Minerals and Ores",
+    "icon": "minecraft:coal_ore",
+    "category": "sim_1/resources",
+    "advancement": "triumph:cryosim/sim_1/visit",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "We've populated the first simulation with some ores for you to play with.$(br2)You could use them for several things, let's see how many use cases you can find for them.$(br2)Even though you lack the ability smelt down the ores for the moment, maybe you can find another use for them?"
+        },
+        {
+            "type": "spotlight",
+            "title": "Coal",
+            "anchor": "coal",
+            "item": "minecraft:coal_ore",
+            "text": "Basic fossil fuel found between world height $(primary)0-128$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Copper",
+            "item": "thermalfoundation:ore:0",
+            "text": "Light metal found between world height $(primary)38-75$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Tin",
+            "item": "thermalfoundation:ore:1",
+            "text": "Light metal found between world height $(primary)20-55$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Iron",
+            "item": "minecraft:iron_ore",
+            "text": "Crude metal found between world height $(primary)0-64$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Redstone",
+            "item": "minecraft:redstone_ore",
+            "text": "Highly conductive powder found between world height $(primary)0-16$()$(br2)Mining level: $(item)Diamond$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Silver",
+            "item": "thermalfoundation:ore:2",
+            "text": "Heavy metal found between world height $(primary)5-30$()$(br2)Silver and Lead share veins.$(br2)Mining level: $(item)Diamond$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Lead",
+            "item": "thermalfoundation:ore:3",
+            "text": "Heavy metal found between world height $(primary)5-30$()$(br2)Silver and Lead share veins.$(br2)Mining level: $(item)Diamond$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Gold",
+            "item": "minecraft:gold_ore",
+            "anchor": "gold",
+            "text": "Precious metal found between world height $(primary)0-32$()$(br2)Rarity: $(item)Rare$()$(br)Mining level: $(item)Diamond$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Nickel",
+            "item": "thermalfoundation:ore:5",
+            "text": "Transition metal found between world height $(primary)5-20$()$(br)Commonly used to make alloys.$(br2)Rarity: $(item)Rare$()$(br)Mining level: $(item)Diamond$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Lapis Lazuli",
+            "item": "minecraft:lapis_ore",
+            "text": "Valuable rock found between world height $(primary)3-16$()$(br2)Rarity: $(item)Rare$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Diamond",
+            "item": "minecraft:diamond_ore",
+            "text": "Precious gemstones found between world height $(primary)0-16$()$(br2)Rarity: $(primary)Very Rare$()$(br)Mining level: $(item)Diamond$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Emerald",
+            "item": "minecraft:emerald_ore",
+            "text": "Precious gemstones found between world height $(primary)0-16$()$(br2)Rarity: $(primary)Very Rare$()$(br)Mining level: $(item)Diamond$()"
+        }
+    ]
+}

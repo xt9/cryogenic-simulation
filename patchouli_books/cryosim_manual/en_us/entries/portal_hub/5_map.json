@@ -1,0 +1,18 @@
+{
+    "name": "Minimap",
+    "icon": "minecraft:filled_map",
+    "category": "portal_hub",
+    "advancement": "triumph:cryosim/root",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The minimap we have provided you with is called $(item)Xaeros Minimap$() and it might be foreign to you.$(br2)You can set waypoints and do most things a regular map can do, but there is no fullscreen mode.$(br2)The relevant keybinds can be found under the $(item)Xaero$() keybind category."
+        },
+        {
+            "type": "text",
+            "title": "Current Keybinds",
+            "text": "$(br)Map Settings: $(item)$(k:gui.xaero_minimap_settings)$()$(br)New Waypoint: $(item)$(k:gui.xaero_new_waypoint)$()$(br)All Waypoints: $(item)$(k:gui.xaero_waypoints_key)$()$(br2)Zoom In: $(item)$(k:gui.xaero_zoom_in)$()$(br)Zoom Out: $(item)$(k:gui.xaero_zoom_out)"
+        }
+    ]
+}

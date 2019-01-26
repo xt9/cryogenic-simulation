@@ -1,0 +1,12 @@
+[
+  {
+    "fluidName": "creosote",
+    "input": "minecraft:gravel",
+    "output": "tconstruct:soil:0"
+  },
+  {
+    "fluidName": "creosote",
+    "input": "ore:plankWood",
+    "output": "immersiveengineering:treated_wood:0"
+  }
+]

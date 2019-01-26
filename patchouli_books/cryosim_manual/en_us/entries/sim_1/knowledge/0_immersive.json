@@ -1,0 +1,20 @@
+{
+    "name": "Engineering Knowledge",
+    "icon": "gamestagebooks:ie_stage",
+    "category": "sim_1/knowledge",
+    "advancement": "triumph:cryosim/sim_1/visit",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "gamestagebooks:ie_stage",
+            "text": "Found in Jungles & Mesa biomes inside of the first simulation.$(br2)Use your Nature's Compass to find one of these biomes."
+        },
+        {
+            "type": "spotlight",
+            "item": "immersiveengineering:tool",
+            "link_recipe": true,
+            "text": "This knowledge is required before you can make a $(l:sim_1/3_creosote#engineers-hammer)Engineers Hammer$()."
+        }
+    ]
+}

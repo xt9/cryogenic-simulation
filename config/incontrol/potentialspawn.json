@@ -1,0 +1,30 @@
+[
+    {
+        "dimension": 89,
+        "biome": [
+            "Dark Thicket"
+        ],
+        "mobs": [
+            {
+                "mob": "varodd:troll",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 89,
+        "biome": [
+            "Blessed Plains"
+        ],
+        "mobs": [
+            {
+                "mob": "varodd:raven",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    }
+]

@@ -1,0 +1,88 @@
+{
+  "ore:sand": [
+    {
+      "drop": "minecraft:dye:3",
+      "chance": 0.03,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:prismarine_shard:-1",
+      "chance": 0.02,
+      "meshLevel": 4
+    }
+  ],
+  "ore:gravel": [
+    {
+      "drop": "minecraft:flint:-1",
+      "chance": 0.25,
+      "meshLevel": 2
+    },
+    {
+      "drop": "minecraft:coal:0",
+      "chance": 0.125,
+      "meshLevel": 2
+    },
+    {
+      "drop": "minecraft:dye:4",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "minecraft:diamond:-1",
+      "chance": 0.008,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:emerald:-1",
+      "chance": 0.008,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:diamond:-1",
+      "chance": 0.016,
+      "meshLevel": 4
+    },
+    {
+      "drop": "minecraft:emerald:-1",
+      "chance": 0.016,
+      "meshLevel": 4
+    }
+  ],
+  "ore:dust": [
+    {
+      "drop": "minecraft:dye:15",
+      "chance": 0.2,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:gunpowder:-1",
+      "chance": 0.07,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:redstone:-1",
+      "chance": 0.125,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:redstone:-1",
+      "chance": 0.25,
+      "meshLevel": 4
+    },
+    {
+      "drop": "minecraft:glowstone_dust:-1",
+      "chance": 0.0625,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:blaze_powder:-1",
+      "chance": 0.05,
+      "meshLevel": 3
+    },
+    {
+      "drop": "enderio:item_material:21",
+      "chance": 0.01,
+      "meshLevel": 4
+    }
+  ]
+}

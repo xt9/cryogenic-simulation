@@ -1,0 +1,18 @@
+{
+	"name": "Simulation Manual",
+	"landing_text": "This manual will guide you through the various $(item)Simulated Dimensions.$()$(br2)When you reach a new $(item)Simulation$() more information will be unlocked.",
+	"book_texture": "patchouli:textures/gui/book_gray.png",
+	"model": "cryosim:book",
+	"nameplate_color": "C90053",
+	"progress_bar_color": "C90053",
+	"version": 0,
+	"subtitle": "Surviving the simulation!",
+	"advancements_tab": "triumph:cryosim",
+	"advancement_namespaces": [
+		"triumph"
+	],
+	"macros": {
+		"$(primary)": "$(#0C6487)",
+		"$(item)": "$(#D1560E)"
+	}
+}

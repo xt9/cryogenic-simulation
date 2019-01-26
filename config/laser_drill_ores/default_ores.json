@@ -1,0 +1,28 @@
+[
+	{
+		"item": "oreArdite",
+		"color": 4,
+		"rarity": [
+			{
+				"whitelist": "",
+				"blacklist": "",
+				"depth_min": 35,
+				"depth_max": 37,
+				"weight": 1
+			}
+		]
+	},
+	{
+		"item": "oreCobalt",
+		"color": 11,
+		"rarity": [
+			{
+				"whitelist": "",
+				"blacklist": "",
+				"depth_min": 40,
+				"depth_max": 42,
+				"weight": 1
+			}
+		]
+	}
+]

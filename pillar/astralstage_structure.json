@@ -1,0 +1,28 @@
+{
+	"generatorType": "SURFACE",
+	"minY": 70,
+	"maxY": 94,
+	"offsetX": 0,
+	"offsetY": 30,
+	"offsetZ": 0,
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+	"dimensionSpawns": [
+		89
+	],
+	"biomeNameSpawns": [
+		"biometweaker:lp_thicket"
+	],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": false,
+	"generateEverywhere": false,
+	"integrity": 1,
+	"decay": 0,
+	"filling": "",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	"rarity": 210
+}

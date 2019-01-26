@@ -1,0 +1,10 @@
+{
+    "contenttweaker:block_blaze_powder:0": {
+        "fluid": "liquid_blaze",
+        "amount": 1000
+    },
+    "ore:cobblestone": {
+        "fluid": "lava",
+        "amount": 100
+    }
+}

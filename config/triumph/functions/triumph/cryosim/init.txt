@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+
+give @p patchouli:guide_book 1 0 {"patchouli:book": "patchouli:cryosim_manual"}
+give @p minecraft:stone_pickaxe
+give @p minecraft:stone_shovel

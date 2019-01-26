@@ -1,0 +1,6 @@
+title @p times 20 100 20
+title @p subtitle ["",{"text":"Simulation "},{"text":"#1","color":"aqua"},{"text":": Contained Ecosystems"}]
+title @p title ["",{"text":"Welcome ","color":"aqua"},{"text":"to"}]
+
+give @p naturescompass:naturescompass
+give @p hooked:hook 1 1

@@ -1,0 +1,51 @@
+{
+    "name": "Step #2: String & Sifting",
+    "icon": "artisanworktables:artisans_sifter_stone",
+    "category": "sim_1",
+    "advancement": "triumph:cryosim/sim_1/visit",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This dimension has tons of animals roaming around, amongst them there are $(primary)Sheep$().$(br2)Your tools are not very sharp yet, you would probably just torture the poor animal if you tried retrieving their $(item)Wool$() while they are alive and kicking.$(br2)Luckily you can slay them for their $(item)Wool!$()"
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:sheep",
+            "scale": 0.75
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_stone_shears",
+            "text": "These shears are crude and won't help you trim a moving animal, they can however be used on a $(item)Worktable$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:aw_masons_worktable",
+            "text": "The bricks you dried earlier will help you make a water resistant working surface."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:string",
+            "link_recipe": true,
+            "text": "Early on you get your string by cutting the $(item)Wool$() at a $(item)Mason's Worktable$() into String.$(br2)You can also get $(item)String$() from growing $(item)Hemp$()."
+        },
+        {
+            "type": "smelting",
+            "recipe": "contenttweaker:sandy_bottle",
+            "title": "Retrieving Water",
+            "anchor": "bottles",
+            "text": "Sifting requires $(l:sim_1/resources/2_fluids#water)Water$(), the worktable you made can hold $(l:sim_1/resources/2_fluids#water)Water$() but you must be able to transport it from point to point.$(br2)Use the worktable to make a compound that you can then smelt into bottles."
+        },
+        {
+            "type": "crafting",
+            "recipe": "exnihilocreatio:hammer_stone",
+            "text": "This will let you bash those ores into submission! Hah!$(br2)Check out the $(primary)JEI Category$() for the $(item)Hammer$() to see what ores can be bashed into dust."
+        },
+        {
+            "type": "crafting",
+            "recipe": "artisanworktables:recipe.artisans_sifter.flint",
+            "text": "Now that you have water and some various crushed ores to sift through, all there is left to do is the Sifter itself.$(br2)Check the uses of a Sifter in $(item)JEI$() for more information."
+        }
+    ]
+}

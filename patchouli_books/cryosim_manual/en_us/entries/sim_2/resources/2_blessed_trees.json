@@ -1,0 +1,19 @@
+{
+    "name": "Blessed Trees",
+    "icon": "cryosimadditions:blessed_sapling",
+    "category": "sim_2/resources",
+    "advancement": "triumph:cryosim/sim_2/visit",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(item)Blessed Trees$() stopped growing 300 years ago outside of this simulated plane, their origin is unknown because they were here before we ever set our feet on this dimension.$(br2)The trunk of the tree is filled with some sort of $(item)Blood$() so we never could turn it into planks."
+        },
+        {
+            "type": "spotlight",
+            "item": "cryosimadditions:block_blood_resin_log",
+            "title": "Location and Uses",
+            "text": "They only grow in the $(item)Blessed Plains$() biome.$(br2)Until you progress into later $(item)Simulations$() this is not a renewable resource.$(br2)For now you can use a $(l:)Squeezer$() to press the Blood out of the logs."
+        }
+    ]
+}

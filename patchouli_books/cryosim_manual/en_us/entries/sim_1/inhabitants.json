@@ -1,0 +1,35 @@
+{
+    "name": "Simulation Inhabitants",
+    "icon": "minecraft:skull:2",
+    "category": "sim_1",
+    "advancement": "triumph:cryosim/sim_1/visit",
+    "priority": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The surface of this $(item)Simulation$() is peaceful and you will find no $(item)Hostile$() monsters.$(br2)$(item)Monsters$() can be found in the caves below world height 58. The following monsters can be found."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:zombie",
+            "text": "$(item)Found$() in the caves below world height 58."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:skeleton",
+            "text": "$(item)Found$() in the caves below world height 58."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:spider",
+            "scale": 0.75,
+            "text": "$(item)Found$() in the caves below world height 58."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:creeper",
+            "text": "$(item)Found$() in the caves below world height 58."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Portal Building",
+    "icon": "minecraft:obsidian",
+    "category": "portal_hub",
+    "advancement": "triumph:cryosim/root",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "To unlock a new simulation you need to replace the glass in a portal structure with a block of the same type as the rest of the portal.$(br2)The portal to the first $(item)Simulation$() is lit with a $(item)Torch$().$(br2)You will find a $(item)Torch$() in the chest next to the first $(item)Portal$()."
+        }
+    ]
+}

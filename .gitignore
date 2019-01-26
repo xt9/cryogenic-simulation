@@ -1,0 +1,24 @@
+/mods
+/logs
+/resourcepacks
+/saves
+/screenshots
+/texturepacks
+/server-resource-packs
+/crash-reports
+/dumps
+/journeymap
+/astralsorcery/**
+/config/tellme/**
+/.mixin.out/**
+
+config/jei/worldSettings.cfg
+config/BiomeTweaker/output
+
+# root files
+realms_persistence.json
+usercache.json
+usernamecache.json
+crafttweaker.log
+zs_export.json
+notes.md

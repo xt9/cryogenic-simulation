@@ -1,0 +1,37 @@
+{
+    "name": "Surface Level Resources",
+    "icon": "minecraft:grass",
+    "category": "sim_1/resources",
+    "advancement": "triumph:cryosim/sim_1/visit",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:clay_ball",
+            "anchor": "wet_clay",
+            "link_recipe": true,
+            "text": "Found between world height$(br)0-80 aswell as near bodies of water on the surface.$(br2)Used in $(l:sim_1/1_drying#drying_rack)Brick making.$()"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:gravel",
+            "anchor": "gravel",
+            "link_recipe": true,
+            "text": "Found in the ground and around bodies of water.$(br2)Let it soak in $(l:sim_1/3_creosote#creosote)Creosote Oil$() to turn into $(l:sim_1/3_creosote#grout)Grout$()"
+        },
+        {
+            "type": "multiblock_materials_double_row",
+            "title": "Seeds",
+            "anchor": "seeds",
+            "item1": "minecraft:wheat_seeds#1",
+            "item2": "minecraft:carrot#1",
+            "item3": "minecraft:potato#1",
+            "item4": "minecraft:beetroot_seeds#1",
+            "item5": "minecraft:pumpkin_seeds#1",
+            "item6": "minecraft:melon_seeds#1",
+            "item7": "exnihilocreatio:item_seed_sugarcane",
+            "item8": "exnihilocreatio:item_seed_cactus",
+            "notes": "These seeds can be found by breaking $(item)Grass$()."
+        }
+    ]
+}
