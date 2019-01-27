@@ -27,7 +27,7 @@ RecipeBuilder.get("mason")
   .setFluid(<liquid:water> * 50)
   .addOutput(<ore:dustCoal>.firstItem)
   .addTool(<ore:artisansSifter>, 1)
-  .setExtraOutputOne(<minecraft:blaze_powder> * 4, 0.15)
+  .setExtraOutputOne(<minecraft:blaze_powder> * 4, 0.30)
   .setExtraOutputTwo(<thermalfoundation:material:771> * 2, 0.15)
   .create();
 

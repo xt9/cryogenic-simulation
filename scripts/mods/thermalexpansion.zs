@@ -1,5 +1,6 @@
 import mods.thermalexpansion.RedstoneFurnace;
 import mods.thermalexpansion.Crucible;
+import mods.thermalexpansion.Compactor;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
@@ -24,13 +25,13 @@ RedstoneFurnace.addRecipe(<minecraft:glass>, <minecraft:sand:*>, 2000);
 
 # Add ore to ingot recipes that were removed from the furnace
 for ore, ingot in _oreToIngot {
-    RedstoneFurnace.addRecipe(ingot.firstItem, ore.firstItem, 1800);
+    RedstoneFurnace.addRecipe(ingot.firstItem, ore.firstItem, 2000);
 }
 
 # Add dust to ingot recipes
 for oreDust, oreIngot in _dustToIngot {
     if(!oreDust.empty && !oreIngot.empty) {
-        RedstoneFurnace.addRecipe(getModStackFromDict(oreIngot, "thermalfoundation"), oreDust.firstItem, 1800);
+        RedstoneFurnace.addRecipe(getModStackFromDict(oreIngot, "thermalfoundation"), oreDust.firstItem, 2000);
     }
 }
 
@@ -38,6 +39,11 @@ for oreDust, oreIngot in _dustToIngot {
 # Crucible
 # ----------------
 Crucible.addRecipe(<liquid:liquid_blaze> * 3000, <contenttweaker:block_blaze_powder>, 11000);
+
+# ----------------
+# Compactor
+# ----------------
+Compactor.addStorageRecipe(<industrialforegoing:dryrubber>, <industrialforegoing:tinydryrubber> * 9, 2000);
 
 # ----------------
 # Recipe removals

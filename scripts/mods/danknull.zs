@@ -7,11 +7,6 @@ import scripts.helpers;
 # ----------------
 recipes.removeByMod("danknull");
 
-<ore:dankNullTier1>.add(<danknull:dank_null:0>);
-<ore:dankNullTier2>.add(<danknull:dank_null:1>);
-<ore:dankNullTier3>.add(<danknull:dank_null:2>);
-<ore:dankNullTier4>.add(<danknull:dank_null:3>);
-
 # TODO FINISH ALL TIERS
 recipes.addShaped("danknull_tier1", <ore:dankNullTier1>.firstItem, [
     [null, <extrautils2:trashcan>, null],
@@ -25,6 +20,7 @@ recipes.addShaped("danknull_tier2", <ore:dankNullTier2>.firstItem, [
     [null, <ore:blockLapis>, null]
 ], function(out, ins, cInfo) {
     var tag = {} as IData;
+    # This if is here to keep the tinkers workbench from screwing up JEI autocomplete
     if(ins has "dank" && !isNull(ins.dank) && ins.dank.hasTag) {
         tag = ins.dank.tag;
     }

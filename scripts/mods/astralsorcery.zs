@@ -14,6 +14,11 @@ Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_basicwand");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder");
 
 # ----------------
+# Recipe Removal
+# ----------------
+recipes.remove(<astralsorcery:itemwand>);
+
+# ----------------
 # Recipes
 # ----------------
 recipes.addShaped("as_resonating_wand", <astralsorcery:itemwand>.withTag({astralsorcery: {}}), [

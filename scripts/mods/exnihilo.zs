@@ -109,22 +109,6 @@ recipes.addShaped("exnihilo_auto_sifter", <exnihilocreatio:block_auto_sifter>, [
 
 
 # ----------------
-# Hammer oredict
-# ----------------
-var exHammer = <ore:exHammer>;
-exHammer.add(
-    <exnihilocreatio:hammer_stone>,
-    <exnihilocreatio:hammer_iron>,
-    <exnihilocreatio:hammer_diamond>
-);
-
-var exMetalHammer = <ore:exMetalHammer>;
-exMetalHammer.add(
-    <exnihilocreatio:hammer_iron>,
-    <exnihilocreatio:hammer_diamond>
-);
-
-# ----------------
 # Tooltips
 # ----------------
 helpers.addAtlasTip(<exnihilocreatio:item_seed_sugarcane>, [

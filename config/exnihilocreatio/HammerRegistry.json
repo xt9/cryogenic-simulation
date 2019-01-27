@@ -29,7 +29,7 @@
   "ore:blockFuelCoke": [
     {
       "item": "contenttweaker:block_ash",
-      "amount": 16,
+      "amount": 8,
       "miningLevel": 0,
       "chance": 1.0,
       "fortuneChance": 0.0
@@ -38,7 +38,7 @@
   "ore:blockCharcoal": [
     {
       "item": "contenttweaker:block_ash",
-      "amount": 6,
+      "amount": 3,
       "miningLevel": 0,
       "chance": 1.0,
       "fortuneChance": 0.0
@@ -47,7 +47,7 @@
   "ore:blockCoal": [
     {
       "item": "contenttweaker:block_ash",
-      "amount": 6,
+      "amount": 3,
       "miningLevel": 0,
       "chance": 1.0,
       "fortuneChance": 0.0

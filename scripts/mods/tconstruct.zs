@@ -4,13 +4,6 @@ import mods.tconstruct.Melting;
 import mods.tconstruct.Fuel;
 import scripts.helpers;
 
-
-# ----------------
-# OreDict Section
-# ----------------
-<ore:ingotBrickDried>.add(<tconstruct:materials:2>);
-
-
 # ----------------
 # Drying Section
 # ----------------
@@ -22,6 +15,8 @@ Drying.addRecipe(<ore:ingotBrickDried>.firstItem, <minecraft:clay_ball>, 700);
 Drying.addRecipe(<ore:ingotBrickDried>.firstItem, <minecraft:clay_ball>, 700);
 Drying.addRecipe(<tconstruct:edible:33>, <ore:slimeballBlood>.firstItem, 1000);
 
+# Drying Plastic
+Drying.addRecipe(<ore:itemRubber>.firstItem, <industrialforegoing:dryrubber>, 1000);
 
 # ----------------
 # Recipe Section
@@ -31,7 +26,7 @@ recipes.remove(<tconstruct:smeltery_controller>);
 recipes.remove(<tconstruct:seared_tank>);
 
 # Remove slime sling, a bit strong
-recipes.remove(<tconstruct:slimesling>);
+recipes.remove(<tconstruct:slimesling:*>);
 
 # Add new smeltery controller recipe
 recipes.addShaped("tconstruct_smeltery_controller", <tconstruct:smeltery_controller>, [

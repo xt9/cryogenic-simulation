@@ -3,15 +3,6 @@ import mods.bloodmagic.BloodAltar;
 import mods.astralsorcery.Utils;
 
 # ----------------
-# OreDict
-# ----------------
-<ore:slateTier1>.add(<bloodmagic:slate>);
-<ore:slateTier2>.add(<bloodmagic:slate:1>);
-<ore:slateTier3>.add(<bloodmagic:slate:2>);
-<ore:slateTier4>.add(<bloodmagic:slate:3>);
-<ore:slateTier5>.add(<bloodmagic:slate:4>);
-
-# ----------------
 # Blood Altar
 # ----------------
 BloodAltar.removeRecipe(<minecraft:diamond>);

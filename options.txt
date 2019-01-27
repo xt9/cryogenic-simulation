@@ -128,8 +128,8 @@ key_key.previous_item.desc:0
 key_key.open_danknull.desc:0
 key_key.xu2.searchforitems:20
 key_key.hooked.fire:46
-key_key.inventorysorter.itemout:-201
 key_key.inventorysorter.itemin:-200
+key_key.inventorysorter.itemout:-201
 key_key.inventorysorter.sort:-98
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0

@@ -7,6 +7,10 @@ import crafttweaker.game.IGame;
 
 <minecraft:clay>.displayName = "Wet Clay";
 <minecraft:clay_ball>.displayName = "Wet Clay";
+<industrialforegoing:dryrubber>.displayName = "Wet Rubber";
+<industrialforegoing:tinydryrubber>.displayName = "Tiny Wet Rubber";
+<industrialforegoing:plastic>.displayName = "Brittle Plastic";
+
 <tconstruct:slime_congealed:3>.displayName = "Coagulated Blood Block";
 
 # Entities
