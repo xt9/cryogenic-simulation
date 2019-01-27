@@ -1,5 +1,4 @@
 import crafttweaker.item.IIngredient;
-import crafttweaker.data.IData;
 
 # ----------------
 # Recipe removal

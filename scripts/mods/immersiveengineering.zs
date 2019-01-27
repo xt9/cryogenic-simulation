@@ -16,8 +16,8 @@ CokeOven.removeRecipe(<immersiveengineering:material:6>);
 CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
 CokeOven.removeRecipe(<minecraft:coal:1>);
 
-CokeOven.addRecipe(<ore:fuelCoke>.firstItem, 10, <minecraft:coal>, 60);
-CokeOven.addRecipe(<ore:blockFuelCoke>.firstItem, 90, <minecraft:coal_block>, 540);
+CokeOven.addRecipe(<ore:fuelCoke>.firstItem, 50, <minecraft:coal>, 300);
+CokeOven.addRecipe(<ore:blockFuelCoke>.firstItem, 450, <minecraft:coal_block>, 2700);
 
 # ----------------
 # Blast furnace section

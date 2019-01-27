@@ -84,3 +84,19 @@ for ench in array {
 }
 
 print(map.asString()); */
+
+
+# Obsolete since this is now baseline for the mod
+/* addDankNullTooltip(<danknull:dank_null>, "128", 9);
+addDankNullTooltip(<danknull:dank_null:1>, "512", 18);
+addDankNullTooltip(<danknull:dank_null:2>, "1152", 27);
+addDankNullTooltip(<danknull:dank_null:3>, "2048", 36);
+addDankNullTooltip(<danknull:dank_null:4>, "3200", 45);
+addDankNullTooltip(<danknull:dank_null:5>, "2.14b", 54);
+
+function addDankNullTooltip(item as IItemStack, items as string, slots as int) {
+    helpers.addAtlasTip(item, [
+        format.yellow("Capacity: ") + format.white(items + " items"),
+        format.yellow("Slots: ") + format.white("" + slots)
+    ]);  
+} */

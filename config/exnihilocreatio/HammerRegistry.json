@@ -38,7 +38,16 @@
   "ore:blockCharcoal": [
     {
       "item": "contenttweaker:block_ash",
-      "amount": 8,
+      "amount": 6,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:blockCoal": [
+    {
+      "item": "contenttweaker:block_ash",
+      "amount": 6,
       "miningLevel": 0,
       "chance": 1.0,
       "fortuneChance": 0.0
