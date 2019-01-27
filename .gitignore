@@ -14,6 +14,7 @@
 
 config/splash.properties
 config/jei/worldSettings.cfg
+config/jei/bookmarks.ini
 config/BiomeTweaker/output
 
 # root files
