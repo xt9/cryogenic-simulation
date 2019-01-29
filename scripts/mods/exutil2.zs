@@ -1,5 +1,7 @@
 recipes.remove(<extrautils2:ineffableglass:2>);
 recipes.remove(<extrautils2:ineffableglass:3>);
 
-# Remove creative drum recipe
+# Remove Stone Drum
+recipes.remove(<extrautils2:drum>);
+# Remove Creative Drum recipe
 recipes.remove(<extrautils2:drum:4>);

@@ -7,5 +7,4 @@ JEI.hideCategory("minecraft.brewing");
 JEI.hideCategory("Painter");
 JEI.hideCategory("EIOTank");
 JEI.hideCategory("SolarPanel");
-
-JEI.addItem(<thermalexpansion:frame>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}));
+JEI.hideCategory("thermaldynamics.covers");

@@ -69,6 +69,7 @@ recipes.addShaped("mm_energyoutput", <modularmachinery:blockenergyoutputhatch:6>
 # ----------------
 var blessFrame = RecipeBuilder.newBuilder("blessFrame", "altar_of_blessings", 100);
 blessFrame.addItemInput(<thermalexpansion:frame>);
+blessFrame.addItemInput(<ore:slateTier1>.firstItem * 2);
 blessFrame.addItemInput(<ore:ingotAstralStarmetal>);
 blessFrame.addItemInput(<ore:gemAquamarine>.firstItem * 4);
 blessFrame.addFluidInput(<liquid:blessed_life_essence> * 500);

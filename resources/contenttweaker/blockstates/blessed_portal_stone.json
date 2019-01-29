@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube_all",
+    "textures": {
+      "all": "contenttweaker:blocks/blessed_portal_stone"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": {
+      "transform": "forge:default-block"
+    }
+  }
+}

@@ -19,7 +19,30 @@ var recipeRemovals = [
     <mysticalagriculture:crafting:17>,
     <mysticalagriculture:mystical_fertilizer>,
     <mysticalagriculture:infusion_crystal>,
-    <mysticalagriculture:tier1_inferium_seeds>
+    <mysticalagriculture:tier1_inferium_seeds>,
+    <mysticalagriculture:crafting:50>,
+    <mysticalagriculture:crafting:51>,
+    <mysticalagriculture:crafting:52>,
+    <mysticalagriculture:crafting:53>,
+    <mysticalagriculture:crafting:54>,
+    <mysticalagriculture:watering_can>,
+    <mysticalagriculture:watering_can:1>,
+    <mysticalagriculture:watering_can:2>,
+    <mysticalagriculture:watering_can:3>,
+    <mysticalagriculture:watering_can:4>,
+    <mysticalagriculture:seed_reprocessor>,
+    <mysticalagriculture:inferium_reprocessor>,
+    <mysticalagriculture:prudentium_reprocessor>,
+    <mysticalagriculture:intermedium_reprocessor>,
+    <mysticalagriculture:superium_reprocessor>,
+    <mysticalagriculture:supremium_reprocessor>,
+    <mysticalagriculture:ultimate_reprocessor>,
+    <mysticalagriculture:tinkering_table>,
+    <mysticalagriculture:tinkering_table:1>,
+    <mysticalagriculture:tinkering_table:2>,
+    <mysticalagriculture:tinkering_table:3>,
+    <mysticalagriculture:tinkering_table:4>,
+    <mysticalagradditions:tinkering_table>
 ] as IIngredient[];
 
 for item in recipeRemovals {

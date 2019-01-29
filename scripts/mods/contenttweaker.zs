@@ -32,3 +32,9 @@ recipes.addShaped("ct_faux_steel", <contenttweaker:faux_steel>, [
     [<ore:plateTin>, <ore:obsidian>, <ore:plateTin>], 
     [<ore:ingotSteel>, <ore:plateTin>, <ore:ingotSteel>]
 ]);
+
+recipes.addShaped("ct_blessed_portal_stone", <contenttweaker:blessed_portal_stone>, [
+    [<contenttweaker:troll_eye>, <ore:ingotAstralStarmetal>, <contenttweaker:troll_eye>],
+    [<ore:slateTier2>, <extrautils2:compressedcobblestone:3>, <ore:slateTier2>],
+    [<ore:blockManyullyn>, <ore:ingotAstralStarmetal>, <ore:blockManyullyn>]
+]);

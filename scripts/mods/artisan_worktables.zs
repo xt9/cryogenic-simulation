@@ -38,8 +38,8 @@ RecipeBuilder.get("mason")
   .addOutput(<minecraft:glowstone_dust>)
   .addTool(<ore:artisansSifter>, 1)
   .setExtraOutputOne(<minecraft:dye:4>, 0.75)
-  .setExtraOutputTwo(<minecraft:diamond>, 0.05)
-  .setExtraOutputThree(<minecraft:emerald>, 0.03)
+  .setExtraOutputTwo(<minecraft:diamond>, 0.08)
+  .setExtraOutputThree(<minecraft:emerald>, 0.05)
   .create();
 
 # Sifter + silver dust + water = Silver nuggets & Extras

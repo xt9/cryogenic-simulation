@@ -42,6 +42,7 @@ game.setLocalization("tile.contenttweaker.block_blaze_powder.name", "Blaze Powde
 game.setLocalization("tile.contenttweaker.block_blood_leaves.name", "Blessed Blood Leaves");
 game.setLocalization("tile.contenttweaker.block_charred_terracotta.name", "Charred Terracotta");
 game.setLocalization("tile.contenttweaker.faux_steel.name", "Faux Steel");
+game.setLocalization("tile.contenttweaker.blessed_portal_stone.name", "Blessed Portal Stone");
 
 # Contenttweaker Enchantments
 game.setLocalization("enchantment.blessed", "Blessed");

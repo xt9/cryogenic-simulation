@@ -44,9 +44,17 @@ blockCharredTerracotta.setBlockSoundType(<soundtype:stone>);
 blockCharredTerracotta.register();
 
 var fauxSteel = VanillaFactory.createBlock("faux_steel", <blockmaterial:iron>);
-fauxSteel.setBlockHardness(3.0);
-fauxSteel.setBlockResistance(3.0);
+fauxSteel.setBlockHardness(2.0);
+fauxSteel.setBlockResistance(500.0);
 fauxSteel.setToolLevel(2);
 fauxSteel.setToolClass("pickaxe");
 fauxSteel.setBlockSoundType(<soundtype:metal>);
 fauxSteel.register();
+
+var blessedPortalStone = VanillaFactory.createBlock("blessed_portal_stone", <blockmaterial:rock>);
+blessedPortalStone.setBlockHardness(2.5);
+blessedPortalStone.setBlockResistance(500.0);
+blessedPortalStone.setToolLevel(3);
+blessedPortalStone.setToolClass("pickaxe");
+blessedPortalStone.setBlockSoundType(<soundtype:stone>);
+blessedPortalStone.register();
