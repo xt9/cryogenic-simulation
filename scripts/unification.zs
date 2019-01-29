@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
 import mods.immersiveengineering.MetalPress;
+import mods.lateoredictremoval.OreDictUtil;
 import mods.tconstruct.Melting;
 
 #priority 998
@@ -15,7 +16,7 @@ import mods.tconstruct.Melting;
 function oreDictModRemove(oreDictEntry as IOreDictEntry, modToRemove as string) {
     for item in oreDictEntry.items {
         if(item.definition.owner == modToRemove) {
-            oreDictEntry.remove(item);
+            OreDictUtil.remove(oreDictEntry, item);
         }
     }
 }
@@ -67,46 +68,7 @@ for fluid, itemStack in ieMetalSlabs {
 # Metal & Furnace Section
 # ----------------
 
-# Ex Nihilo #
-var exOreChunks = {
-    <ore:oreGold>: <exnihilocreatio:item_ore_gold:1>,
-    <ore:oreIron>: <exnihilocreatio:item_ore_iron:1>,
-    <ore:oreCopper>: <exnihilocreatio:item_ore_copper:1>,
-    <ore:oreTin>: <exnihilocreatio:item_ore_tin:1>,
-    <ore:oreAluminium>: <exnihilocreatio:item_ore_aluminium:1>,
-    <ore:oreAluminum>: <exnihilocreatio:item_ore_aluminum:1>,
-    <ore:oreLead>: <exnihilocreatio:item_ore_lead:1>,
-    <ore:oreSilver>: <exnihilocreatio:item_ore_silver:1>,
-    <ore:oreNickel>: <exnihilocreatio:item_ore_nickel:1>,
-    <ore:orePlatinum>: <exnihilocreatio:item_ore_platinum:1>,
-    <ore:oreArdite>: <exnihilocreatio:item_ore_ardite:1>,
-    <ore:oreCobalt>: <exnihilocreatio:item_ore_cobalt:1>
-} as IItemStack[IOreDictEntry];
-
-var exDusts = {
-    <ore:dustGold>: <exnihilocreatio:item_ore_gold:2>,
-    <ore:dustIron>: <exnihilocreatio:item_ore_iron:2>,
-    <ore:dustCopper>: <exnihilocreatio:item_ore_copper:2>,
-    <ore:dustTin>: <exnihilocreatio:item_ore_tin:2>,
-    <ore:dustAluminium>: <exnihilocreatio:item_ore_aluminium:2>,
-    <ore:dustAluminum>: <exnihilocreatio:item_ore_aluminum:2>,
-    <ore:dustLead>: <exnihilocreatio:item_ore_lead:2>,
-    <ore:dustSilver>: <exnihilocreatio:item_ore_silver:2>,
-    <ore:dustNickel>: <exnihilocreatio:item_ore_nickel:2>,
-    <ore:dustPlatinum>: <exnihilocreatio:item_ore_platinum:2>
-} as IItemStack[IOreDictEntry];
-
-var exIngots = {
-    <ore:ingotCopper>: <exnihilocreatio:item_ore_copper:3>,
-    <ore:ingotTin>: <exnihilocreatio:item_ore_tin:3>,
-    <ore:ingotAluminium>: <exnihilocreatio:item_ore_aluminium:3>,
-    <ore:ingotLead>: <exnihilocreatio:item_ore_lead:3>,
-    <ore:ingotSilver>: <exnihilocreatio:item_ore_silver:3>,
-    <ore:ingotNickel>: <exnihilocreatio:item_ore_nickel:3>,
-    <ore:ingotPlatinum>: <exnihilocreatio:item_ore_platinum:3>
-} as IItemStack[IOreDictEntry];
-
-# Immersive Engineering #
+# Immersive Engineering
 var ieOres = {
     <ore:oreCopper>: <immersiveengineering:ore>,
     <ore:oreAluminum>: <immersiveengineering:ore:1>,
@@ -116,18 +78,8 @@ var ieOres = {
 } as IItemStack[IOreDictEntry];
 
 
-# Remove certain mods from oredict #
-for oreDictEntry in exOreChunks {
-    oreDictModRemove(oreDictEntry, "exnihilocreatio");
-}
-for oreDictEntry in exDusts {
-    oreDictModRemove(oreDictEntry, "exnihilocreatio");
-}
-for oreDictEntry, ingot in exIngots {
-    furnace.remove(ingot);
-    oreDictModRemove(oreDictEntry, "exnihilocreatio");
-}
-for oreDictEntry in ieOres {
+# Remove IE ores from oredict
+for oreDictEntry, ore in ieOres {
     oreDictModRemove(oreDictEntry, "immersiveengineering");
 }
 
@@ -179,16 +131,10 @@ var nuggets = [
 for dust, ingot in _dustToIngot {
     furnace.remove(ingot as IIngredient);
 }
+
 for nugget in nuggets {
     furnace.remove(nugget as IIngredient);
 }
-
-/* # Add dust to ingot recipes
-for oreDust, oreIngot in _dustToIngot {
-    if(!oreDust.empty && !oreIngot.empty) {
-        furnace.addRecipe(getModStackFromDict(oreIngot, "thermalfoundation"), oreDust.firstItem);
-    }
-} */
 
 
 # ----------------

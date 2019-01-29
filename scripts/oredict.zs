@@ -1,5 +1,11 @@
 #priority 998
 
+
+# ----------------
+# ContentTweaker
+# ----------------
+<ore:feather>.add(<contenttweaker:blood_raven_feather>);
+
 # ----------------
 # Tinkers Construct
 # ----------------
@@ -15,8 +21,22 @@
 <ore:slateTier5>.add(<bloodmagic:slate:4>);
 
 # ----------------
+# EnderIO
+# ----------------
+<ore:dustArdite>.remove(<enderio:item_material:30>);
+<ore:dustCobalt>.remove(<enderio:item_material:31>);
+
+# ----------------
 # Ex Nihilo
 # ----------------
+var dustArdite = <exnihilocreatio:item_ore_ardite:2>;
+var dustCobalt = <exnihilocreatio:item_ore_cobalt:2>;
+<ore:notUsedDustArdite>.remove(dustArdite);
+<ore:notUsedDustCobalt>.remove(dustCobalt);
+
+<ore:dustArdite>.add(dustArdite);
+<ore:dustCobalt>.add(dustCobalt);
+
 <ore:exHammer>.add(
     <exnihilocreatio:hammer_stone>,
     <exnihilocreatio:hammer_iron>,
