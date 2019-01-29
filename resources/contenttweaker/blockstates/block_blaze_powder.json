@@ -2,11 +2,16 @@
   "forge_marker": 1,
   "defaults": {
     "model": "cube_all",
-    "textures": { "all": "contenttweaker:blocks/blaze_powder" }
-    
+    "textures": {
+      "all": "contenttweaker:blocks/blaze_powder"
+    }
   },
   "variants": {
-    "normal": [{}],
-    "inventory": { "transform": "forge:default-block" }
+    "normal": [
+      {}
+    ],
+    "inventory": {
+      "transform": "forge:default-block"
+    }
   }
 }
