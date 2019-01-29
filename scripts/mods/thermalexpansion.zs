@@ -1,8 +1,12 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 import mods.thermalexpansion.RedstoneFurnace;
 import mods.thermalexpansion.Crucible;
 import mods.thermalexpansion.Compactor;
-import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack;
+import mods.thermalexpansion.Transposer;
+import mods.thermalexpansion.Pulverizer;
+import mods.thermalexpansion.InductionSmelter;
+
 
 import crafttweaker.oredict.IOreDictEntry;
 function getModStackFromDict(oreDictEntry as IOreDictEntry, mod as string) as IItemStack {
@@ -36,14 +40,37 @@ for oreDust, oreIngot in _dustToIngot {
 }
 
 # ----------------
+# Pulverizer
+# ----------------
+Pulverizer.addRecipe(<minecraft:diamond>, <minecraft:stick>, 2000);
+
+# ----------------
 # Crucible
 # ----------------
 Crucible.addRecipe(<liquid:liquid_blaze> * 3000, <contenttweaker:block_blaze_powder>, 11000);
+Crucible.addRecipe(<liquid:troll_eye_goop> * 4000, <contenttweaker:troll_eye>, 8000);
+
+# ----------------
+# Transposer
+# ----------------
+Transposer.addFillRecipe(<astralsorcery:itemusabledust> * 4, <ore:dustGlowstone>.firstItem, <liquid:astralsorcery.liquidstarlight> * 500, 2000);
+
+# ----------------
+# Induction Smelter
+# ----------------
+InductionSmelter.addRecipe(<contenttweaker:block_charred_terracotta> * 8, <contenttweaker:charred_feather>, <tconstruct:materials> * 8, 3000);
+
+# Metal chests cheaper recipes
+InductionSmelter.addRecipe(<ore:chestIron>.firstItem, <ore:ingotIron>.firstItem * 4, <minecraft:chest>, 5000);
+InductionSmelter.addRecipe(<ore:chestSilver>.firstItem, <ore:ingotSilver>.firstItem * 4, <ore:chestIron>.firstItem, 5000);
+InductionSmelter.addRecipe(<ore:chestGold>.firstItem, <ore:ingotGold>.firstItem * 4, <ore:chestSilver>.firstItem, 5000);
+InductionSmelter.addRecipe(<ore:chestDiamond>.firstItem, <ore:gemDiamond>.firstItem * 4, <ore:chestGold>.firstItem, 5000);
+InductionSmelter.addRecipe(<ore:chestObsidian>.firstItem, <ore:obsidian>.firstItem * 4, <ore:chestDiamond>.firstItem, 5000);
 
 # ----------------
 # Compactor
 # ----------------
-Compactor.addStorageRecipe(<industrialforegoing:dryrubber>, <industrialforegoing:tinydryrubber> * 9, 2000);
+Compactor.addStorageRecipe(<industrialforegoing:dryrubber>, <industrialforegoing:tinydryrubber> * 9, 4000);
 
 # ----------------
 # Recipe removals
@@ -65,8 +92,9 @@ recipes.remove(<thermalfoundation:material:27>);
 # Require a blessed frame for all machine crafts
 recipes.replaceAllOccurences(<thermalexpansion:frame>, <thermalexpansion:frame>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}));
 
-# Require hv connectors to make ducts
-recipes.replaceAllOccurences(<ore:blockGlass>, <immersiveengineering:connector:2>, <thermaldynamics:duct_0>);
+# Require MV connectors & Starmetal to make ducts
+recipes.replaceAllOccurences(<ore:blockGlass>, <immersiveengineering:connector:4>, <thermaldynamics:duct_0>);
+recipes.replaceAllOccurences(<ore:ingotLead>, <ore:ingotAstralStarmetal>, <thermaldynamics:duct_0>);
 
 recipes.addShaped("te_cell_frame", <thermalexpansion:frame:128>, [
     [<ore:plateLead>, <ore:plateElectrum>, <ore:plateLead>],
