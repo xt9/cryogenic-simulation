@@ -20,7 +20,7 @@
             "type": "spotlight",
             "title": "Copper",
             "item": "thermalfoundation:ore:0",
-            "text": "Light metal found between world height $(primary)38-75$()"
+            "text": "Light metal found between world height $(primary)40-55$()"
         },
         {
             "type": "spotlight",
