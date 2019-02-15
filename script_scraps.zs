@@ -1,3 +1,8 @@
+# Iterate OreDictEntry
+/* 
+    for stack in <ore:fuelCoke>.items { OreDictUtil.remove(<ore:fuelCoke>, stack); }
+ */
+
  # Copy old tags from bags, partial override
 /* 
     function(out, ins, cInfo) {

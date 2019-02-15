@@ -30,7 +30,7 @@ recipes.remove(<minecraft:brewing_stand>);
 recipes.replaceAllOccurences(<minecraft:brewing_stand>, <minecraft:potion>.withTag({Potion: "cofhcore:regeneration3+"}));
 
 #  Add own recipe for making slimeblocks
-recipes.addShapeless(<minecraft:slime>, [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>]);
+recipes.addShapeless("non_oredict_slimeblock", <minecraft:slime>, [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>]);
 
 recipes.addShaped("vanilla_bottle", <minecraft:glass_bottle>, [
     [null, <ore:slabWood>, null],

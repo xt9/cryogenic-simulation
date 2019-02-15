@@ -13,12 +13,12 @@
         {
             "type": "crafting",
             "recipe": "hooked:diamond_hook",
-            "text": "You can upgrade your $(l:portal_hub/5_hook)Hook$() to a much faster version."
+            "text": "You can upgrade your $(l:portal_hub/6_hook)Hook$() to a much faster version."
         },
         {
             "type": "crafting",
             "recipe": "openblocks:hang_glider_0",
-            "text": "This hang glider complements your $(l:portal_hub/5_hook)Hook$() really well and make you travel even faster."
+            "text": "This hang glider complements your $(l:portal_hub/6_hook)Hook$() really well and make you travel even faster."
         },
         {
             "type": "crafting",
@@ -29,12 +29,28 @@
         {
             "type": "crafting",
             "recipe": "tconstruct:common/book",
-            "text": "Read this book for more information about making $(item)Tools$()."
+            "text": "Read this book for more information about making$(br)$(item)Tools$()."
         },
         {
             "type": "crafting",
             "recipe": "pickletweaks:watering_can",
             "text": "Fill this thing up with $(item)Water$() and you are good to go.$(br2)Excellent for giving crops a gentle nudge in the right direction."
+        },
+        {
+            "type": "crafting",
+            "recipe": "cryosimadditions:backpack_advanced",
+            "title": "Backpacks",
+            "text": "You can make equippable backpacks a bit into this simulation. Handy for storing $(item)Tools$() and $(item)Snacks$().$(br2)Toggle equip: $(item)$(k:vsb.kb.removeBackpack)$()$(br)Open keybind: $(item)$(k:vsb.kb.openBackpack)$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:danknull_tier1",
+            "text": "A dank null is a thing of wonder. It will store items up to a threshold, and after reaching that threshold it will $(item)Void$() the items.$(br2)It will automatically collect drops that matches the current contents."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:danknull_tier2",
+            "text": "As you upgrade your dank null it can hold more item types, and every slot can hold more items."
         }
     ]
 }

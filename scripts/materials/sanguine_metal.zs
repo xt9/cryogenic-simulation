@@ -6,7 +6,7 @@ import mods.thermalexpansion.Transposer;
 import scripts.helpers;
 
 # Block to ingots recipe
-recipes.addShapeless(<ore:ingotSanguineMetal>.firstItem * 9, [<ore:blockSanguineMetal>]);
+recipes.addShapeless("sanguine_block_to_ingot", <ore:ingotSanguineMetal>.firstItem * 9, [<ore:blockSanguineMetal>]);
 
 # ----------------
 # Melting
@@ -26,12 +26,16 @@ Melting.addRecipe(<liquid:sanguine_metal> * 1296, <ore:blockSanguineMetal>, <liq
 # Fluid Transform
 # ----------------
 # Drop Coagulated blood in molten pigion -> Molten Sanguine Metal
-FluidToItem.transform(<ore:ingotSanguineMetal>.firstItem, <liquid:blood>, <ore:ingotPigiron>);
-FluidToItem.transform(<ore:blockSanguineMetal>.firstItem, <liquid:blood>, <ore:blockPigiron>);
+FluidToItem.transform(<ore:ingotSanguineMetal>.firstItem * 4, <liquid:blood>, <ore:ingotPigiron> * 4, true);
+FluidToItem.transform(<ore:blockSanguineMetal>.firstItem, <liquid:blood>, <ore:blockPigiron>, true);
 
 # Midgame alternative recipe
 Transposer.addFillRecipe(<ore:ingotSanguineMetal>.firstItem, <ore:ingotPigiron>.firstItem, <liquid:blood> * 250, 2000);
 
 helpers.addAtlasTip(<ore:ingotSanguineMetal>.firstItem, [
-    format.yellow("Manufactured by dropping Pigiron Ingots into Blood")
+    format.yellow("Manufactured by dropping Pigiron into Blood")
+]);
+
+helpers.addAtlasTip(<ore:blockSanguineMetal>.firstItem, [
+    format.yellow("Manufactured by dropping Pigiron into Blood")
 ]);

@@ -28,11 +28,11 @@ game.setLocalization("fluid.blessed_life_essence", "Blessed Life Essence");
 game.setLocalization("item.contenttweaker.stone_shears.name", "Stone Shears");
 game.setLocalization("item.contenttweaker.blood_raven_feather.name", "Blood Raven Feather");
 game.setLocalization("item.contenttweaker.charred_feather.name", "Charred Feather Pile");
-game.setLocalization("item.contenttweaker.blood_resin_globe.name", "Coagulated Blood Resin");
 game.setLocalization("item.contenttweaker.troll_eye.name", "Troll Eye");
 game.setLocalization("item.contenttweaker.seared_plate.name", "Cracked Seared Plate");
 game.setLocalization("item.contenttweaker.sandy_bottle.name", "Sandy Bottle Compound");
 game.setLocalization("item.contenttweaker.soaked_fabric.name", "Soaked Tough Fabric");
+game.setLocalization("item.contenttweaker.bloody_mud.name", "Bloody Mud");
 
 # Contenttweaker blocks
 game.setLocalization("tile.contenttweaker.block_ash.name", "Ash");

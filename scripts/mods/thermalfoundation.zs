@@ -295,128 +295,50 @@ var horseArmors = {
 # ----------------
 # Vanilla TF tool removal
 # ----------------
-for woodObject, isEnabled in wood {
-    if(!isEnabled) {
-        JEI.removeAndHide(woodObject);
-        furnace.setFuel(woodObject, 0);
-        Pulverizer.removeRecipe(woodObject);
-    }
-}
-
-for ironObject, isEnabled in iron {
-    if(!isEnabled) {
-        JEI.removeAndHide(ironObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, ironObject);
-    }
-}
-
-for diamondObject, isEnabled in diamond {
-    if(!isEnabled) {
-        JEI.removeAndHide(diamondObject);
-        Pulverizer.removeRecipe(diamondObject);
-    }
-}
-
-for goldObject, isEnabled in gold {
-    if(!isEnabled) {
-        JEI.removeAndHide(goldObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, goldObject);
-    }
-}
+pulverizerRemoval(wood);
+inductionSmelterRemoval(iron);
+pulverizerRemoval(diamond);
+inductionSmelterRemoval(gold);
 
 # ----------------
 # TF Tools & Armor Removal
 # ----------------
-for copperObject, isEnabled in copper {
-    if(!isEnabled) {
-        JEI.removeAndHide(copperObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, copperObject);
-    }
-}
-
-for tinObject, isEnabled in tin {
-    if(!isEnabled) {
-        JEI.removeAndHide(tinObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, tinObject);
-    }
-}
-
-for silverObject, isEnabled in silver {
-    if(!isEnabled) {
-        JEI.removeAndHide(silverObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, silverObject);
-    }
-}
-
-for leadObject, isEnabled in lead {
-    if(!isEnabled) {
-        JEI.removeAndHide(leadObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, leadObject);
-    }
-}
-
-for aluminumObject, isEnabled in aluminum {
-    if(!isEnabled) {
-        JEI.removeAndHide(aluminumObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, aluminumObject);
-    }
-}
-
-for nickelObject, isEnabled in nickel {
-    if(!isEnabled) {
-        JEI.removeAndHide(nickelObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, nickelObject);
-    }
-}
-
-for platinumObject, isEnabled in platinum {
-    if(!isEnabled) {
-        JEI.removeAndHide(platinumObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, platinumObject);
-    }
-}
-
-for steelObject, isEnabled in steel {
-    if(!isEnabled) {
-        JEI.removeAndHide(steelObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, steelObject);
-    }
-}
-
-for electrumObject, isEnabled in electrum {
-    if(!isEnabled) {
-        JEI.removeAndHide(electrumObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, electrumObject);
-    }
-}
-
-for invarObject, isEnabled in invar {
-    if(!isEnabled) {
-        JEI.removeAndHide(invarObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, invarObject);
-    }
-}
-
-for bronzeObject, isEnabled in bronze {
-    if(!isEnabled) {
-        JEI.removeAndHide(bronzeObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, bronzeObject);
-    }
-}
-
-for constantanObject, isEnabled in constantan {
-    if(!isEnabled) {
-        JEI.removeAndHide(constantanObject);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, constantanObject);
-    }
-}
+inductionSmelterRemoval(copper);
+inductionSmelterRemoval(tin);
+inductionSmelterRemoval(silver);
+inductionSmelterRemoval(lead);
+inductionSmelterRemoval(aluminum);
+inductionSmelterRemoval(nickel);
+inductionSmelterRemoval(platinum);
+inductionSmelterRemoval(steel);
+inductionSmelterRemoval(electrum);
+inductionSmelterRemoval(invar);
+inductionSmelterRemoval(bronze);
+inductionSmelterRemoval(constantan);
 
 # ----------------
 # Horse Armor Removal
 # ----------------
-for horseArmor, isEnabled in horseArmors {
-    if(!isEnabled) {
-        JEI.removeAndHide(horseArmor);
-        InductionSmelter.removeRecipe(<minecraft:sand:*>, horseArmor);
+inductionSmelterRemoval(horseArmors);
+
+# ----------------
+# Removal Functions
+# ----------------
+function pulverizerRemoval(stacks as bool[IItemStack]) {
+    for stack, isEnabled in stacks {
+        if(!isEnabled) {
+            JEI.removeAndHide(stack);
+            furnace.setFuel(stack, 0);
+            Pulverizer.removeRecipe(stack);
+        }
+    }
+}
+
+function inductionSmelterRemoval(metalObjects as bool[IItemStack]) {
+    for object, isEnabled in metalObjects {
+        if(!isEnabled) {
+            JEI.removeAndHide(object);
+            InductionSmelter.removeRecipe(<minecraft:sand:*>, object);
+        }
     }
 }

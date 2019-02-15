@@ -1,7 +1,6 @@
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.CokeOven;
-import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.Blueprint;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.Squeezer;
@@ -122,19 +121,18 @@ Blueprint.addRecipe("Knowledge", <gamestagebooks:as_stage>, [
 ]);
 
 # ----------------
-# Crusher Section
-# ----------------
-# Remove wonky aluminIUM items from exnihilo
-Crusher.removeRecipe(<exnihilocreatio:item_ore_aluminium:2>);
-
-
-# ----------------
 # Tooltips
 # ----------------
 helpers.addAtlasTip(<immersiveengineering:treated_wood:*>, [
-    format.yellow("Manufactured by dropping Planks into Creosote Oil")
+    format.yellow("Manufactured by dropping Planks into Creosote Oil"),
+    format.yellow("Only Planks from Fir Trees are suitable"),
+    format.yellow("for this process")
 ]);
- 
+
+helpers.addAtlasTip(<traverse:fir_planks>, [
+    format.yellow("Fir Trees are found in the"),
+    format.yellow("Temperate Rainforest biome")
+]);
 
 # ----------------
 # Recipe removals
@@ -201,7 +199,6 @@ recipes.remove(<immersiveengineering:material:5>);
 # ----------------
 # Recipes
 # ----------------
-
 recipes.addShaped("ie_hammer", <immersiveengineering:tool>, [
     [null, <ore:string>, <minecraft:stone>],
     [null, <ore:stickWood>, <ore:string>], 

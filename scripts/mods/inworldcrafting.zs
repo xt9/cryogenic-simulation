@@ -1,8 +1,8 @@
 import mods.inworldcrafting.FluidToItem;
 import mods.inworldcrafting.FluidToFluid;
 
-# Drop any plankWood in creosote -> Treated wood
-FluidToItem.transform(<immersiveengineering:treated_wood>, <liquid:creosote>, <ore:plankWood> * 4);
+# Drop Fir planks in creosote -> Treated wood
+FluidToItem.transform(<immersiveengineering:treated_wood>, <liquid:creosote>, <traverse:fir_planks> * 2);
 
 # Drop gravel in creosote -> Grout
 FluidToItem.transform(<tconstruct:soil>, <liquid:creosote>, <ore:gravel>);

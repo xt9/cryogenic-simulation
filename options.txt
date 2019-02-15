@@ -86,7 +86,6 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_keybind.baublesinventory:0
-key_quark.keybind.dropoff:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -105,6 +104,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.dropoff:0
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
@@ -128,9 +128,6 @@ key_key.previous_item.desc:0
 key_key.open_danknull.desc:0
 key_key.xu2.searchforitems:20
 key_key.hooked.fire:46
-key_key.inventorysorter.itemout:-201
-key_key.inventorysorter.itemin:-200
-key_key.inventorysorter.sort:-98
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
@@ -190,7 +187,7 @@ key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
-key_invtweaks.key.sort:19
+key_invtweaks.key.sort:0
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
 key_key.porterNextDestination:27

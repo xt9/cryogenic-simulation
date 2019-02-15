@@ -13,7 +13,7 @@
             "type": "spotlight",
             "item": "cryosimadditions:block_blood_resin_log",
             "title": "Location and Uses",
-            "text": "They only grow in the $(item)Blessed Plains$() biome.$(br2)Until you progress into later $(item)Simulations$() this is not a renewable resource.$(br2)For now you can use a $(l:)Squeezer$() to press the Blood out of the logs."
+            "text": "They only grow in the $(item)Blessed Plains$() biome.$(br2)Until you progress into later $(item)Simulations$() this is not a renewable resource.$(br2)For now you can use a $(l:sim_2/2_bloody_ingot)Squeezer$() to press the Blood out of the logs."
         }
     ]
 }

@@ -1,0 +1,20 @@
+{
+    "name": "Simulation Goal",
+    "icon": "industrialforegoing:laser_drill",
+    "category": "sim_2",
+    "advancement": "triumph:cryosim/sim_2/visit",
+    "sortnum": 0,
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The goal of the second simulation is to get the $(item)Blessing of the Gods$() to produce $(item)Machines$().$(br2)We as a people never did manage to create $(item)Advanced Technology$() without a little push from the $(item)Gods$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_blessed_portal_stone",
+            "title": "Portal Stone",
+            "text": "Worship the gods of $(item)Blood$() and $(item)Stars$() and they will reward you with the gift of $(item)Technology$()."
+        }
+    ]
+}

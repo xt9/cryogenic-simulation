@@ -1,0 +1,3 @@
+title @p times 20 100 20
+title @p subtitle ["",{"text":"Simulation "},{"text":"#2","color":"aqua"},{"text":": The Lunar Plane"}]
+title @p title ["",{"text":"Welcome ","color":"aqua"},{"text":"to"}]

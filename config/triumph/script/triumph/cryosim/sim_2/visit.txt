@@ -11,4 +11,6 @@ criteria.setDimID(89)
 
 setCompletedIconColor(#32d9e5)
 setCompletedTitleColor(#32d9e5)
+
+addRewardFunction("triumph:cryosim/sim_2/visit_reward")
 setPos(79,27)

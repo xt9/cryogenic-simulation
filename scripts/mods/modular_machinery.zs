@@ -8,17 +8,18 @@ import crafttweaker.data.IData;
 recipes.removeByMod("modularmachinery");
 
 # Casing
+var marble = <astralsorcery:blockmarble> | <chisel:marble2:7>;
 recipes.addShaped("mm_casing", <modularmachinery:blockcasing> * 4, [
-    [<ore:blockSheetmetalAluminum>, <chisel:marble2:7>, <ore:blockSheetmetalAluminum>],
-    [<chisel:marble2:7>, <tconstruct:large_plate>.withTag({Material: "silver"}), <chisel:marble2:7>],
-    [<ore:blockSheetmetalAluminum>, <chisel:marble2:7>, <ore:blockSheetmetalAluminum>],
+    [<ore:blockSheetmetalAluminum>, marble, <ore:blockSheetmetalAluminum>],
+    [marble, <tconstruct:large_plate>.withTag({Material: "silver"}), marble],
+    [<ore:blockSheetmetalAluminum>, marble, <ore:blockSheetmetalAluminum>],
 ]);
 
 # Controller
 recipes.addShaped("mm_controller",<modularmachinery:blockcontroller>, [
-    [<ore:plateSanguineMetal>, <minecraft:redstone_block>, <ore:plateSanguineMetal>],
+    [<ore:ingotElectrum>, <astralsorcery:itemcraftingcomponent:3>, <ore:ingotElectrum>],
     [<ore:gearSanguineMetal>, <modularmachinery:blockcasing>, <ore:gearSanguineMetal>],
-    [<ore:plateSanguineMetal>, <immersiveengineering:material:27>, <ore:plateSanguineMetal>],
+    [<ore:plateSanguineMetal>, <ore:dustAstralStarmetal>, <ore:plateSanguineMetal>],
 ]);
 
 # Item Input Hatch
@@ -51,7 +52,7 @@ recipes.addShaped("mm_fluidoutput", <modularmachinery:blockfluidoutputhatch:7>, 
 
 # Energy Input Hatch
 recipes.addShaped("mm_energyinput", <modularmachinery:blockenergyinputhatch:6>, [
-    [<immersiveengineering:connector:4>],
+    [<thermaldynamics:duct_0>],
     [<modularmachinery:blockcasing>],
     [null],
 ]);
@@ -60,14 +61,14 @@ recipes.addShaped("mm_energyinput", <modularmachinery:blockenergyinputhatch:6>, 
 recipes.addShaped("mm_energyoutput", <modularmachinery:blockenergyoutputhatch:6>, [
     [null],
     [<modularmachinery:blockcasing>],
-    [<immersiveengineering:connector:4>],
+    [<thermaldynamics:duct_0>],
 ]);
 
 
 # ----------------
 # Altar of Blessings Recipes
 # ----------------
-var blessFrame = RecipeBuilder.newBuilder("blessFrame", "altar_of_blessings", 100);
+var blessFrame = RecipeBuilder.newBuilder("blessFrame", "altar_of_blessings", 120);
 blessFrame.addItemInput(<thermalexpansion:frame>);
 blessFrame.addItemInput(<ore:slateTier1>.firstItem * 2);
 blessFrame.addItemInput(<ore:ingotAstralStarmetal>);
@@ -76,6 +77,14 @@ blessFrame.addFluidInput(<liquid:blessed_life_essence> * 500);
 blessFrame.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 500);
 blessFrame.addItemOutput(<thermalexpansion:frame>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}));
 blessFrame.build();
+
+var blessConnector = RecipeBuilder.newBuilder("blessConnector", "altar_of_blessings", 80);
+blessConnector.addItemInput(<immersiveengineering:connector:4>);
+blessConnector.addItemInput(<ore:gemAquamarine>.firstItem * 2);
+blessConnector.addFluidInput(<liquid:blessed_life_essence> * 100);
+blessConnector.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
+blessConnector.addItemOutput(<immersiveengineering:connector:4>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}));
+blessConnector.build();
 
 var blessBeetroot = RecipeBuilder.newBuilder("blessBeetroot", "altar_of_blessings", 80);
 blessBeetroot.addItemInput(<minecraft:beetroot> * 12);

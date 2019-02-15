@@ -14,7 +14,7 @@
         },
         {
             "type": "spotlight",
-            "item": "minecraft:sea_lantern",
+            "item": "forge:bucketfilled{FluidName:astralsorcery.liquidstarlight}",
             "title": "Shrines",
             "text": "Various shrines are spread throughout the biomes of the $(item)Lunar Plane$().$(br2)These $(item)Shrines$() can contain resources that are useful to you."
         }

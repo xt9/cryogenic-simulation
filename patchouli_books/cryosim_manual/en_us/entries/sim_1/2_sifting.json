@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "This dimension has tons of animals roaming around, amongst them there are $(primary)Sheep$().$(br2)Your tools are not very sharp yet, you would probably just torture the poor animal if you tried retrieving their $(item)Wool$() while they are alive and kicking.$(br2)Luckily you can slay them for their $(item)Wool!$()"
+            "text": "This dimension has tons of animals roaming around, amongst them there are $(item)Sheep$().$(br2)Your tools are not very sharp yet, you would probably just torture the poor animal if you tried retrieving their $(item)Wool$() while they are alive and kicking.$(br2)Luckily you can slay them for their $(item)Wool!$()"
         },
         {
             "type": "entity",
@@ -40,7 +40,7 @@
         {
             "type": "crafting",
             "recipe": "exnihilocreatio:hammer_stone",
-            "text": "This will let you bash those ores into submission! Hah!$(br2)Check out the $(primary)JEI Category$() for the $(item)Hammer$() to see what ores can be bashed into dust."
+            "text": "This will let you bash those ores into submission! Hah!$(br2)Check out the $(item)JEI Category$() for the $(item)Hammer$() to see what ores can be bashed into dust."
         },
         {
             "type": "crafting",

@@ -9,7 +9,7 @@
             "type": "spotlight",
             "title": "Hooks",
             "item": "hooked:hook:1",
-            "text": "Upon reaching the first simulation you will be given an $(primary)Iron Hook$()$(br2)This will help you navigate the rocky terrain of the first dimension.$(br2)There are higher tier of hooks that have increased speed and can launch more hooks"
+            "text": "Upon reaching the first simulation you will be given an $(item)Iron Hook$()$(br2)This will help you navigate the rocky terrain of the first dimension.$(br2)There are higher tier of hooks that have increased speed and can launch more hooks"
         },
         {
             "type": "text",

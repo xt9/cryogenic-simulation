@@ -1,0 +1,34 @@
+{
+    "name": "Step #3: Tapping your Veins",
+    "icon": "bloodmagic:altar",
+    "category": "sim_2",
+    "advancement": "triumph:cryosim/sim_2/visit",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "forge:bucketfilled{FluidName:lifeessence}",
+            "title": "Life Essence",
+            "text": "By making sacrifices to the $(item)Blood Gods$() we recieve the $(item)Essence of Life$().$(br2)We can use this essence to transform items in the $(item)Blood Altar$() or store it away for later use in $(item)Blood Orbs$() that are bound to us."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:bm_altar",
+            "anchor": "altar",
+            "text": "The Altar at which you make sacrifices at. The first altar $(item)Tier$() is just one block but later tiers are $(item)Multiblocks$().$(br2)Required knowledge:$(br)$(l:sim_2/knowledge/0_bm)The Sanguinem Faith$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:bm_sac_dagger",
+            "anchor": "dagger",
+            "text": "This dagger allows you to sacrifice some of your $(item)Blood$() to the $(item)Gods$().$(br2)This act will put $(item)Life Essence$() into the altar."
+        },
+        {
+            "type": "spotlight",
+            "item": "bloodmagic:slate:0",
+            "title": "Materials",
+            "anchor": "slate",
+            "text": "You will need to create $(item)Slates$() and $(item)Life Essence$() to progress in this $(item)Simulation$(). You can fill buckets with $(item)Life Essence$() by placing them on the$(br)$(item)Blood Altar$().$(br2)You can also use the $(item)Blood Altar$() to create $(l:sim_2/resources/3_magical_crops)Magical Crops$().(Requires a Tier 2 Altar)$(br)(Can be found in $(l:portal_hub/4_schematica)Schematica$())"
+        }
+    ]
+}

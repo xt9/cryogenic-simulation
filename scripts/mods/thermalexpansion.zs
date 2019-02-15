@@ -42,7 +42,6 @@ for oreDust, oreIngot in _dustToIngot {
 # ----------------
 # Pulverizer
 # ----------------
-Pulverizer.addRecipe(<minecraft:diamond>, <minecraft:stick>, 2000);
 
 # ----------------
 # Crucible
@@ -58,7 +57,14 @@ Transposer.addFillRecipe(<astralsorcery:itemusabledust> * 4, <ore:dustGlowstone>
 # ----------------
 # Induction Smelter
 # ----------------
+# Charred terracotta
 InductionSmelter.addRecipe(<contenttweaker:block_charred_terracotta> * 8, <contenttweaker:charred_feather>, <tconstruct:materials> * 8, 3000);
+# Charred Feather Pile Qol recipe
+InductionSmelter.addRecipe(<contenttweaker:charred_feather>, <ore:ravenFeather>.firstItem, <ore:dustCoal>.firstItem, 3000);
+# Pigiron QoL recipe
+InductionSmelter.addRecipe(<ore:ingotPigiron>.firstItem, <ore:ingotIron>.firstItem * 2, <contenttweaker:bloody_mud>, 3000);
+# Steel from coke dust
+InductionSmelter.addRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>.firstItem, <ore:dustCoke>.firstItem, 3000);
 
 # Metal chests cheaper recipes
 InductionSmelter.addRecipe(<ore:chestIron>.firstItem, <ore:ingotIron>.firstItem * 4, <minecraft:chest>, 5000);
@@ -93,8 +99,12 @@ recipes.remove(<thermalfoundation:material:27>);
 recipes.replaceAllOccurences(<thermalexpansion:frame>, <thermalexpansion:frame>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}));
 
 # Require MV connectors & Starmetal to make ducts
-recipes.replaceAllOccurences(<ore:blockGlass>, <immersiveengineering:connector:4>, <thermaldynamics:duct_0>);
-recipes.replaceAllOccurences(<ore:ingotLead>, <ore:ingotAstralStarmetal>, <thermaldynamics:duct_0>);
+recipes.replaceAllOccurences(<ore:blockGlass>, <immersiveengineering:connector:4>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}), <thermaldynamics:duct_0>);
+recipes.replaceAllOccurences(<ore:ingotSanguineMetal>, <ore:ingotAstralStarmetal>, <thermaldynamics:duct_0>);
+
+# Change compactor recipe
+recipes.replaceAllOccurences(<ore:ingotBronze>, <ore:ingotHOPGraphite>, <thermalexpansion:machine:5>);
+recipes.replaceAllOccurences(<ore:gearCopper>, <ore:gearBronze>, <thermalexpansion:machine:5>);
 
 recipes.addShaped("te_cell_frame", <thermalexpansion:frame:128>, [
     [<ore:plateLead>, <ore:plateElectrum>, <ore:plateLead>],

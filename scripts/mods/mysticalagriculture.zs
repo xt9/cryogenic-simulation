@@ -42,7 +42,8 @@ var recipeRemovals = [
     <mysticalagriculture:tinkering_table:2>,
     <mysticalagriculture:tinkering_table:3>,
     <mysticalagriculture:tinkering_table:4>,
-    <mysticalagradditions:tinkering_table>
+    <mysticalagradditions:tinkering_table>,
+    <mysticalagriculture:crafting:48>
 ] as IIngredient[];
 
 for item in recipeRemovals {
@@ -52,6 +53,10 @@ for item in recipeRemovals {
 # Remove tier 6 seeds since we have no control over the outputs
 recipes.remove(<mysticalagradditions:tier6_inferium_seeds>);
 
+# Remove duplicate marble recipe 
+recipes.removeByRecipeName("mysticalagriculture:marble_seeds_1");
+# Remove the AS marble recipe since it requires aquamarine essence
+recipes.removeByRecipeName("mysticalagriculture:blockmarble");
 
 # ----------------
 # General Recipes

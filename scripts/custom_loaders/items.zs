@@ -17,9 +17,6 @@ trollEye.register();
 var searedPlate = VanillaFactory.createItem("seared_plate");
 searedPlate.register();
 
-var bloodResinGlobe = VanillaFactory.createItem("blood_resin_globe");
-bloodResinGlobe.register();
-
 var sandyBottle = VanillaFactory.createItem("sandy_bottle");
 sandyBottle.register();
 
@@ -28,3 +25,6 @@ charredFeather.register();
 
 var soakedFabric = VanillaFactory.createItem("soaked_fabric");
 soakedFabric.register();
+
+var bloodyMud = VanillaFactory.createItem("bloody_mud");
+bloodyMud.register();

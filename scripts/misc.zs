@@ -4,16 +4,16 @@
 # Recipe removals
 # ----------------
 
-
-
 # ----------------
 # Recipes
 # ----------------
-
 # Glass to Glass conversion
-recipes.addShapeless(<minecraft:glass>, [<tconstruct:clear_glass>]);
-recipes.addShapeless(<tconstruct:clear_glass>, [<minecraft:glass>]);
+recipes.addShapeless("vanilla_to_tconstruct_glass", <minecraft:glass>, [<tconstruct:clear_glass>]);
+recipes.addShapeless("tconstruct to vanilla_glass", <tconstruct:clear_glass>, [<minecraft:glass>]);
 
+recipes.addShapeless("pack_guidebook", <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:cryosim_manual"}), [
+    <minecraft:book>, <chisel:antiblock:15>
+]);
 
 # ----------------
 # Seeds

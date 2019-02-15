@@ -15,7 +15,7 @@ recipes.removeByRegex("^industrialforegoing:laser_lens_(\\d+)$");
 # Recipes
 # ----------------
 recipes.replaceAllOccurences(<minecraft:furnace>, <thermalexpansion:frame>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}), <industrialforegoing:tree_fluid_extractor>);
-
+recipes.replaceAllOccurences(<ore:blockGlowstone>, <ore:ingotHOPGraphite>, <industrialforegoing:laser_drill>);
 
 # ----------------
 # Extractor

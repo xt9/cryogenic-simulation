@@ -3,6 +3,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
 import mods.immersiveengineering.MetalPress;
+import mods.immersiveengineering.Crusher;
+import mods.thermalexpansion.Pulverizer;
 import mods.lateoredictremoval.OreDictUtil;
 import mods.tconstruct.Melting;
 
@@ -77,7 +79,6 @@ var ieOres = {
     <ore:oreNickel>: <immersiveengineering:ore:4>
 } as IItemStack[IOreDictEntry];
 
-
 # Remove IE ores from oredict
 for oreDictEntry, ore in ieOres {
     oreDictModRemove(oreDictEntry, "immersiveengineering");
@@ -98,7 +99,7 @@ global _oreToIngot as IOreDictEntry[IOreDictEntry] = {
     <ore:oreIridium>: <ore:ingotIridium>,
     <ore:oreMithril>: <ore:ingotMithril>,
     <ore:oreUranium>: <ore:ingotUranium>
-} as IOreDictEntry[IOreDictEntry];
+};
 
 global _dustToIngot as IOreDictEntry[IOreDictEntry] = {
     <ore:dustIron>: <ore:ingotIron>,
@@ -120,7 +121,7 @@ global _dustToIngot as IOreDictEntry[IOreDictEntry] = {
     <ore:dustInvar>: <ore:ingotInvar>,
     <ore:dustBronze>: <ore:ingotBronze>,
     <ore:dustConstantan>: <ore:ingotConstantan>,
-} as IOreDictEntry[IOreDictEntry];
+};
 
 var nuggets = [
     <ore:nuggetIron>,
@@ -140,7 +141,7 @@ for nugget in nuggets {
 # ----------------
 # Gear Section
 # ----------------
-val metalGears = [
+var metalGears = [
     <thermalfoundation:material:24>,
     <thermalfoundation:material:25>,
     <thermalfoundation:material:256>,
@@ -217,9 +218,9 @@ for oreDictEntry in chiselOreDicts {
 oreDictModRemove(<ore:cobblestone>, "traverse");
 
 
-# ----------------
+# ------------------------------
 # Sheetmetal to plates in press
-# ----------------
+# ------------------------------
 var ieSheetmetalToPlates = {
     <ore:blockSheetmetalIron>: <ore:plateIron>,
     <ore:blockSheetmetalGold>: <ore:plateGold>,
@@ -238,3 +239,46 @@ var ieSheetmetalToPlates = {
 for sheetMetal, plate in ieSheetmetalToPlates {
     MetalPress.addRecipe(plate.firstItem, sheetMetal, <thermalfoundation:material:657>, 2000);
 }
+
+# ----------------
+# Fix stone rods
+# ----------------
+var stoneRods = [
+    <microblockcbe:stone_rod>,
+    <inspirations:materials:8>,
+    <tconstruct:stone_stick>
+] as IItemStack[];
+
+for rod in stoneRods {
+    <ore:rodStone>.remove(rod);
+    recipes.remove(rod);
+}
+
+# ----------------
+# Coal coke
+# ----------------
+# Add coke dust recipes to Crusher
+Crusher.removeRecipe(<ore:dustCoke>.firstItem);
+Crusher.addRecipe(<ore:dustCoke>.firstItem, <ore:fuelCoke>, 2048);
+Crusher.addRecipe(<ore:dustCoke>.firstItem * 9, <ore:blockFuelCoke>, 2048);
+
+# Add coke dust recipes to Pulverizer
+Pulverizer.addRecipe(<ore:dustCoke>.firstItem, <ore:fuelCoke>.firstItem, 2000);
+Pulverizer.addRecipe(<ore:dustCoke>.firstItem * 9, <ore:blockFuelCoke>.firstItem, 6000);
+
+# Remove Coal coke uncraft
+recipes.remove(<immersiveengineering:material:6>);
+
+# ----------------
+# Fix Cobalt/Ardite
+# ----------------
+OreDictUtil.remove(<ore:dustArdite>, <enderio:item_material:30>);
+OreDictUtil.remove(<ore:dustCobalt>, <enderio:item_material:31>);
+
+var dustArdite = <exnihilocreatio:item_ore_ardite:2>;
+var dustCobalt = <exnihilocreatio:item_ore_cobalt:2>;
+
+OreDictUtil.remove(<ore:notUsedDustArdite>, dustArdite);
+OreDictUtil.remove(<ore:notUsedDustCobalt>, dustCobalt);
+<ore:dustArdite>.add(dustArdite);
+<ore:dustCobalt>.add(dustCobalt);

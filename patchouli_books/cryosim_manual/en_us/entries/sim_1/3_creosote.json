@@ -37,12 +37,12 @@
             "title": "Creosote Uses",
             "input1": "ore:gravel",
             "output1": "tconstruct:soil",
-            "input2": "ore:plankWood",
+            "input2": "traverse:fir_planks#2",
             "output2": "immersiveengineering:treated_wood",
             "fluid": "cryosim:textures/fluids/creosote_still.png",
             "fluidTooltip": "Creosote Oil",
-            "description1": "Drop some $(l:sim_1/resources/0_surface_level#gravel)Gravel$() in $(item)Creosote Oil$() to create $(item)Grout$().$(br)The $(item)Creosote$() is not consumed.",
-            "description2": "Drop some $(primary)Planks$() in $(item)Creosote Oil$() to create $(item)Treated Wood$().$(br)The $(item)Creosote$() is not consumed."
+            "description1": "Drop some $(l:sim_1/resources/0_surface_level#gravel)Gravel$() in $(item)Creosote Oil$() to create $(item)Grout$().",
+            "description2": "Drop some $(item)Fir Wood Planks$() in $(item)Creosote Oil$() to create $(item)Treated Wood$()."
         }
     ]
 }

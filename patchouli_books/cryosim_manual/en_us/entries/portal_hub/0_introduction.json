@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "text": "So for now we're going to run you through a couple of tests, but don't worry, we estimate that it will only take a year or so to train your mind.$(br2)My name is $(primary)Atlas$() and I'll be your guide here.$(br2)The system indicates you're suffering from a temporary amnesia, all you need to know is that your name is $(primary)$(bold)REDACTED$() and you come from a small village in $(primary)$(bold)REDACTED$()"
+            "text": "So for now we're going to run you through a couple of tests, but don't worry, we estimate that it will only take a year or so to train your mind.$(br2)My name is $(item)Atlas$() and I'll be your guide here.$(br2)The system indicates you're suffering from a temporary amnesia, all you need to know is that your name is $(primary)$(bold)REDACTED$() and you come from a small village in $(primary)$(bold)REDACTED$()"
         },
         {
             "type": "text",

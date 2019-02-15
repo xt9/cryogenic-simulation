@@ -1,0 +1,37 @@
+{
+    "name": "Step #4: Power of the Stars",
+    "icon": "astralsorcery:blockaltar",
+    "category": "sim_2",
+    "advancement": "triumph:cryosim/sim_2/visit",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:as_resonating_wand",
+            "anchor": "wand",
+            "text": "A Resonating wand is used to start the crafting process in $(item)Astral Sorcery$() crafting tables.$(br2)Required knowledge:$(br)$(l:sim_2/knowledge/1_as)Lunar Insight$()"
+        },
+        {
+            "type": "fluid_to_item_transform",
+            "anchor": "luminoustable",
+            "title": "Luminous Crafting Table",
+            "input1": "minecraft:crafting_table",
+            "output1": "astralsorcery:blockaltar",
+            "fluid": "cryosim:textures/fluids/starlight.png",
+            "fluidTooltip": "Liquid Starlight",
+            "description1": "Drop a $(item)Crafting Table$() into $(l:sim_2/resources/0_surface_level)Liquid Starlight$() to create the $(item)Luminous Crafting Table$().$(br2)This workbench can harness $(item)Starlight$() to craft items with Magical properties.$(br2)Later workbench $(item)Tiers$() require a multiblock structure.$(br)(Can be found in $(l:portal_hub/4_schematica)Schematica$())"
+        },
+        {
+            "type": "spotlight",
+            "item": "astralsorcery:blockwell",
+            "anchor": "lightwell",
+            "text": "The $(item)Lightwell$() can draw out the $(item)Liquid Starlight$() that collects in $(l:sim_2/resources/1_minerals_and_ores)Aquamarines$() and $(l:sim_2/resources/1_minerals_and_ores)Rock Crystals$().$(br2)You will need to create a fair amount of $(item)Liquid Starlight$() to progress in this $(item)Simulation$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "astralsorcery:blockcustomore:1",
+            "anchor": "starmetal",
+            "text": "This ore is absolutely packed with $(item)Star$() power. It is created by pointing a concetrated beam of starlight toward a $(item)Iron Ore Block$().$(br2)You can find $(item)Floating Crystals$() in the larger shrines found on the $(item)Lunar Plane$(), use a $(item)Linking Tool$() to direct their natural $(item)Starlight$()."
+        }
+    ]
+}

@@ -10,10 +10,11 @@ recipes.remove(<waystones:warp_stone>);
 # ----------------
 # Recipes
 # ----------------
+var marble = <astralsorcery:blockmarble> | <chisel:marble2:7>;
 recipes.addShaped("waystones_waystone", <waystones:waystone>, [
     [null, <chisel:antiblock:15>, null],
-    [<chisel:marble2:7>, <contenttweaker:blood_raven_feather>, <chisel:marble2:7>], 
-    [<chisel:marble2:7>, <ore:compressed3xCobblestone>, <chisel:marble2:7>]
+    [marble, <contenttweaker:blood_raven_feather>, marble], 
+    [marble, <ore:compressed3xCobblestone>, marble]
 ]);
 
 recipes.addShaped("waystones_warp_stone", <waystones:warp_stone>, [
