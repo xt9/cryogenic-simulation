@@ -10,6 +10,7 @@
 /journeymap
 /astralsorcery/**
 /.mixin.out/**
+/build
 
 /config/tellme/**
 
