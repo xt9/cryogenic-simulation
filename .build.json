@@ -1,0 +1,15 @@
+{
+    "packAuthor": "IterationFunk",
+    "minecraftVersion": "1.12.2",
+    "modLoader": "forge",
+    "modLoaderVersion": "14.23.5.2815",
+    "includes": [
+        "config",
+        "options.txt",
+        "patchouli_books",
+        "pillar",
+        "resources",
+        "schematics",
+        "scripts"
+    ]
+}

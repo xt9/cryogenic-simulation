@@ -2,7 +2,7 @@
     "name": "Sharing Knowledge",
     "icon": "immersiveengineering:blueprint",
     "category": "sim_1/knowledge",
-    "advancement": "triumph:cryosim/sim_2/visit",
+    "advancement": "triumph:cryosim/sim_1/visit",
     "priority": true,
     "pages": [
         {
