@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "tconstruct:slime_sapling"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": []
+    }
+  ]
+}

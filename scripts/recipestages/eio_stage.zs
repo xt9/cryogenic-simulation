@@ -18,7 +18,7 @@ val enderIoStage = [
 
 for item in enderIoStage {
     Recipes.setRecipeStage("eio_stage", item);
-    helpers.addAtlasTip(item, [
+/*     helpers.addAtlasTip(item, [
         format.yellow("Can be crafted after learning everything in the Ender Arcana")
-    ]);
+    ]); */
 }

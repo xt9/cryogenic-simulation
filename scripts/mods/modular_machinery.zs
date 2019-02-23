@@ -10,9 +10,9 @@ recipes.removeByMod("modularmachinery");
 # Casing
 var marble = <astralsorcery:blockmarble> | <chisel:marble2:7>;
 recipes.addShaped("mm_casing", <modularmachinery:blockcasing> * 4, [
-    [<ore:blockSheetmetalAluminum>, marble, <ore:blockSheetmetalAluminum>],
+    [<ore:blockSheetmetalSilver>, marble, <ore:blockSheetmetalSilver>],
     [marble, <tconstruct:large_plate>.withTag({Material: "silver"}), marble],
-    [<ore:blockSheetmetalAluminum>, marble, <ore:blockSheetmetalAluminum>],
+    [<ore:blockSheetmetalSilver>, marble, <ore:blockSheetmetalSilver>],
 ]);
 
 # Controller
@@ -75,24 +75,48 @@ blessFrame.addItemInput(<ore:ingotAstralStarmetal>);
 blessFrame.addItemInput(<ore:gemAquamarine>.firstItem * 4);
 blessFrame.addFluidInput(<liquid:blessed_life_essence> * 500);
 blessFrame.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 500);
-blessFrame.addItemOutput(<thermalexpansion:frame>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}));
+blessFrame.addItemOutput(g_blessedMachineFrame);
 blessFrame.build();
 
 var blessConnector = RecipeBuilder.newBuilder("blessConnector", "altar_of_blessings", 80);
 blessConnector.addItemInput(<immersiveengineering:connector:4>);
-blessConnector.addItemInput(<ore:gemAquamarine>.firstItem * 2);
+blessConnector.addItemInput(<contenttweaker:charred_feather> * 2);
 blessConnector.addFluidInput(<liquid:blessed_life_essence> * 100);
 blessConnector.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
-blessConnector.addItemOutput(<immersiveengineering:connector:4>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}));
+blessConnector.addItemOutput(g_blessedConnector);
 blessConnector.build();
 
-var blessBeetroot = RecipeBuilder.newBuilder("blessBeetroot", "altar_of_blessings", 80);
-blessBeetroot.addItemInput(<minecraft:beetroot> * 12);
-blessBeetroot.addItemInput(<ore:slimeballBlood>.firstItem * 6);
-blessBeetroot.addFluidInput(<liquid:blessed_life_essence> * 250);
-blessBeetroot.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 250);
-blessBeetroot.addItemOutput(<inspirations:edibles>);
-blessBeetroot.build();
+var blessServo = RecipeBuilder.newBuilder("blessServo", "altar_of_blessings", 80);
+blessServo.addItemInput(<thermalfoundation:material:512>);
+blessServo.addItemInput(<contenttweaker:charred_feather> * 2);
+blessServo.addFluidInput(<liquid:blessed_life_essence> * 100);
+blessServo.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
+blessServo.addItemOutput(g_blessedServo);
+blessServo.build();
+
+var blessReceptionCoil = RecipeBuilder.newBuilder("blessReceptionCoil", "altar_of_blessings", 80);
+blessReceptionCoil.addItemInput(<thermalfoundation:material:513>);
+blessReceptionCoil.addItemInput(<contenttweaker:charred_feather> * 2);
+blessReceptionCoil.addFluidInput(<liquid:blessed_life_essence> * 100);
+blessReceptionCoil.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
+blessReceptionCoil.addItemOutput(g_blessedReceptionCoil);
+blessReceptionCoil.build();
+
+var blessTransmissionCoil = RecipeBuilder.newBuilder("blessTransmissionCoil", "altar_of_blessings", 80);
+blessTransmissionCoil.addItemInput(<thermalfoundation:material:514>);
+blessTransmissionCoil.addItemInput(<contenttweaker:charred_feather> * 2);
+blessTransmissionCoil.addFluidInput(<liquid:blessed_life_essence> * 100);
+blessTransmissionCoil.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
+blessTransmissionCoil.addItemOutput(g_blessedTransmissionCoil);
+blessTransmissionCoil.build();
+
+var blessConductanceCoil = RecipeBuilder.newBuilder("blessConductanceCoil", "altar_of_blessings", 80);
+blessConductanceCoil.addItemInput(<thermalfoundation:material:515>);
+blessConductanceCoil.addItemInput(<contenttweaker:charred_feather> * 2);
+blessConductanceCoil.addFluidInput(<liquid:blessed_life_essence> * 100);
+blessConductanceCoil.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
+blessConductanceCoil.addItemOutput(g_blessedConductanceCoil);
+blessConductanceCoil.build();
 
 # ----------------
 # Thermoelectric Generator Recipes

@@ -14,7 +14,7 @@
             "type": "crafting",
             "recipe": "crafttweaker:ct_blessed_portal_stone",
             "title": "Portal Stone",
-            "text": "Worship the gods of $(item)Blood$() and $(item)Stars$() and they will reward you with the gift of $(item)Technology$()."
+            "text": "Worship the $(item)Old Gods$() and the $(item)Gods among the stars$() and they will reward you with the gift of $(item)Technology$().$(br2)$(item)Manyullyn$() can only be acquired after attaining the proper $(item)Technology$()."
         }
     ]
 }

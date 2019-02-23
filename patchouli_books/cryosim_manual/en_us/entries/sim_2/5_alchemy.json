@@ -1,0 +1,51 @@
+{
+    "name": "Step #5: Alchemy",
+    "icon": "minecraft:cauldron",
+    "category": "sim_2",
+    "advancement": "triumph:cryosim/sim_2/visit",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Before you can Bless your inert machinery you will have to brew a few liquids that will appease the gods. This is all done in a $(item)Cauldron$().$(br2)Cauldrons can be lit using a $(l:sim_1/4_smeltery#magmablock)Magma Block$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "minecraft:cauldron",
+            "anchor": "brewing",
+            "text": "A Basic, plain looking, Cauldron. Can be used to $(item)Brew$() various concoctions."
+        },
+        {
+            "type": "brewing",
+            "input1": "contenttweaker:blood_raven_feather#5",
+            "inputfluid": "forge:bucketfilled{FluidName:lifeessence}",
+            "output1": "forge:bucketfilled{FluidName:blessed_life_essence}",
+            "title": "Brewing",
+            "description": "You will need to use the $(item)Life Essence$() from earlier to create a Blessed version of the fluid.$(br2)You will also have to find a few more $(l:sim_2/inhabitants)Ravens$() and pluck their feathers."
+        },
+        {
+            "type": "brewing",
+            "input1": "minecraft:beetroot",
+            "inputfluid": "forge:bucketfilled{FluidName:blood}",
+            "output1": "inspirations:edibles",
+            "title": "Brewing",
+            "description": "Having trouble with keeping your Health high at the $(l:sim_2/3_vein_tapping)Blood Altar$()?$(br2)The $(item)Heartbeet$() can be used to get a strong $(item)Regeneration Effect$()."
+        },
+        {
+            "type": "brewing",
+            "input1": "ore:dustGlowstone",
+            "inputfluid": "forge:bucketfilled{FluidName:astralsorcery.liquidstarlight}",
+            "output1": "astralsorcery:itemusabledust#4",
+            "title": "Brewing",
+            "description": "You can infuse $(item)Glowstone Dust$() with $(item)Liquid Starlight$() to make a dust that shines much brighter.$(br2)This will come in handy later."
+        },
+        {
+            "type": "brewing",
+            "input1": "contenttweaker:troll_eye",
+            "inputfluid": "minecraft:potion#4{Potion:\"minecraft:water\"}",
+            "output1": "minecraft:potion#4{Potion:\"minecraft:awkward\"}",
+            "title": "Brewing",
+            "description": "If you by any chance have run into any $(l:sim_2/inhabitants)Trolls$() in this simulation you could use their eyes to brew $(item)Awkward Potion$()."
+        }
+    ]
+}

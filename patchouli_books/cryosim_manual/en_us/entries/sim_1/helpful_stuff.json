@@ -12,6 +12,11 @@
         },
         {
             "type": "crafting",
+            "recipe": "crafttweaker:tconstruct-gadgets/slimeboots/slime_boots-modified",
+            "text": "Heights can be scary, so you might want to craft a couple of $(item)Slime Boots$() to keep you safe from any sort of falldamage.$(br2)Slime can easily be found in $(item)Lush Swamps$() in this simulation."
+        },
+        {
+            "type": "crafting",
             "recipe": "hooked:diamond_hook",
             "text": "You can upgrade your $(l:portal_hub/6_hook)Hook$() to a much faster version."
         },

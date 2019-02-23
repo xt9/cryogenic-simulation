@@ -1,9 +1,10 @@
 {
-    "pools": [
-      {
-        "name": "main",
-        "rolls": 1,
-        "entries": [{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
           "entryName": "minecraft:ender_pearl",
           "weight": 1,
           "quality": 0,
@@ -18,16 +19,19 @@
             }
           ],
           "name": "minecraft:ender_pearl"
-        }]
-      },
-      {
-        "name": "book",
-        "rolls": 1,
-        "entries": [{
+        }
+      ]
+    },
+    {
+      "name": "book",
+      "rolls": 1,
+      "entries": [
+        {
           "weight": 1,
           "type": "item",
           "name": "gamestagebooks:ie_stage"
-        }]
-      }
-    ]
-  }
+        }
+      ]
+    }
+  ]
+}

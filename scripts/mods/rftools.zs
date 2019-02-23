@@ -10,7 +10,7 @@ recipes.remove(<rftools:shape_card:2>);
 # ----------------
 recipes.addShaped("rft_machine_frame", <rftools:machine_frame>, [
     [<ore:ingotBrickSeared>, <ore:plateSteel>, <ore:ingotBrickSeared>],
-    [<ore:plateSteel>, <thermalexpansion:frame>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}), <ore:plateSteel>],
+    [<ore:plateSteel>, g_blessedMachineFrame, <ore:plateSteel>],
     [<ore:ingotBrickSeared>, <ore:plateSteel>, <ore:ingotBrickSeared>]
 ]);
 

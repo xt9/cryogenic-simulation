@@ -10,7 +10,7 @@
             "text": "Now that you have some basic power generation you can build and power a large$(br)$(item)Industrial Squeezer$().$(br2)That can press seeds into plant oil, and press the $(item)Blood$() out of the $(item)Logs$() from the $(l:sim_2/resources/2_blessed_trees)Blessed Trees$() found around the $(item)Lunar Plane$()."
         },
         {
-            "type": "multiblock_materials_double_row",
+            "type": "materials_double_row",
             "title": "Squeezer Materials",
             "item1": "minecraft:piston#1",
             "item2": "immersiveengineering:metal_decoration0:4#2",
@@ -35,7 +35,7 @@
             "description2": "Drop a $(item)Pigiron Block$() into $(item)Blood$() to create a $(item)Sanguine Metal Block$()."
         },
         {
-            "type": "multiblock_materials",
+            "type": "materials",
             "title": "Metal Press Mats",
             "item1": "minecraft:piston#1",
             "item2": "immersiveengineering:metal_decoration0:5#1",

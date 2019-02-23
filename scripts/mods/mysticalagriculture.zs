@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.bloodmagic.BloodAltar;
+import mods.thermalexpansion.Transposer;
 import scripts.helpers;
 
 # ----------------
@@ -66,6 +67,13 @@ recipes.addShaped("tier1_inferium_seeds", <mysticalagriculture:tier1_inferium_se
     [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>],
     [<ore:blockInferiumEssence>, <ore:essenceInferium>, <ore:blockInferiumEssence>]
 ]);
+
+
+# ----------------
+# Essence Tiering
+# ----------------
+# Inferium -> Prudentium
+Transposer.addFillRecipe(<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting> * 2, <liquid:biocrude> * 20, 2000);
 
 # ----------------
 # Tier 1 Recipes

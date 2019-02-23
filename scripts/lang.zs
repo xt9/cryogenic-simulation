@@ -10,8 +10,15 @@ import crafttweaker.game.IGame;
 <industrialforegoing:dryrubber>.displayName = "Wet Rubber";
 <industrialforegoing:tinydryrubber>.displayName = "Tiny Wet Rubber";
 <industrialforegoing:plastic>.displayName = "Brittle Plastic";
-
 <tconstruct:slime_congealed:3>.displayName = "Coagulated Blood Block";
+
+# Rename MM stuff
+<modularmachinery:blockfluidinputhatch:7>.displayName = "Fluid Input Hatch";
+<modularmachinery:blockfluidoutputhatch:7>.displayName = "Fluid Output Hatch";
+<modularmachinery:blockinputbus:6>.displayName = "Item Input Hatch";
+<modularmachinery:blockoutputbus:6>.displayName = "Item Output Hatch";
+<modularmachinery:blockenergyinputhatch:6>.displayName = "Energy Input Hatch";
+<modularmachinery:blockenergyoutputhatch:6>.displayName = "Energy Output Hatch";
 
 # Entities
 game.setLocalization("entity.varodd:raven.name", "Blood Raven");
@@ -23,6 +30,7 @@ game.setLocalization("tile.witchwater.name", "Witchwater");
 game.setLocalization("fluid.troll_eye_goop", "Troll Eye Goop");
 game.setLocalization("fluid.liquid_blaze", "Liquid Blaze");
 game.setLocalization("fluid.blessed_life_essence", "Blessed Life Essence");
+game.setLocalization("fluid.fish_oil", "Fish Oil");
 
 # Contenttweaker items
 game.setLocalization("item.contenttweaker.stone_shears.name", "Stone Shears");

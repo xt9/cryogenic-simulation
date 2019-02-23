@@ -9,7 +9,7 @@
             "type": "spotlight",
             "item": "gamestagebooks:bm_stage",
             "title": "Sanguinem Faith",
-            "text": "Found by $(item)Killing$() a $(item)Blood Raven$() in a $(item)Blessed Plains$() biome.$(br2)This faith is built around making $(item)Sacrifices$() to the$(br)$(item)Blood Gods$(), this can either be done by drawing your own $(item)Blood$(), or the $(item)Blood$() of others."
+            "text": "Found by $(item)Killing$() a $(item)Blood Raven$() in a $(item)Blessed Plains$() biome.$(br2)This faith is built around making $(item)Sacrifices$() to the$(br)$(item)Old Gods$(), this can either be done by drawing your own $(item)Blood$(), or the $(item)Blood$() of others."
         },
         {
             "type": "spotlight",

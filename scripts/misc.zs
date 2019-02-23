@@ -18,10 +18,24 @@ recipes.addShapeless("pack_guidebook", <patchouli:guide_book>.withTag({"patchoul
 # ----------------
 # Seeds
 # ----------------
-vanilla.seeds.addSeed(<minecraft:carrot> % 700);
-vanilla.seeds.addSeed(<minecraft:potato> % 700);
-vanilla.seeds.addSeed(<minecraft:beetroot_seeds> % 500);
-vanilla.seeds.addSeed(<minecraft:pumpkin_seeds> % 500);
-vanilla.seeds.addSeed(<minecraft:melon_seeds> % 500);
-vanilla.seeds.addSeed(<exnihilocreatio:item_seed_sugarcane> % 300);
-vanilla.seeds.addSeed(<exnihilocreatio:item_seed_cactus> % 300);
+vanilla.seeds.addSeed(<minecraft:carrot> % 7);
+vanilla.seeds.addSeed(<minecraft:potato> % 7);
+vanilla.seeds.addSeed(<minecraft:beetroot_seeds> % 5);
+vanilla.seeds.addSeed(<minecraft:pumpkin_seeds> % 5);
+vanilla.seeds.addSeed(<minecraft:melon_seeds> % 5);
+vanilla.seeds.addSeed(<exnihilocreatio:item_seed_sugarcane> % 3);
+vanilla.seeds.addSeed(<exnihilocreatio:item_seed_cactus> % 3);
+
+vanilla.seeds.removeSeed(<item.seed_belladonna:0>);
+vanilla.seeds.removeSeed(<item.seed_thistle:0>);
+vanilla.seeds.removeSeed(<item.seed_wormwood:0>);
+vanilla.seeds.removeSeed(<item.seed_asphodel:0>);
+vanilla.seeds.removeSeed(<item.seed_chrysanthemum:0>);
+vanilla.seeds.removeSeed(<item.seed_aconitum:0>);
+vanilla.seeds.removeSeed(<item.seed_mint:0>);
+vanilla.seeds.removeSeed(<item.seed_lavender:0>);
+vanilla.seeds.removeSeed(<item.seed_mandrake:0>);
+vanilla.seeds.removeSeed(<item.seed_tulsi:0>);
+vanilla.seeds.removeSeed(<item.seed_kenaf:0>);
+vanilla.seeds.removeSeed(<item.seed_hellebore:0>);       
+vanilla.seeds.removeSeed(<item.seed_ginger:0>);       

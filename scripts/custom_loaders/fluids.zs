@@ -13,3 +13,6 @@ trollEyeGoop.register();
 
 var blessedLifeEssence = VanillaFactory.createFluid("blessed_life_essence", Color.fromHex("F72133"));
 blessedLifeEssence.register();
+
+var fishOil = VanillaFactory.createFluid("fish_oil", Color.fromHex("EFA721"));
+fishOil.register();

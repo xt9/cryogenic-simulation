@@ -34,6 +34,7 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:vanilla_magma_block",
+            "anchor": "magmablock",
             "text": "You have two choices, you can either go find a $(item)Lava Source$() to put the $(item)Crucible$() over, or you could craft a $(item)Magma Block$() from the dusts you sifted.$(br2)Your call."
         },
         {

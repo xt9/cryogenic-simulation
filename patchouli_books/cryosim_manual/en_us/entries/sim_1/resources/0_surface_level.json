@@ -20,7 +20,7 @@
             "text": "Found in the ground and around bodies of water.$(br2)Let it soak in $(l:sim_1/3_creosote#creosote)Creosote Oil$() to turn into $(l:sim_1/3_creosote#grout)Grout$()"
         },
         {
-            "type": "multiblock_materials_double_row",
+            "type": "materials_double_row",
             "title": "Seeds",
             "anchor": "seeds",
             "item1": "minecraft:wheat_seeds#1",

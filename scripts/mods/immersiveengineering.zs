@@ -21,7 +21,7 @@ CokeOven.addRecipe(<ore:blockFuelCoke>.firstItem, 450, <minecraft:coal_block>, 2
 # ----------------
 # Blast furnace section
 # ----------------
-BlastFurnace.addRecipe(<contenttweaker:charred_feather>, <contenttweaker:blood_raven_feather>, 100);
+BlastFurnace.addRecipe(<contenttweaker:charred_feather> * 4, <contenttweaker:blood_raven_feather>, 100);
 BlastFurnace.addRecipe(<minecraft:glass>, <ore:sand>, 100);
 
 # ----------------
@@ -95,6 +95,29 @@ Blueprint.addRecipe("Machine Parts", <thermalexpansion:frame:64> * 4, [
     <ore:gearCopper>
 ]);
 
+# Servo
+Blueprint.addRecipe("Machine Parts", <thermalfoundation:material:512>, [
+    <ore:ingotIron>,
+    <ore:dustRedstone> * 4
+]);
+
+# Reception Coil
+Blueprint.addRecipe("Machine Parts", <thermalfoundation:material:513>, [
+    <ore:ingotGold>,
+    <immersiveengineering:wirecoil:5> * 2
+]);
+
+# Transmission Coil
+Blueprint.addRecipe("Machine Parts", <thermalfoundation:material:514>, [
+    <ore:ingotSilver>,
+    <immersiveengineering:wirecoil:5> * 2
+]);
+
+# Conductrance Coil
+Blueprint.addRecipe("Machine Parts", <thermalfoundation:material:515>, [
+    <ore:ingotElectrum>,
+    <immersiveengineering:wirecoil:5> * 2
+]);
 
 # Engineering Knowledge
 Blueprint.addRecipe("Knowledge", <gamestagebooks:ie_stage>, [
@@ -195,6 +218,8 @@ recipes.remove(<immersiveengineering:wirecoil:4>);
 recipes.remove(<immersiveengineering:wirecoil:5>);
 # Remove Touch fabric recipe
 recipes.remove(<immersiveengineering:material:5>);
+# Remove jump cushion recipe
+recipes.remove(<immersiveengineering:cloth_device>);
 
 # ----------------
 # Recipes
@@ -231,133 +256,138 @@ recipes.addShaped("ie_cloche", <immersiveengineering:metal_device1:13>, [
 recipes.addShaped("ie_radiator", <immersiveengineering:metal_decoration0:7> * 8, [
     [<ore:plateSteel>, <contenttweaker:block_charred_terracotta>, <ore:plateSteel>],
     [<contenttweaker:block_charred_terracotta>, <minecraft:water_bucket>, <contenttweaker:block_charred_terracotta>],
-    [<ore:plateSteel>, <contenttweaker:block_charred_terracotta>, <ore:plateSteel>],
+    [<ore:plateSteel>, <contenttweaker:block_charred_terracotta>, <ore:plateSteel>]
 ]);
 
 recipes.addShaped("ie_redstone_engineering", <immersiveengineering:metal_decoration0:3> * 4, [
     [<ore:ingotBrickDried>, <ore:blockRedstone>, <ore:ingotBrickDried>],
     [<ore:blockRedstone>, <ore:ingotCopper>, <ore:blockRedstone>],
-    [<ore:ingotBrickDried>, <ore:blockRedstone>, <ore:ingotBrickDried>],
+    [<ore:ingotBrickDried>, <ore:blockRedstone>, <ore:ingotBrickDried>]
 ]);
 
 recipes.addShaped("ie_light_engineering", <immersiveengineering:metal_decoration0:4> * 4, [
     [<ore:ingotBrickDried>, <immersiveengineering:material:8>, <ore:ingotBrickDried>],
     [<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>],
-    [<ore:ingotBrickDried>, <immersiveengineering:material:8>, <ore:ingotBrickDried>],
+    [<ore:ingotBrickDried>, <immersiveengineering:material:8>, <ore:ingotBrickDried>]
 ]);
 
 recipes.addShaped("ie_heavy_engineering", <immersiveengineering:metal_decoration0:5> * 4, [
     [<ore:ingotBrickSeared>, <immersiveengineering:material:9>, <ore:ingotBrickSeared>],
     [<ore:ingotElectrum>, <ore:piston>, <ore:ingotElectrum>],
-    [<ore:ingotBrickSeared>, <immersiveengineering:material:9>, <ore:ingotBrickSeared>],
+    [<ore:ingotBrickSeared>, <immersiveengineering:material:9>, <ore:ingotBrickSeared>]
 ]);
 
 recipes.addShaped("ie_blast_preheater", <immersiveengineering:metal_device1> * 2, [
     [<ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>],
     [<ore:blockSheetmetalIron>, null, <ore:blockSheetmetalIron>],
-    [<ore:blockSheetmetalIron>, <immersiveengineering:metal_device1:1>, <ore:blockSheetmetalIron>],
+    [<ore:blockSheetmetalIron>, <immersiveengineering:metal_device1:1>, <ore:blockSheetmetalIron>]
 ]);
 
 recipes.addShaped("ie_external_heater", <immersiveengineering:metal_device1:1>, [
     [<ore:plateTin>, <ore:ingotLead>, <ore:plateTin>],
     [<ore:ingotLead>, <immersiveengineering:metal_decoration0>, <ore:ingotLead>],
-    [<ore:plateTin>, <ore:furnaceStone>, <ore:plateTin>],
+    [<ore:plateTin>, <ore:furnaceStone>, <ore:plateTin>]
 ]);
 
 recipes.addShaped("ie_lv_wirecoil", <immersiveengineering:wirecoil> * 8, [
     [null, <ore:wireCopper>, null],
     [<ore:wireCopper>, <ore:stickTreatedWood>, <ore:wireCopper>],
-    [null, <ore:wireCopper>, null],
+    [null, <ore:wireCopper>, null]
 ]);
 
 recipes.addShaped("ie_mv_wirecoil", <immersiveengineering:wirecoil:1> * 8, [
     [null, <ore:wireElectrum>, null],
     [<ore:wireElectrum>, <ore:stickTreatedWood>, <ore:wireElectrum>],
-    [null, <ore:wireElectrum>, null],
+    [null, <ore:wireElectrum>, null]
 ]);
 
 recipes.addShaped("ie_hv_wirecoil", <immersiveengineering:wirecoil:2> * 8, [
     [null, <ore:wireSteel>, null],
     [<ore:wireAluminum>, <ore:stickTreatedWood>, <ore:wireAluminum>],
-    [null, <ore:wireSteel>, null],
+    [null, <ore:wireSteel>, null]
 ]);
 
 recipes.addShaped("ie_hemp_wirecoil", <immersiveengineering:wirecoil:3> * 8, [
     [null, <ore:fiberHemp>, null],
     [<ore:fiberHemp>, <ore:stickTreatedWood>, <ore:fiberHemp>],
-    [null, <ore:fiberHemp>, null],
+    [null, <ore:fiberHemp>, null]
 ]);
 
 recipes.addShaped("ie_steel_cable_wirecoil", <immersiveengineering:wirecoil:4> * 8, [
     [null, <ore:wireSteel>, null],
     [<ore:wireSteel>, <ore:stickTreatedWood>, <ore:wireSteel>],
-    [null, <ore:wireSteel>, null],
+    [null, <ore:wireSteel>, null]
 ]);
 
 recipes.addShaped("ie_redstone_wirecoil", <immersiveengineering:wirecoil:5> * 8, [
     [null, <ore:dustRedstone>, null],
     [<ore:wireAluminum>, <ore:stickTreatedWood>, <ore:wireAluminum>],
-    [null, <ore:dustRedstone>, null],
+    [null, <ore:dustRedstone>, null]
 ]);
 
 recipes.addShaped("ie_lv_insulated_coil", <immersiveengineering:wirecoil:6> * 4, [
     [<contenttweaker:soaked_fabric>, <immersiveengineering:wirecoil>, <contenttweaker:soaked_fabric>],
     [<immersiveengineering:wirecoil>, null, <immersiveengineering:wirecoil>],
-    [<contenttweaker:soaked_fabric>, <immersiveengineering:wirecoil>, <contenttweaker:soaked_fabric>],
+    [<contenttweaker:soaked_fabric>, <immersiveengineering:wirecoil>, <contenttweaker:soaked_fabric>]
 ]);
 
 recipes.addShaped("ie_mv_insulated_coil", <immersiveengineering:wirecoil:7> * 4, [
     [<contenttweaker:soaked_fabric>, <immersiveengineering:wirecoil:1>, <contenttweaker:soaked_fabric>],
     [<immersiveengineering:wirecoil:1>, null, <immersiveengineering:wirecoil:1>],
-    [<contenttweaker:soaked_fabric>, <immersiveengineering:wirecoil:1>, <contenttweaker:soaked_fabric>],
+    [<contenttweaker:soaked_fabric>, <immersiveengineering:wirecoil:1>, <contenttweaker:soaked_fabric>]
 ]);
 
 recipes.addShaped("ie_tough_fabric", <immersiveengineering:material:5>, [
     [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>],
     [<ore:fiberHemp>, <ore:stickTreatedWood>, <ore:fiberHemp>],
-    [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>],
+    [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>]
 ]);
 
 recipes.addShaped("ie_lv_connector", <immersiveengineering:connector> * 8, [
     [null, null, null],
     [null, null, null],
-    [<contenttweaker:block_charred_terracotta>, <ore:ingotLead>, <contenttweaker:block_charred_terracotta>],
+    [<contenttweaker:block_charred_terracotta>, <ore:ingotLead>, <contenttweaker:block_charred_terracotta>]
 ]);
 
 recipes.addShaped("ie_mv_connector", <immersiveengineering:connector:2> * 8, [
     [null, null, null],
     [<contenttweaker:block_charred_terracotta>, <ore:ingotElectrum>, <contenttweaker:block_charred_terracotta>],
-    [<contenttweaker:block_charred_terracotta>, <ore:ingotElectrum>, <contenttweaker:block_charred_terracotta>],
+    [<contenttweaker:block_charred_terracotta>, <ore:ingotElectrum>, <contenttweaker:block_charred_terracotta>]
 ]);
 
 recipes.addShaped("ie_hv_connector", <immersiveengineering:connector:4> * 8, [
     [null, <ore:ingotSanguineMetal>, null],
     [<contenttweaker:block_charred_terracotta>, <ore:ingotSanguineMetal>, <contenttweaker:block_charred_terracotta>],
-    [<contenttweaker:block_charred_terracotta>, <ore:ingotSanguineMetal>, <contenttweaker:block_charred_terracotta>],
+    [<contenttweaker:block_charred_terracotta>, <ore:ingotSanguineMetal>, <contenttweaker:block_charred_terracotta>]
 ]);
 
 recipes.addShaped("ie_mv_capacitor", <immersiveengineering:metal_device0:1>, [
     [<ore:ingotElectrum>, <ore:blockLead>, <ore:ingotElectrum>],
     [<ore:ingotElectrum>, <immersiveengineering:metal_device0>, <ore:ingotElectrum>],
-    [<ore:ingotElectrum>, <ore:blockRedstone>, <ore:ingotElectrum>],
+    [<ore:ingotElectrum>, <ore:blockRedstone>, <ore:ingotElectrum>]
 ]);
 
 recipes.addShaped("ie_hv_capacitor", <immersiveengineering:metal_device0:2>, [
     [<ore:ingotSteel>, <ore:blockLead>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <immersiveengineering:metal_device0:1>, <ore:ingotSteel>],
-    [<ore:ingotSteel>, <ore:blockRedstone>, <ore:ingotSteel>],
+    [<ore:ingotSteel>, <ore:blockRedstone>, <ore:ingotSteel>]
 ]);
 
 recipes.addShaped("ie_machine_parts_blueprint", <immersiveengineering:blueprint>.withTag({blueprint: "Machine Parts"}), [
     [<ore:gearSanguineMetal>, <immersiveengineering:material:27>, <ore:gearSanguineMetal>],
     [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
-    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
 ]);
 
 recipes.addShaped("ie_knowledge_blueprint", <immersiveengineering:blueprint>.withTag({blueprint: "Knowledge"}), [
     [null, <ore:book>, null],
     [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
-    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+]);
+
+recipes.addShaped("ie_jump_cushion", <immersiveengineering:cloth_device> * 4, [
+    [<ore:wool>, <ore:wool>],
+    [<ore:blockSlimeCongealed>, <ore:blockSlimeCongealed>]
 ]);
 
 recipes.addShapeless("ie_hemp_to_string", <minecraft:string>, [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>]);

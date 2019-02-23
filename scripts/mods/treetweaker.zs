@@ -1,7 +1,21 @@
 import mods.treetweaker.TreeFactory;
 
 # ----------------
-# Trees
+# Hexlands trees
+# ----------------
+var slimeOak = TreeFactory.createTree("slimeOak");
+slimeOak.setTreeType("OAK");
+slimeOak.setLog("tconstruct:slime_congealed");
+slimeOak.setLeaf("tconstruct:slime_leaves");
+slimeOak.setGenBiome("traverse:green_swamp");
+slimeOak.minTreeHeight = 5;
+slimeOak.generationFrequency = 1;
+slimeOak.generationAttempts = 2;
+slimeOak.setDimWhitelist(88);
+slimeOak.register();
+
+# ----------------
+# Lunar Plane Trees
 # ----------------
 var bloodOakLarge = TreeFactory.createTree("bloodOakLarge");
 bloodOakLarge.setTreeType("LARGE_OAK");

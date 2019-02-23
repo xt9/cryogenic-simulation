@@ -1,0 +1,111 @@
+{
+    "components": [
+        {
+            "type": "header",
+            "text": "#title",
+            "x": -1,
+            "y": -1
+        },
+        {
+            "type": "separator",
+            "y": -1,
+            "x": -1
+        },
+        {
+            "type": "item",
+            "item": "#item1",
+            "x": 10,
+            "y": 20
+        },
+        {
+            "type": "item",
+            "item": "#item2",
+            "x": 30,
+            "y": 20
+        },
+        {
+            "type": "item",
+            "item": "#item3",
+            "x": 50,
+            "y": 20
+        },
+        {
+            "type": "item",
+            "item": "#item4",
+            "x": 70,
+            "y": 20
+        },
+        {
+            "type": "item",
+            "item": "#item5",
+            "x": 90,
+            "y": 20
+        },
+        {
+            "type": "item",
+            "item": "#item6",
+            "x": 10,
+            "y": 40
+        },
+        {
+            "type": "item",
+            "item": "#item7",
+            "x": 30,
+            "y": 40
+        },
+        {
+            "type": "item",
+            "item": "#item8",
+            "x": 50,
+            "y": 40
+        },
+        {
+            "type": "item",
+            "item": "#item9",
+            "x": 70,
+            "y": 40
+        },
+        {
+            "type": "item",
+            "item": "#item10",
+            "x": 90,
+            "y": 40
+        },
+        {
+            "type": "item",
+            "item": "#item11",
+            "x": 10,
+            "y": 60
+        },
+        {
+            "type": "item",
+            "item": "#item12",
+            "x": 30,
+            "y": 60
+        },
+        {
+            "type": "item",
+            "item": "#item13",
+            "x": 50,
+            "y": 60
+        },
+        {
+            "type": "item",
+            "item": "#item14",
+            "x": 70,
+            "y": 60
+        },
+        {
+            "type": "item",
+            "item": "#item15",
+            "x": 90,
+            "y": 60
+        },
+        {
+            "type": "text",
+            "text": "#notes",
+            "x": 0,
+            "y": 80
+        }
+    ]
+}

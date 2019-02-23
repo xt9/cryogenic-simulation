@@ -41,7 +41,7 @@
                     "potions": [
                         {
                             "name": "minecraft:regeneration",
-                            "duration": 3600,
+                            "duration": 1200,
                             "amplifier": 3
                         }
                     ]

@@ -9,7 +9,7 @@
             "type": "spotlight",
             "item": "forge:bucketfilled{FluidName:lifeessence}",
             "title": "Life Essence",
-            "text": "By making sacrifices to the $(item)Blood Gods$() we recieve the $(item)Essence of Life$().$(br2)We can use this essence to transform items in the $(item)Blood Altar$() or store it away for later use in $(item)Blood Orbs$() that are bound to us."
+            "text": "By making sacrifices to the $(item)Old Gods$() we recieve the $(item)Essence of Life$().$(br2)We can use this essence to transform items in the $(item)Blood Altar$() or store it away for later use in $(item)Blood Orbs$() that are bound to us."
         },
         {
             "type": "crafting",
@@ -21,7 +21,7 @@
             "type": "crafting",
             "recipe": "crafttweaker:bm_sac_dagger",
             "anchor": "dagger",
-            "text": "This dagger allows you to sacrifice some of your $(item)Blood$() to the $(item)Gods$().$(br2)This act will put $(item)Life Essence$() into the altar."
+            "text": "This dagger allows you to sacrifice some of your $(item)Blood$() to the $(item)Gods$().$(br2)This act will put $(item)Life Essence$() into the altar. Maybe you could make this process less tedious by brewing with $(item)Beetroots$()?"
         },
         {
             "type": "spotlight",

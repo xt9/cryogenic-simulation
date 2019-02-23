@@ -3,14 +3,6 @@
     "localizedname": "Altar of Blessings",
     "parts": [
         {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "astralsorcery:blockmarble@2"
-            ]
-        },
-        {
             "x": -1,
             "y": 0,
             "z": 1,
@@ -19,11 +11,35 @@
             ]
         },
         {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
             "x": 0,
             "y": 1,
             "z": 1,
             "elements": [
                 "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockblackmarble@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:ritual_stone@0"
             ]
         },
         {
@@ -43,14 +59,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "astralsorcery:blockblackmarble@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 1,
             "z": 1,
@@ -59,11 +67,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": -1,
+            "x": 1,
+            "y": 0,
             "z": 1,
             "elements": [
-                "astralsorcery:blockinfusedwood@5"
+                "modularmachinery:blockinputbus@6"
             ]
         },
         {
@@ -92,10 +100,10 @@
         },
         {
             "x": 1,
-            "y": 0,
+            "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "bloodmagic:ritual_stone@0"
             ]
         },
         {
@@ -104,14 +112,6 @@
             "z": 2,
             "elements": [
                 "astralsorcery:blockmarble@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "astralsorcery:blockinfusedwood@5"
             ]
         },
         {
@@ -163,6 +163,14 @@
             ]
         },
         {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
             "x": -2,
             "y": 1,
             "z": 2,
@@ -174,16 +182,21 @@
             "x": 0,
             "y": 2,
             "z": 1,
+            "nbt": {
+                "inventory": {
+                    "Size": "1",
+                    "Items": [
+                        {
+                            "Slot": "0",
+                            "id": "contenttweaker:blood_raven_feather",
+                            "Count": "1b",
+                            "Damage": "0s"
+                        }
+                    ]
+                }
+            },
             "elements": [
                 "astralsorcery:blockattunementrelay@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "astralsorcery:blockmarblestairs@0"
             ]
         },
         {

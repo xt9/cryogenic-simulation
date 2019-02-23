@@ -40,6 +40,11 @@
             "type": "crafting",
             "recipe": "crafttweaker:danknull_tier3",
             "recipe2": "crafttweaker:danknull_tier4"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:rft_quarry_card",
+            "text": "If you're willing to go the extra mile in this simulation you can get a $(item)Quarry card$().$(br2)This will allow you to $(item)GREATLY$() improve your $(item)Resource Gathering Capabilities$()."
         }
     ]
 }

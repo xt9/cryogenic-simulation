@@ -33,10 +33,10 @@
         {
             "type": "crafting",
             "recipe": "immersiveengineering:stone_decoration/alloybrick",
-            "text": "You need to go slay some of the $(l:sim_2/inhabitants)Ravens$() for their feathers, bring them back and run them throuogh the $(item)Blast furnace$().$(br2)Then you need to construct the $(item)Alloy Kiln$() multiblock and alloy the charred feathers with some seared bricks."
+            "text": "You need to go slay some of the $(l:sim_2/inhabitants)Ravens$() for their feathers, bring them back and run them through the $(item)Blast furnace$().$(br2)Then you need to construct the $(item)Alloy Kiln$() multiblock and alloy the charred feathers with some seared bricks."
         },
         {
-            "type": "multiblock_materials",
+            "type": "materials",
             "title": "Alloy Kiln Materials",
             "item3": "immersiveengineering:stone_decoration:10#8",
             "notes": "$(item)Right click$() on the correct side with an $(item)Engineers Hammer$() to assemble once the structure is placed.$(br2)Don't forget to use $(l:portal_hub/4_schematica)Schematica$() if you're unsure of how to build the multiblock."

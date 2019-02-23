@@ -1,0 +1,29 @@
+{
+    "name": "Step #8: Brittle Plastic",
+    "icon": "industrialforegoing:tree_fluid_extractor",
+    "category": "sim_2",
+    "advancement": "triumph:cryosim/sim_2/visit",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:industrialforegoing-tree_fluid_extractor-remodified",
+            "recipe2": "crafttweaker:industrialforegoing-latex_processing_unit_thermal-modified"
+        },
+        {
+            "type": "text",
+            "title": "Plastic Production",
+            "text": "To make $(item)Brittle Plastic$() you will first need to retrieve $(item)Latex$() from $(item)Tree Logs$() using a $(item)Tree Fluid Extractor$(), this machine does not require any $(item)Power$() to function.$(br2)The $(item)Latex$() is processed together with $(item)Water$() inside a $(item)Latex Processing Unit$() to create $(item)Tiny Wet Rubber$().$(br)This process requires $(item)Power$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:thermalexpansion-machine_5-rereremodified",
+            "text": "The $(item)Tiny Wet Rubber$() is compacted in a $(item)Compactor$() and then finally dried on a $(item)Drying Rack$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "industrialforegoing:plastic",
+            "text": "This $(item)Plastic$() is not very sturdy and is only fit to be used in the construction of some $(item)Machines$().$(br2)However you can later reuse it to create a much more robust type of $(item)Plastic$()."
+        }
+    ]
+}

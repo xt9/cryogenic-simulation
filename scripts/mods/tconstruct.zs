@@ -24,6 +24,10 @@ Drying.addRecipe(<ore:itemRubber>.firstItem, <industrialforegoing:dryrubber>, 10
 recipes.remove(<tconstruct:soil:0>);
 recipes.remove(<tconstruct:smeltery_controller>);
 recipes.remove(<tconstruct:seared_tank>);
+recipes.removeByRecipeName("tconstruct:gadgets/slime_boots_fallback");
+
+# Change default slime boot recipe
+recipes.replaceAllOccurences(<tconstruct:slime_congealed>, <immersiveengineering:cloth_device>, <tconstruct:slime_boots>);
 
 # Remove slime sling, a bit strong
 recipes.remove(<tconstruct:slimesling:*>);
@@ -78,5 +82,5 @@ helpers.addAtlasTip(<tconstruct:soil>, [
 
 helpers.addAtlasTip(<tconstruct:slime_congealed:3>, [
     format.yellow("Crush a Heartbeet against this block"),
-    format.yellow("to gain Regenration IV for 3 minutes.")
+    format.yellow("to gain Regenration IV for 1 minute.")
 ]); 

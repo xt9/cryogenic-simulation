@@ -31,7 +31,7 @@ BloodAltar.addRecipe(<bloodmagic:dagger_of_sacrifice>, <astralsorcery:itemcrysta
 
 # Blood Orbs TODO, DO ALL THE TIERS
 BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <ore:trollEye>.firstItem, 0, 2000, 15, 5);
-BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <ore:slimeballBlood>.firstItem, 0, 5000, 20, 5);
+BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <ore:slimeballBlood>.firstItem, 1, 5000, 20, 5);
 
 # Tier 1 Crafting Seeds
 BloodAltar.addRecipe(<mysticalagriculture:crafting:17>, <minecraft:wheat_seeds>, 1, 800, 15, 5);

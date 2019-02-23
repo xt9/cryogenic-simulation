@@ -1,0 +1,23 @@
+{
+    "name": "Step #9: Void Gazing",
+    "icon": "industrialforegoing:laser_lens",
+    "category": "sim_2",
+    "advancement": "triumph:cryosim/sim_2/visit",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "text",
+            "text": "We're quite pleased with you progress and we think it's time you stand on your own for once.$(br2)You have been proven to be a quite resourceful specimen and we have trust that you will manage this task."
+        },
+        {
+            "type": "text",
+            "text": "To enter the next $(item)Simulation$() you need to find a way to gather $(item)Ardite Ore$() and $(item)Cobalt Ore$(), you should also look into ways of gathering a lot of $(item)Cobblestone$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:blood_raven_feather",
+            "title": "Portal Activator",
+            "text": "Lighting the $(item)Portal$() to the third $(item)Simulation$() requires you to hold the feather of a $(item)Blood Raven$()."
+        }
+    ]
+}

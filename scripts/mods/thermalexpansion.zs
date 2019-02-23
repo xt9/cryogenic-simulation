@@ -1,6 +1,8 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import mods.thermalexpansion.Refinery;
 import mods.thermalexpansion.RedstoneFurnace;
+import mods.thermalexpansion.Centrifuge;
 import mods.thermalexpansion.Crucible;
 import mods.thermalexpansion.Compactor;
 import mods.thermalexpansion.Transposer;
@@ -50,9 +52,16 @@ Crucible.addRecipe(<liquid:liquid_blaze> * 3000, <contenttweaker:block_blaze_pow
 Crucible.addRecipe(<liquid:troll_eye_goop> * 4000, <contenttweaker:troll_eye>, 8000);
 
 # ----------------
+# Centrifugal Separator
+# ----------------
+for stack in <ore:fish>.items { 
+    Centrifuge.addRecipe([<minecraft:bone> % 50], stack, <liquid:fish_oil> * 500, 9000);
+}
+
+# ----------------
 # Transposer
 # ----------------
-Transposer.addFillRecipe(<astralsorcery:itemusabledust> * 4, <ore:dustGlowstone>.firstItem, <liquid:astralsorcery.liquidstarlight> * 500, 2000);
+Transposer.addFillRecipe(<astralsorcery:itemusabledust> * 4, <ore:dustGlowstone>.firstItem, <liquid:astralsorcery.liquidstarlight> * 500, 3000);
 
 # ----------------
 # Induction Smelter
@@ -60,7 +69,7 @@ Transposer.addFillRecipe(<astralsorcery:itemusabledust> * 4, <ore:dustGlowstone>
 # Charred terracotta
 InductionSmelter.addRecipe(<contenttweaker:block_charred_terracotta> * 8, <contenttweaker:charred_feather>, <tconstruct:materials> * 8, 3000);
 # Charred Feather Pile Qol recipe
-InductionSmelter.addRecipe(<contenttweaker:charred_feather>, <ore:ravenFeather>.firstItem, <ore:dustCoal>.firstItem, 3000);
+InductionSmelter.addRecipe(<contenttweaker:charred_feather> * 6, <ore:ravenFeather>.firstItem, <ore:dustCoal>.firstItem, 3000);
 # Pigiron QoL recipe
 InductionSmelter.addRecipe(<ore:ingotPigiron>.firstItem, <ore:ingotIron>.firstItem * 2, <contenttweaker:bloody_mud>, 3000);
 # Steel from coke dust
@@ -79,11 +88,22 @@ InductionSmelter.addRecipe(<ore:chestObsidian>.firstItem, <ore:obsidian>.firstIt
 Compactor.addStorageRecipe(<industrialforegoing:dryrubber>, <industrialforegoing:tinydryrubber> * 9, 4000);
 
 # ----------------
+# Compactor
+# ----------------
+Refinery.addRecipe(<liquid:lubricant> * 100, <bewitchment:salt>, <liquid:fish_oil> * 1000, 5000);
+
+# ----------------
 # Recipe removals
 # ----------------
+# Remove Thermal Foundation Servos/Coils/Tool casing
+recipes.remove(<thermalfoundation:material:512>);
+recipes.remove(<thermalfoundation:material:513>);
+recipes.remove(<thermalfoundation:material:514>);
+recipes.remove(<thermalfoundation:material:515>);
+recipes.remove(<thermalfoundation:material:640>);
+# Remove Frames
 recipes.remove(<thermalfoundation:material:22>);
 recipes.remove(<thermalfoundation:material:23>);
-# Remove cell frame
 recipes.remove(<thermalexpansion:frame:128>);
 # Remove the machine frame, later added by IE blueprint
 recipes.remove(<thermalexpansion:frame>);
@@ -95,11 +115,17 @@ recipes.remove(<thermalfoundation:material:27>);
 # ----------------
 # Recipes
 # ----------------
-# Require a blessed frame for all machine crafts
-recipes.replaceAllOccurences(<thermalexpansion:frame>, <thermalexpansion:frame>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}));
+# Require a Blessed frame for all machines
+recipes.replaceAllOccurences(<thermalexpansion:frame>, g_blessedMachineFrame);
+# Require Blessed servos instead of servos
+recipes.replaceAllOccurences(<thermalfoundation:material:512>, g_blessedServo);
+# Require Blessed coils
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, g_blessedReceptionCoil);
+recipes.replaceAllOccurences(<thermalfoundation:material:514>, g_blessedTransmissionCoil);
+recipes.replaceAllOccurences(<thermalfoundation:material:515>, g_blessedConductanceCoil);
 
 # Require MV connectors & Starmetal to make ducts
-recipes.replaceAllOccurences(<ore:blockGlass>, <immersiveengineering:connector:4>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}), <thermaldynamics:duct_0>);
+recipes.replaceAllOccurences(<ore:blockGlass>, g_blessedConnector, <thermaldynamics:duct_0>);
 recipes.replaceAllOccurences(<ore:ingotSanguineMetal>, <ore:ingotAstralStarmetal>, <thermaldynamics:duct_0>);
 
 # Change compactor recipe
@@ -107,7 +133,7 @@ recipes.replaceAllOccurences(<ore:ingotBronze>, <ore:ingotHOPGraphite>, <thermal
 recipes.replaceAllOccurences(<ore:gearCopper>, <ore:gearBronze>, <thermalexpansion:machine:5>);
 
 recipes.addShaped("te_cell_frame", <thermalexpansion:frame:128>, [
-    [<ore:plateLead>, <ore:plateElectrum>, <ore:plateLead>],
-    [<ore:plateElectrum>, <thermalexpansion:frame>.withTag({ench: [{lvl: 1 as short, id: 11 as short}], madeInChina: true}), <ore:plateElectrum>], 
-    [<ore:plateLead>, <ore:plateElectrum>, <ore:plateLead>]
+    [<ore:plateElectrum>, g_blessedConductanceCoil, <ore:plateElectrum>],
+    [g_blessedReceptionCoil, g_blessedServo, g_blessedReceptionCoil], 
+    [<ore:plateElectrum>, g_blessedConductanceCoil, <ore:plateElectrum>]
 ]);
