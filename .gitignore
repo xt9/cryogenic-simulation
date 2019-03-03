@@ -13,7 +13,7 @@
 /build
 
 /config/tellme/**
-/config/XaeroWaypoints/**
+/config/XaeroWaypoints
 /config/splash.properties
 /config/jei/worldSettings.cfg
 /config/jei/bookmarks.ini
