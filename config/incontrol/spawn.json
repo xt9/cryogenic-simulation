@@ -1,27 +1,52 @@
 [
     {
+        "spawner": true,
+        "result": "default"
+    },
+    {
         "mob": "varodd:troll",
         "dimension": 89,
-        "mincount": 25,
+        "mincount": 40,
         "result": "deny"
     },
     {
         "mob": "varodd:raven",
         "dimension": 89,
-        "mincount": 20,
+        "mincount": 22,
+        "result": "deny"
+    },
+    {
+        "mob": "varodd:scorpion_giant",
+        "dimension": 90,
+        "mincount": 18,
         "result": "deny"
     },
     {
         "mob": "varodd:troll",
-        "dimension": 89,
+        "minheight": 50,
+        "biome": "Dark Thicket",
         "seesky": false,
-        "result": "allow",
-        "healthmultiply": 0.5,
-        "damagemultiply": 0.5
+        "healthmultiply": 0.4,
+        "damagemultiply": 0.4,
+        "result": "allow"
+    },
+    {
+        "mob": "varodd:troll",
+        "maxheight": 50,
+        "seesky": false,
+        "healthmultiply": 0.4,
+        "damagemultiply": 0.4,
+        "result": "allow"
     },
     {
         "mob": "varodd:raven",
         "dimension": 89,
+        "minheight": 60,
+        "result": "allow"
+    },
+    {
+        "mob": "varodd:scorpion_giant",
+        "dimension": 90,
         "result": "allow"
     },
     {
@@ -35,8 +60,7 @@
         "minheight": 4,
         "maxheight": 58,
         "seesky": false,
-        "canspawnhere": true,
-        "result": "allow"
+        "result": "default"
     },
     {
         "passive": true,

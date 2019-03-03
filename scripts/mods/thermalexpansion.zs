@@ -71,7 +71,7 @@ InductionSmelter.addRecipe(<contenttweaker:block_charred_terracotta> * 8, <conte
 # Charred Feather Pile Qol recipe
 InductionSmelter.addRecipe(<contenttweaker:charred_feather> * 6, <ore:ravenFeather>.firstItem, <ore:dustCoal>.firstItem, 3000);
 # Pigiron QoL recipe
-InductionSmelter.addRecipe(<ore:ingotPigiron>.firstItem, <ore:ingotIron>.firstItem * 2, <contenttweaker:bloody_mud>, 3000);
+InductionSmelter.addRecipe(<ore:ingotPigiron>.firstItem, <ore:ingotIron>.firstItem, <contenttweaker:bloody_mud>, 3000);
 # Steel from coke dust
 InductionSmelter.addRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>.firstItem, <ore:dustCoke>.firstItem, 3000);
 

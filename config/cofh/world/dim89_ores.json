@@ -9,11 +9,11 @@
 					"metadata": 0
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 2
 			},
-			"cluster-count": 40,
+			"cluster-count": 8,
 			"min-height": 0,
-			"max-height": 55,
+			"max-height": 42,
 			"retrogen": true,
 			"biome": "all",
 			"dimension": {
@@ -51,6 +51,25 @@
 					89
 				]
 			}
-		}
+		},
+		"lunarplane_iron_ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 26,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					89
+				]
+			}
+		},
 	}
 }

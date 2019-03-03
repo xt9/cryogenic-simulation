@@ -6,16 +6,27 @@
     "sortnum": 1,
     "pages": [
         {
+            "type": "text",
+            "item": "astralsorcery:blockcustomsandore",
+            "text": "The $(item)Lunar Plane$() has a vast $(item)Cave System$() which exposes many of the ores, making it easier gathering them.$(br2)It's in your best interest finding one of them, use your minimap underground to guide your way."
+        },
+        {
             "type": "spotlight",
             "title": "Aquamarine",
             "item": "astralsorcery:blockcustomsandore",
-            "text": "Glimmering gemstones found between world height $(item)0-64$()$(br2)Found in deposits of sand."
+            "text": "Glimmering gemstones found between world height $(primary)0-64$()$(br2)Found in deposits of sand."
         },
         {
             "type": "spotlight",
             "title": "Rock Crystals",
             "item": "astralsorcery:blockcustomore",
-            "text": "Valuable rock found between world height $(item)0-55$()$(br2)Mining level: $(item)Obsidian$()"
+            "text": "Valuable rock found between world height $(primary)0-42$()$(br2)Mining level: $(item)Obsidian$()$(br)Rarity: $(item)Rare$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Iron",
+            "item": "minecraft:iron_ore",
+            "text": "Crude metal found between world height $(primary)0-64$(), a bit more common than in the first $(item)Simulation$()."
         }
     ]
 }

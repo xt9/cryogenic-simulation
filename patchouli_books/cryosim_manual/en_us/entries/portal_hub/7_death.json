@@ -1,0 +1,19 @@
+{
+    "name": "Death",
+    "icon": "minecraft:skull",
+    "category": "portal_hub",
+    "advancement": "triumph:cryosim/root",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Death",
+            "item": "chisel:cloud",
+            "text": "Analysis of your stored skillset has concluded that your self-preservation instincts have degenerated beyond repair.$(br2)To account for your incompetence, we have synced all of your personal data to the $(item)Cloud$()."
+        },
+        {
+            "type": "text",
+            "text": "Upon death we will reconstitue your remains and $(item)Restore$() your previously held items.$(br2)If you did happen to die do not beat yourself up about it, we already knew this eventually would happen."
+        }
+    ]
+}

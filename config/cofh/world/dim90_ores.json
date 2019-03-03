@@ -1,0 +1,73 @@
+{
+    "dependencies": "thermalfoundation",
+    "populate": {
+        "quartz": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "appliedenergistics2:quartz_ore",
+                    "metadata": 0
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 12
+            },
+            "cluster-count": 40,
+            "min-height": 0,
+            "max-height": 48,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    90
+                ]
+            }
+        },
+        "charged_quartz": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "appliedenergistics2:charged_quartz_ore",
+                    "metadata": 0
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 6
+            },
+            "cluster-count": 30,
+            "min-height": 0,
+            "max-height": 48,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    90
+                ]
+            }
+        },
+        "mithril_ore": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "properties": {
+                        "type": "mithril"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 4
+            },
+            "cluster-count": 20,
+            "min-height": 0,
+            "max-height": 48,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    90
+                ]
+            }
+        }
+    }
+}

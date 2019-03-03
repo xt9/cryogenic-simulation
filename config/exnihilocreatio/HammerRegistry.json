@@ -53,7 +53,7 @@
       "fortuneChance": 0.0
     }
   ],
-  "ore:cobblestone": [
+  "minecraft:cobblestone": [
     {
       "item": "minecraft:gravel",
       "amount": 1,
@@ -62,7 +62,7 @@
       "fortuneChance": 0.0
     }
   ],
-  "ore:gravel": [
+  "minecraft:gravel": [
     {
       "item": "minecraft:sand",
       "amount": 1,

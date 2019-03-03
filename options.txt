@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -86,6 +86,7 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_keybind.baublesinventory:0
+key_quark.keybind.dropoff:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -104,7 +105,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
@@ -165,8 +165,18 @@ key_key.jei.previousPage:0
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.toggle_focus.desc:15
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:33
+key_key.description.jump_to_bar:0
+key_key.description.enable_bar:0
+key_key.description.place_item:0
+key_key.modeSwitch:34
+key_key.rangeChange:19
+key_key.undoKey:22
+key_key.anchorKey:35
+key_key.fuzzyKey:0
+key_key.connectedarea:0
 key_key.cofh.multimode:47
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
@@ -188,8 +198,6 @@ key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
 key_invtweaks.key.sort:0
-key_jecalculation.key.gui_craft:0
-key_jecalculation.key.gui_math:0
 key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0

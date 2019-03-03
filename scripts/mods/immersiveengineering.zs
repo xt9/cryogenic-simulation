@@ -28,6 +28,8 @@ BlastFurnace.addRecipe(<minecraft:glass>, <ore:sand>, 100);
 # Kiln Section
 # ----------------
 AlloySmelter.addRecipe(<contenttweaker:block_charred_terracotta> * 8, <contenttweaker:charred_feather>, <tconstruct:materials> * 8, 140);
+AlloySmelter.addRecipe(<ore:ingotPigiron>.firstItem, <ore:ingotIron> * 2, <contenttweaker:bloody_mud>, 140);
+
 
 # ----------------
 # Squeezer section

@@ -10,13 +10,13 @@
             "type": "entity",
             "entity": "varodd:raven",
             "scale": 0.75,
-            "text": "$(item)Found$() in the $(item)Blessed Plains$() biome."
+            "text": "$(item)Found$() on the surface of the Lunar Plane in the $(item)Blessed Plains$() biome."
         },
         {
             "type": "entity",
             "entity": "varodd:troll",
             "scale": 0.90,
-            "text": "$(item)Found$() in the $(item)Dark Thicket$(). Can regenerate health and hits hard."
+            "text": "$(item)Found$() in the $(item)Dark Thicket$(). Can regenerate health and hits hard. Also spawn in Caves."
         },
         {
             "type": "entity",

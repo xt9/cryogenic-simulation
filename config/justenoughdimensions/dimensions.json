@@ -5,6 +5,16 @@
     },
     "dimensions": [
         {
+            "dim": -1,
+            "unregister": true,
+            "disable_teleporting_to": true
+        },
+        {
+            "dim": 1,
+            "unregister": true,
+            "disable_teleporting_to": true
+        },
+        {
             "dim": 89,
             "dimensiontype": {
                 "id": 89,
@@ -16,11 +26,32 @@
             },
             "jed": {
                 "SkyColor": "68a9ff",
-                "CloudColor": "d6d6ff"
+                "CloudColor": "d6d6ff",
+                "CanRespawnHere": false
             },
             "worldinfo_onetime": {
                 "generatorName": "lostcities",
                 "generatorOptions": "{ \"profile\": \"lunar_plane\" }"
+            }
+        },
+        {
+            "dim": 90,
+            "dimensiontype": {
+                "id": 90,
+                "name": "arid_waste",
+                "suffix": "_dim90",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "jed": {
+                "SkyColor": "89bcff",
+                "CloudColor": "fffdea",
+                "CanRespawnHere": false
+            },
+            "worldinfo_onetime": {
+                "generatorName": "lostcities",
+                "generatorOptions": "{ \"profile\": \"arid_waste\" }"
             }
         }
     ]
