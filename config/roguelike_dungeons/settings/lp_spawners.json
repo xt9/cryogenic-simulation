@@ -1,0 +1,76 @@
+{
+	"name": "lp:spawners",
+	"spawners": [
+		{
+			"type": "ZOMBIE",
+			"potentials": [
+				{
+					"name": "minecraft:vindication_illager",
+					"equip": false
+				},
+				{
+					"name": "minecraft:witch",
+					"equip": false
+				},
+				{
+					"name": "minecraft:zombie_villager",
+					"equip": false
+				}
+			],
+			"level": [
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"type": "SPIDER",
+			"potentials": [
+				{
+					"name": "minecraft:spider"
+				}
+			],
+			"level": [
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"type": "CREEPER",
+			"potentials": [
+				{
+					"name": "minecraft:creeper",
+					"nbt": "{powered:1}"
+				}
+			],
+			"level": [
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"type": "SKELETON",
+			"potentials": [
+				{
+					"name": "minecraft:skeleton",
+					"equip": false
+				}
+			],
+			"level": [
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	]
+}

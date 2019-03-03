@@ -1,0 +1,49 @@
+{
+	"name": "lp:segments",
+	"segments": [
+		{
+			"level": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"type": "CHEST",
+			"weight": 1
+		},
+		{
+			"level": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"type": "SPAWNER",
+			"weight": 1
+		},
+		{
+			"level": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"type": "FLOWERS",
+			"weight": 3
+		},
+		{
+			"level": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"type": "WALL",
+			"weight": 10
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "lp:tower",
+	"tower": {
+		"type": "ENIKO",
+		"theme": {
+			"primary": {
+				"walls": {
+					"type": "METABLOCK",
+					"data": {
+						"name": "astralsorcery:blockmarble",
+						"meta": 1
+					}
+				},
+				"stair": {
+					"type": "METABLOCK",
+					"data": {
+						"name": "astralsorcery:blockmarblestairs"
+					}
+				},
+				"pillar": {
+					"type": "METABLOCK",
+					"data": {
+						"name": "astralsorcery:blockmarble",
+						"meta": 2
+					}
+				}
+			}
+		}
+	}
+}

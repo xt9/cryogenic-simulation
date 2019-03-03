@@ -1,0 +1,18 @@
+{
+    "name": "lp:main",
+    "exclusive": true,
+    "criteria": {
+        "dimensionWL": [
+            89
+        ]
+    },
+    "inherit": [
+        "lp:tower",
+        "lp:layout",
+        "lp:rooms",
+        "lp:segments",
+        "lp:spawners",
+        "lp:theme",
+        "lp:loot"
+    ]
+}
