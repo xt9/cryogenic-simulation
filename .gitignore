@@ -13,12 +13,14 @@
 /build
 
 /config/tellme/**
+/config/XaeroWaypoints/**
+/config/splash.properties
+/config/jei/worldSettings.cfg
+/config/jei/bookmarks.ini
+/config/astralsorcery/amulet_enchantments.cfg
+/config/BiomeTweaker/output
+/config/cavegenerator/example_presets
 
-config/splash.properties
-config/jei/worldSettings.cfg
-config/jei/bookmarks.ini
-config/astralsorcery/amulet_enchantments.cfg
-config/BiomeTweaker/output
 
 # root files
 ModUpdaterPack.json
