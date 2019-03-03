@@ -1,3 +1,0 @@
-waypoint:Portal:P:-998:72:-998:11:false:0:gui.xaero_default:false:0
-waypoint:Big Shrine:B:-1418:73:-1605:3:true:0:gui.xaero_default:false:0
-waypoint:Waystone:W:384:77:-1527:15:false:0:gui.xaero_default:false:0

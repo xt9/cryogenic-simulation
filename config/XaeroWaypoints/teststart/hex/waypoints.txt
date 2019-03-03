@@ -1,1 +1,0 @@
-waypoint:Portal:P:-1006:86:-1004:9:false:0:gui.xaero_default:false:0
