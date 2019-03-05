@@ -26,7 +26,7 @@
             "type": "spotlight",
             "title": "Iron",
             "item": "minecraft:iron_ore",
-            "text": "Crude metal found between world height $(primary)0-64$(), a bit more common than in the first $(item)Simulation$()."
+            "text": "Crude metal found between world height $(primary)0-64$(), will be found a bit more commonly than in the first $(item)Simulation$()."
         }
     ]
 }

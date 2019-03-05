@@ -26,8 +26,8 @@ Melting.addRecipe(<liquid:sanguine_metal> * 1296, <ore:blockSanguineMetal>, <liq
 # Fluid Transform
 # ----------------
 # Drop Coagulated blood in molten pigion -> Molten Sanguine Metal
-FluidToItem.transform(<ore:ingotSanguineMetal>.firstItem * 4, <liquid:blood>, <ore:ingotPigiron> * 4, true);
-FluidToItem.transform(<ore:blockSanguineMetal>.firstItem, <liquid:blood>, <ore:blockPigiron>, true);
+FluidToItem.transform(<ore:ingotSanguineMetal>.firstItem * 4, <liquid:blood>, [<ore:ingotPigiron> * 4], true);
+FluidToItem.transform(<ore:blockSanguineMetal>.firstItem, <liquid:blood>, [<ore:blockPigiron>], true);
 
 # Midgame alternative recipe
 Transposer.addFillRecipe(<ore:ingotSanguineMetal>.firstItem, <ore:ingotPigiron>.firstItem, <liquid:blood> * 250, 2000);

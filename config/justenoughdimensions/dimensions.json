@@ -27,7 +27,8 @@
             "jed": {
                 "SkyColor": "68a9ff",
                 "CloudColor": "d6d6ff",
-                "CanRespawnHere": false
+                "CanRespawnHere": false,
+                "CanSleepHere": "allow"
             },
             "worldinfo_onetime": {
                 "generatorName": "lostcities",
@@ -47,7 +48,8 @@
             "jed": {
                 "SkyColor": "89bcff",
                 "CloudColor": "fffdea",
-                "CanRespawnHere": false
+                "CanRespawnHere": false,
+                "CanSleepHere": "allow"
             },
             "worldinfo_onetime": {
                 "generatorName": "lostcities",

@@ -92,6 +92,15 @@ RecipeBuilder.get("mason")
   .addTool(<ore:exMetalHammer>, 5)
   .create();
 
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<ore:ingotSanguineMetal>],
+    [<ore:ingotSanguineMetal>]
+  ])
+  .addOutput(<ore:rodSanguineMetal>.firstItem * 4)
+  .addTool(<ore:exMetalHammer>, 5)
+  .create();
+
 # ----------------
 # Recipe Section
 # ----------------

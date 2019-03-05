@@ -30,6 +30,35 @@
             "type": "entity",
             "entity": "minecraft:creeper",
             "text": "$(item)Found$() in the caves below world height 58."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:cow",
+            "scale": 0.75,
+            "text": "$(item)Found$() on the surface of this Simulation."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:sheep",
+            "scale": 0.75,
+            "text": "$(item)Found$() on the surface of this Simulation."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:chicken",
+            "text": "$(item)Found$() on the surface of this Simulation."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:pig",
+            "scale": 0.75,
+            "text": "$(item)Found$() on the surface of this Simulation."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:horse",
+            "scale": 0.75,
+            "text": "$(item)Found$() on the surface of this Simulation."
         }
     ]
 }

@@ -15,12 +15,11 @@
             "type": "spotlight",
             "item": "bloodmagic:altar",
             "link_recipe": true,
-            "text": "This knowledge is required before you can make a $(l:sim_2/3_vein_tapping)Blood Altar$() aswell as the$(br)$(l:sim_2/3_vein_tapping#dagger)Sacrificial Dagger$()."
+            "text": "This knowledge is required before you can make a $(l:sim_2/3_vein_tapping)Blood Altar$() aswell as the$(br)$(l:sim_2/3_vein_tapping#dagger)Sacrificial Dagger$().$(br2)You can learn more about $(item)Blood Magic$() by reading the Sanguine Scientem."
         },
         {
             "type": "crafting",
-            "recipe": "guideapi:bloodmagic_guide",
-            "text": "You can learn more about $(item)Blood Magic$() by reading the Sanguine Scientem."
+            "recipe": "guideapi:bloodmagic_guide"
         }
     ]
 }

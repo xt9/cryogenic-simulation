@@ -16,7 +16,7 @@
             "type": "entity",
             "entity": "varodd:troll",
             "scale": 0.90,
-            "text": "$(item)Found$() in the $(item)Dark Thicket$(). Can regenerate health and hits hard. Also spawn in Caves."
+            "text": "$(item)Found$() in the $(item)Dark Thicket$(). Can regenerate health and hits hard. Also found in $(item)Caves$()."
         },
         {
             "type": "entity",

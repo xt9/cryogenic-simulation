@@ -42,6 +42,18 @@
             "recipe2": "crafttweaker:danknull_tier4"
         },
         {
+            "type": "materials",
+            "title": "Night Ritual",
+            "item1": "minecraft:lapis_block",
+            "item2": "bloodmagic:ritual_controller:1",
+            "notes": "Don't have the patience to wait for pesky stuff like the passage of time? Use this ritual to instantly make it $(item)Nighttime$().$(br2)Takes a small amount of $(item)LP$() to activate, the $(item)Lapis Block$() should be on top of the $(item)Imperfect Ritual Stone$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:exutil_mechuser",
+            "text": "You can't always be everywhere at once. This little guy can $(item)Automate$() tasks that you would normally do with your own $(item)Hands$().$(br2)Unlocks quite late in this $(item)Simulation$()."
+        },
+        {
             "type": "crafting",
             "recipe": "crafttweaker:rft_quarry_card",
             "text": "If you're willing to go the extra mile in this simulation you can get a $(item)Quarry card$().$(br2)This will allow you to $(item)GREATLY$() improve your $(item)Resource Gathering Capabilities$()."
