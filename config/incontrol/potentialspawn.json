@@ -1,5 +1,19 @@
 [
     {
+        "dimension": 90,
+        "biome": [
+            "Canyon"
+        ],
+        "mobs": [
+            {
+                "mob": "varodd:scorpion_giant",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
         "dimension": 89,
         "mobs": [
             {
@@ -21,20 +35,6 @@
                 "weight": 1,
                 "groupcountmin": 1,
                 "groupcountmax": 2
-            }
-        ]
-    },
-    {
-        "dimension": 90,
-        "biome": [
-            "Canyon"
-        ],
-        "mobs": [
-            {
-                "mob": "varodd:scorpion_giant",
-                "weight": 1,
-                "groupcountmin": 1,
-                "groupcountmax": 1
             }
         ]
     }

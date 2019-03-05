@@ -6,8 +6,7 @@
 				0,
 				1,
 				2,
-				3,
-				4
+				3
 			],
 			"primary": {
 				"walls": {
@@ -35,6 +34,39 @@
 					"data": {
 						"name": "chisel:basalt1",
 						"meta": 7
+					}
+				}
+			}
+		},
+		{
+			"level": [
+				4
+			],
+			"primary": {
+				"walls": {
+					"type": "METABLOCK",
+					"data": {
+						"name": "astralsorcery:blockmarble",
+						"meta": 1
+					}
+				},
+				"stair": {
+					"type": "METABLOCK",
+					"data": {
+						"name": "astralsorcery:blockmarblestairs"
+					}
+				},
+				"pillar": {
+					"type": "METABLOCK",
+					"data": {
+						"name": "astralsorcery:blockmarble",
+						"meta": 2
+					}
+				},
+				"floor": {
+					"type": "METABLOCK",
+					"data": {
+						"name": "astralsorcery:blockblackmarble"
 					}
 				}
 			}

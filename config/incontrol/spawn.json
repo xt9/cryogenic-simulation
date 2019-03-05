@@ -1,24 +1,24 @@
 [
     {
         "spawner": true,
+        "maxlight": 7,
         "result": "default"
-    },
-    {
-        "mob": "varodd:troll",
-        "dimension": 89,
-        "mincount": 40,
-        "result": "deny"
-    },
-    {
-        "mob": "varodd:raven",
-        "dimension": 89,
-        "mincount": 22,
-        "result": "deny"
     },
     {
         "mob": "varodd:scorpion_giant",
         "dimension": 90,
         "mincount": 18,
+        "result": "deny"
+    },
+    {
+        "mob": "varodd:scorpion_giant",
+        "dimension": 90,
+        "result": "allow"
+    },
+    {
+        "mob": "varodd:troll",
+        "dimension": 89,
+        "mincount": 25,
         "result": "deny"
     },
     {
@@ -41,12 +41,13 @@
     {
         "mob": "varodd:raven",
         "dimension": 89,
-        "minheight": 60,
-        "result": "allow"
+        "mincount": 22,
+        "result": "deny"
     },
     {
-        "mob": "varodd:scorpion_giant",
-        "dimension": 90,
+        "mob": "varodd:raven",
+        "dimension": 89,
+        "minheight": 60,
         "result": "allow"
     },
     {
@@ -64,9 +65,13 @@
     },
     {
         "passive": true,
-        "canspawnhere": true,
         "dimension": 88,
-        "result": "allow"
+        "result": "default"
+    },
+    {
+        "mod": "bewitchment",
+        "onjoin": true,
+        "result": "deny"
     },
     {
         "result": "deny"

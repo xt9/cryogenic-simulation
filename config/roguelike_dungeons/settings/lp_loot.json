@@ -10,16 +10,7 @@
 				3,
 				4
 			],
-			"loot": [
-				{
-					"data": {
-						"name": "minecraft:cookie",
-						"min": 1,
-						"max": 2
-					},
-					"weight": 1
-				}
-			],
+			"loot": [],
 			"each": true,
 			"quantity": 3
 		},
@@ -32,22 +23,7 @@
 				3,
 				4
 			],
-			"loot": [
-				{
-					"data": {
-						"type": "potion",
-						"name": "strength"
-					},
-					"weight": 1
-				},
-				{
-					"data": {
-						"type": "potion",
-						"name": "regeneration"
-					},
-					"weight": 1
-				}
-			],
+			"loot": [],
 			"each": true,
 			"quantity": 4
 		},
@@ -99,14 +75,7 @@
 				3,
 				4
 			],
-			"loot": [
-				{
-					"data": {
-						"name": "contenttweaker:blood_raven_feather"
-					},
-					"weight": 1
-				}
-			],
+			"loot": [],
 			"each": true,
 			"quantity": 8
 		},
@@ -119,24 +88,7 @@
 				3,
 				4
 			],
-			"loot": [
-				{
-					"data": {
-						"name": "minecraft:experience_bottle",
-						"min": 5,
-						"max": 15
-					},
-					"weight": 2
-				},
-				{
-					"data": {
-						"name": "minecraft:book",
-						"min": 3,
-						"max": 5
-					},
-					"weight": 1
-				}
-			],
+			"loot": [],
 			"each": true,
 			"quantity": 1
 		},
@@ -167,6 +119,7 @@
 			"quantity": 1
 		},
 		{
+			"type": "REWARD",
 			"level": [
 				0,
 				1,
@@ -177,13 +130,284 @@
 			"loot": [
 				{
 					"data": {
-						"name": "contenttweaker:troll_eye"
+						"name": "immersiveengineering:metal_decoration0",
+						"meta": 5,
+						"min": 1,
+						"max": 3
+					},
+					"weight": 4
+				},
+				{
+					"data": {
+						"name": "immersiveengineering:material",
+						"meta": 27,
+						"min": 1,
+						"max": 2
+					},
+					"weight": 4
+				},
+				{
+					"data": {
+						"name": "thermalfoundation:material",
+						"meta": 160,
+						"min": 7,
+						"max": 18
+					},
+					"weight": 4
+				},
+				{
+					"data": {
+						"name": "thermalexpansion:frame"
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "v0idssmartbackpacks:backpack_advanced"
+					},
+					"weight": 1
+				},
+				{
+					"data": {
+						"name": "thermalexpansion:tank",
+						"nbt": "{Level: 1}"
+					},
+					"weight": 1
+				},
+				{
+					"data": {
+						"name": "metalchests:metal_chest",
+						"meta": 4
+					},
+					"weight": 1
+				}
+			],
+			"each": true,
+			"quantity": 4
+		},
+		{
+			"level": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"loot": [
+				{
+					"data": {
+						"name": "cryosimadditions:block_blood_resin_log",
+						"min": 4,
+						"max": 9
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "minecraft:leather",
+						"min": 2,
+						"max": 5
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "minecraft:paper",
+						"min": 3,
+						"max": 9
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "minecraft:book",
+						"min": 2,
+						"max": 6
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "minecraft:string",
+						"min": 3,
+						"max": 9
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "astralsorcery:itemcraftingcomponent",
+						"min": 3,
+						"max": 6
+					},
+					"weight": 2
+				},
+				{
+					"data": {
+						"name": "minecraft:cooked_beef",
+						"min": 3,
+						"max": 9
+					},
+					"weight": 2
+				},
+				{
+					"data": {
+						"name": "minecraft:torch",
+						"min": 6,
+						"max": 9
+					},
+					"weight": 2
+				},
+				{
+					"data": {
+						"name": "extrautils2:compressedcobblestone",
+						"meta": 1,
+						"min": 2,
+						"max": 7
 					},
 					"weight": 2
 				}
 			],
 			"each": true,
-			"quantity": 4
+			"quantity": 2
+		},
+		{
+			"level": [
+				1,
+				2,
+				3,
+				4
+			],
+			"loot": [
+				{
+					"data": {
+						"name": "contenttweaker:blood_raven_feather",
+						"min": 3,
+						"max": 6
+					},
+					"weight": 4
+				},
+				{
+					"data": {
+						"name": "thermalfoundation:material",
+						"meta": 320,
+						"min": 3,
+						"max": 6
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "minecraft:iron_ingot",
+						"min": 4,
+						"max": 7
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "minecraft:furnace",
+						"min": 1,
+						"max": 3
+					},
+					"weight": 3
+				}
+			],
+			"each": true,
+			"quantity": 1
+		},
+		{
+			"level": [
+				2,
+				3,
+				4
+			],
+			"loot": [
+				{
+					"data": {
+						"name": "minecraft:obsidian",
+						"min": 4,
+						"max": 9
+					},
+					"weight": 4
+				},
+				{
+					"data": {
+						"name": "minecraft:gold_ingot",
+						"min": 3,
+						"max": 6
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "contenttweaker:troll_eye",
+						"min": 2,
+						"max": 5
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "contenttweaker:block_blaze_powder",
+						"min": 4,
+						"max": 8
+					},
+					"weight": 3
+				}
+			],
+			"each": true,
+			"quantity": 1
+		},
+		{
+			"level": [
+				3,
+				4
+			],
+			"loot": [
+				{
+					"data": {
+						"name": "minecraft:piston",
+						"min": 1,
+						"max": 1
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "astralsorcery:itemusabledust",
+						"min": 2,
+						"max": 4
+					},
+					"weight": 3
+				},
+				{
+					"data": {
+						"name": "astralsorcery:itemcraftingcomponent",
+						"meta": 3,
+						"min": 1,
+						"max": 2
+					},
+					"weight": 2
+				},
+				{
+					"data": {
+						"name": "tconstruct:large_plate",
+						"nbt": "{Material: \"silver\"}"
+					},
+					"weight": 2
+				},
+				{
+					"data": {
+						"name": "minecraft:diamond",
+						"min": 3,
+						"max": 5
+					},
+					"weight": 1
+				}
+			],
+			"each": true,
+			"quantity": 1
 		}
 	]
 }

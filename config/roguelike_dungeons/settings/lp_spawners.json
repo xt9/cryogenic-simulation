@@ -5,24 +5,14 @@
 			"type": "ZOMBIE",
 			"potentials": [
 				{
-					"name": "minecraft:vindication_illager",
-					"equip": false
-				},
-				{
-					"name": "minecraft:witch",
-					"equip": false
-				},
-				{
-					"name": "minecraft:zombie_villager",
+					"name": "minecraft:zombie",
 					"equip": false
 				}
 			],
 			"level": [
 				0,
 				1,
-				2,
-				3,
-				4
+				2
 			]
 		},
 		{
@@ -36,8 +26,7 @@
 				0,
 				1,
 				2,
-				3,
-				4
+				3
 			]
 		},
 		{
@@ -52,8 +41,7 @@
 				0,
 				1,
 				2,
-				3,
-				4
+				3
 			]
 		},
 		{
@@ -68,7 +56,54 @@
 				0,
 				1,
 				2,
-				3,
+				3
+			]
+		},
+		{
+			"type": "ZOMBIE",
+			"potentials": [
+				{
+					"name": "minecraft:skeleton",
+					"equip": false
+				}
+			],
+			"level": [
+				3
+			]
+		},
+		{
+			"type": "ZOMBIE",
+			"potentials": [
+				{
+					"name": "minecraft:witch",
+					"equip": false
+				}
+			],
+			"level": [
+				4
+			]
+		},
+		{
+			"type": "SKELETON",
+			"potentials": [
+				{
+					"name": "minecraft:creeper",
+					"equip": false
+				}
+			],
+			"level": [
+				4
+			]
+		},
+		{
+			"type": "SPIDER",
+			"potentials": [
+				{
+					"name": "minecraft:vindication_illager",
+					"equip": false
+				}
+			],
+			"level": [
 				4
 			]
 		}

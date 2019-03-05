@@ -2,8 +2,8 @@
     "name": "lp:main",
     "exclusive": true,
     "criteria": {
-        "dimensionWL": [
-            89
+        "biomeTypes": [
+            "LUNAR_PLANE"
         ]
     },
     "inherit": [
