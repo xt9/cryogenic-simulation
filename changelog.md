@@ -1,3 +1,7 @@
+# 0.3.1
+- Added back caves to the Contained Ecosystems dimension
+- Removed unbreakable Thermal Ores until I can find another solution (Only one block was intended to be unbreakable)
+
 # 0.3
 ### Lunar Plane
 - Added Caves

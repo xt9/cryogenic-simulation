@@ -4180,12 +4180,12 @@ appliedenergistics2:facade:0, Cable Facade - Quartz Glass
 appliedenergistics2:facade:0, Cable Facade - Fluix Block
 appliedenergistics2:facade:0, Cable Facade - Sky Stone
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Block
+appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
 appliedenergistics2:facade:0, Cable Facade - Polished Sandstone
 appliedenergistics2:facade:0, Cable Facade - Polished Stone
 appliedenergistics2:facade:0, Cable Facade - Thatch
 appliedenergistics2:facade:0, Cable Facade - Granite Bricks
 appliedenergistics2:facade:0, Cable Facade - Sugar Cane Block
-appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
 appliedenergistics2:facade:0, Cable Facade - Sugar Block
 appliedenergistics2:facade:0, Cable Facade - Infested Farmland
 appliedenergistics2:facade:0, Cable Facade - Silver Ore
@@ -6537,6 +6537,44 @@ artisanworktables:artisans_sifter_tin, Artisan's %s Sifter
 artisanworktables:toolbox, Toolbox
 artisanworktables:mechanical_toolbox, Mechanical Toolbox
 baubles:ring:0, Miner's Ring
+quark:smoker, tile.smoker.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:ancient_tome, item.ancient_tome.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, Red Parrot Egg
+quark:parrot_egg:1, Blue Parrot Egg
+quark:parrot_egg:2, Green Parrot Egg
+quark:parrot_egg:3, Cyan Parrot Egg
+quark:parrot_egg:4, Gray Parrot Egg
+quark:spruce_trapdoor, tile.spruce_trapdoor.name
+quark:birch_trapdoor, tile.birch_trapdoor.name
+quark:jungle_trapdoor, tile.jungle_trapdoor.name
+quark:acacia_trapdoor, tile.acacia_trapdoor.name
+quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
+quark:lit_lamp, tile.lit_lamp.name
+quark:custom_chest:0, Spruce Chest
+quark:custom_chest:1, Birch Chest
+quark:custom_chest:2, Jungle Chest
+quark:custom_chest:3, Acacia Chest
+quark:custom_chest:4, Dark Oak Chest
+quark:custom_chest_trap:0, Spruce Trapped Chest
+quark:custom_chest_trap:1, Birch Trapped Chest
+quark:custom_chest_trap:2, Jungle Trapped Chest
+quark:custom_chest_trap:3, Acacia Trapped Chest
+quark:custom_chest_trap:4, Dark Oak Trapped Chest
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
+quark:birch_pressure_plate, tile.birch_pressure_plate.name
+quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
+quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
+quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
+quark:spruce_button, tile.spruce_button.name
+quark:birch_button, tile.birch_button.name
+quark:jungle_button, tile.jungle_button.name
+quark:acacia_button, tile.acacia_button.name
+quark:dark_oak_button, tile.dark_oak_button.name
 quark:sandstone_new:0, Polished Sandstone
 quark:sandstone_new:1, Sandstone Bricks
 quark:sandstone_new:2, Polished Red Sandstone
@@ -6599,44 +6637,6 @@ quark:reed_block_stairs, tile.reed_block_stairs.name
 quark:reed_block_slab:0, Sugar Cane Slab
 quark:reed_block_wall, tile.reed_block_wall.name
 quark:trowel, item.trowel.name
-quark:smoker, tile.smoker.name
-quark:spruce_trapdoor, tile.spruce_trapdoor.name
-quark:birch_trapdoor, tile.birch_trapdoor.name
-quark:jungle_trapdoor, tile.jungle_trapdoor.name
-quark:acacia_trapdoor, tile.acacia_trapdoor.name
-quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
-quark:lit_lamp, tile.lit_lamp.name
-quark:custom_chest:0, Spruce Chest
-quark:custom_chest:1, Birch Chest
-quark:custom_chest:2, Jungle Chest
-quark:custom_chest:3, Acacia Chest
-quark:custom_chest:4, Dark Oak Chest
-quark:custom_chest_trap:0, Spruce Trapped Chest
-quark:custom_chest_trap:1, Birch Trapped Chest
-quark:custom_chest_trap:2, Jungle Trapped Chest
-quark:custom_chest_trap:3, Acacia Trapped Chest
-quark:custom_chest_trap:4, Dark Oak Trapped Chest
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
-quark:birch_pressure_plate, tile.birch_pressure_plate.name
-quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
-quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
-quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
-quark:spruce_button, tile.spruce_button.name
-quark:birch_button, tile.birch_button.name
-quark:jungle_button, tile.jungle_button.name
-quark:acacia_button, tile.acacia_button.name
-quark:dark_oak_button, tile.dark_oak_button.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:ancient_tome, item.ancient_tome.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, Red Parrot Egg
-quark:parrot_egg:1, Blue Parrot Egg
-quark:parrot_egg:2, Green Parrot Egg
-quark:parrot_egg:3, Cyan Parrot Egg
-quark:parrot_egg:4, Gray Parrot Egg
 quark:sugar_block, tile.sugar_block.name
 quark:redstone_randomizer, tile.redstone_randomizer.name
 quark:iron_button, tile.iron_button.name
@@ -8000,34 +8000,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Knife Blade Pattern
 tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Arrow Head Pattern
 tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Knife Blade Pattern
 tconstruct:pattern:0, Axe Head Pattern
 tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
 tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
 tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Tool Rod Pattern
 tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Kama Head Pattern
 tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Cross Guard Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:shard:0, Energetic Shard
 tconstruct:shard:0, Vibrant Shard
@@ -9432,64 +9432,64 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Knife Blade Cast
 tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Arrow Head Cast
 tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Knife Blade Cast
 tconstruct:cast:0, Axe Head Cast
 tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Tough Tool Rod Cast
 tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Tool Rod Cast
 tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Cross Guard Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Knife Blade Clay Cast
 tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
 tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
 tconstruct:clay_cast:0, Axe Head Clay Cast
 tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
 tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
 tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -10704,14 +10704,14 @@ pneumaticcraft:air_grate_module, Air Grate Tube Module
 pneumaticcraft:regulator_tube_module, Regulator Tube Module
 pneumaticcraft:charging_module, Charging Module
 pneumaticcraft:logistics_module, Logistics Module
+pneumaticcraft:fluid.lubricant, Lubricant
+pneumaticcraft:fluid.fuel, Gasoline
 pneumaticcraft:fluid.kerosene, Kerosene
 pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.lubricant, Lubricant
 pneumaticcraft:fluid.oil, Oil
-pneumaticcraft:fluid.diesel, Diesel
 pneumaticcraft:fluid.lpg, LPG
-pneumaticcraft:fluid.fuel, Gasoline
+pneumaticcraft:fluid.diesel, Diesel
+pneumaticcraft:fluid.etchacid, Etching Acid
 storagedrawers:upgrade_template, Upgrade Template
 storagedrawers:upgrade_storage:0, Storage Upgrade (I)
 storagedrawers:upgrade_storage:1, Storage Upgrade (II)
