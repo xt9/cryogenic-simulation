@@ -13,7 +13,7 @@
             "type": "spotlight",
             "item": "contenttweaker:blessed_portal_stone",
             "title": "Good luck you dummy",
-            "text": "To enter the next $(item)Simulation$() you need to find a way to gather $(item)Ardite Ore$() and $(item)Cobalt Ore$() from the $(item)Void$(), you should also look into ways of gathering a lot of $(item)Cobblestone$()."
+            "text": "To enter the next $(item)Simulation$() you need to find a way to gather $(item)Ardite Ore$() and $(item)Cobalt Ore$() from the $(item)Void$(), you should also look into ways of gathering a lot of $(item)Cobblestone$().$(br2)You may need to construct a $(item)Spectral Relay$() to boost the starlight available to your $(item)Starlight Crafting Altar$()."
         },
         {
             "type": "spotlight",

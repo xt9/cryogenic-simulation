@@ -29,15 +29,15 @@ recipes.addShaped("eu2_crafter", <extrautils2:crafter>, [
 ]);
 
 recipes.addShaped("eu2_ethereal_glass", <extrautils2:ineffableglass> * 8, [
-    [<tconstruct:clear_glass>, <tconstruct:clear_glass>, <tconstruct:clear_glass>],
-    [<tconstruct:clear_glass>, <chisel:cloud>, <tconstruct:clear_glass>],
-    [<tconstruct:clear_glass>, <tconstruct:clear_glass>, <tconstruct:clear_glass>]
-]);
-
-recipes.addShaped("eu2_ineffable_glass", <extrautils2:ineffableglass:2> * 8, [
     [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
     [<minecraft:glass>, <chisel:cloud>, <minecraft:glass>],
     [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+]);
+
+recipes.addShaped("eu2_ineffable_glass", <extrautils2:ineffableglass:2> * 8, [
+    [<tconstruct:clear_glass>, <tconstruct:clear_glass>, <tconstruct:clear_glass>],
+    [<tconstruct:clear_glass>, <chisel:cloud>, <tconstruct:clear_glass>],
+    [<tconstruct:clear_glass>, <tconstruct:clear_glass>, <tconstruct:clear_glass>]
 ]);
 
 recipes.addShaped("eu2_dark_ineffable_glass", <extrautils2:ineffableglass:3> * 8, [

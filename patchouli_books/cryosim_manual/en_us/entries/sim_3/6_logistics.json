@@ -7,7 +7,83 @@
     "pages": [
         {
             "type": "text",
-            "text": ""
+            "text": "The first thing you want to do is make $(item)Processors$(), they are the brains of the machines that will handle our automation setups aswell as item/fluid storage and general infrastructure of our base.$(br2)We still make them to this day because they are really cost effective. To start you will have to craft the $(item)Presses$() used to make the $(item)Processors$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "tconstruct:large_plate{Material:iron}",
+            "text": "To create the four presses you will need to chisel in 4 different patterns into large iron plates.$(br2)The presses are reusable and won't break over time.$(br2)All processors have a $(item)Circuit Base$() made out of silicon and circuitry."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ae2_silicon_circuit",
+            "text": "You should probably set up a $(item)Crafter$() that houses all of your presses, since the $(item)Molecular Assemblers$() of your future $(item)Logistics Network$() does not deal with reusable components well."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ae2_calculation_circuit",
+            "recipe2": "crafttweaker:ae2_logic_circuit",
+            "title": " "
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ae2_engineering_circuit",
+            "title": "Engineering Circuit",
+            "text": "Finally you will want to fuse the $(item)Circuit Bases$() with the $(item)Logic/Calculation/Engineering$() circuits to produce the final product.$(br2)They are fused in an$(br)$(item)Induction Smelter$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:pn_network_io_port",
+            "text": "Most logistical machines you can create will require a module to transfer data within the network, this is what the $(item)Network IO Port$() is for."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ae2_controller",
+            "text": "The heart of any logistical network, multiple controllers can connect with each other to form a multiblock $(l:https://ae-mod.info/ME-Controller/)Controller$().$(br2)Every face of this block is capable of emitting 32 $(l:https://ae-mod.info/Channels/)Channels$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ae2_disk_drive",
+            "text": "The $(l:https://ae-mod.info/ME-Drive/)Disk Drive$() can hold $(item)Storage Cells$() that in turn store items.$(br2)Storage cells excel at storing a medium amount of items. For mass storage we recommend using $(item)Storage Buses$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ae2_crafting_unit",
+            "title": "Crafting CPU",
+            "text": "$(item)Crafting CPUs$() manage and compute tasks until completion.$(br2)Crafting units are multiblock structures that need atleast one $(item)Crafting Storage$() to function."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ae2_interface",
+            "text": "$(item)Interfaces$() are the worker bees of your logistical system, they $(item)transfer$() items in and out of your network.$(br2)Interfaces can automate machines and more complex crafting."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ae2_molecular_assembler",
+            "text": "Can automatically craft recipes when given an Encoded Pattern.$(br2)Encoded Patterns can also be given to an Interface that in turn can extract/insert the pattern in adjacent molecular assemblers."
+        },
+        {
+            "type": "crafting",
+            "recipe": "appliedenergistics2:network/crafting/patterns_blank",
+            "recipe2": "appliedenergistics2:network/parts/terminals_pattern"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ae2_smart_cable",
+            "title": "Smart Cable",
+            "text": "All purpose cable for connecting parts of your network, it can transfer $(item)8$() channels.$(br2)Displays channel usage as lines."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ae2_dense_cable",
+            "title": "Dense Smart Cable",
+            "text": "Sturdier cable for connecting parts of your network, it can transfer $(item)32$() channels.$(br2)Displays channel usage as lines."
+        },
+        {
+            "type": "spotlight",
+            "item": "aenetvistool:net_visualizer",
+            "title": "Final notes.",
+            "text": "We know it is a lot to take in but we're sure you'll make an adequate effort in setting up a proper $(item)Network$().$(br2)When you unlocked the $(item)Logistics$() knowledge we gave you a Visualization tool to help you debug any potential channel issues."
         }
     ]
 }

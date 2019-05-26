@@ -16,7 +16,7 @@ Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_basicwand");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
 
-Altar.addAttunementAltarRecipe("cryogenic:ct/portal_stone", <contenttweaker:blessed_portal_stone>, 1200, 240, [
+Altar.addAttunementAltarRecipe("cryogenic:ct/portal_stone", <contenttweaker:blessed_portal_stone>, 1800, 240, [
     <contenttweaker:troll_eye>, <ore:ingotAstralStarmetal>, <contenttweaker:troll_eye>,
     <ore:slateTier2>, <extrautils2:compressedcobblestone:3>, <ore:slateTier2>,
     <ore:blockManyullyn>, <ore:ingotAstralStarmetal>, <ore:blockManyullyn>,

@@ -29,6 +29,8 @@ recipes.remove(<appliedenergistics2:part:220>);
 recipes.remove(<appliedenergistics2:part:221>);
 # Remove molecular assembler recipe
 recipes.remove(<appliedenergistics2:molecular_assembler>);
+# Remove crafting unit recipe
+recipes.remove(<appliedenergistics2:crafting_unit>);
 
 recipes.addShapeless("ae2_network_tool", <appliedenergistics2:network_tool>, [<thermalfoundation:wrench>, <ore:itemIlluminatedPanel>]);
 
@@ -59,9 +61,9 @@ recipes.addShaped("ae2_crafting_unit", <appliedenergistics2:crafting_unit>, [
 ]);
 
 recipes.addShaped("ae2_molecular_assembler", <appliedenergistics2:molecular_assembler>, [
-    [<ore:crystalCertusQuartz>, <ore:workbench>, <ore:crystalCertusQuartz>],
+    [<ore:crystalFluix>, <ore:workbench>, <ore:crystalFluix>],
     [<appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>],
-    [<ore:crystalCertusQuartz>, <pneumaticcraft:network_component:3>, <ore:crystalCertusQuartz>]
+    [<ore:crystalFluix>, <pneumaticcraft:network_component:3>, <ore:crystalFluix>]
 ]);
 
 recipes.addShaped("ae2_quartz_fiber", <appliedenergistics2:part:140> * 4, [

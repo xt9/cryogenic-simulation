@@ -126,14 +126,14 @@ pressurechamber.addRecipe([
 pressurechamber.addRecipe([
     <immersiveengineering:material:9>,
     <pneumaticcraft:plastic:8>,
-    <ore:crystalCertusQuartz>.firstItem * 2
+    <ore:crystalFluix>.firstItem * 2
 ], 3.0, [<pneumaticcraft:transistor>]);
 
 # Capacitor
 pressurechamber.addRecipe([
     <immersiveengineering:material:9>,
     <pneumaticcraft:plastic:12>,
-    <ore:crystalCertusQuartz>.firstItem * 2
+    <ore:crystalFluix>.firstItem * 2
 ], 3.0, [<pneumaticcraft:capacitor>]);
 
 # Conduit binder

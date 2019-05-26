@@ -50,7 +50,7 @@
             "type": "crafting",
             "recipe": "crafttweaker:eio_item_conduit",
             "title": "Conduits",
-            "text": "Your ducts are working great but wait until you give this bad boy a spin. Conduits can share the same blockspace with other conduits, so for example an energy conduit can share a blockspace with an item conduit. Nuts!"
+            "text": "Your ducts are working great but wait until you give this bad boy a spin. $(item)Conduits$() can share the same blockspace with other conduits, so for example an energy conduit can share a blockspace with an item conduit. Nuts!"
         },
         {
             "type": "crafting",

@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -159,6 +159,7 @@ key_Dress World:210
 key_Inspect Block:199
 key_key.xtones.scroll:42
 key_key.narrator:0
+key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:0
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -170,7 +171,6 @@ key_key.jei.previousPage:0
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.toggle_focus.desc:15
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:33
 key_nei.options.keys.gui.botania_corporea_request:46

@@ -1,0 +1,1 @@
+give @p aenetvistool:net_visualizer

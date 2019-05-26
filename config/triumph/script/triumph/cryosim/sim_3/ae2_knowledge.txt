@@ -13,4 +13,5 @@ criteria.setStage("ae2_stage")
 setCompletedIconColor(#32d9e5)
 setCompletedTitleColor(#32d9e5)
 
+addRewardFunction("triumph:cryosim/sim_3/ae2_reward")
 setPos(121,-1)

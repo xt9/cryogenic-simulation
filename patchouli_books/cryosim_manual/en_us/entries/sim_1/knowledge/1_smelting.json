@@ -14,7 +14,7 @@
         {
             "type": "spotlight",
             "item": "tconstruct:smeltery_controller",
-            "text": "This knowledge is required before you can make a $(l:sim_1/4_smeltery)Smeltery$() and start smelting $(item)Metals$().$(br2)This magic $(l:http://tinkers-construct.wikia.com/wiki/Smeltery)Link$() will tell you everything you need to know about setting up a $(l:sim_1/4_smeltery)Smeltery$()."
+            "text": "This knowledge is required before you can make a $(l:sim_1/4_smeltery)Smeltery$() and start smelting $(item)Metals$().$(br2)This magic $(l:http://tinkers-construct.wikia.com/wiki/Smeltery)Wormhole$() will tell you everything you need to know about setting up a $(l:sim_1/4_smeltery)Smeltery$()."
         }
     ]
 }

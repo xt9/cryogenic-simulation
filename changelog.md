@@ -1,7 +1,8 @@
 # 0.4
+A bit thin since a lot of the patch is progression addition and not actual changes.
 ### Combat simulation
 - No longer a side dimension like mentioned in watercoolers
-- Will be the dimension you progress after the arid waste.
+- Will be the dimension you progress after the Arid Waste.
 ### Arid Waste
 - Arid waste dimension added
 - Added Patchouli chapter for dimension.
@@ -24,10 +25,11 @@
 - Redid the texture for the manual.
 - Tweaked water bottles to yield 250mb of liquid with endercode so it's more like Inspirations.
 
-## Mods (Added or Removed)
+## Mods (Added or Removed, some probably missing)
 - Added Simple Trophies
 - Added Infinite Water Source
 - Added Mekanism
+- Added Botania
 - Added The Midnight
 - Added AE2 Network Visualiser
 - Removed Bewitchment
