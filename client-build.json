@@ -2,7 +2,7 @@
     "packAuthor": "IterationFunk",
     "minecraftVersion": "1.12.2",
     "modLoader": "forge",
-    "modLoaderVersion": "14.23.5.2815",
+    "modLoaderVersion": "14.23.5.2837",
     "includes": [
         "config",
         "patchouli_books",
