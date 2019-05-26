@@ -1,5 +1,16 @@
 [
     {
+        "dimension": 91,
+        "mobs": [
+            {
+                "mob": "minecraft:enderman",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
         "dimension": 90,
         "biome": [
             "Canyon"

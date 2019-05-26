@@ -30,12 +30,6 @@ recipes.addShaped("ct_faux_steel", <contenttweaker:faux_steel>, [
     [<ore:ingotSteel>, <ore:plateTin>, <ore:ingotSteel>]
 ]);
 
-recipes.addShaped("ct_blessed_portal_stone", <contenttweaker:blessed_portal_stone>, [
-    [<contenttweaker:troll_eye>, <ore:ingotAstralStarmetal>, <contenttweaker:troll_eye>],
-    [<ore:slateTier2>, <extrautils2:compressedcobblestone:3>, <ore:slateTier2>],
-    [<ore:blockManyullyn>, <ore:ingotAstralStarmetal>, <ore:blockManyullyn>]
-]);
-
 recipes.addShapeless("ct_blaze_powder_block_uncraft", <minecraft:blaze_powder> * 4, [<contenttweaker:block_blaze_powder>]);
 
 recipes.addShapeless("ct_seared_plate", <contenttweaker:seared_plate>, [
@@ -44,4 +38,8 @@ recipes.addShapeless("ct_seared_plate", <contenttweaker:seared_plate>, [
 
 recipes.addShapeless("ct_bloody_mud", <contenttweaker:bloody_mud>, [
     <ore:slimeballBlood>, <ore:itemClay>, <ore:itemClay>
+]);
+
+recipes.addShapeless("ct_energetic_compound", <contenttweaker:energetic_compound>, [
+    <ore:dustRedstone>, <ore:dustGlowstone>
 ]);

@@ -1,3 +1,3 @@
-give @p astralsorcery:itemjournal 1 0 {astralsorcery: {}}
+give @p astralsorcery:itemjournal 1
 
-astralsorcery research @p BASIC_CRAFT
+as research @p BASIC_CRAFT

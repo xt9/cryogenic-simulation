@@ -1,6 +1,6 @@
 {
-    "name": "Step #8: Brittle Plastic",
-    "icon": "industrialforegoing:tree_fluid_extractor",
+    "name": "8: Brittle Plastic",
+    "icon": "industrialforegoing:plastic",
     "category": "sim_2",
     "advancement": "triumph:cryosim/sim_2/visit",
     "sortnum": 8,
@@ -23,7 +23,7 @@
         {
             "type": "spotlight",
             "item": "industrialforegoing:plastic",
-            "text": "This $(item)Plastic$() is not very sturdy and is only fit to be used in the construction of some $(item)Machines$().$(br2)However you can later reuse it to create a much more robust type of $(item)Plastic$()."
+            "text": "This $(item)Plastic$() is not very sturdy and is only fit to be used in the construction of some machines.$(br2)However you can later reuse it to create a much more robust type of $(item)Plastic$()."
         }
     ]
 }

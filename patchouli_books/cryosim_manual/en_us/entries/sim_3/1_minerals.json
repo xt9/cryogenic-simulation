@@ -1,0 +1,52 @@
+{
+    "name": "1: School of Hard Rocks",
+    "icon": "minecraft:tnt",
+    "category": "sim_3",
+    "advancement": "triumph:cryosim/sim_3/visit",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "traverse:red_rock",
+            "title": "School of Hard Rocks",
+            "text": "Your first task in the $(item)Arid Waste$() is to process the $(l:sim_3/resources/0_surface_level)Red Rock$() that are found in the Canyons.$(br2)Crush it into dust then run it through a $(item)sieve$().$(br2)The rock contains valuable minerals, some of which you can use to produce TNT."
+        },
+        {
+            "type": "crafting",
+            "recipe": "exnihilocreatio:sieve",
+            "text": "This sieve is less primitive than the one used in the 1st simulation. Use with an auto sifter to $(item)automate$() this process."
+        },
+        {
+            "type": "crafting",
+            "recipe": "exnihilocreatio:item_mesh_3",
+            "title": "Meshes",
+            "text": "The sieve requires a mesh to function.$(br2)The $(item)Red Canyon Dust$() you receive from crushing the $(item)Red Rock$() is quite coarse so a mesh made out of Iron is required."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:exnihilo_auto_sifter",
+            "text": "A motor that will shake connected sieves, the motor runs on kinetic energy from connected $(item)Waterwheels$().$(br2)$(item)Stone Axles$() are used to connect the $(item)Waterwheels$() with the $(item)Auto Sifter$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "exnihilocreatio:axle_stone",
+            "recipe2": "exnihilocreatio:whaterwheel"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:vanilla_gunpowder",
+            "text": "You can use the minerals sifted from the $(item)Red Canyon Dust$() to make gunpowder, although salt is $(item)NOT$() available to you until you have finished producing $(item)Lubricant$() which is your next $(l:sim_3/2_lube)task$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:vanilla_tnt",
+            "text": "The gunpowder can be used to create TNT, this will be useful in later tasks but once you get your hands on some salt you can use it to create some $(item)Compressed Iron$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:ingot_iron_compressed",
+            "title": "Compressed Iron",
+            "text": "Created by exploding $(item)Iron Ingots$() or $(item)Iron Blocks$(), not all iron will survive this process.$(br2)Make sure you get a good supply of the $(item)sifted materials$() before the next $(l:sim_3/2_lube)task$()."
+        }
+    ]
+}

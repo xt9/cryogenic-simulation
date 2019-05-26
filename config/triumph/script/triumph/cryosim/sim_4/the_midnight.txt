@@ -1,0 +1,17 @@
+addParent("triumph:cryosim/sim_4/visit")
+
+setIcon(<midnight:midnight_mycelium>)
+setTitle("The Midnight")
+setDescription("A world hiding in plain sight.")
+
+setAnnounceToChat(false)
+setShowToast(true)
+
+criteria = addCriteria("entered_dim", "minecraft:location")
+criteria.setDimID(92)
+
+setCompletedIconColor(#32d9e5)
+setCompletedTitleColor(#32d9e5)
+
+addRewardFunction("triumph:cryosim/sim_4/visit_midnight_reward")
+setPos(162,-1)

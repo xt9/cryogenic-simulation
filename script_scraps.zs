@@ -1,3 +1,18 @@
+# ORing ingredients
+/* var marble = <ore:blockMarble> | <ore:stoneMarble> | <chisel:marble2:7>;
+recipes.addShaped("as_sooty_marble", <astralsorcery:blockblackmarble> * 8, [
+    [marble, marble, marble],
+    [marble, <ore:coal>, marble],
+    [marble, marble, marble],
+]); */
+
+# Sets Certus Quartz ore to be unbreakable, can only be processed using TNT
+/* var quartzDef = <appliedenergistics2:quartz_ore>.asBlock().definition;
+quartzDef.setUnbreakable(); */
+
+# Remove lens recipes, keep recolor recipes
+/* recipes.removeByRegex("^industrialforegoing:laser_lens_(\\d+)$"); */
+
 # Iterate OreDictEntry
 /* 
     for stack in <ore:fuelCoke>.items { OreDictUtil.remove(<ore:fuelCoke>, stack); }

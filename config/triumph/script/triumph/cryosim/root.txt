@@ -6,11 +6,12 @@ setBackground("minecraft:textures/gui/advancements/backgrounds/stone.png")
 setAnnounceToChat(true)
 setShowToast(true)
 
-addCriteria("location", "minecraft:location")
+criteria = addCriteria("entered_dim", "minecraft:location")
+criteria.setDimID(0)
 
 setCompletedIconColor(#32d9e5)
 setCompletedTitleColor(#32d9e5)
 setCompletedLineColor(#32d9e5)
 
 addRewardFunction("triumph:cryosim/init")
-setPos(0,27)
+setPos(-2,27)

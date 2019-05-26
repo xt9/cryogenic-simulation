@@ -44,30 +44,6 @@
                     90
                 ]
             }
-        },
-        "mithril_ore": {
-            "distribution": "uniform",
-            "generator": {
-                "block": {
-                    "name": "thermalfoundation:ore",
-                    "properties": {
-                        "type": "mithril"
-                    }
-                },
-                "material": "minecraft:stone",
-                "cluster-size": 4
-            },
-            "cluster-count": 20,
-            "min-height": 0,
-            "max-height": 48,
-            "retrogen": true,
-            "biome": "all",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [
-                    90
-                ]
-            }
         }
     }
 }

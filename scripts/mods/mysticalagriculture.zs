@@ -5,6 +5,12 @@ import mods.thermalexpansion.Transposer;
 import scripts.helpers;
 
 # ----------------
+# Furnace removal
+# ----------------
+furnace.remove(<mysticalagriculture:crafting:38>);
+furnace.remove(<mysticalagriculture:crafting:28>);
+
+# ----------------
 # Recipe removal
 # ----------------
 var recipeRemovals = [
@@ -14,13 +20,22 @@ var recipeRemovals = [
     <mysticalagriculture:chunk:2>,
     <mysticalagriculture:chunk:3>,
     <mysticalagriculture:chunk:4>,
+    <mysticalagradditions:insanium:1>,
     <mysticalagradditions:insanium:4>,
     <mysticalagriculture:soulium_dagger>,
     <mysticalagriculture:crafting:16>,
     <mysticalagriculture:crafting:17>,
+    <mysticalagriculture:crafting:18>,
+    <mysticalagriculture:crafting:19>,
+    <mysticalagriculture:crafting:20>,
+    <mysticalagriculture:crafting:21>,
     <mysticalagriculture:mystical_fertilizer>,
     <mysticalagriculture:infusion_crystal>,
     <mysticalagriculture:tier1_inferium_seeds>,
+    <mysticalagriculture:tier2_inferium_seeds>,
+    <mysticalagriculture:tier3_inferium_seeds>,
+    <mysticalagriculture:tier4_inferium_seeds>,
+    <mysticalagriculture:tier5_inferium_seeds>,
     <mysticalagriculture:crafting:50>,
     <mysticalagriculture:crafting:51>,
     <mysticalagriculture:crafting:52>,
@@ -32,6 +47,7 @@ var recipeRemovals = [
     <mysticalagriculture:watering_can:3>,
     <mysticalagriculture:watering_can:4>,
     <mysticalagriculture:seed_reprocessor>,
+    <mysticalagriculture:growth_accelerator>,
     <mysticalagriculture:inferium_reprocessor>,
     <mysticalagriculture:prudentium_reprocessor>,
     <mysticalagriculture:intermedium_reprocessor>,
@@ -44,7 +60,15 @@ var recipeRemovals = [
     <mysticalagriculture:tinkering_table:3>,
     <mysticalagriculture:tinkering_table:4>,
     <mysticalagradditions:tinkering_table>,
-    <mysticalagriculture:crafting:48>
+    <mysticalagriculture:crafting:48>,
+    <mysticalagriculture:crafting:29>,
+    <mysticalagriculture:crafting:15>,
+    <mysticalagriculture:inferium_furnace>,
+    <mysticalagriculture:prudentium_furnace>,
+    <mysticalagriculture:intermedium_furnace>,
+    <mysticalagriculture:superium_furnace>,
+    <mysticalagriculture:supremium_furnace>,
+    <mysticalagriculture:ultimate_furnace>
 ] as IIngredient[];
 
 for item in recipeRemovals {
@@ -68,12 +92,11 @@ recipes.addShaped("tier1_inferium_seeds", <mysticalagriculture:tier1_inferium_se
     [<ore:blockInferiumEssence>, <ore:essenceInferium>, <ore:blockInferiumEssence>]
 ]);
 
-
-# ----------------
-# Essence Tiering
-# ----------------
-# Inferium -> Prudentium
-Transposer.addFillRecipe(<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting> * 2, <liquid:biocrude> * 20, 2000);
+recipes.addShaped("tier2_inferium_seeds", <mysticalagriculture:tier2_inferium_seeds>, [
+    [<ore:blockPrudentiumEssence>, <ore:essencePrudentium>, <ore:blockPrudentiumEssence>],
+    [<ore:essencePrudentium>, <mysticalagriculture:crafting:17>, <ore:essencePrudentium>],
+    [<ore:blockPrudentiumEssence>, <ore:essencePrudentium>, <ore:blockPrudentiumEssence>]
+]);
 
 # ----------------
 # Tier 1 Recipes

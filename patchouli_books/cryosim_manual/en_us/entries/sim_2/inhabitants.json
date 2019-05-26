@@ -22,7 +22,7 @@
             "type": "entity",
             "entity": "minecraft:evocation_illager",
             "scale": 0.90,
-            "text": "Rarely $(item)Found$() in the $(item)Dark Thicket$() near dark shrines."
+            "text": "Rarely $(item)Found$() in the $(item)Dark Thicket$(), beware of $(item)Dark Shrines$()."
         }
     ]
 }

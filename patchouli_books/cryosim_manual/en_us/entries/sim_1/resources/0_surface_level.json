@@ -31,6 +31,7 @@
             "item6": "minecraft:melon_seeds#1",
             "item7": "exnihilocreatio:item_seed_sugarcane",
             "item8": "exnihilocreatio:item_seed_cactus",
+            "item9": "immersiveengineering:seed",
             "notes": "These seeds can be found by breaking $(item)Grass$()."
         }
     ]

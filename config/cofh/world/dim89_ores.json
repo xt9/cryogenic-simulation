@@ -71,5 +71,26 @@
 				]
 			}
 		},
+		"lunarplane_sooted_marble": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "astralsorcery:blockblackmarble",
+					"metadata": 0
+				},
+				"cluster-size": 18
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 28,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					89
+				]
+			}
+		}
 	}
 }

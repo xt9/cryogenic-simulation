@@ -1,5 +1,5 @@
 {
-    "name": "Step #7: Serious Power",
+    "name": "7: Industrial Power",
     "icon": "immersiveengineering:metal_decoration0:1",
     "category": "sim_2",
     "advancement": "triumph:cryosim/sim_2/visit",
@@ -8,6 +8,12 @@
         {
             "type": "text",
             "text": "You can now make some pretty badass $(item)Machinery$()! Good Job!$(br2)Now you might want something a bit more robust for $(item)Power Generation$(), a solid option at this point would be the $(item)Thermoelectric Generator$()$(br2)The $(item)Thermoelectric Generator$() mixes hot & cold liquids together to create power."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:td_leadstone_fluxduct",
+            "recipe2": "crafttweaker:mm_energyoutput",
+            "text": ""
         },
         {
             "type": "materials_triple_row",
@@ -27,7 +33,7 @@
         },
         {
             "type": "spotlight",
-            "title": "Step #7: Serious Power",
+            "title": "7: Industrial Power",
             "item": "modularmachinery:itemblueprint{dynamicmachine: \"modularmachinery:thermoelectric_generator\"}",
             "text": "To see all of the $(item)Hot$() and $(item)Cold$() liquid combinations that produces $(item)Power$(), check out the uses of the Machine Blueprint$(br)(This item is not required to use the $(item)Generator$())"
         }

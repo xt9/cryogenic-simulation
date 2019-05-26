@@ -28,3 +28,15 @@ soakedFabric.register();
 
 var bloodyMud = VanillaFactory.createItem("bloody_mud");
 bloodyMud.register();
+
+var lubricatedGear = VanillaFactory.createItem("lubricated_gear");
+lubricatedGear.register();
+
+var energeticCompound = VanillaFactory.createItem("energetic_compound");
+energeticCompound.register();
+
+var scorpionVenomGland = VanillaFactory.createItem("scorpion_venom_gland");
+scorpionVenomGland.register();
+
+var bloodDiamond = VanillaFactory.createItem("blood_diamond");
+bloodDiamond.register();

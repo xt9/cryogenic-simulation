@@ -1,0 +1,36 @@
+{
+    "name": "Minerals and Ores",
+    "icon": "appliedenergistics2:charged_quartz_ore",
+    "category": "sim_3/resources",
+    "advancement": "triumph:cryosim/sim_3/visit",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(item)Arid Waste$() has an incredibly hard $(item)Surface Barrier$() that cannot be penetrated by any of the tools you currently posess.$(br2)To make matters worse, the ores you need collect hides under this barrier.$(br2)But do not fret my prehistoric cretin, you can still access these ores."
+        },
+        {
+            "type": "text",
+            "text": "You can call upon the $(item)Old Gods$() you were $(l:sim_2/3_vein_tapping)acquainted with$() in the last simulation through various rituals, and one particular ritual will be very useful to you in this $(item)simulation$().$(br2)Using this ritual is part of your tasks this simulation and more instructions can be found $(l:sim_3/4_resources)here$()."
+        },
+        {
+            "type": "spotlight",
+            "title": "The Barrier",
+            "anchor": "barrier",
+            "item": "minecraft:bedrock",
+            "text": "$(item)The Barrier$() is found at world height $(primary)50$(), man is it thicc, just look at it!$(br2)Try and avoid tripping while you are around it, we would like you to keep your few remaining brain cells $(item)intact$()."
+        },
+        {
+            "type": "spotlight",
+            "title": "Certus Quartz",
+            "item": "appliedenergistics2:quartz_ore",
+            "text": "A valuable and adaptive material, unobtainable through normal means.$(br2)Incredibly hard and can only be mined by $(item)Explosions$()."
+        },
+        {
+            "type": "spotlight",
+            "title": "Charged Certus",
+            "item": "appliedenergistics2:quartz_ore",
+            "text": "Certus Quartz that has been struck by lightning near the top of the surface barrier.$(br2)Incredibly hard and can only be mined by $(item)Explosions$()."
+        }
+    ]
+}

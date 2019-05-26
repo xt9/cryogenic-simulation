@@ -10,6 +10,7 @@
 /journeymap
 /astralsorcery/**
 /.mixin.out/**
+/llibrary/**
 /build
 
 /config/tellme/**
@@ -33,3 +34,5 @@ zs_export.json
 notes.md
 icon.png
 dropt.log
+BotaniaVars.dat
+textures_0.png

@@ -1,5 +1,5 @@
 {
-    "name": "Step #3: Creosote Oil",
+    "name": "3: Creosote Oil",
     "icon": "forge:bucketfilled{FluidName:creosote}",
     "category": "sim_1",
     "advancement": "triumph:cryosim/sim_1/visit",

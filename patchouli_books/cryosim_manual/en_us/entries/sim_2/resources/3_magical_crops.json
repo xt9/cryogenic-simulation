@@ -28,7 +28,7 @@
         {
             "type": "crafting",
             "recipe": "mysticalagriculture:ice_seeds",
-            "recipe2": "mysticalagriculture:sulfur_seeds"
+            "recipe2": "mysticalagriculture:marble_seeds"
         },
         {
             "type": "crafting",
@@ -47,7 +47,7 @@
         },
         {
             "type": "crafting",
-            "recipe": "mysticalagriculture:marble_seeds"
+            "recipe": "mysticalagriculture:basalt_seeds"
         }
     ]
 }

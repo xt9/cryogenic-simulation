@@ -1,5 +1,5 @@
 {
-    "name": "Step #4: Power of the Stars",
+    "name": "4: Power of the Stars",
     "icon": "astralsorcery:blockaltar",
     "category": "sim_2",
     "advancement": "triumph:cryosim/sim_2/visit",
@@ -31,7 +31,7 @@
             "type": "spotlight",
             "item": "astralsorcery:blockcustomore:1",
             "anchor": "starmetal",
-            "text": "This ore is absolutely packed with $(item)Star$() power. It is created by pointing a concetrated beam of starlight toward a $(item)Iron Ore Block$().$(br2)You can find $(item)Floating Crystals$() in the larger shrines found on the $(item)Lunar Plane$(), use a $(item)Linking Tool$() to direct their natural $(item)Starlight$()."
+            "text": "This ore is absolutely packed with $(item)Star$() power. It's created by pointing a concetrated beam of starlight toward a $(item)Iron Ore Block$().$(br2)You can find $(item)Floating Crystals$() in the larger shrines found on the $(item)Lunar Plane$(), use a $(item)Linking Tool$() to direct their natural $(item)Starlight$()."
         }
     ]
 }

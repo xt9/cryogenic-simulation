@@ -1,3 +1,38 @@
+# 0.4
+### Combat simulation
+- No longer a side dimension like mentioned in watercoolers
+- Will be the dimension you progress after the arid waste.
+### Arid Waste
+- Arid waste dimension added
+- Added Patchouli chapter for dimension.
+- Added advancements for dimension.
+- Added progression and general outline for the Arid Waste.
+### Lunar Plane
+- Added brewing recipe for Witch water (Available later on)
+- Replaced Sinks with Infinite Water Source
+- Sooty Marble no longer craftable, now found in lunar plane dungeons or low Y levels
+- Reduced aquamarine frequency, and added a mob spawner to the Dark shrines
+### Contained Ecosystems
+- Removed Creepers from spawn table so the player can only craft gunpowder before reaching the combat simulation. (Still need to clean out dungeon loottables)
+### Misc
+- RFTools machineframes no longer require a blessed machine frame, now requires a Heavy engineering block and brittle plastic instead.
+- Changed relay recipes to require the IE connectors.
+- Moved the Blessed Portal Stone recipe to the Attunement Altar
+- Added Trophies, given to the player when clearing a simulation
+- Changed some dank null recipes
+- Tweaked EnderStorage recipes so they're available in the Arid Waste.
+- Redid the texture for the manual.
+- Tweaked water bottles to yield 250mb of liquid with endercode so it's more like Inspirations.
+
+## Mods (Added or Removed)
+- Added Simple Trophies
+- Added Infinite Water Source
+- Added Mekanism
+- Added The Midnight
+- Added AE2 Network Visualiser
+- Removed Bewitchment
+- Removed Cooking for Blockheads
+
 # 0.3.1
 - Added back caves to the Contained Ecosystems dimension
 - Removed unbreakable Thermal Ores until I can find another solution (Only one block was intended to be unbreakable)

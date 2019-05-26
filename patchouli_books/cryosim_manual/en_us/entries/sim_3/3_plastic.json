@@ -1,0 +1,63 @@
+{
+    "name": "3: Plastic Production",
+    "icon": "pneumaticcraft:thermopneumatic_processing_plant",
+    "category": "sim_3",
+    "advancement": "triumph:cryosim/sim_3/visit",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "pneumaticcraft:plastic:15",
+            "title": "3: Plastic Production",
+            "text": "You kind of dropped the ball on your first batch of plastic, it was brittle and flaky and generally just terrible. Terrible, terrible plastic, bad caveman.$(br2)Luckily you can reuse the $(item)Brittle Plastic$() to make a stronger type of plastic, so this is your chance to redeem yourself."
+        },
+        {
+            "type": "spotlight",
+            "item": "forge:bucketfilled{FluidName:lpg}",
+            "title": "3: Plastic Production",
+            "text": "The first step to this process is refining $(l:sim_3/resources/2_fluids)Oil$() into $(item)LPG$().$(br2)To refine the $(l:sim_3/resources/2_fluids)Oil$() you will need 2-4 $(item)Refineries$() that are sufficiently heated.$(br2)Make sure the refineries are not touching $(item)Air$() as that will lower the total heat of the refinery structure."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:pn_refinery",
+            "recipe2": "crafttweaker:pn_vortex_tube"
+        },
+        {
+            "type": "text",
+            "text": "A $(item)Vortex Tube$() can generate heat to adjacent blocks when supplied with $(item)Pressure$(), heat good, caveman understand?$(br2)You may want to put a heat sink on the cold side of the $(item)Vortex Tube$() to maximize the heat it can put out.$(br2)Pressure is produced by $(item)Air Compressors$().$(br2)If the $(item)Air Compressors$() are left unchecked they will produce to much air pressure and explode."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:pn_air_compressor",
+            "recipe2": "pneumaticcraft:security_upgrade"
+        },
+        {
+            "type": "text",
+            "text": "When supplied with a solid fuel the $(item)Air Compressor$() will produce pressure.$(br2)When supplied with a $(item)Security Upgrade$() the compressor will self regulate and vent out pressure into the world, preventing it from exploding.$(br2)Another useful upgrade, the $(item)Speed Upgrade$() will allow you to produce pressure faster."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:pn_speed_upgrade",
+            "recipe2": "crafttweaker:pn_thermopneumatic_processing_plant",
+            "title": " "
+        },
+        {
+            "type": "text",
+            "text": "Once you have a proper refinery set up you can combine your $(item)LPG$() and $(item)Brittle Plastic$() in a $(item)Thermopneumatic Processing Plant$(), yeah I know your tiny brain probably hurts from those words but try and keep up.$(br2)The TPP, for short, requires to have an internal temperature of $(item)250C$() and a pressure of $(item)3.5 bar$() to create Liquid plastic."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:pn_plastic_mixer",
+            "text": "Finally you transport the $(item)Liquid Plastic$() into a $(item)Plastic Mixer$() to solidify it.$(br2)This block only requires $(item)heat$() if you intend to re-melt the plastics so you can change their color."
+        },
+        {
+            "type": "text",
+            "text": "There, done, $(item)Plastic$().$(br2)That wasn't so hard was it? Now you can relax and breathe for a few minutes.$(br2)Now that you have plastic, one of the first things you should probably do is upgrade your $(item)Air Compressor$() into a $(item)Liquid Air Compressor$() the can run very efficiently on the $(item)liquid fuels$() you have refined."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:pn_liquid_air_compressor",
+            "text": "The red makes it go faster! It's a proven, scientific fact.$(br2)Our suggestion is to run these things on $(item)Gasoline$() and save your $(item)LPG$() for plastic production."
+        }
+    ]
+}

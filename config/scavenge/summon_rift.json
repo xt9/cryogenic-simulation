@@ -1,0 +1,52 @@
+{
+    "block_pools": [
+        {
+            "name": "SummonRift",
+            "type": {
+                "type": "block",
+                "name": "bloodmagic:inversion_pillar",
+                "meta": 4
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "astralsorcery:itemshiftingstar"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "enchantmenttable",
+                    "yOffset": 1,
+                    "amount": 100,
+                    "disableJEI": true
+                },
+                {
+                    "type": "use_command",
+                    "name": "summon",
+                    "arguments": "midnight:rift ~ ~4 ~"
+                },
+                {
+                    "type": "use_command",
+                    "name": "summon",
+                    "arguments": "minecraft:lightning_bolt ~ ~ ~"
+                },
+                {
+                    "type": "use_command",
+                    "name": "tellraw",
+                    "arguments": "@p [\"\",{\"text\":\"A \",\"italic\":true},{\"text\":\"Dark Presence\",\"italic\":true,\"color\":\"aqua\"},{\"text\":\" looms above you,\nit beckons you to \",\"italic\":true},{\"text\":\"enter\",\"italic\":true,\"color\":\"aqua\"},{\"text\":\".\n\nThe \",\"italic\":true},{\"text\":\"portal \",\"italic\":true,\"color\":\"aqua\"},{\"text\":\"does not look stable,\nbetter make haste.\",\"italic\":true}]"
+                }
+            ],
+            "drops": [],
+            "messages": [
+                {
+                    "id": "require_item",
+                    "message": "You must hold a Shifting Star!"
+                }
+            ]
+        }
+    ]
+}

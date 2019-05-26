@@ -58,3 +58,19 @@ blessedPortalStone.setToolLevel(3);
 blessedPortalStone.setToolClass("pickaxe");
 blessedPortalStone.setBlockSoundType(<soundtype:stone>);
 blessedPortalStone.register();
+
+var redCanyonDust = VanillaFactory.createBlock("red_canyon_dust", <blockmaterial:sand>);
+redCanyonDust.setBlockHardness(0.8);
+redCanyonDust.setBlockResistance(0.8);
+redCanyonDust.setToolLevel(0);
+redCanyonDust.setToolClass("shovel");
+redCanyonDust.setBlockSoundType(<soundtype:sand>);
+redCanyonDust.register();
+
+var combatSimulationPortalBlock = VanillaFactory.createBlock("combat_simulation_portal_block", <blockmaterial:rock>);
+combatSimulationPortalBlock.setBlockHardness(2.5);
+combatSimulationPortalBlock.setBlockResistance(500.0);
+combatSimulationPortalBlock.setToolLevel(3);
+combatSimulationPortalBlock.setToolClass("pickaxe");
+combatSimulationPortalBlock.setBlockSoundType(<soundtype:stone>);
+combatSimulationPortalBlock.register();

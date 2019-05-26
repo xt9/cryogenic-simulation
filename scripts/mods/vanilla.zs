@@ -8,20 +8,24 @@ furnace.remove(<minecraft:netherbrick>);
 furnace.remove(<tconstruct:materials>);
 furnace.remove(<minecraft:glass>);
 furnace.remove(<industrialforegoing:plastic>);
+# Remove Silicon smelting from quartz
+furnace.remove(<ore:itemSilicon>.firstItem, <ore:dustQuartz>.firstItem);
+furnace.remove(<ore:itemSilicon>.firstItem, <enderio:item_material:33>);
 
 recipes.remove(<minecraft:piston>);
 recipes.remove(<minecraft:furnace>);
 recipes.remove(<minecraft:glass_bottle>);
 recipes.remove(<minecraft:magma>);
-
 # Remove string recipe added by IE
 recipes.remove(<minecraft:string>);
-
 # Remove slime block recipe since it's a bit broken with slimeball oredict
 recipes.remove(<minecraft:slime>);
-
 # Remove brewing stand, brewing is done in Inspirations Cauldron or TE brewing stuff
 recipes.remove(<minecraft:brewing_stand>);
+# Remove default gunpowder recipes
+recipes.remove(<minecraft:gunpowder>);
+# Remove default tnt recipe
+recipes.remove(<minecraft:tnt>);
 
 # ----------------
 # Crafting Table Recipes
@@ -53,6 +57,14 @@ recipes.addShaped("vanilla_furnace", <minecraft:furnace>, [
 recipes.addShaped("vanilla_magma_block", <minecraft:magma>, [
     [<thermalfoundation:material:1024>, <thermalfoundation:material:1024>],
     [<thermalfoundation:material:1024>, <thermalfoundation:material:1024>]
+]);
+
+recipes.addShapeless("vanilla_gunpowder", <minecraft:gunpowder> * 8, [<ore:dustSalt>, <ore:dustSalt>, <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustSulfur>, <ore:dustCoal>]);
+
+recipes.addShaped("vanilla_tnt", <minecraft:tnt> * 9, [
+    [<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>],
+    [<ore:gunpowder>, <ore:gunpowder>, <ore:gunpowder>],
+    [<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>]
 ]);
 
 # ----------------

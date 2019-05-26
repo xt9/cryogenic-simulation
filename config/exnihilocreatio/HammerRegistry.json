@@ -70,5 +70,14 @@
       "chance": 1.0,
       "fortuneChance": 0.0
     }
+  ],
+  "traverse:red_rock_cobblestone": [
+    {
+      "item": "contenttweaker:red_canyon_dust",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
   ]
 }

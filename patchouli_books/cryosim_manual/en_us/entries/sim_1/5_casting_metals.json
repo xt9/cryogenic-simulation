@@ -1,5 +1,5 @@
 {
-    "name": "Step #5: Casting Metals",
+    "name": "5: Casting Metals",
     "icon": "tconstruct:ingots:5",
     "category": "sim_1",
     "advancement": "triumph:cryosim/sim_1/visit",
@@ -8,7 +8,7 @@
         {
             "type": "spotlight",
             "item": "tconstruct:cast_custom",
-            "title": "Step #5: Casting Metals",
+            "title": "5: Casting Metals",
             "text": "$(item)Casting$() is the act of pouring out either molten $(item)Gold$() or $(item)Aluminum Brass$() over an item to create a mold of that item.$(br2)For example if we poured $(item)Molten Gold$() over a $(item)Seared Brick$() we would get a brick shaped mold that's also capable of casting $(item)Ingots$()."
         },
         {
@@ -20,7 +20,7 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:ct_seared_plate",
-            "text": "In the next step you will need to make $(item)Plates$(), you can make a $(item)Plate Cast$() by pouring $(item)Molten Aluminum Brass$() over a$(br)$(item)Cracked Seared Plate$()."
+            "text": "In the next task you will need to make $(item)Plates$(), you can make a $(item)Plate Cast$() by pouring $(item)Molten Aluminum Brass$() over a$(br)$(item)Cracked Seared Plate$()."
         }
     ]
 }

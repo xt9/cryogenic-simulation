@@ -1,5 +1,5 @@
 {
-    "name": "Step #6: Blessing Technology",
+    "name": "6: Blessing Technology",
     "icon": "thermalexpansion:frame{ench: [{lvl: 1, id: 11}]}",
     "category": "sim_2",
     "advancement": "triumph:cryosim/sim_2/visit",
@@ -40,8 +40,8 @@
             "item6": "astralsorcery:blockinfusedwood:5",
             "item7": "astralsorcery:blockblackmarble#3",
             "item8": "astralsorcery:blockmarble:4#2",
-            "item9": "astralsorcery:blockmarblestairs#4",
-            "item10": "astralsorcery:blockmarble:2#5",
+            "item9": "astralsorcery:blockmarblestairs#5",
+            "item10": "astralsorcery:blockmarble:2#6",
             "item11": "bloodmagic:ritual_stone#2",
             "item12": "astralsorcery:blockattunementrelay",
             "item13": "contenttweaker:blood_raven_feather",

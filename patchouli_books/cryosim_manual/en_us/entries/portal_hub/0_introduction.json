@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "We're in luck, You're the only ancient human that we've found so far that was properly preserved by ice.$(br2)We can't wake you up yet though, it's far too dangerous exposing your feeble mind to the technological advances of our time."
+            "text": "We're in luck, You're the only $(item)Ancient Human$() that we have found so far that was properly preserved by ice.$(br)Our previous $(item)442$() test subjects were not in such a pristine condition and died shortly after being found.$(br2)We can't wake you up yet though, it's far too dangerous exposing your feeble mind to the technological advances of our time."
         },
         {
             "type": "text",

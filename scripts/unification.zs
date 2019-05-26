@@ -7,6 +7,8 @@ import mods.immersiveengineering.Crusher;
 import mods.thermalexpansion.Pulverizer;
 import mods.lateoredictremoval.OreDictUtil;
 import mods.tconstruct.Melting;
+import mods.mekanism.enrichment;
+import mods.mekanism.combiner;
 
 #priority 998
 
@@ -269,9 +271,9 @@ Pulverizer.addRecipe(<ore:dustCoke>.firstItem * 9, <ore:blockFuelCoke>.firstItem
 # Remove Coal coke uncraft
 recipes.remove(<immersiveengineering:material:6>);
 
-# ----------------
+# ------------------
 # Fix Cobalt/Ardite
-# ----------------
+# ------------------
 OreDictUtil.remove(<ore:dustArdite>, <enderio:item_material:30>);
 OreDictUtil.remove(<ore:dustCobalt>, <enderio:item_material:31>);
 
@@ -282,3 +284,34 @@ OreDictUtil.remove(<ore:notUsedDustArdite>, dustArdite);
 OreDictUtil.remove(<ore:notUsedDustCobalt>, dustCobalt);
 <ore:dustArdite>.add(dustArdite);
 <ore:dustCobalt>.add(dustCobalt);
+
+# ------------------
+# Remove MA ores from pulverizers and Enrichment chamber
+# ------------------
+Pulverizer.removeRecipe(<mysticalagriculture:inferium_ore>);
+Pulverizer.removeRecipe(<mysticalagriculture:nether_inferium_ore>);
+Pulverizer.removeRecipe(<mysticalagriculture:end_inferium_ore>);
+
+Pulverizer.removeRecipe(<mysticalagriculture:prosperity_ore>);
+Pulverizer.removeRecipe(<mysticalagriculture:nether_prosperity_ore>);
+Pulverizer.removeRecipe(<mysticalagriculture:end_prosperity_ore>);
+
+enrichment.removeRecipe(<mysticalagriculture:inferium_ore>);
+enrichment.removeRecipe(<mysticalagriculture:nether_inferium_ore>);
+enrichment.removeRecipe(<mysticalagriculture:end_inferium_ore>);
+
+enrichment.removeRecipe(<mysticalagriculture:prosperity_ore>);
+enrichment.removeRecipe(<mysticalagriculture:nether_prosperity_ore>);
+enrichment.removeRecipe(<mysticalagriculture:end_prosperity_ore>);
+
+combiner.removeRecipe(<mysticalagriculture:inferium_ore>);
+combiner.removeRecipe(<mysticalagriculture:nether_inferium_ore>);
+combiner.removeRecipe(<mysticalagriculture:end_inferium_ore>);
+
+combiner.removeRecipe(<mysticalagriculture:prosperity_ore>);
+combiner.removeRecipe(<mysticalagriculture:nether_prosperity_ore>);
+combiner.removeRecipe(<mysticalagriculture:end_prosperity_ore>);
+
+# Remove midnight chest from chest oredict
+OreDictUtil.remove(<ore:chest>, <midnight:shadowroot_chest>);
+OreDictUtil.remove(<ore:chestWood>, <midnight:shadowroot_chest>);

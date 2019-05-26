@@ -1,6 +1,8 @@
 import mods.astralsorcery.Lightwell;
 import mods.astralsorcery.Altar;
 import mods.contenttweaker.Color;
+import mods.astralsorcery.StarlightInfusion;
+import scripts.helpers;
 
 # ----------------
 # Lightwell
@@ -14,10 +16,37 @@ Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_basicwand");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
 
+Altar.addAttunementAltarRecipe("cryogenic:ct/portal_stone", <contenttweaker:blessed_portal_stone>, 1200, 240, [
+    <contenttweaker:troll_eye>, <ore:ingotAstralStarmetal>, <contenttweaker:troll_eye>,
+    <ore:slateTier2>, <extrautils2:compressedcobblestone:3>, <ore:slateTier2>,
+    <ore:blockManyullyn>, <ore:ingotAstralStarmetal>, <ore:blockManyullyn>,
+    <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>
+]);
+
+Altar.addAttunementAltarRecipe("cryogenic:mysticalagri/t2seed", <mysticalagriculture:crafting:18>, 80, 120, [
+    <ore:essencePrudentium>, <mysticalagriculture:nature_essence>, <ore:essencePrudentium>,
+    <mysticalagriculture:nature_essence>, <mysticalagriculture:crafting:17>, <mysticalagriculture:nature_essence>,
+    <ore:essencePrudentium>, <mysticalagriculture:nature_essence>, <ore:essencePrudentium>,
+    <ore:essencePrudentium>, <ore:essencePrudentium>, <ore:essencePrudentium>, <ore:essencePrudentium>
+]);
+
+# ------------------
+# Starlight infusion
+# ------------------
+StarlightInfusion.removeInfusion(<minecraft:gunpowder>);
+
+# ----------------
+# Tooltips
+# ----------------
+helpers.addAtlasTip(<astralsorcery:blockblackmarble>, [
+    format.yellow("Found on the Lunar Plane")
+]);
+
 # ----------------
 # Recipe Removal
 # ----------------
 recipes.remove(<astralsorcery:itemwand>);
+recipes.remove(<astralsorcery:blockblackmarble>);
 
 # ----------------
 # Recipes
@@ -26,13 +55,6 @@ recipes.addShaped("as_resonating_wand", <astralsorcery:itemwand>.withTag({astral
     [null, <ore:gemAquamarine>, <ore:gemPrismarine>],
     [null, <ore:blockMarble>, <ore:gemAquamarine>],
     [<ore:blockMarble>, null, null],
-]);
-
-var marble = <ore:blockMarble> | <ore:stoneMarble> | <chisel:marble2:7>;
-recipes.addShaped("as_sooty_marble", <astralsorcery:blockblackmarble> * 8, [
-    [marble, marble, marble],
-    [marble, <ore:coal>, marble],
-    [marble, marble, marble],
 ]);
 
 recipes.addShapeless("as_marble_convert", <astralsorcery:blockmarble>, [<chisel:marble2:7>]);

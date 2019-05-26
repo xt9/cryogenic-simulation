@@ -1,0 +1,7 @@
+{
+    "name": "Raw resources",
+    "description": "This chapter covers infomation about the resources you will find on the $(item)Arid Waste$().",
+    "icon": "appliedenergistics2:charged_quartz_ore",
+    "parent": "sim_3",
+    "sortnum": 1
+}

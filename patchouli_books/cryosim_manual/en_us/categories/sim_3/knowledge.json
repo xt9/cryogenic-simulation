@@ -1,0 +1,7 @@
+{
+    "name": "Knowledge restrictions",
+    "description": "Before you can utilise certain crafting recipes you have too possess the required knowledge.$(br2)This chapter covers what is locked behind knowledge.",
+    "icon": "gamestagebooks:ae2_stage",
+    "parent": "sim_3",
+    "sortnum": 0
+}

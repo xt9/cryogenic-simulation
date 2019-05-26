@@ -1,6 +1,6 @@
 {
     "name": "Quality of Life",
-    "icon": "cookingforblockheads:sink",
+    "icon": "v0idssmartbackpacks:backpack_ultimate",
     "category": "sim_2",
     "advancement": "triumph:cryosim/sim_2/visit",
     "priority": true,
@@ -27,8 +27,8 @@
         },
         {
             "type": "crafting",
-            "recipe": "crafttweaker:cfb_sink",
-            "text": "A source of $(item)Infinite Water$().$(br)Will be very helpful later on."
+            "recipe": "crafttweaker:infinitewatersource",
+            "text": "This nifty gadget will supply you with a source of $(item)Infinite Water$().$(br2)Will be very helpful later on."
         },
         {
             "type": "crafting",
@@ -50,13 +50,23 @@
         },
         {
             "type": "crafting",
-            "recipe": "crafttweaker:exutil_mechuser",
+            "recipe": "crafttweaker:eu2_mechuser",
             "text": "You can't always be everywhere at once. This little guy can $(item)Automate$() tasks that you would normally do with your own $(item)Hands$().$(br2)Unlocks quite late in this $(item)Simulation$()."
         },
         {
             "type": "crafting",
             "recipe": "crafttweaker:rft_quarry_card",
             "text": "If you're willing to go the extra mile in this simulation you can get a $(item)Quarry card$().$(br2)This will allow you to $(item)GREATLY$() improve your $(item)Resource Gathering Capabilities$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:td_itemduct",
+            "text": "A mean of transferring items between inventories. Use Servos/Retrievers to move items through ducts."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:td_fluiduct",
+            "text": "A mean of transferring liquids between inventories. Use Servos/Retrievers to move liquids through ducts."
         }
     ]
 }

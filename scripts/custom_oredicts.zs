@@ -41,3 +41,49 @@ import mods.lateoredictremoval.OreDictUtil;
 <ore:dankNullTier2>.add(<danknull:dank_null:1>);
 <ore:dankNullTier3>.add(<danknull:dank_null:2>);
 <ore:dankNullTier4>.add(<danknull:dank_null:3>);
+<ore:dankNullTier5>.add(<danknull:dank_null:4>);
+<ore:dankNullTier6>.add(<danknull:dank_null:5>);
+
+# PneumaticCraft plastics
+<ore:plastic>.add(<pneumaticcraft:plastic:*>);
+
+# TD Itemduct
+<ore:itemduct>.add(
+    <thermaldynamics:duct_32:0>,
+    <thermaldynamics:duct_32:1>,
+    <thermaldynamics:duct_32:2>,
+    <thermaldynamics:duct_32:3>
+);
+
+# TD Fluxduct
+<ore:fluxduct>.add(
+    <thermaldynamics:duct_0:0>,
+    <thermaldynamics:duct_0:1>,
+    <thermaldynamics:duct_0:2>,
+    <thermaldynamics:duct_0:3>,
+    <thermaldynamics:duct_0:4>
+);
+
+<ore:fluiduct>.add(
+    <thermaldynamics:duct_16>,
+    <thermaldynamics:duct_16:2>
+);
+
+# Enderio Capacitors
+<ore:capacitor>.add(
+    <enderio:item_basic_capacitor>
+);
+<ore:doubleCapacitor>.add(
+    <enderio:item_basic_capacitor:1>
+);
+<ore:octadicCapacitor>.add(
+    <enderio:item_basic_capacitor:2>
+);
+
+# Midnight shrooms
+<ore:dustManaShroom>.add(
+    <midnight:bogshroom_powder>,
+    <midnight:viridshroom_powder>,
+    <midnight:nightshroom_powder>,
+    <midnight:dewshroom_powder>
+);

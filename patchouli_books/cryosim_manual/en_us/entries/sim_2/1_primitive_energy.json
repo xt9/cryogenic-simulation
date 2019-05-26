@@ -1,5 +1,5 @@
 {
-    "name": "Step #1: Primitive Energy",
+    "name": "1: Primitive Power",
     "icon": "immersiveengineering:metal_device1:2",
     "category": "sim_2",
     "advancement": "triumph:cryosim/sim_2/visit",
@@ -28,7 +28,7 @@
         {
             "type": "text",
             "title": "Primitive Power",
-            "text": "Now the connecting the $(item)Wires$() and transferring the $(item)Energy$() is a bit more tricky.$(br2)Our technological revolution was stalled numerous times and we often had to turn to $(item)Magic$() to solve the next hurdle.$(br2)Our most primitive energy connectors that we managed to work was laced with the charred feathers of$(br)$(l:sim_2/inhabitants)Blood Ravens$()."
+            "text": "Now the connecting the $(item)Wires$() and transferring the $(item)Power$() is a bit more tricky.$(br2)Our technological revolution was stalled numerous times and we often had to turn to $(item)Magic$() to solve the next hurdle.$(br2)Our most primitive power connectors that we managed to work was laced with the charred feathers of$(br)$(l:sim_2/inhabitants)Blood Ravens$()."
         },
         {
             "type": "crafting",
@@ -55,7 +55,7 @@
         {
             "type": "text",
             "title": "Preheaters",
-            "text": "You could use this early power to attach a set of preheaters to your $(item)Blast Furnace$().$(br2)This step is not required to complete this $(item)Simulation$() but it will speed up your $(item)Steel$() production."
+            "text": "You could use this early power to attach a set of preheaters to your $(item)Blast Furnace$().$(br2)This task is not required to complete this $(item)Simulation$() but it will speed up your $(item)Steel$() production."
         }
     ]
 }

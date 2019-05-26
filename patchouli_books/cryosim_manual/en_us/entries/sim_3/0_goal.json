@@ -1,0 +1,16 @@
+{
+    "name": "Simulation Goal",
+    "icon": "contenttweaker:combat_simulation_portal_block",
+    "category": "sim_3",
+    "advancement": "triumph:cryosim/sim_3/visit",
+    "sortnum": 0,
+    "priority": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:combat_simulation_portal_block",
+            "title": "Portal Stone",
+            "text": "Reach the Combat Simulation and stand by for further instructions.$(br2)You should strive hard to improve your infrastructure during this $(item)simulation$() so future tasks wont be as big an obstacle."
+        }
+    ]
+}

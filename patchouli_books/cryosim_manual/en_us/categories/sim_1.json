@@ -1,6 +1,6 @@
 {
     "name": "Contained Ecosystems",
-    "description": "A world filled with self contained ecosystems.$(br2)Scavenge the lands to produce steel to reach the next simulation.",
+    "description": "A world filled with$(br)self-contained ecosystems.$(br2)Scavenge the lands to produce $(item)Steel$() to reach the next simulation.",
     "icon": "chisel:antiblock:15",
     "sortnum": 1
 }

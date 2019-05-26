@@ -1,5 +1,5 @@
 {
-    "name": "Step #5: Alchemy",
+    "name": "5: Alchemy",
     "icon": "minecraft:cauldron",
     "category": "sim_2",
     "advancement": "triumph:cryosim/sim_2/visit",
@@ -46,6 +46,14 @@
             "output1": "minecraft:potion#4{Potion:\"minecraft:awkward\"}",
             "title": "Brewing",
             "description": "If you by any chance have run into any $(l:sim_2/inhabitants)Trolls$() in this simulation you could use their eyes to brew $(item)Awkward Potion$()."
+        },
+        {
+            "type": "brewing",
+            "input1": "midnight:midnight_mycelium#4",
+            "inputfluid": "forge:bucketfilled{FluidName:water}",
+            "output1": "forge:bucketfilled{FluidName:witchwater}",
+            "title": "Brewing",
+            "description": "This $(item)Toxic$() concoction can turn certain beings into their $(item)Corrupted Counterparts$(). Required materials found in a future Simulation. $(br2)You can find the full list of corruptable beings $(l:https://ex-nihilo-minecraft.fandom.com/wiki/Witch_Water#Applications)here$()."
         }
     ]
 }

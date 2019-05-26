@@ -1,0 +1,37 @@
+{
+    "name": "8: Portal, Assemble!",
+    "icon": "contenttweaker:combat_simulation_portal_block",
+    "category": "sim_3",
+    "advancement": "triumph:cryosim/sim_3/visit",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "materials_triple_row",
+            "item1": "modularmachinery:blockcontroller",
+            "item2": "modularmachinery:blockcasing#7",
+            "item3": "immersiveengineering:sheetmetal:2#16",
+            "item4": "modularmachinery:blockinputbus:6",
+            "item5": "modularmachinery:blockoutputbus:6",
+            "item6": "modularmachinery:blockenergyinputhatch:6",
+            "item7": "immersiveengineering:metal_decoration0:5#2",
+            "item8": "contenttweaker:faux_steel#8",
+            "item9": "appliedenergistics2:quartz_glass#5",
+            "item10": "immersiveengineering:storage_slab:8#2",
+            "item11": "industrialforegoing:conveyor:1#3",
+            "title": "Industrial Assembler",
+            "notes": "The $(item)Industrial Assembler$() can manufacture most of the things you used to do manually in the $(item)Engineer's Workbench$(), along with some new ones.$(br2)Forgot about $(l:portal_hub/4_schematica)Schematica$() yet?"
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:combat_simulation_portal_block",
+            "title": "Portal Stone",
+            "text": "Once you have assembled the assembler you can manufacture the Portal block.$(br2)Reach the Combat Simulation and stand by for further instructions."
+        },
+        {
+            "type": "spotlight",
+            "item": "appliedenergistics2:charged_staff{internalCurrentPower: 8000.0}",
+            "title": "Portal Activator",
+            "text": "Lighting the $(item)Portal$() to the fourth $(item)Simulation$() requires you to hold a $(item)Charged Staff$() with full power."
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 {
     dimensions: [89]
+    enabled: true
     tunnels: {
         minHeight: 16
         maxHeight: 55

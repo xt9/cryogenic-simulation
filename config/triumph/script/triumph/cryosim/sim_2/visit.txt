@@ -2,7 +2,7 @@ addParent("triumph:cryosim/sim_1/visit")
 
 setIcon(<cryosimadditions:block_blood_resin_log>)
 setTitle("The Lunar Plane")
-setDescription("A world bathed in starlight and blood, blessed by the gods, explore the lands to produce PLACEHOLDER to reach the next simulation.")
+setDescription("A world bathed in starlight and blood, blessed by the gods.")
 setAnnounceToChat(true)
 setShowToast(true)
 

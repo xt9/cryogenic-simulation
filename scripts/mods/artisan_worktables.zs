@@ -105,6 +105,12 @@ RecipeBuilder.get("mason")
 # Recipe Section
 # ----------------
 
+# Toolbox
+recipes.addShaped("aw_toolbox", <artisanworktables:toolbox>, [
+  [<ore:plateCopper>],
+  [<immersiveengineering:wooden_device0>]
+]);
+
 # Basic worktable
 recipes.addShaped("aw_masons_worktable", <artisanworktables:worktable:2>, [
     [<ore:ingotBrickDried>, <minecraft:crafting_table>, <ore:ingotBrickDried>],

@@ -1,5 +1,5 @@
 {
-    "name": "Step #1: Drying",
+    "name": "1: Drying",
     "icon": "tconstruct:materials:2",
     "category": "sim_1",
     "advancement": "triumph:cryosim/sim_1/visit",

@@ -43,6 +43,12 @@
         },
         {
             "type": "crafting",
+            "recipe": "chesttransporter:wooden_transporter",
+            "title": "Chest Transporters",
+            "text": "If you need to move your $(item)Chests$() or $(item)Drawers$() don't lift with your back, instead use the handy $(item)Chest Transporters$()."
+        },
+        {
+            "type": "crafting",
             "recipe": "cryosimadditions:backpack_advanced",
             "title": "Backpacks",
             "text": "You can make equippable backpacks a bit into this simulation. Handy for storing $(item)Tools$() and $(item)Snacks$().$(br2)Toggle equip: $(item)$(k:vsb.kb.removeBackpack)$()$(br)Open keybind: $(item)$(k:vsb.kb.openBackpack)$()"

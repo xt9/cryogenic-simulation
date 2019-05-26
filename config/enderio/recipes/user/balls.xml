@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <grindingball name="Flint" disabled="true"/>
+  <grindingball name="Dark Steel Ball" disabled="true"/>
+  <grindingball name="Electrical Steel Ball" disabled="true"/>
+  <grindingball name="Energetic Alloy Ball" disabled="true"/>
+  <grindingball name="Vibrant Alloy Ball" disabled="true"/>
+  <grindingball name="Redstone Alloy Ball" disabled="true"/>
+  <grindingball name="Conductive Iron Ball" disabled="true"/>
+  <grindingball name="Pulsating Iron Ball" disabled="true"/>
+  <grindingball name="Soularium Ball" disabled="true"/>
+  <grindingball name="End Steel Ball" disabled="true"/>
+  <grindingball name="Construction Alloy Ball" disabled="true"/>
+  <grindingball name="Signalum Ball" disabled="true"/>
+  <grindingball name="Enderium Ball" disabled="true"/>
+  <grindingball name="Lumium Ball" disabled="true"/>
+
+  <grindingball name="Dark Steel Ball Crafting" disabled="true"/>
+  <grindingball name="Electrical Steel Ball Crafting" disabled="true"/>
+  <grindingball name="Energetic Alloy Ball Crafting" disabled="true"/>
+  <grindingball name="Vibrant Alloy Ball Crafting" disabled="true"/>
+  <grindingball name="Redstone Alloy Ball Crafting" disabled="true"/>
+  <grindingball name="Conductive Iron Ball Crafting" disabled="true"/>
+  <grindingball name="Pulsating Iron Ball Crafting" disabled="true"/>
+  <grindingball name="Soularium Ball Crafting" disabled="true"/>
+  <grindingball name="End Steel Ball Crafting" disabled="true"/>
+  <grindingball name="Construction Alloy Ball Crafting" disabled="true"/>
+  <grindingball name="Signalum Ball Crafting" disabled="true"/>
+  <grindingball name="Enderium Ball Crafting" disabled="true"/>
+  <grindingball name="Lumium Ball Crafting" disabled="true"/>
+
+  <grindingball name="Dark Steel Casting" disabled="true"/>
+  <grindingball name="Electrical Steel Casting" disabled="true"/>
+  <grindingball name="Energetic Alloy Casting" disabled="true"/>
+  <grindingball name="Vibrant Alloy Casting" disabled="true"/>
+  <grindingball name="Redstone Alloy Casting" disabled="true"/>
+  <grindingball name="Conductive Iron Casting" disabled="true"/>
+  <grindingball name="Pulsating Iron Casting" disabled="true"/>
+  <grindingball name="Soularium Casting" disabled="true"/>
+  <grindingball name="End Steel Casting" disabled="true"/>
+  <grindingball name="Construction Alloy Casting" disabled="true"/>
+  <grindingball name="Signalum Casting" disabled="true"/>
+  <grindingball name="Enderium Casting" disabled="true"/>
+  <grindingball name="Lumium Casting" disabled="true"/>
+
+  <grindingball name="Dark Steel Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Electrical Steel Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Energetic Alloy Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Vibrant Alloy Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Redstone Alloy Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Conductive Iron Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Pulsating Iron Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Soularium Ball Reverse Casting" disabled="true"/>
+  <grindingball name="End Steel Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Construction Alloy Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Signalum Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Enderium Ball Reverse Casting" disabled="true"/>
+  <grindingball name="Lumium Ball Reverse Casting" disabled="true"/>
+
+  <grindingball name="Dark Ball Smelting" disabled="true"/>
+  <grindingball name="End Ball Smelting" disabled="true"/>
+  <grindingball name="Electrical Ball Smelting" disabled="true"/>
+  <grindingball name="Energetic Alloy Ball Smelting" disabled="true"/>
+  <grindingball name="Vibrant Alloy Smelting" disabled="true"/>
+  <grindingball name="Redstone Alloy Smelting" disabled="true"/>
+  <grindingball name="Conductive Iron Smelting" disabled="true"/>
+  <grindingball name="Pulsating Iron Smelting" disabled="true"/>
+  <grindingball name="Soularium Ball Smelting" disabled="true"/>
+  <grindingball name="Construction Alloy Ball Smelting" disabled="true"/>
+  <grindingball name="Signalum Ball Smelting" disabled="true"/>
+  <grindingball name="Enderium Ball Smelting" disabled="true"/>
+  <grindingball name="Lumium Ball Smelting" disabled="true"/>
+
+</enderio:recipes>

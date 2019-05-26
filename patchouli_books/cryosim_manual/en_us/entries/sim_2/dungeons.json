@@ -12,7 +12,7 @@
         },
         {
             "type": "text",
-            "text": "Each new floor adds additional $(item)Rewards$() and the lower floors pose quite the challenge for unprepared adventurers.$(br2)Additionally, each new floor in the $(item)Dungeon$() has more rooms than the previous floor."
+            "text": "Each new floor adds additional $(item)Rewards$() and the lower floors pose quite the challenge for unprepared adventurers.$(br2)Additionally, each new floor in the $(item)Dungeon$() has more rooms than the previous floor.$(br2)The last floor of the $(item)Dungeons$() contain an abudance of $(l:sim_2/resources/1_minerals_and_ores#sooty)Sooty Marble$()."
         }
     ]
 }

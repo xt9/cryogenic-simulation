@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import scripts.helpers;
 
+
 # ----------------
 # Furnace & Recipe removals
 # ----------------
@@ -53,27 +54,12 @@ for ingredient in misc {
     recipes.remove(ingredient);
 }
 
-val chunks = [
-    <exnihilocreatio:item_ore_gold:1>,
-    <exnihilocreatio:item_ore_iron:1>,
-    <exnihilocreatio:item_ore_copper:1>,
-    <exnihilocreatio:item_ore_tin:1>,
-    <exnihilocreatio:item_ore_aluminium:1>,
-    <exnihilocreatio:item_ore_lead:1>,
-    <exnihilocreatio:item_ore_silver:1>,
-    <exnihilocreatio:item_ore_nickel:1>,
-    <exnihilocreatio:item_ore_ardite:1>,
-    <exnihilocreatio:item_ore_cobalt:1>,
-    <exnihilocreatio:item_ore_aluminum:1>,
-    <exnihilocreatio:item_ore_platinum:1>
-] as IIngredient[];
+recipes.remove(<exnihilocreatio:item_ore_ardite:1>);
+recipes.remove(<exnihilocreatio:item_ore_cobalt:1>);
+furnace.remove(<tconstruct:ingots>, <exnihilocreatio:item_ore_cobalt:1>);
+furnace.remove(<tconstruct:ingots:1>, <exnihilocreatio:item_ore_ardite:1>);
 
-# Hide chunk recipes
-for chunk in chunks {
-    recipes.remove(chunk);
-}
-
-val dolls = [
+var dolls = [
     <exnihilocreatio:item_material:5>,
     <exnihilocreatio:item_doll>,
     <exnihilocreatio:item_doll:1>,
@@ -102,7 +88,7 @@ recipes.addShaped("exnihilo_crucible", <exnihilocreatio:block_crucible:0>, [
 
 # Auto sifter recipe
 recipes.addShaped("exnihilo_auto_sifter", <exnihilocreatio:block_auto_sifter>, [
-    [<ore:gearLead>, <minecraft:hopper>, <ore:gearLead>],
+    [<ore:compressed1xCobblestone>, <minecraft:hopper>, <ore:compressed1xCobblestone>],
     [<ore:piston>, <exnihilocreatio:block_axle_stone>, <ore:piston>], 
     [<ore:plankTreatedWood>, <minecraft:hopper>, <ore:plankTreatedWood>]
 ]);

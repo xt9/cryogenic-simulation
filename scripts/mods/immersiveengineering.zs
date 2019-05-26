@@ -51,18 +51,15 @@ Blueprint.addRecipe("components", <immersiveengineering:material:26> * 4, [
     <ore:plateSilver>,
     <ore:blockGlass>,
     <ore:dustCoal>,
-    <ore:nuggetElectrum>,
-    <ore:nuggetElectrum>
+    <ore:ingotElectrum>
 ]);
 
 # Circuit Board
 Blueprint.addRecipe("components", <immersiveengineering:material:27>, [
     <immersiveengineering:material:26>,
-    <immersiveengineering:material:26>,
     <ore:plateCopper>,
     <ore:dyeGreen>,
-    <ore:nuggetElectrum>,
-    <ore:nuggetElectrum>
+    <ore:ingotElectrum>
 ]);
 
 # Iron Mechanical component
@@ -115,7 +112,7 @@ Blueprint.addRecipe("Machine Parts", <thermalfoundation:material:514>, [
     <immersiveengineering:wirecoil:5> * 2
 ]);
 
-# Conductrance Coil
+# Conductance Coil
 Blueprint.addRecipe("Machine Parts", <thermalfoundation:material:515>, [
     <ore:ingotElectrum>,
     <immersiveengineering:wirecoil:5> * 2
@@ -222,6 +219,12 @@ recipes.remove(<immersiveengineering:wirecoil:5>);
 recipes.remove(<immersiveengineering:material:5>);
 # Remove jump cushion recipe
 recipes.remove(<immersiveengineering:cloth_device>);
+# Remove Relay recipes
+recipes.remove(<immersiveengineering:connector:1>);
+recipes.remove(<immersiveengineering:connector:3>);
+recipes.remove(<immersiveengineering:connector:5>);
+# Remove gunpowder barrel
+recipes.remove(<immersiveengineering:wooden_device0:4>);
 
 # ----------------
 # Recipes
@@ -361,6 +364,21 @@ recipes.addShaped("ie_hv_connector", <immersiveengineering:connector:4> * 8, [
     [null, <ore:ingotSanguineMetal>, null],
     [<contenttweaker:block_charred_terracotta>, <ore:ingotSanguineMetal>, <contenttweaker:block_charred_terracotta>],
     [<contenttweaker:block_charred_terracotta>, <ore:ingotSanguineMetal>, <contenttweaker:block_charred_terracotta>]
+]);
+
+recipes.addShaped("ie_lv_relay", <immersiveengineering:connector:1>, [
+    [<immersiveengineering:connector>, <ore:ingotCopper>, <immersiveengineering:connector>],
+    [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]
+]);
+
+recipes.addShaped("ie_mv_relay", <immersiveengineering:connector:3>, [
+    [<immersiveengineering:connector:2>, <ore:ingotElectrum>, <immersiveengineering:connector:2>],
+    [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]
+]);
+
+recipes.addShaped("ie_hv_relay", <immersiveengineering:connector:5>, [
+    [<immersiveengineering:connector:4>, <ore:ingotSanguineMetal>, <immersiveengineering:connector:4>],
+    [<immersiveengineering:stone_decoration:8>, <immersiveengineering:stone_decoration:8>, <immersiveengineering:stone_decoration:8>]
 ]);
 
 recipes.addShaped("ie_mv_capacitor", <immersiveengineering:metal_device0:1>, [

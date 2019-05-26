@@ -1,6 +1,28 @@
 import crafttweaker.item.IIngredient;
 import mods.bloodmagic.BloodAltar;
 import mods.astralsorcery.Utils;
+import mods.bloodmagic.AlchemyTable;
+import mods.bloodmagic.TartaricForge;
+
+# ----------------
+# Hellfire Forge
+# ----------------
+# Remove growth reagent recipe
+TartaricForge.removeRecipe([<minecraft:sapling:1>, <minecraft:sapling:1>, <minecraft:reeds>, <minecraft:sugar>]);
+
+# Growth reagent
+TartaricForge.addRecipe(<bloodmagic:component:5>, [
+    <ore:essencePrudentium>.firstItem,
+    <mysticalagriculture:nature_essence>,
+    <mysticalagriculture:water_essence>,
+    <midnight:midnight_mycelium>
+], 20, 20);
+
+# ----------------
+# Alchemy Table
+# ----------------
+# Remove gunpowder recipe
+AlchemyTable.removeRecipe([<thermalfoundation:material:772>, <thermalfoundation:material:771>, <minecraft:coal:1>]);
 
 # ----------------
 # Blood Altar
@@ -17,6 +39,11 @@ BloodAltar.removeRecipe(<bloodmagic:slate:2>);
 BloodAltar.removeRecipe(<bloodmagic:slate:3>);
 # Remove dagger of sacrifice
 BloodAltar.removeRecipe(<minecraft:iron_sword>);
+# Remove Inscription Tool Air, Fire, Earth & Water
+BloodAltar.removeRecipe(<minecraft:ghast_tear>);
+BloodAltar.removeRecipe(<minecraft:lapis_block>);
+BloodAltar.removeRecipe(<minecraft:magma_cream>);
+BloodAltar.removeRecipe(<minecraft:obsidian>);
 
 # Slate Tiers
 BloodAltar.addRecipe(<ore:slateTier1>.firstItem, <contenttweaker:block_charred_terracotta>, 0, 500, 10, 5);
@@ -33,8 +60,17 @@ BloodAltar.addRecipe(<bloodmagic:dagger_of_sacrifice>, <astralsorcery:itemcrysta
 BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <ore:trollEye>.firstItem, 0, 2000, 15, 5);
 BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <ore:slimeballBlood>.firstItem, 1, 5000, 20, 5);
 
+# Inscription Tool Air
+BloodAltar.addRecipe(<bloodmagic:inscription_tool:1>.withTag({uses: 10}), <infinitewatersource:infinitewatersource>, 2, 1000, 20, 5);
+BloodAltar.addRecipe(<bloodmagic:inscription_tool:2>.withTag({uses: 10}), <thermalfoundation:material:1024>, 2, 1000, 20, 5);
+BloodAltar.addRecipe(<bloodmagic:inscription_tool:3>.withTag({uses: 10}), <astralsorcery:blockblackmarble>, 2, 1000, 20, 5);
+BloodAltar.addRecipe(<bloodmagic:inscription_tool:4>.withTag({uses: 10}), <contenttweaker:blood_raven_feather>, 2, 1000, 20, 5);
+
 # Tier 1 Crafting Seeds
 BloodAltar.addRecipe(<mysticalagriculture:crafting:17>, <minecraft:wheat_seeds>, 1, 800, 15, 5);
+
+# Blood Diamond
+BloodAltar.addRecipe(<contenttweaker:blood_diamond>, <ore:gemDiamond>.firstItem, 2, 3000, 20, 5);
 
 # ----------------
 # Recipe removal

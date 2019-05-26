@@ -1,5 +1,5 @@
 {
-    "name": "Step #4: Smelting Metals",
+    "name": "4: Smelting Metals",
     "icon": "forge:bucketfilled{FluidName:iron}",
     "category": "sim_1",
     "advancement": "triumph:cryosim/sim_1/visit",

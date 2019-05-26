@@ -1,5 +1,5 @@
 {
-    "name": "Step #9: Void Gazing",
+    "name": "9: Void Gazing",
     "icon": "industrialforegoing:laser_lens",
     "category": "sim_2",
     "advancement": "triumph:cryosim/sim_2/visit",
@@ -7,11 +7,13 @@
     "pages": [
         {
             "type": "text",
-            "text": "We're quite pleased with you progress and we think it's time you stand on your own for once.$(br2)You have been proven to be a quite resourceful specimen and we have trust that you will manage this task."
+            "text": "We're quite pleased with you progress and we think it's time you stand on your own for once.$(br2)You have been proven to be a quite resourceful specimen and we have trust that you will manage this task.$(br2)If you happen to fail though you would be stuck here for an indefinite amount of time, so yeah don't fail us."
         },
         {
-            "type": "text",
-            "text": "To enter the next $(item)Simulation$() you need to find a way to gather $(item)Ardite Ore$() and $(item)Cobalt Ore$(), you should also look into ways of gathering a lot of $(item)Cobblestone$()."
+            "type": "spotlight",
+            "item": "contenttweaker:blessed_portal_stone",
+            "title": "Good luck you dummy",
+            "text": "To enter the next $(item)Simulation$() you need to find a way to gather $(item)Ardite Ore$() and $(item)Cobalt Ore$() from the $(item)Void$(), you should also look into ways of gathering a lot of $(item)Cobblestone$()."
         },
         {
             "type": "spotlight",

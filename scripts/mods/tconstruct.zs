@@ -12,7 +12,6 @@ Drying.removeRecipe(<tconstruct:edible:33>);
 Drying.removeRecipe(<ore:ingotBrickDried>.firstItem, <minecraft:clay_ball>);
 
 Drying.addRecipe(<ore:ingotBrickDried>.firstItem, <minecraft:clay_ball>, 700);
-Drying.addRecipe(<ore:ingotBrickDried>.firstItem, <minecraft:clay_ball>, 700);
 Drying.addRecipe(<tconstruct:edible:33>, <ore:slimeballBlood>.firstItem, 1000);
 
 # Drying Plastic
@@ -21,9 +20,13 @@ Drying.addRecipe(<ore:itemRubber>.firstItem, <industrialforegoing:dryrubber>, 10
 # ----------------
 # Recipe Section
 # ----------------
+# Remove EFLN recipe
+recipes.remove(<tconstruct:throwball:1>);
 recipes.remove(<tconstruct:soil:0>);
 recipes.remove(<tconstruct:smeltery_controller>);
 recipes.remove(<tconstruct:seared_tank>);
+# Remove colored clear glass variants, add with chiseling
+recipes.remove(<tconstruct:clear_stained_glass:*>);
 recipes.removeByRecipeName("tconstruct:gadgets/slime_boots_fallback");
 
 # Change default slime boot recipe
@@ -61,6 +64,9 @@ Casting.removeTableRecipe(<thermalfoundation:material:23>);
 # ----------------
 # Melting Section
 # ----------------
+for stack in <ore:plastic>.items { 
+    Melting.addRecipe(<liquid:plastic> * 1000, stack, 500);
+}
 Melting.addRecipe(<liquid:liquid_blaze> * 1000, <contenttweaker:block_blaze_powder>, 500);
 Melting.removeRecipe(<liquid:blood>);
 

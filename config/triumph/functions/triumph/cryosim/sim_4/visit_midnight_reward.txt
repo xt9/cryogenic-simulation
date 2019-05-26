@@ -1,0 +1,7 @@
+title @a times 20 140 20
+title @a subtitle {"text":"Where am i?","italic":true}
+title @a title ["",{"text":"The "},{"text":"what","color":"light_purple"},{"text":"?"}]
+
+give @p waystones:waystone 1 0
+
+tellraw @p ["",{"text":"Uhh "},{"text":"XC-443","color":"aqua"},{"text":",\n"},{"text":"Where are you right now?","italic":true},{"text":"\n\nYou don't show up on our metrics,\nwherever you are, it's "},{"text":"NOT","italic":true,"color":"aqua"},{"text":" a place\nof our making.\n\nWe're sending in a Waystone so you can\nget the hell out of "},{"text":"there","italic":true},{"text":"."}]

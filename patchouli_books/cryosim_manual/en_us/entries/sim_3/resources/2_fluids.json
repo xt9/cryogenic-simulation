@@ -1,0 +1,20 @@
+{
+    "name": "Fluids",
+    "icon": "forge:bucketfilled{FluidName: \"oil\"}",
+    "category": "sim_3/resources",
+    "advancement": "triumph:cryosim/sim_3/visit",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(item)Arid Waste$() as the name implies does not really have an abudance of hydration, but it has not always been that way.$(br2)When we first found this plane it was lush and filled with wildlife but alas we ruined it with our smoke billowing $(item)Factories$() and $(item)Drills$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "forge:bucketfilled{FluidName:oil}",
+            "title": "Oil",
+            "anchor": "oil",
+            "text": "Oil can be found in the $(item)Oil Oceans$() found in the $(item)Arid Waste$().$(br2)The $(item)unrefined$() form holds very little use to you."
+        }
+    ]
+}

@@ -6,6 +6,8 @@ import scripts.helpers;
 # ----------------
 # Fluid Recipes
 Cauldron.addFluidTransform(<liquid:blessed_life_essence>, <contenttweaker:blood_raven_feather> * 5, <liquid:lifeessence>, 4, true);
+Cauldron.addFluidTransform(<liquid:witchwater>, <midnight:midnight_mycelium> * 4, <liquid:water>, 4, true);
+
 Cauldron.addFluidRecipe(<astralsorcery:itemusabledust> * 4, <ore:dustGlowstone>, <liquid:astralsorcery.liquidstarlight>, 4, true);
 Cauldron.addFluidRecipe(<inspirations:edibles>, <ore:cropBeetroot>, <liquid:blood>, 4, true);
 

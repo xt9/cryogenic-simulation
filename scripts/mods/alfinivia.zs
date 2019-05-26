@@ -5,8 +5,10 @@ import scripts.helpers;
 # ----------------
 # Liquid fertilizer
 # ----------------
-ImmersiveEngineering.addLiquidFertilizer(<liquid:troll_eye_goop>, 2);
+ImmersiveEngineering.addLiquidFertilizer(<liquid:troll_eye_goop>, 2.0);
+ImmersiveEngineering.addLiquidFertilizer(<liquid:ammonium_nitrate>, 8.0);
 addClocheTooltip(<forge:bucketfilled>.withTag({FluidName: "troll_eye_goop", Amount: 1000}), 2.0);
+addClocheTooltip(<forge:bucketfilled>.withTag({FluidName: "ammonium_nitrate", Amount: 1000}), 8.0);
 
 # ----------------
 # Item fertilizer

@@ -12,7 +12,7 @@
         {
             "type": "text",
             "title": "Current Keybinds",
-            "text": "$(br)Load schematic: $(item)$(k:schematica.key.load)$()$(br)Manipulate schematic: $(item)$(k:schematica.key.control)$()$(br2)Once you've loaded the $(item)Schematic$() you can use the manipulate keybind to move the multiblock around, look at the required materials and finally assemble the multiblock."
+            "text": "$(br)Load schematic: $(item)$(k:schematica.key.load)$()$(br)Manipulate schematic: $(item)$(k:schematica.key.control)$()$(br2)Once you've loaded the $(item)Schematic$() you can use the manipulate keybind to move the multiblock around, look at the required materials and finally assemble the multiblock using the printer."
         }
     ]
 }

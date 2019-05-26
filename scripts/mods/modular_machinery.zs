@@ -1,6 +1,12 @@
 import mods.modularmachinery.RecipeBuilder;
 import crafttweaker.enchantments.IEnchantmentDefinition;
+import scripts.helpers;
 import crafttweaker.data.IData;
+
+var altarOfBlessingsBlueprint = <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:altar_of_blessings"});
+helpers.addAtlasTip(altarOfBlessingsBlueprint, [
+    format.yellow("Only functions when the spectral relay is holding a Blood Raven Feather")
+]);
 
 # ----------------
 # Recipes
@@ -64,10 +70,25 @@ recipes.addShaped("mm_energyoutput", <modularmachinery:blockenergyoutputhatch:6>
     [<thermaldynamics:duct_0>],
 ]);
 
+# Biome Detector
+recipes.addShaped("mm_biome_detector", <modulardiversity:blockbiomedetector>, [
+    [<naturescompass:naturescompass>],
+    [<modularmachinery:blockcasing>]
+]);
 
-# ----------------
+# Mana output hatch
+recipes.addShaped("mm_manaoutput", <modulardiversity:blockmanaoutputhatch>, [
+    [<botania:pool>],
+    [<modularmachinery:blockcasing>]
+]);
+
+
+
+
+
+# --------------------------
 # Altar of Blessings Recipes
-# ----------------
+# --------------------------
 var blessFrame = RecipeBuilder.newBuilder("blessFrame", "altar_of_blessings", 120);
 blessFrame.addItemInput(<thermalexpansion:frame>);
 blessFrame.addItemInput(<ore:slateTier1>.firstItem * 2);
@@ -80,7 +101,7 @@ blessFrame.build();
 
 var blessConnector = RecipeBuilder.newBuilder("blessConnector", "altar_of_blessings", 80);
 blessConnector.addItemInput(<immersiveengineering:connector:4>);
-blessConnector.addItemInput(<contenttweaker:charred_feather> * 2);
+blessConnector.addItemInput(<contenttweaker:charred_feather> * 3);
 blessConnector.addItemInput(<astralsorcery:itemusabledust>);
 blessConnector.addItemInput(<astralsorcery:itemcraftingcomponent> * 4);
 blessConnector.addFluidInput(<liquid:blessed_life_essence> * 100);
@@ -90,7 +111,7 @@ blessConnector.build();
 
 var blessServo = RecipeBuilder.newBuilder("blessServo", "altar_of_blessings", 80);
 blessServo.addItemInput(<thermalfoundation:material:512>);
-blessServo.addItemInput(<contenttweaker:charred_feather> * 2);
+blessServo.addItemInput(<contenttweaker:charred_feather> * 3);
 blessServo.addItemInput(<astralsorcery:itemusabledust>);
 blessServo.addItemInput(<astralsorcery:itemcraftingcomponent> * 4);
 blessServo.addFluidInput(<liquid:blessed_life_essence> * 100);
@@ -100,7 +121,7 @@ blessServo.build();
 
 var blessReceptionCoil = RecipeBuilder.newBuilder("blessReceptionCoil", "altar_of_blessings", 80);
 blessReceptionCoil.addItemInput(<thermalfoundation:material:513>);
-blessReceptionCoil.addItemInput(<contenttweaker:charred_feather> * 2);
+blessReceptionCoil.addItemInput(<contenttweaker:charred_feather> * 3);
 blessReceptionCoil.addItemInput(<astralsorcery:itemusabledust>);
 blessReceptionCoil.addItemInput(<astralsorcery:itemcraftingcomponent> * 4);
 blessReceptionCoil.addFluidInput(<liquid:blessed_life_essence> * 100);
@@ -110,7 +131,7 @@ blessReceptionCoil.build();
 
 var blessTransmissionCoil = RecipeBuilder.newBuilder("blessTransmissionCoil", "altar_of_blessings", 80);
 blessTransmissionCoil.addItemInput(<thermalfoundation:material:514>);
-blessTransmissionCoil.addItemInput(<contenttweaker:charred_feather> * 2);
+blessTransmissionCoil.addItemInput(<contenttweaker:charred_feather> * 3);
 blessTransmissionCoil.addItemInput(<astralsorcery:itemusabledust>);
 blessTransmissionCoil.addItemInput(<astralsorcery:itemcraftingcomponent> * 4);
 blessTransmissionCoil.addFluidInput(<liquid:blessed_life_essence> * 100);
@@ -120,7 +141,7 @@ blessTransmissionCoil.build();
 
 var blessConductanceCoil = RecipeBuilder.newBuilder("blessConductanceCoil", "altar_of_blessings", 80);
 blessConductanceCoil.addItemInput(<thermalfoundation:material:515>);
-blessConductanceCoil.addItemInput(<contenttweaker:charred_feather> * 2);
+blessConductanceCoil.addItemInput(<contenttweaker:charred_feather> * 3);
 blessConductanceCoil.addItemInput(<astralsorcery:itemusabledust>);
 blessConductanceCoil.addItemInput(<astralsorcery:itemcraftingcomponent> * 4);
 blessConductanceCoil.addFluidInput(<liquid:blessed_life_essence> * 100);
@@ -128,35 +149,165 @@ blessConductanceCoil.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100)
 blessConductanceCoil.addItemOutput(g_blessedConductanceCoil);
 blessConductanceCoil.build();
 
-# ----------------
+# ---------------------------------
 # Thermoelectric Generator Recipes
+# ---------------------------------
+var waterAndBlaze = RecipeBuilder.newBuilder("thermoelectric_water_blaze", "thermoelectric_generator", 1);
+waterAndBlaze.addFluidInput(<liquid:water>);
+waterAndBlaze.addFluidInput(<liquid:liquid_blaze>);
+waterAndBlaze.setChance(0.05);
+waterAndBlaze.addEnergyPerTickOutput(750);
+waterAndBlaze.build();
+
+var starlightAndBlaze = RecipeBuilder.newBuilder("thermoelectric_starlight_blaze", "thermoelectric_generator", 1);
+starlightAndBlaze.addFluidInput(<liquid:astralsorcery.liquidstarlight>);
+starlightAndBlaze.setChance(0.05);
+starlightAndBlaze.addFluidInput(<liquid:liquid_blaze>);
+starlightAndBlaze.setChance(0.05);
+starlightAndBlaze.addEnergyPerTickOutput(1500);
+starlightAndBlaze.build();
+
+var waterAndLava = RecipeBuilder.newBuilder("thermoelectric_water_lava", "thermoelectric_generator", 1);
+waterAndLava.addFluidInput(<liquid:water>);
+waterAndLava.addFluidInput(<liquid:lava>);
+waterAndLava.setChance(0.20);
+waterAndLava.addEnergyPerTickOutput(300);
+waterAndLava.build();
+
+var starlightAndLava = RecipeBuilder.newBuilder("thermoelectric_starlight_lava", "thermoelectric_generator", 1);
+starlightAndLava.addFluidInput(<liquid:astralsorcery.liquidstarlight>);
+starlightAndLava.setChance(0.05);
+starlightAndLava.addFluidInput(<liquid:lava>);
+starlightAndLava.setChance(0.20);
+starlightAndLava.addEnergyPerTickOutput(600);
+starlightAndLava.build();
+
+var waterAndPyro = RecipeBuilder.newBuilder("thermoelectric_water_pyrotheum", "thermoelectric_generator", 1);
+waterAndPyro.addFluidInput(<liquid:water>);
+waterAndPyro.addFluidInput(<liquid:pyrotheum>);
+waterAndPyro.setChance(0.05);
+waterAndPyro.addEnergyPerTickOutput(3000);
+waterAndPyro.build();
+
+var starlightAndPyro = RecipeBuilder.newBuilder("thermoelectric_starlight_pyrotheum", "thermoelectric_generator", 1);
+starlightAndPyro.addFluidInput(<liquid:astralsorcery.liquidstarlight>);
+starlightAndPyro.setChance(0.05);
+starlightAndPyro.addFluidInput(<liquid:pyrotheum>);
+starlightAndPyro.setChance(0.05);
+starlightAndPyro.addEnergyPerTickOutput(8500);
+starlightAndPyro.build();
+
+# --------------------
+# Industrial Assembler
+# --------------------
+var vacuumTube = RecipeBuilder.newBuilder("ia_vacuum_tube", "industrial_assembler", 100);
+vacuumTube.addEnergyPerTickInput(120);
+vacuumTube.addItemInput(<ore:plateSilver>.firstItem * 2);
+vacuumTube.addItemInput(<ore:blockGlass>.firstItem);
+vacuumTube.addItemInput(<ore:dustCoal>.firstItem);
+vacuumTube.addItemInput(<ore:ingotElectrum>);
+vacuumTube.addItemOutput(<immersiveengineering:material:26> * 4);
+vacuumTube.build();
+
+var circuitBoard = RecipeBuilder.newBuilder("ia_circuit_board", "industrial_assembler", 100);
+circuitBoard.addEnergyPerTickInput(120);
+circuitBoard.addItemInput(<immersiveengineering:material:26>);
+circuitBoard.addItemInput(<ore:plateCopper>.firstItem);
+circuitBoard.addItemInput(<ore:dyeGreen>.firstItem);
+circuitBoard.addItemInput(<ore:ingotElectrum>);
+circuitBoard.addItemOutput(<immersiveengineering:material:27>);
+circuitBoard.build();
+
+var ironComponent = RecipeBuilder.newBuilder("ia_iron_component", "industrial_assembler", 100);
+ironComponent.addEnergyPerTickInput(120);
+ironComponent.addItemInput(<ore:plateIron>.firstItem * 2);
+ironComponent.addItemInput(<ore:ingotLead>.firstItem);
+ironComponent.addItemInput(<ore:dustRedstone>.firstItem);
+ironComponent.addItemOutput(<immersiveengineering:material:8> * 4);
+ironComponent.build();
+
+var steelComponent = RecipeBuilder.newBuilder("ia_steel_component", "industrial_assembler", 100);
+steelComponent.addEnergyPerTickInput(120);
+steelComponent.addItemInput(<ore:plateSteel>.firstItem * 2);
+steelComponent.addItemInput(<ore:ingotLead>.firstItem);
+steelComponent.addItemInput(<ore:dustRedstone>.firstItem);
+steelComponent.addItemOutput(<immersiveengineering:material:9> * 4);
+steelComponent.build();
+
+var machineFrame = RecipeBuilder.newBuilder("ia_machine_frame", "industrial_assembler", 100);
+machineFrame.addEnergyPerTickInput(120);
+machineFrame.addItemInput(<immersiveengineering:metal_decoration0:5>);
+machineFrame.addItemInput(<ore:blockGlass>.firstItem);
+machineFrame.addItemInput(<ore:dustRedstone>.firstItem * 4);
+machineFrame.addItemInput(<ore:gearSanguineMetal>.firstItem);
+machineFrame.addItemOutput(<thermalexpansion:frame>);
+machineFrame.build();
+
+var deviceFrame = RecipeBuilder.newBuilder("ia_device_frame", "industrial_assembler", 100);
+deviceFrame.addEnergyPerTickInput(120);
+deviceFrame.addItemInput(<ore:blockGlass>.firstItem);
+deviceFrame.addItemInput(<ore:plateTin>.firstItem * 4);
+deviceFrame.addItemInput(<ore:dustRedstone>.firstItem * 4);
+deviceFrame.addItemInput(<ore:gearCopper>.firstItem);
+deviceFrame.addItemOutput(<thermalexpansion:frame:64> * 4);
+deviceFrame.build();
+
+var servo = RecipeBuilder.newBuilder("ia_servo", "industrial_assembler", 100);
+servo.addEnergyPerTickInput(120);
+servo.addItemInput(<ore:ingotIron>.firstItem);
+servo.addItemInput(<ore:dustRedstone>.firstItem * 4);
+servo.addItemOutput(<thermalfoundation:material:512>);
+servo.build();
+
+var receptionCoil = RecipeBuilder.newBuilder("ia_reception_coil", "industrial_assembler", 100);
+receptionCoil.addEnergyPerTickInput(120);
+receptionCoil.addItemInput(<ore:ingotGold>.firstItem);
+receptionCoil.addItemInput(<immersiveengineering:wirecoil:5> * 2);
+receptionCoil.addItemOutput(<thermalfoundation:material:513>);
+receptionCoil.build();
+
+var transmissionCoil = RecipeBuilder.newBuilder("ia_transmission_coil", "industrial_assembler", 100);
+transmissionCoil.addEnergyPerTickInput(120);
+transmissionCoil.addItemInput(<ore:ingotSilver>.firstItem);
+transmissionCoil.addItemInput(<immersiveengineering:wirecoil:5> * 2);
+transmissionCoil.addItemOutput(<thermalfoundation:material:514>);
+transmissionCoil.build();
+
+var conductanceCoil = RecipeBuilder.newBuilder("ia_conductance_coil", "industrial_assembler", 100);
+conductanceCoil.addEnergyPerTickInput(120);
+conductanceCoil.addItemInput(<ore:ingotElectrum>.firstItem);
+conductanceCoil.addItemInput(<immersiveengineering:wirecoil:5> * 2);
+conductanceCoil.addItemOutput(<thermalfoundation:material:515>);
+conductanceCoil.build();
+
+var combatSimBlock = RecipeBuilder.newBuilder("ia_combat_simulation_portal_block", "industrial_assembler", 300);
+combatSimBlock.addEnergyPerTickInput(512);
+combatSimBlock.addItemInput(<deepmoblearning:machine_casing>);
+combatSimBlock.addItemInput(<appliedenergistics2:controller>);
+combatSimBlock.addItemInput(<minecraft:nether_brick> * 8);
+combatSimBlock.addItemInput(<appliedenergistics2:material:7> * 64);
+combatSimBlock.addItemInput(<deepmoblearning:soot_covered_redstone> * 64);
+combatSimBlock.addItemInput(<tconstruct:materials> * 64);
+combatSimBlock.addItemInput(<pneumaticcraft:plastic:5> * 8);
+combatSimBlock.addItemInput(<contenttweaker:lubricated_gear> * 4);
+combatSimBlock.addItemInput(<pneumaticcraft:capacitor> * 2);
+combatSimBlock.addItemOutput(<contenttweaker:combat_simulation_portal_block>);
+combatSimBlock.build();
+
 # ----------------
-var water_blaze = RecipeBuilder.newBuilder("thermoelectric_water_blaze", "thermoelectric_generator", 1);
-water_blaze.addFluidInput(<liquid:water>);
-water_blaze.addFluidInput(<liquid:liquid_blaze>);
-water_blaze.setChance(0.05);
-water_blaze.addEnergyPerTickOutput(750);
-water_blaze.build();
+# Mass Drying Chamber
+# ----------------
+var brittlePlastic = RecipeBuilder.newBuilder("dc_brittle_plastic", "drying_chamber", 220);
+brittlePlastic.addItemInput(<industrialforegoing:dryrubber> * 32);
+brittlePlastic.addItemOutput(<ore:itemRubber>.firstItem  * 32);
+brittlePlastic.build();
 
-var starlight_blaze = RecipeBuilder.newBuilder("thermoelectric_starlight_blaze", "thermoelectric_generator", 1);
-starlight_blaze.addFluidInput(<liquid:astralsorcery.liquidstarlight>);
-starlight_blaze.setChance(0.05);
-starlight_blaze.addFluidInput(<liquid:liquid_blaze>);
-starlight_blaze.setChance(0.05);
-starlight_blaze.addEnergyPerTickOutput(1500);
-starlight_blaze.build();
+var brick = RecipeBuilder.newBuilder("dc_brick", "drying_chamber", 220);
+brick.addItemInput(<minecraft:clay_ball> * 32);
+brick.addItemOutput(<ore:ingotBrickDried>.firstItem * 32);
+brick.build();
 
-var water_lava = RecipeBuilder.newBuilder("thermoelectric_water_lava", "thermoelectric_generator", 1);
-water_lava.addFluidInput(<liquid:water>);
-water_lava.addFluidInput(<liquid:lava>);
-water_lava.setChance(0.20);
-water_lava.addEnergyPerTickOutput(300);
-water_lava.build();
-
-var starlight_lava = RecipeBuilder.newBuilder("thermoelectric_starlight_lava", "thermoelectric_generator", 1);
-starlight_lava.addFluidInput(<liquid:astralsorcery.liquidstarlight>);
-starlight_lava.setChance(0.05);
-starlight_lava.addFluidInput(<liquid:lava>);
-starlight_lava.setChance(0.20);
-starlight_lava.addEnergyPerTickOutput(600);
-starlight_lava.build();
+var leather = RecipeBuilder.newBuilder("dc_leather", "drying_chamber", 220);
+leather.addItemInput(<minecraft:rotten_flesh> * 32);
+leather.addItemOutput(<minecraft:leather> * 32);
+leather.build();

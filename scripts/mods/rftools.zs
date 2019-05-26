@@ -4,14 +4,16 @@
 recipes.remove(<rftools:machine_frame>);
 recipes.remove(<rftools:builder>);
 recipes.remove(<rftools:shape_card:2>);
+recipes.remove(<rftools:machine_base>);
+recipes.remove(<rftools:dimensional_shard>);
 
 # ----------------
 # Recipes
 # ----------------
 recipes.addShaped("rft_machine_frame", <rftools:machine_frame>, [
-    [<ore:ingotBrickSeared>, <ore:plateSteel>, <ore:ingotBrickSeared>],
-    [<ore:plateSteel>, g_blessedMachineFrame, <ore:plateSteel>],
-    [<ore:ingotBrickSeared>, <ore:plateSteel>, <ore:ingotBrickSeared>]
+    [<ore:itemRubber>, <ore:plateSteel>, <ore:itemRubber>],
+    [<ore:plateSteel>, <immersiveengineering:metal_decoration0:5>, <ore:plateSteel>],
+    [<ore:itemRubber>, <ore:plateSteel>, <ore:itemRubber>]
 ]);
 
 recipes.addShaped("rft_builder", <rftools:builder>, [
@@ -25,5 +27,16 @@ recipes.addShaped("rft_quarry_card", <rftools:shape_card:2>, [
     [<ore:dustAstralStarmetal>, <rftools:shape_card>, <ore:dustAstralStarmetal>],
     [<ore:slateTier3>, <astralsorcery:itemcrystalshovel>, <ore:slateTier3>]
 ]);
+
+recipes.addShaped("rft_machine_base", <rftools:machine_base> * 3, [
+    [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>],
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+]);
+
+recipes.addShaped("rft_dimensional_shard", <rftools:dimensional_shard> * 16, [
+    [<minecraft:diamond>, <mysticalagriculture:crafting:5>, <appliedenergistics2:material>],
+    [<minecraft:quartz>, <minecraft:quartz>, <minecraft:prismarine_shard>]
+]);
+
 
 recipes.replaceAllOccurences(<ore:ingotBrick>, <ore:ingotBrickSeared>, <rftools:shape_card>);

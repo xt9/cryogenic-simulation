@@ -27,6 +27,19 @@
             "title": "Iron",
             "item": "minecraft:iron_ore",
             "text": "Crude metal found between world height $(primary)0-64$(), will be found a bit more commonly than in the first $(item)Simulation$()."
+        },
+        {
+            "type": "spotlight",
+            "title": "Glowstone",
+            "item": "minecraft:glowstone",
+            "text": "A glowing crystal found in the $(item)Cavern ceilings$().$(br2)Found between world height$(br)$(primary)12-55$()"
+        },
+        {
+            "type": "spotlight",
+            "title": "Sooty Marble",
+            "anchor": "sooty",
+            "item": "astralsorcery:blockblackmarble",
+            "text": "A $(item)Volcanic$() Marble variant.$(br2)Found between world height$(br)$(primary)10-28$() in both $(item)Caves$() and $(l:sim_2/dungeons)Dungeons$()."
         }
     ]
 }

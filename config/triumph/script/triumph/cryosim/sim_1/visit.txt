@@ -2,7 +2,7 @@ addParent("triumph:cryosim/root")
 
 setIcon(<chisel:antiblock:15>)
 setTitle("Contained Ecosystems")
-setDescription("A world filled with self contained ecosystems, scavenge the lands to produce steel to reach the next simulation.")
+setDescription("A world filled with self contained ecosystems.")
 setAnnounceToChat(true)
 setShowToast(true)
 

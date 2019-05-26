@@ -1,0 +1,13 @@
+{
+    "name": "6: Logistics",
+    "icon": "appliedenergistics2:controller",
+    "category": "sim_3",
+    "advancement": "triumph:cryosim/sim_3/visit",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

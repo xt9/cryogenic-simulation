@@ -55,6 +55,29 @@
                 "generatorName": "lostcities",
                 "generatorOptions": "{ \"profile\": \"arid_waste\" }"
             }
+        },
+        {
+            "dim": 91,
+            "dimensiontype": {
+                "id": 91,
+                "name": "church_of_night",
+                "suffix": "_dim91",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "jed": {
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;2*minecraft:bedrock,xtones:azur:14;1;",
+                "DayTime": 18000,
+                "GameRules": {
+                    "doDaylightCycle": "false",
+                    "doWeatherCycle": "false"
+                }
+            }
         }
     ]
 }
