@@ -15,10 +15,11 @@
 /natives
 
 /config/tellme/**
-/config/XaeroWaypoints/**
 /config/splash.properties
 /config/jei/worldSettings.cfg
 /config/jei/bookmarks.ini
+/config/AppliedEnergistics2/CustomRecipes.cfg
+/config/AppliedEnergistics2/items.csv
 /config/astralsorcery/amulet_enchantments.cfg
 /config/BiomeTweaker/output
 /config/cavegenerator/example_presets
