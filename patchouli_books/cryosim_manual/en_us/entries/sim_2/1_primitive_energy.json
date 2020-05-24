@@ -8,7 +8,7 @@
         {
             "type": "crafting",
             "recipe": "immersiveengineering:material/wire_copper",
-            "text": "You have grown so much in a short amount of time, we we're impressed by your performance in the first $(item)Simulation$().$(br2)Your next task is to create a $(item)Primitive Power System$() that will power a $(item)Squeezer$()."
+            "text": "You have grown so much in a short amount of time, we were impressed by your performance in the first $(item)Simulation$().$(br2)Your next task is to create a $(item)Primitive Power System$() that will power a $(item)Squeezer$()."
         },
         {
             "type": "crafting",

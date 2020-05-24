@@ -20,7 +20,7 @@ recipes.addShaped("danknull_tier2", <ore:dankNullTier2>.firstItem, [
     [<ore:gemLapis>, <immersiveengineering:wooden_device0:5>, <ore:gemLapis>]
 ], function(out, ins, cInfo) {
     var tag = {} as IData;
-    # This if is here to keep the tinkers workbench from screwing up JEI autocomplete
+    # This is here to keep the tinkers workbench from screwing up JEI autocomplete
     if(ins has "dank" && !isNull(ins.dank) && ins.dank.hasTag) {
         tag = ins.dank.tag;
     }

@@ -6,6 +6,9 @@ recipes.remove(<rftools:builder>);
 recipes.remove(<rftools:shape_card:2>);
 recipes.remove(<rftools:machine_base>);
 recipes.remove(<rftools:dimensional_shard>);
+recipes.remove(<rftools:powercell_simple>);
+
+recipes.removeByRecipeName("rftools:powercell_normal");
 
 # ----------------
 # Recipes
@@ -13,7 +16,7 @@ recipes.remove(<rftools:dimensional_shard>);
 recipes.addShaped("rft_machine_frame", <rftools:machine_frame>, [
     [<ore:itemRubber>, <ore:plateSteel>, <ore:itemRubber>],
     [<ore:plateSteel>, <immersiveengineering:metal_decoration0:5>, <ore:plateSteel>],
-    [<ore:itemRubber>, <ore:plateSteel>, <ore:itemRubber>]
+    [<ore:itemRubber>, <ore:dustAstralStarmetal>, <ore:itemRubber>]
 ]);
 
 recipes.addShaped("rft_builder", <rftools:builder>, [

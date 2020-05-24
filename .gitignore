@@ -12,6 +12,7 @@
 /.mixin.out/**
 /llibrary/**
 /build
+/natives
 
 /config/tellme/**
 /config/XaeroWaypoints/**

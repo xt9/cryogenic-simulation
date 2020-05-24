@@ -150,8 +150,8 @@
 					"data": {
 						"name": "thermalfoundation:material",
 						"meta": 160,
-						"min": 7,
-						"max": 18
+						"min": 4,
+						"max": 9
 					},
 					"weight": 4
 				},

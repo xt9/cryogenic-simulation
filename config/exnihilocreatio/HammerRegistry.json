@@ -71,7 +71,7 @@
       "fortuneChance": 0.0
     }
   ],
-  "traverse:red_rock_cobblestone": [
+  "ore:redrock": [
     {
       "item": "contenttweaker:red_canyon_dust",
       "amount": 1,

@@ -1,6 +1,6 @@
 {
     "name": "Quality of Life",
-    "icon": "danknull:dank_null:4",
+    "icon": "danknull:dank_null_4",
     "category": "sim_3",
     "advancement": "triumph:cryosim/sim_3/visit",
     "priority": true,

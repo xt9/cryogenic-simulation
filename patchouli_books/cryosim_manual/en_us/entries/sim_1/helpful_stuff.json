@@ -18,12 +18,12 @@
         {
             "type": "crafting",
             "recipe": "hooked:diamond_hook",
-            "text": "You can upgrade your $(l:portal_hub/6_hook)Hook$() to a much faster version."
+            "text": "You can upgrade your $(l:portal_hub/5_hook)Hook$() to a much faster version."
         },
         {
             "type": "crafting",
             "recipe": "openblocks:hang_glider_0",
-            "text": "This hang glider complements your $(l:portal_hub/6_hook)Hook$() really well and make you travel even faster."
+            "text": "This hang glider complements your $(l:portal_hub/5_hook)Hook$() really well and make you travel even faster."
         },
         {
             "type": "crafting",

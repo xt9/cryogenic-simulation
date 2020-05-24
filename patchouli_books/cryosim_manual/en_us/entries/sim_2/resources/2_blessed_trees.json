@@ -14,6 +14,11 @@
             "item": "cryosimadditions:block_blood_resin_log",
             "title": "Location and Uses",
             "text": "They only grow in the $(item)Blessed Plains$() biome.$(br2)Until you progress into later $(item)Simulations$() this is not a renewable resource.$(br2)For now you can use a $(l:sim_2/2_bloody_ingot)Squeezer$() to press the Blood out of the logs."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:csa_red_dye",
+            "text": "The vibrant leaves of the tree can be used to make $(item)Rose Red$()."
         }
     ]
 }

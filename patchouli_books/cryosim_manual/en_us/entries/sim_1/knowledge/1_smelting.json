@@ -9,7 +9,7 @@
             "type": "spotlight",
             "title": "Smelting Knowledge",
             "item": "gamestagebooks:ticon_stage",
-            "text": "If you want the knowledge to $(l:sim_1/4_smeltery)Smelt$() things you're going to have to work for it.$(br2)Use your $(l:portal_hub/6_hook)Hook$() to climb one of the sky islands we have placed around this $(item)Simulation$().$(br2)If you lost your $(l:portal_hub/6_hook)Hook$() you are on your own, but I bet you can figure something out."
+            "text": "If you want the knowledge to $(l:sim_1/4_smeltery)Smelt$() things you're going to have to work for it.$(br2)Use your $(l:portal_hub/5_hook)Hook$() to climb one of the sky islands we have placed around this $(item)Simulation$().$(br2)If you lost your $(l:portal_hub/5_hook)Hook$() you are on your own, but I bet you can figure something out."
         },
         {
             "type": "spotlight",

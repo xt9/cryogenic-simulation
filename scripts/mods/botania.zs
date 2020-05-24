@@ -12,3 +12,4 @@ recipes.removeByRecipeName("botania:fertilizer_dye");
 # ------------------
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "endoflame"}));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "hydroangeas"}));
+    

@@ -21,7 +21,7 @@
             "type": "crafting",
             "recipe": "crafttweaker:bm_sac_dagger",
             "anchor": "dagger",
-            "text": "This dagger allows you to sacrifice some of your $(item)Blood$() to the $(item)Gods$().$(br2)This act will put $(item)Life Essence$() into the altar. Maybe you could make this process less tedious by brewing with $(item)Beetroots$()?"
+            "text": "This dagger allows you to sacrifice some of your $(item)Blood$() to the $(item)Gods$().$(br2)This act will put $(item)Life Essence$() into the altar. Maybe you could make this process less tedious by brewing with $(l:sim_2/5_alchemy#beetroot)Beetroots$()?"
         },
         {
             "type": "spotlight",

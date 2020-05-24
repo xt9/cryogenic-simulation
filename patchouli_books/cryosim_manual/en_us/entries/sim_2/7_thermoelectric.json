@@ -29,7 +29,7 @@
             "item9": "immersiveengineering:metal_device1:6#2",
             "item10": "tconstruct:clear_stained_glass:7#4",
             "item11": "immersiveengineering:metal_decoration1",
-            "notes": "Don't forget to use $(l:portal_hub/4_schematica)Schematica$() if you're unsure of how to build the multiblock."
+            "notes": "Don't forget to use $(l:portal_hub/4_schematica)Schematica$() if you're unsure of how to build the multiblock.$(br2)A redstone signal will stop the machine from consuming liquid."
         },
         {
             "type": "spotlight",

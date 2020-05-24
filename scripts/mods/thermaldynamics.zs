@@ -20,7 +20,7 @@ Transposer.removeFillRecipe(<thermaldynamics:duct_32:5>, <liquid:glowstone>);
 
 var structDuct = <thermaldynamics:duct_48>;
 
-recipes.addShaped("td_structural_duct", <thermaldynamics:duct_48> * 32, [
+recipes.addShaped("td_structural_duct", <thermaldynamics:duct_48> * 16, [
     [<ore:compressed1xCobblestone>, <ore:blockGlass>, <ore:compressed1xCobblestone>],
     [<ore:compressed1xCobblestone>, <ore:dyeBlack>, <ore:compressed1xCobblestone>],
     [<ore:compressed1xCobblestone>, <ore:blockGlass>, <ore:compressed1xCobblestone>]

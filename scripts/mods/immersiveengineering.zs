@@ -394,7 +394,7 @@ recipes.addShaped("ie_hv_capacitor", <immersiveengineering:metal_device0:2>, [
 ]);
 
 recipes.addShaped("ie_machine_parts_blueprint", <immersiveengineering:blueprint>.withTag({blueprint: "Machine Parts"}), [
-    [<ore:gearSanguineMetal>, <immersiveengineering:material:27>, <ore:gearSanguineMetal>],
+    [<ore:plateSanguineMetal>, <immersiveengineering:material:27>, <ore:plateSanguineMetal>],
     [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
     [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
 ]);

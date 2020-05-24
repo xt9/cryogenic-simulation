@@ -114,7 +114,7 @@ Transposer.addFillRecipe(<deepmoblearning:polymer_clay> * 4, <minecraft:clay_bal
 # Charred terracotta
 InductionSmelter.addRecipe(<contenttweaker:block_charred_terracotta> * 8, <contenttweaker:charred_feather>, <tconstruct:materials> * 8, 3000);
 # Charred Feather Pile Qol recipe
-InductionSmelter.addRecipe(<contenttweaker:charred_feather> * 6, <ore:ravenFeather>.firstItem, <ore:dustCoal>.firstItem, 3000);
+InductionSmelter.addRecipe(<contenttweaker:charred_feather> * 8, <ore:ravenFeather>.firstItem, <ore:dustCoal>.firstItem, 3000);
 # Pigiron QoL recipe
 InductionSmelter.addRecipe(<ore:ingotPigiron>.firstItem, <ore:ingotIron>.firstItem, <contenttweaker:bloody_mud>, 3000);
 # Steel from coke dust
@@ -129,9 +129,9 @@ InductionSmelter.addRecipe(<ore:chestGold>.firstItem, <ore:ingotGold>.firstItem 
 InductionSmelter.addRecipe(<ore:chestDiamond>.firstItem, <ore:gemDiamond>.firstItem * 4, <ore:chestGold>.firstItem, 5000);
 InductionSmelter.addRecipe(<ore:chestObsidian>.firstItem, <ore:obsidian>.firstItem * 4, <ore:chestDiamond>.firstItem, 5000);
 # AE2 Circuits
-InductionSmelter.addRecipe(<appliedenergistics2:material:22>, <appliedenergistics2:material:20>, <appliedenergistics2:material:18>, 3000);
-InductionSmelter.addRecipe(<appliedenergistics2:material:23>, <appliedenergistics2:material:20>, <appliedenergistics2:material:16>, 3000);
-InductionSmelter.addRecipe(<appliedenergistics2:material:24>, <appliedenergistics2:material:20>, <appliedenergistics2:material:17>, 3000);
+InductionSmelter.addRecipe(<appliedenergistics2:material:22>, <appliedenergistics2:material:20>, <appliedenergistics2:material:18>, 4000);
+InductionSmelter.addRecipe(<appliedenergistics2:material:23>, <appliedenergistics2:material:20>, <appliedenergistics2:material:16>, 4000);
+InductionSmelter.addRecipe(<appliedenergistics2:material:24>, <appliedenergistics2:material:20>, <appliedenergistics2:material:17>, 4000);
 # EnderIO Alloys
 InductionSmelter.addRecipe(<ore:ingotElectricalSteel>.firstItem, <ore:ingotSteel>.firstItem, <ore:itemSilicon>.firstItem, 9000);
 InductionSmelter.addRecipe(<ore:ingotVibrantAlloy>.firstItem, <ore:ingotEnergeticAlloy>.firstItem, <ore:enderpearl>.firstItem, 9000);
@@ -148,13 +148,13 @@ InductionSmelter.addRecipe(<ore:gearEnergized>.firstItem, <ore:gearIronInfinity>
 InductionSmelter.addRecipe(<ore:gearVibrant>.firstItem, <ore:gearIronInfinity>.firstItem, <ore:ingotVibrantAlloy>.firstItem * 4, 9000);
 InductionSmelter.addRecipe(<ore:gearDark>.firstItem, <ore:gearIronInfinity>.firstItem, <ore:ingotDarkSteel>.firstItem * 4, 9000);
 # Fused Quartz
-InductionSmelter.addRecipe(<enderio:block_fused_quartz>, <minecraft:glass>, <ore:gemQuartz>.firstItem * 4, 9000);
-InductionSmelter.addRecipe(<enderio:block_enlightened_fused_quartz>, <enderio:block_fused_quartz>, <ore:dustGlowstone>.firstItem * 4, 9000);
-InductionSmelter.addRecipe(<enderio:block_dark_fused_quartz>, <enderio:block_fused_quartz>, <ore:dustObsidian>.firstItem * 4, 9000);
+InductionSmelter.addRecipe(<enderio:block_fused_quartz>, <minecraft:glass>, <ore:gemQuartz>.firstItem * 4, 4000);
+InductionSmelter.addRecipe(<enderio:block_enlightened_fused_quartz>, <enderio:block_fused_quartz>, <ore:dustGlowstone>.firstItem * 4, 4000);
+InductionSmelter.addRecipe(<enderio:block_dark_fused_quartz>, <enderio:block_fused_quartz>, <ore:dustObsidian>.firstItem * 4, 4000);
 # Quartz glass
-InductionSmelter.addRecipe(<appliedenergistics2:quartz_glass>, <minecraft:glass>, <ore:dustQuartz>.firstItem * 2, 3000);
+InductionSmelter.addRecipe(<appliedenergistics2:quartz_glass>, <minecraft:glass>, <ore:dustQuartz>.firstItem * 2, 4000);
 # Soulium
-InductionSmelter.addRecipe(<mysticalagriculture:crafting:38>, <minecraft:soul_sand>, <ore:ingotInferium>.firstItem, 3000);
+InductionSmelter.addRecipe(<mysticalagriculture:crafting:38>, <minecraft:soul_sand>, <ore:ingotInferium>.firstItem, 4000);
 
 # ----------------
 # Compactor

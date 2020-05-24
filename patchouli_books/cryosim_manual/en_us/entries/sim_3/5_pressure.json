@@ -22,7 +22,7 @@
         {
             "type": "spotlight",
             "item": "gamestagebooks:ae2_stage",
-            "text": "We will give you the $(l:sim_3/knowledge/0_ae2)Logistics Knowledge$() after you send us some $(item)Charged Certus Quartz$().$(br2)If you do this for us we might even stop it with the caveman jokes! Wouldn't that be nice?"
+            "text": "We will give you the $(l:sim_3/knowledge/0_ae2)Logistics Knowledge$() after you send us some $(item)Charged Certus Quartz$().$(br2)If you do this for us we might even stop it with the caveman quips! Wouldn't that be nice?"
         },
         {
             "type": "materials",

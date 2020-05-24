@@ -73,13 +73,15 @@ recipes.addShaped("mm_energyoutput", <modularmachinery:blockenergyoutputhatch:6>
 # Biome Detector
 recipes.addShaped("mm_biome_detector", <modulardiversity:blockbiomedetector>, [
     [<naturescompass:naturescompass>],
-    [<modularmachinery:blockcasing>]
+    [<modularmachinery:blockcasing>],
+    [null]
 ]);
 
 # Mana output hatch
 recipes.addShaped("mm_manaoutput", <modulardiversity:blockmanaoutputhatch>, [
     [<botania:pool>],
-    [<modularmachinery:blockcasing>]
+    [<modularmachinery:blockcasing>],
+    [null]
 ]);
 
 
@@ -91,9 +93,11 @@ recipes.addShaped("mm_manaoutput", <modulardiversity:blockmanaoutputhatch>, [
 # --------------------------
 var blessFrame = RecipeBuilder.newBuilder("blessFrame", "altar_of_blessings", 120);
 blessFrame.addItemInput(<thermalexpansion:frame>);
-blessFrame.addItemInput(<ore:slateTier1>.firstItem * 2);
-blessFrame.addItemInput(<ore:ingotAstralStarmetal>);
-blessFrame.addItemInput(<ore:gemAquamarine>.firstItem * 12);
+blessFrame.addItemInput(<ore:gemAquamarine>.firstItem * 16);
+blessFrame.addItemInput(<contenttweaker:charred_feather> * 4);
+blessFrame.addItemInput(<ore:ingotAstralStarmetal>.firstItem * 2);
+blessFrame.addItemInput(<ore:dustSilver>.firstItem * 2);
+blessFrame.addItemInput(<ore:slateTier1>);
 blessFrame.addFluidInput(<liquid:blessed_life_essence> * 500);
 blessFrame.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 500);
 blessFrame.addItemOutput(g_blessedMachineFrame);
@@ -101,9 +105,10 @@ blessFrame.build();
 
 var blessConnector = RecipeBuilder.newBuilder("blessConnector", "altar_of_blessings", 80);
 blessConnector.addItemInput(<immersiveengineering:connector:4>);
-blessConnector.addItemInput(<contenttweaker:charred_feather> * 3);
-blessConnector.addItemInput(<astralsorcery:itemusabledust>);
 blessConnector.addItemInput(<astralsorcery:itemcraftingcomponent> * 4);
+blessConnector.addItemInput(<contenttweaker:charred_feather> * 2);
+blessConnector.addItemInput(<astralsorcery:itemusabledust>);
+blessConnector.addItemInput(<ore:dustSilver>);
 blessConnector.addFluidInput(<liquid:blessed_life_essence> * 100);
 blessConnector.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
 blessConnector.addItemOutput(g_blessedConnector);
@@ -111,9 +116,10 @@ blessConnector.build();
 
 var blessServo = RecipeBuilder.newBuilder("blessServo", "altar_of_blessings", 80);
 blessServo.addItemInput(<thermalfoundation:material:512>);
-blessServo.addItemInput(<contenttweaker:charred_feather> * 3);
-blessServo.addItemInput(<astralsorcery:itemusabledust>);
 blessServo.addItemInput(<astralsorcery:itemcraftingcomponent> * 4);
+blessServo.addItemInput(<contenttweaker:charred_feather> * 2);
+blessServo.addItemInput(<astralsorcery:itemusabledust>);
+blessServo.addItemInput(<ore:dustSilver>);
 blessServo.addFluidInput(<liquid:blessed_life_essence> * 100);
 blessServo.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
 blessServo.addItemOutput(g_blessedServo);
@@ -121,9 +127,10 @@ blessServo.build();
 
 var blessReceptionCoil = RecipeBuilder.newBuilder("blessReceptionCoil", "altar_of_blessings", 80);
 blessReceptionCoil.addItemInput(<thermalfoundation:material:513>);
-blessReceptionCoil.addItemInput(<contenttweaker:charred_feather> * 3);
-blessReceptionCoil.addItemInput(<astralsorcery:itemusabledust>);
 blessReceptionCoil.addItemInput(<astralsorcery:itemcraftingcomponent> * 4);
+blessReceptionCoil.addItemInput(<contenttweaker:charred_feather> * 2);
+blessReceptionCoil.addItemInput(<astralsorcery:itemusabledust>);
+blessReceptionCoil.addItemInput(<ore:dustSilver>);
 blessReceptionCoil.addFluidInput(<liquid:blessed_life_essence> * 100);
 blessReceptionCoil.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
 blessReceptionCoil.addItemOutput(g_blessedReceptionCoil);
@@ -131,9 +138,10 @@ blessReceptionCoil.build();
 
 var blessTransmissionCoil = RecipeBuilder.newBuilder("blessTransmissionCoil", "altar_of_blessings", 80);
 blessTransmissionCoil.addItemInput(<thermalfoundation:material:514>);
-blessTransmissionCoil.addItemInput(<contenttweaker:charred_feather> * 3);
-blessTransmissionCoil.addItemInput(<astralsorcery:itemusabledust>);
 blessTransmissionCoil.addItemInput(<astralsorcery:itemcraftingcomponent> * 4);
+blessTransmissionCoil.addItemInput(<contenttweaker:charred_feather> * 2);
+blessTransmissionCoil.addItemInput(<astralsorcery:itemusabledust>);
+blessTransmissionCoil.addItemInput(<ore:dustSilver>);
 blessTransmissionCoil.addFluidInput(<liquid:blessed_life_essence> * 100);
 blessTransmissionCoil.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
 blessTransmissionCoil.addItemOutput(g_blessedTransmissionCoil);
@@ -141,9 +149,10 @@ blessTransmissionCoil.build();
 
 var blessConductanceCoil = RecipeBuilder.newBuilder("blessConductanceCoil", "altar_of_blessings", 80);
 blessConductanceCoil.addItemInput(<thermalfoundation:material:515>);
-blessConductanceCoil.addItemInput(<contenttweaker:charred_feather> * 3);
-blessConductanceCoil.addItemInput(<astralsorcery:itemusabledust>);
 blessConductanceCoil.addItemInput(<astralsorcery:itemcraftingcomponent> * 4);
+blessConductanceCoil.addItemInput(<contenttweaker:charred_feather> * 2);
+blessConductanceCoil.addItemInput(<astralsorcery:itemusabledust>);
+blessConductanceCoil.addItemInput(<ore:dustSilver>);
 blessConductanceCoil.addFluidInput(<liquid:blessed_life_essence> * 100);
 blessConductanceCoil.addFluidInput(<liquid:astralsorcery.liquidstarlight> * 100);
 blessConductanceCoil.addItemOutput(g_blessedConductanceCoil);
@@ -170,7 +179,7 @@ starlightAndBlaze.build();
 var waterAndLava = RecipeBuilder.newBuilder("thermoelectric_water_lava", "thermoelectric_generator", 1);
 waterAndLava.addFluidInput(<liquid:water>);
 waterAndLava.addFluidInput(<liquid:lava>);
-waterAndLava.setChance(0.20);
+waterAndLava.setChance(0.15);
 waterAndLava.addEnergyPerTickOutput(300);
 waterAndLava.build();
 
@@ -178,7 +187,7 @@ var starlightAndLava = RecipeBuilder.newBuilder("thermoelectric_starlight_lava",
 starlightAndLava.addFluidInput(<liquid:astralsorcery.liquidstarlight>);
 starlightAndLava.setChance(0.05);
 starlightAndLava.addFluidInput(<liquid:lava>);
-starlightAndLava.setChance(0.20);
+starlightAndLava.setChance(0.15);
 starlightAndLava.addEnergyPerTickOutput(600);
 starlightAndLava.build();
 

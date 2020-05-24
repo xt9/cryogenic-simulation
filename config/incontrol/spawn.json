@@ -42,6 +42,7 @@
         "seesky": false,
         "healthmultiply": 0.4,
         "damagemultiply": 0.4,
+        "maxlight": 5,
         "result": "allow"
     },
     {

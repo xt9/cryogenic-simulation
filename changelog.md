@@ -1,3 +1,28 @@
+# 0.4.1
+### Arid Waste
+- Air compressors cost 1 Ardite Large Plate instead of 2.
+- Magician Blood Orb now costs a Sealing sigil instead of a Gold Block
+- ME Drive is not a bit cheaper to craft
+- 
+### Lunar Plane
+- Trolls that spawns in caves no longer spawn in lit areas. (It felt bad that trolls spawned even in lit areas.)
+- The Blueprint recipe for Machine Parts now costs sanguine plates instead of gears. (It felt bad spending 8 sanguine for a blueprint, 2 is better)
+- Blessed frames now requires 2 Starmetal instead of 1 (While playtesting I brought a stack of iron and returned with 3 stacks of starmetal so it feels like this should be a little bit more pricey)
+- Added Silver requirements for several of the blessing recipes.
+- Nerfed the amount of steel you get from Dungeon chests
+- You now get less Structural ducts per recipe, was a tad excessive.
+- Crafting Waystones now require troll eyes, a diamond, and a tad less Cobblestone.
+- Tier 1 slate crafting now consume 15lp per tick instead of 10lp per tick.
+- The Life Essence Bucket craft can nonw consume more lp per tick.
+### Misc
+- Removed Botania flowers from worldgen
+- Ticon tool parts are now done with their Strike (No longer hidden in JEI)
+- Disabled quark search bar in favor of JEIs chest search.
+- Enabled ExNihilo ticon hammers
+- Added a new oredict for redrock so that both red rock and red rock cobblestone is crushable by hammer.
+- Removed the simple powercell recipe, it's fairly redundant.
+- Disabled EIO Me conduits because they are pretty unintuitive, and works in wierd ways when 2 conduits are next to each other but not connected. Let's stick with the native cabling.
+
 # 0.4
 A bit thin since a lot of the patch is progression addition and not actual changes.
 ### Combat simulation

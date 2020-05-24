@@ -31,6 +31,8 @@ AlchemyTable.removeRecipe([<thermalfoundation:material:772>, <thermalfoundation:
 BloodAltar.removeRecipe(<minecraft:diamond>);
 # Remove tier 2 blood orb
 BloodAltar.removeRecipe(<minecraft:redstone_block>);
+# Remove tier 3 blood orb
+BloodAltar.removeRecipe(<minecraft:gold_block>);
 # Remove Slates
 BloodAltar.removeRecipe(<minecraft:stone>);
 BloodAltar.removeRecipe(<bloodmagic:slate>);
@@ -44,11 +46,17 @@ BloodAltar.removeRecipe(<minecraft:ghast_tear>);
 BloodAltar.removeRecipe(<minecraft:lapis_block>);
 BloodAltar.removeRecipe(<minecraft:magma_cream>);
 BloodAltar.removeRecipe(<minecraft:obsidian>);
+# Remove slow life essence bucket recipe
+BloodAltar.removeRecipe(<minecraft:bucket>);
+
+
+# Life Essence Bucket
+BloodAltar.addRecipe(<forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}), <minecraft:bucket>, 0, 1000, 15, 5);
 
 # Slate Tiers
-BloodAltar.addRecipe(<ore:slateTier1>.firstItem, <contenttweaker:block_charred_terracotta>, 0, 500, 10, 5);
-BloodAltar.addRecipe(<ore:slateTier2>.firstItem, <ore:slateTier1>.firstItem, 1, 1500, 15, 5);
-BloodAltar.addRecipe(<ore:slateTier3>.firstItem, <ore:slateTier2>.firstItem, 2, 3000, 20, 5);
+BloodAltar.addRecipe(<ore:slateTier1>.firstItem, <contenttweaker:block_charred_terracotta>, 0, 500, 15, 5);
+BloodAltar.addRecipe(<ore:slateTier2>.firstItem, <ore:slateTier1>.firstItem, 1, 1500, 20, 5);
+BloodAltar.addRecipe(<ore:slateTier3>.firstItem, <ore:slateTier2>.firstItem, 2, 3000, 25, 5);
 BloodAltar.addRecipe(<ore:slateTier4>.firstItem, <ore:slateTier3>.firstItem, 3, 9000, 30, 15);
 BloodAltar.addRecipe(<ore:slateTier5>.firstItem, <ore:slateTier4>.firstItem, 4, 20000, 50, 50);
 
@@ -59,6 +67,7 @@ BloodAltar.addRecipe(<bloodmagic:dagger_of_sacrifice>, <astralsorcery:itemcrysta
 # Blood Orbs TODO, DO ALL THE TIERS
 BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <ore:trollEye>.firstItem, 0, 2000, 15, 5);
 BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <ore:slimeballBlood>.firstItem, 1, 5000, 20, 5);
+BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <astralsorcery:itemperkseal>, 2, 10000, 25, 5);
 
 # Inscription Tool Air
 BloodAltar.addRecipe(<bloodmagic:inscription_tool:1>.withTag({uses: 10}), <infinitewatersource:infinitewatersource>, 2, 1000, 20, 5);

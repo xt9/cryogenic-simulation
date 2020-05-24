@@ -16,8 +16,8 @@ recipes.addShaped("sd_upgrade_template", <storagedrawers:upgrade_template> * 2, 
 # Drawer Controller
 recipes.addShaped("sd_controller", <storagedrawers:controller>, [
     [<ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>],
-    [<immersiveengineering:metal_decoration0:5>, <ore:drawerBasic>, <immersiveengineering:metal_decoration0:5>],
-    [<ore:compressed1xCobblestone>, <ore:gemDiamond>, <ore:compressed1xCobblestone>],
+    [<ore:plateSanguineMetal>, <ore:drawerBasic>, <ore:plateSanguineMetal>],
+    [<immersiveengineering:metal_decoration0:5>, <ore:gemDiamond>, <immersiveengineering:metal_decoration0:5>],
 ]);
 
 # Compacting Drawer

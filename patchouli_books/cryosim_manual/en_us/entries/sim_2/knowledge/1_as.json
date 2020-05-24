@@ -9,7 +9,7 @@
             "type": "spotlight",
             "item": "gamestagebooks:as_stage",
             "title": "Lunar Insight",
-            "text": "This religious text will teach you how to harness $(item)Starlight$().$(br2)Use your $(l:portal_hub/6_hook)Hook$() to climb one of the floating shrines that looms over the $(item)Dark Thicket$() biome to find this Knowledge.$(br2)It may be wise to bring a $(item)Workbench$() so you can craft the $(item)Luminous Crafting Table$()."
+            "text": "This religious text will teach you how to harness $(item)Starlight$().$(br2)Use your $(l:portal_hub/5_hook)Hook$() to climb one of the floating shrines that looms over the $(item)Dark Thicket$() biome to find this Knowledge.$(br2)It may be wise to bring a $(item)Workbench$() so you can craft the $(item)Luminous Crafting Table$()."
         },
         {
             "type": "spotlight",

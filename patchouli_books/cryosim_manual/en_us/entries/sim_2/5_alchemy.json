@@ -28,6 +28,7 @@
             "input1": "minecraft:beetroot",
             "inputfluid": "forge:bucketfilled{FluidName:blood}",
             "output1": "inspirations:edibles",
+            "anchor": "beetroot",
             "title": "Brewing",
             "description": "Having trouble with keeping your Health high at the $(l:sim_2/3_vein_tapping)Blood Altar$()?$(br2)The $(item)Heartbeet$() can be used to get a strong $(item)Regeneration Effect$()."
         },

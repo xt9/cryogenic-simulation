@@ -41,7 +41,7 @@ recipes.addShaped("ae2_controller", <appliedenergistics2:controller>, [
 ]);
 
 recipes.addShaped("ae2_disk_drive", <appliedenergistics2:drive>, [
-    [<enderio:item_me_conduit>, <pneumaticcraft:network_component:2>, <enderio:item_me_conduit>],
+    [<ore:crystalFluix>, <pneumaticcraft:network_component:2>, <ore:crystalFluix>],
     [<appliedenergistics2:material:24>, <ore:chestObsidian>, <appliedenergistics2:material:24>],
     [<ore:ingotIronCompressed>, <pneumaticcraft:network_component:3>, <ore:ingotIronCompressed>]
 ]);
@@ -66,7 +66,7 @@ recipes.addShaped("ae2_molecular_assembler", <appliedenergistics2:molecular_asse
     [<ore:crystalFluix>, <pneumaticcraft:network_component:3>, <ore:crystalFluix>]
 ]);
 
-recipes.addShaped("ae2_quartz_fiber", <appliedenergistics2:part:140> * 4, [
+recipes.addShaped("ae2_quartz_fiber", <appliedenergistics2:part:140> * 8, [
     [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
     [<ore:dustQuartz>, <ore:dustQuartz>, <ore:dustQuartz>],
     [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]

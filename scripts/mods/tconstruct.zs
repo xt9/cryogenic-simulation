@@ -28,6 +28,9 @@ recipes.remove(<tconstruct:seared_tank>);
 # Remove colored clear glass variants, add with chiseling
 recipes.remove(<tconstruct:clear_stained_glass:*>);
 recipes.removeByRecipeName("tconstruct:gadgets/slime_boots_fallback");
+recipes.removeByRecipeName("tconstruct:gadgets/slimeboots/blue");
+recipes.removeByRecipeName("tconstruct:gadgets/slimeboots/purple");
+recipes.removeByRecipeName("tconstruct:gadgets/slimeboots/magma");
 
 # Change default slime boot recipe
 recipes.replaceAllOccurences(<tconstruct:slime_congealed>, <immersiveengineering:cloth_device>, <tconstruct:slime_boots>);

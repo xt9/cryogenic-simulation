@@ -80,7 +80,7 @@ recipes.addShaped("eio_fluid_conduit_t2", <enderio:item_liquid_conduit:2> * 8, [
     [<enderio:item_liquid_conduit:1>, <ore:fusedQuartz>, <enderio:item_liquid_conduit:1>]
 ]);
 
-recipes.addShaped("eio_ae2_conduit_smart", <enderio:item_me_conduit> * 8, [
+/* recipes.addShaped("eio_ae2_conduit_smart", <enderio:item_me_conduit> * 8, [
     [<contenttweaker:lubricated_gear>, <ore:itemConduitBinder>, <contenttweaker:lubricated_gear>],
     [<ore:itemConduitBinder>, <appliedenergistics2:part:56>, <ore:itemConduitBinder>],
     [<contenttweaker:lubricated_gear>, <ore:itemConduitBinder>, <contenttweaker:lubricated_gear>]
@@ -90,7 +90,7 @@ recipes.addShaped("eio_ae2_conduit_dense", <enderio:item_me_conduit:1> * 8, [
     [<enderio:item_me_conduit>, <ore:itemConduitBinder>, <enderio:item_me_conduit>],
     [<ore:itemConduitBinder>, <appliedenergistics2:part:76>, <ore:itemConduitBinder>],
     [<enderio:item_me_conduit>, <ore:itemConduitBinder>, <enderio:item_me_conduit>]
-]);
+]); */
 
 recipes.addShapeless("eio_advanced_filter", <enderio:item_advanced_item_filter>, [<enderio:item_basic_item_filter>, <pneumaticcraft:capacitor>]);
 

@@ -37,12 +37,12 @@ import mods.lateoredictremoval.OreDictUtil;
 );
 
 # Dank Nulls
-<ore:dankNullTier1>.add(<danknull:dank_null:0>);
-<ore:dankNullTier2>.add(<danknull:dank_null:1>);
-<ore:dankNullTier3>.add(<danknull:dank_null:2>);
-<ore:dankNullTier4>.add(<danknull:dank_null:3>);
-<ore:dankNullTier5>.add(<danknull:dank_null:4>);
-<ore:dankNullTier6>.add(<danknull:dank_null:5>);
+<ore:dankNullTier1>.add(<danknull:dank_null_0>);
+<ore:dankNullTier2>.add(<danknull:dank_null_1>);
+<ore:dankNullTier3>.add(<danknull:dank_null_2>);
+<ore:dankNullTier4>.add(<danknull:dank_null_3>);
+<ore:dankNullTier5>.add(<danknull:dank_null_4>);
+<ore:dankNullTier6>.add(<danknull:dank_null_5>);
 
 # PneumaticCraft plastics
 <ore:plastic>.add(<pneumaticcraft:plastic:*>);
@@ -67,6 +67,12 @@ import mods.lateoredictremoval.OreDictUtil;
 <ore:fluiduct>.add(
     <thermaldynamics:duct_16>,
     <thermaldynamics:duct_16:2>
+);
+
+# Traverse redrock
+<ore:redrock>.add(
+    <traverse:red_rock_cobblestone>,
+    <traverse:red_rock>
 );
 
 # Enderio Capacitors

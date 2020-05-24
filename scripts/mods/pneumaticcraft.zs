@@ -34,7 +34,7 @@ recipes.addShaped("pn_pressure_tube", <pneumaticcraft:pressure_tube> * 8, [
 recipes.addShaped("pn_air_compressor", <pneumaticcraft:air_compressor>, [
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
     [<contenttweaker:lubricated_gear>, null, <pneumaticcraft:pressure_tube>],
-    [<tconstruct:large_plate>.withTag({Material: "ardite"}), <ore:piston>, <tconstruct:large_plate>.withTag({Material: "ardite"})]
+    [<ore:piston>, <tconstruct:large_plate>.withTag({Material: "ardite"}), <ore:piston>]
 ]);
 
 recipes.addShaped("pn_liquid_air_compressor", <pneumaticcraft:liquid_compressor>, [
