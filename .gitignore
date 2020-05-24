@@ -26,6 +26,7 @@
 # root files
 ModUpdaterPack.json
 patchouli_data.json
+config.json
 realms_persistence.json
 usercache.json
 usernamecache.json
