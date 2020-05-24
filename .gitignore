@@ -36,3 +36,6 @@ icon.png
 dropt.log
 BotaniaVars.dat
 textures_0.png
+
+# Types
+*.pdf
