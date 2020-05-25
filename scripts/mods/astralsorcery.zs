@@ -45,6 +45,7 @@ helpers.addAtlasTip(<astralsorcery:blockblackmarble>, [
 # ----------------
 # Recipe Removal
 # ----------------
+recipes.remove(<astralsorcery:blockaltar>);
 recipes.remove(<astralsorcery:itemwand>);
 recipes.remove(<astralsorcery:blockblackmarble>);
 

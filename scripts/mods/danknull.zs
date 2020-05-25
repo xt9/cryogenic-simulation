@@ -7,7 +7,7 @@ import scripts.helpers;
 # ----------------
 recipes.removeByMod("danknull");
 
-# TODO FINISH ALL TIERS
+# TODO ADD DOCKING STATION
 recipes.addShaped("danknull_tier1", <ore:dankNullTier1>.firstItem, [
     [<ore:ingotBrickSeared>, <extrautils2:trashcan>, <ore:ingotBrickSeared>],
     [<ore:blockRedstone>, <immersiveengineering:wooden_device0>, <ore:blockRedstone>],
