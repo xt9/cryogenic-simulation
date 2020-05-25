@@ -7,26 +7,12 @@
   "_comment_enabled_toggle": "Set enabled to true or false for explicit variant toggling.",
   "_comment_size": "Change the number of rows and columns for chest inventories (max 8 rows x 23 cols., or 192 slots)",
   "chests": {
-    "copper": {
-      "index": 0,
-      "enabled": "auto",
-      "rows": 5,
-      "cols": 9,
-      "holding": 1
-    },
     "iron": {
       "index": 0,
       "enabled": true,
       "rows": 5,
       "cols": 9,
       "holding": 1
-    },
-    "silver": {
-      "index": 2,
-      "enabled": "auto",
-      "rows": 6,
-      "cols": 12,
-      "holding": 2
     },
     "gold": {
       "index": 1,

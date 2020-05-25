@@ -124,8 +124,7 @@ InductionSmelter.addRecipe(<ore:essenceIntermedium>.firstItem, <ore:essencePrude
 
 # Metal chests cheaper recipes
 InductionSmelter.addRecipe(<ore:chestIron>.firstItem, <ore:ingotIron>.firstItem * 4, <minecraft:chest>, 5000);
-InductionSmelter.addRecipe(<ore:chestSilver>.firstItem, <ore:ingotSilver>.firstItem * 4, <ore:chestIron>.firstItem, 5000);
-InductionSmelter.addRecipe(<ore:chestGold>.firstItem, <ore:ingotGold>.firstItem * 4, <ore:chestSilver>.firstItem, 5000);
+InductionSmelter.addRecipe(<ore:chestGold>.firstItem, <ore:ingotGold>.firstItem * 4, <ore:chestIron>.firstItem, 5000);
 InductionSmelter.addRecipe(<ore:chestDiamond>.firstItem, <ore:gemDiamond>.firstItem * 4, <ore:chestGold>.firstItem, 5000);
 InductionSmelter.addRecipe(<ore:chestObsidian>.firstItem, <ore:obsidian>.firstItem * 4, <ore:chestDiamond>.firstItem, 5000);
 # AE2 Circuits
