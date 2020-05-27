@@ -60,10 +60,11 @@
             "dim": 91,
             "dimensiontype": {
                 "id": 91,
-                "name": "church_of_night",
+                "name": "combat_plane",
                 "suffix": "_dim91",
                 "keeploaded": false,
-                "worldprovider": "WorldProviderSurfaceJED"
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
             },
             "jed": {
                 "CloudRenderer": "DummyRenderer",
