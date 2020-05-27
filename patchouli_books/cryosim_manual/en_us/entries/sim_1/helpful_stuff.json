@@ -49,9 +49,9 @@
         },
         {
             "type": "crafting",
-            "recipe": "cryosimadditions:backpack_advanced",
+            "recipe": "improvedbackpacks:item.backpack",
             "title": "Backpacks",
-            "text": "You can make equippable backpacks a bit into this simulation. Handy for storing $(item)Tools$() and $(item)Snacks$().$(br2)Toggle equip: $(item)$(k:vsb.kb.removeBackpack)$()$(br)Open keybind: $(item)$(k:vsb.kb.openBackpack)$()"
+            "text": "You can make equippable backpacks a bit into this simulation. Handy for storing $(item)Tools$() and $(item)Snacks$(). Can be equipped in the body bauble slot.$(br2)Open keybind: $(item)$(k:Open Backpack)$()"
         },
         {
             "type": "crafting",

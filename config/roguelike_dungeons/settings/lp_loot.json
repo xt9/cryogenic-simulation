@@ -163,12 +163,6 @@
 				},
 				{
 					"data": {
-						"name": "v0idssmartbackpacks:backpack_advanced"
-					},
-					"weight": 1
-				},
-				{
-					"data": {
 						"name": "thermalexpansion:tank",
 						"nbt": "{Level: 1}"
 					},

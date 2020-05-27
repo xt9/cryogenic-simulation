@@ -1,6 +1,6 @@
 {
     "name": "Quality of Life",
-    "icon": "v0idssmartbackpacks:backpack_ultimate",
+    "icon": "waystones:waystone",
     "category": "sim_2",
     "advancement": "triumph:cryosim/sim_2/visit",
     "priority": true,
@@ -29,12 +29,6 @@
             "type": "crafting",
             "recipe": "crafttweaker:infinitewatersource",
             "text": "This nifty gadget will supply you with a source of $(item)Infinite Water$().$(br2)Will be very helpful later on."
-        },
-        {
-            "type": "crafting",
-            "recipe": "cryosimadditions:backpack_ultimate",
-            "title": "Better Backpacks",
-            "text": "Later on in this $(item)Simulation$() you can craft a bigger backpack, this bag holds an impressive amount of items.$(br2)It can also hold a greater number of $(item)Upgrades$()."
         },
         {
             "type": "crafting",
