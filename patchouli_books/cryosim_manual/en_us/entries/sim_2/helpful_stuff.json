@@ -50,7 +50,12 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:rft_quarry_card",
-            "text": "If you're willing to go the extra mile in this simulation you can get a $(item)Quarry card$().$(br2)This will allow you to $(item)GREATLY$() improve your $(item)Resource Gathering Capabilities$()."
+            "text": "If you're willing to go the extra mile in this simulation you can get a $(item)Quarry card$().$(br2)This will allow you to $(item)GREATLY$() improve your $(item)Resource Gathering Capabilities$() using the $(item)Builder$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftools:filter_module",
+            "text": "The $(item)Filter$() is a great complement to the quarry card.$(br2)It can blacklist or whitelist items from the builder, either preventing or allowing the quarrying of items."
         },
         {
             "type": "crafting",

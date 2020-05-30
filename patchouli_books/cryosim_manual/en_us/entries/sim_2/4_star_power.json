@@ -32,6 +32,10 @@
             "item": "astralsorcery:blockcustomore:1",
             "anchor": "starmetal",
             "text": "This ore is absolutely packed with $(item)Star$() power. It's created by pointing a concetrated beam of starlight toward a $(item)Iron Ore Block$().$(br2)You can find $(item)Floating Crystals$() in the larger shrines found on the $(item)Lunar Plane$(), use a $(item)Linking Tool$() to direct their natural $(item)Starlight$()."
+        },
+        {
+            "type": "text",
+            "text": "Do not forget to remove the ceiling of the large shrine.$(br2)The crystal needs a view of the sky to craft the $(item)Starmetal Ore$()."
         }
     ]
 }
