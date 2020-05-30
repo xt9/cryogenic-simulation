@@ -30,6 +30,7 @@ import crafttweaker.game.IGame;
 
 # Entities
 game.setLocalization("entity.varodd:raven.name", "Blood Raven");
+game.setLocalization("entity.varodd:troll.name", "Troll Seer");
 
 # Exnihilo
 game.setLocalization("tile.witchwater.name", "Witchwater");
@@ -45,7 +46,7 @@ game.setLocalization("fluid.ammonium_nitrate", "Ammonium Nitrate Solution");
 game.setLocalization("item.contenttweaker.stone_shears.name", "Stone Shears");
 game.setLocalization("item.contenttweaker.blood_raven_feather.name", "Blood Raven Feather");
 game.setLocalization("item.contenttweaker.charred_feather.name", "Charred Feather Pile");
-game.setLocalization("item.contenttweaker.troll_eye.name", "Troll Eye");
+game.setLocalization("item.contenttweaker.troll_eye.name", "Troll Seer Eye");
 game.setLocalization("item.contenttweaker.seared_plate.name", "Cracked Seared Plate");
 game.setLocalization("item.contenttweaker.sandy_bottle.name", "Sandy Bottle Compound");
 game.setLocalization("item.contenttweaker.soaked_fabric.name", "Soaked Tough Fabric");
