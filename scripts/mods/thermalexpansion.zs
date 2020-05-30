@@ -90,6 +90,26 @@ for stack in <ore:plastic>.items {
 for stack in <ore:listAllmeatcooked>.items { 
     Crucible.addRecipe(<liquid:meat> * 250, stack, 2000);
 }
+# Melt enderio metals
+Crucible.addRecipe(<liquid:electrical_steel> * 144, <ore:ingotElectricalSteel>.firstItem, 8000);
+Crucible.addRecipe(<liquid:energetic_alloy> * 144, <ore:ingotEnergeticAlloy>.firstItem, 8000);
+Crucible.addRecipe(<liquid:vibrant_alloy> * 144, <ore:ingotVibrantAlloy>.firstItem, 8000);
+Crucible.addRecipe(<liquid:redstone_alloy> * 144, <ore:ingotRedstoneAlloy>.firstItem, 8000);
+Crucible.addRecipe(<liquid:conductive_iron> * 144, <ore:ingotConductiveIron>.firstItem, 8000);
+Crucible.addRecipe(<liquid:pulsating_iron> * 144, <ore:ingotPulsatingIron>.firstItem, 8000);
+Crucible.addRecipe(<liquid:dark_steel> * 144, <ore:ingotDarkSteel>.firstItem, 8000);
+Crucible.addRecipe(<liquid:soularium> * 144, <ore:ingotSoularium>.firstItem, 8000);
+Crucible.addRecipe(<liquid:end_steel> * 144, <ore:ingotEndSteel>.firstItem, 8000);
+
+Crucible.addRecipe(<liquid:electrical_steel> * 1296, <ore:blockEndSteel>.firstItem, 36000);
+Crucible.addRecipe(<liquid:energetic_alloy> * 1296, <ore:blockEnergeticAlloy>.firstItem, 36000);
+Crucible.addRecipe(<liquid:vibrant_alloy> * 1296, <ore:blockVibrantAlloy>.firstItem, 36000);
+Crucible.addRecipe(<liquid:redstone_alloy> * 1296, <ore:blockRedstoneAlloy>.firstItem, 36000);
+Crucible.addRecipe(<liquid:conductive_iron> * 1296, <ore:blockConductiveIron>.firstItem, 36000);
+Crucible.addRecipe(<liquid:pulsating_iron> * 1296, <ore:blockPulsatingIron>.firstItem, 36000);
+Crucible.addRecipe(<liquid:dark_steel> * 1296, <ore:blockDarkSteel>.firstItem, 36000);
+Crucible.addRecipe(<liquid:soularium> * 1296, <ore:blockSoularium>.firstItem, 36000);
+Crucible.addRecipe(<liquid:end_steel> * 1296, <ore:blockEndSteel>.firstItem, 36000);
 
 # ----------------
 # Centrifugal Separator
