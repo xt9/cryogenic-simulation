@@ -50,6 +50,11 @@ helpers.addAtlasTip(<astralsorcery:blockblackmarble>, [
     format.yellow("Found on the Lunar Plane")
 ]);
 
+helpers.addAtlasTip(<astralsorcery:blockinfusedwood>, [
+    format.yellow("Crafted by throwing wood into Liquid Starlight.")
+]);
+
+
 # ----------------
 # Recipe Removal
 # ----------------
