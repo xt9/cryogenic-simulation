@@ -70,7 +70,7 @@ Casting.removeTableRecipe(<thermalfoundation:material:23>);
 # Melting Section
 # ----------------
 for stack in <ore:plastic>.items { 
-    Melting.addRecipe(<liquid:plastic> * 1000, stack, 500);
+    Melting.addRecipe(<liquid:plastic> * 250, stack, 500);
 }
 Melting.addRecipe(<liquid:liquid_blaze> * 1000, <contenttweaker:block_blaze_powder>, 500);
 Melting.removeRecipe(<liquid:blood>);
