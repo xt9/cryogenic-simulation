@@ -11,7 +11,7 @@ import mods.inworldcrafting.ExplosionCrafting;
 FluidToItem.transform(<immersiveengineering:treated_wood>, <liquid:creosote>, [<traverse:fir_planks> * 2]);
 
 # Drop gravel in creosote -> Grout
-FluidToItem.transform(<tconstruct:soil>, <liquid:creosote>, [<ore:gravel>]);
+FluidToItem.transform(<tconstruct:soil>, <liquid:creosote>, [<ore:gravel> * 2]);
 
 # Drop fabric in creosote -> Soaked Fabric
 FluidToItem.transform(<contenttweaker:soaked_fabric>, <liquid:creosote>, [<immersiveengineering:material:5>]);
