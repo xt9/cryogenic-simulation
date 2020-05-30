@@ -33,8 +33,15 @@ recipes.remove(<minecraft:tnt>);
 # Some machines require a brewing stand to craft them, replace with a regen 3 potion that can easily be brewed in the Cauldron.
 recipes.replaceAllOccurences(<minecraft:brewing_stand>, <minecraft:potion>.withTag({Potion: "cofhcore:regeneration3+"}));
 
-#  Add own recipe for making slimeblocks
+# Add own recipe for making slimeblocks
 recipes.addShapeless("non_oredict_slimeblock", <minecraft:slime>, [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>]);
+
+
+recipes.addShaped("vanilla_chest_from_fir", <minecraft:chest>, [
+    [<traverse:fir_planks>, <traverse:fir_planks>, <traverse:fir_planks>],
+    [<traverse:fir_planks>, null, <traverse:fir_planks>],
+    [<traverse:fir_planks>, <traverse:fir_planks>, <traverse:fir_planks>]
+]);
 
 recipes.addShaped("vanilla_bottle", <minecraft:glass_bottle>, [
     [null, <ore:slabWood>, null],
