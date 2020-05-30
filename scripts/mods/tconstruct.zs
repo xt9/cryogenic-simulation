@@ -2,6 +2,7 @@ import mods.tconstruct.Drying;
 import mods.tconstruct.Casting;
 import mods.tconstruct.Melting;
 import mods.tconstruct.Fuel;
+import mods.tconstruct.Alloy;
 import scripts.helpers;
 
 # ----------------
@@ -57,6 +58,7 @@ recipes.addShaped("tconstruct_seared_tank", <tconstruct:seared_tank>, [
 # ----------------
 Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:seared_plate>, <liquid:gold>, 288, true);
 Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:seared_plate>, <liquid:alubrass>, 144, true);
+Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:alubrass>, 144, true);
 
 # Remove coagulated blood
 Casting.removeTableRecipe(<tconstruct:edible:3>);
@@ -72,6 +74,19 @@ for stack in <ore:plastic>.items {
 }
 Melting.addRecipe(<liquid:liquid_blaze> * 1000, <contenttweaker:block_blaze_powder>, 500);
 Melting.removeRecipe(<liquid:blood>);
+
+# ----------------
+# Alloying Section
+# ----------------
+Alloy.removeRecipe(<liquid:electrical_steel>);
+Alloy.removeRecipe(<liquid:energetic_alloy>);
+Alloy.removeRecipe(<liquid:vibrant_alloy>);
+Alloy.removeRecipe(<liquid:redstone_alloy>);
+Alloy.removeRecipe(<liquid:conductive_iron>);
+Alloy.removeRecipe(<liquid:pulsating_iron>);
+Alloy.removeRecipe(<liquid:dark_steel>);
+Alloy.removeRecipe(<liquid:soularium>);
+Alloy.removeRecipe(<liquid:end_steel>);
 
 # ----------------
 # Fuel Section
