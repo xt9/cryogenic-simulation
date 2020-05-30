@@ -82,6 +82,24 @@ recipes.remove(<mysticalagradditions:tier6_inferium_seeds>);
 recipes.removeByRecipeName("mysticalagriculture:marble_seeds_1");
 # Remove the AS marble recipe since it requires aquamarine essence
 recipes.removeByRecipeName("mysticalagriculture:blockmarble");
+# Remove the regular marble recipe so we can add it as the AS marble
+recipes.removeByRecipeName("mysticalagriculture:marble2");
+
+# ------------------------
+# Resource Essence Tweaks
+# ------------------------
+recipes.addShaped("ma_as_marble",<astralsorcery:blockmarble> * 16, [
+    [<mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>],
+    [<mysticalagriculture:marble_essence>, null, <mysticalagriculture:marble_essence>],
+    [<mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>]
+]);
+
+
+recipes.addShaped("ma_as_sooty_marble", <astralsorcery:blockblackmarble> * 16, [
+    [<mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>],
+    [<mysticalagriculture:marble_essence>, <ore:dustCoal>, <mysticalagriculture:marble_essence>],
+    [<mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>]
+]);
 
 # ----------------
 # General Recipes
