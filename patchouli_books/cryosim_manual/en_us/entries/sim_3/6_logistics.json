@@ -34,7 +34,7 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:pn_network_io_port",
-            "text": "Most logistical machines you can create will require a module to transfer data within the network, this is what the $(item)Network IO Port$() is for."
+            "text": "Most logistical machines you can create will require a component to transfer data within the network, this is what the $(item)Network IO Port$() is for."
         },
         {
             "type": "crafting",

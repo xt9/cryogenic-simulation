@@ -61,6 +61,16 @@
             "type": "crafting",
             "recipe": "crafttweaker:td_fluiduct",
             "text": "A mean of transferring liquids between inventories. Use Servos/Retrievers to move liquids through ducts."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:cc_chunkloader",
+            "text": "A $(item)Chunk Loader$() will allow you to have parts of the simulation loaded even though you're not nearby.$(br2)One per base should do, use spot loaders for small setups in other simulations."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:cc_chunkloader_small",
+            "text": "Can be split into $(item)Spot Loaders$(), which will load the chunk they are in."
         }
     ]
 }
