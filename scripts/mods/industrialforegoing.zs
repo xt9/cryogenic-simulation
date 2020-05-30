@@ -14,6 +14,7 @@ recipes.remove(<industrialforegoing:mob_imprisonment_tool>);
 recipes.remove(<industrialforegoing:black_hole_unit>);
 recipes.remove(<industrialforegoing:black_hole_tank>);
 recipes.remove(<industrialforegoing:water_condensator>);
+recipes.remove(<industrialforegoing:mob_duplicator>);
 
 # ----------------
 # Recipes
@@ -48,6 +49,14 @@ recipes.addShaped("if_black_hole_tank", <industrialforegoing:black_hole_tank>, [
     [<appliedenergistics2:material:56>, <extrautils2:drum:3>, <appliedenergistics2:material:56>],
     [<pneumaticcraft:transistor>, g_blessedMachineFrame, <pneumaticcraft:transistor>]
 ]);
+
+# Gate mob duplicators behind deep mob learning
+recipes.addShaped("if_mob_duplicator", <industrialforegoing:mob_duplicator>, [
+    [<ore:itemRubber>, <deepmoblearning:deep_learner>, <ore:itemRubber>],
+    [<deepmoblearning:pristine_matter_enderman>, <deepmoblearning:machine_casing>, <deepmoblearning:pristine_matter_enderman>],
+    [<deepmoblearning:polymer_clay>, <ore:blockEmerald>, <deepmoblearning:polymer_clay>]
+]);
+
 
 
 # ----------------
