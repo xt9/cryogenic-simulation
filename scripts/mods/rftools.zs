@@ -7,6 +7,7 @@ recipes.remove(<rftools:shape_card:2>);
 recipes.remove(<rftools:machine_base>);
 recipes.remove(<rftools:dimensional_shard>);
 recipes.remove(<rftools:powercell_simple>);
+recipes.remove(<rftools:powercell_card>);
 
 recipes.removeByRecipeName("rftools:powercell_normal");
 
@@ -40,6 +41,13 @@ recipes.addShaped("rft_dimensional_shard", <rftools:dimensional_shard> * 16, [
     [<minecraft:diamond>, <mysticalagriculture:crafting:5>, <appliedenergistics2:material>],
     [<minecraft:quartz>, <minecraft:quartz>, <minecraft:prismarine_shard>]
 ]);
+
+recipes.addShaped("rft_powercell_card", <rftools:powercell_card>, [
+    [<ore:alloyBasic>, <astralsorcery:itemcraftingcomponent:5>, <ore:alloyBasic>],
+    [<ore:trollEye>, <ore:itemRubber>, <ore:trollEye>],
+    [<ore:alloyBasic>, <astralsorcery:itemcraftingcomponent:5>, <ore:alloyBasic>]
+]);
+
 
 
 recipes.replaceAllOccurences(<ore:ingotBrick>, <ore:ingotBrickSeared>, <rftools:shape_card>);
