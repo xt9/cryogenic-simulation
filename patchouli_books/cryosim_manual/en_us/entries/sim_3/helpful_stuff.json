@@ -62,6 +62,11 @@
             "type": "crafting",
             "recipe": "rftools:powercell",
             "text": "Two connected powercells can share energy across $(item)simulations$() when supplied with matching $(item)Powercell Cards$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "supersoundmuffler:sound_muffler_bauble",
+            "text": "The clanking, wheezing and whirring of some of the machines you have built can understandably cause you some distress.$(br)The $(item)Sound Muffler$() will allow you to filter out some of the unwanted noise."
         }
     ]
 }
