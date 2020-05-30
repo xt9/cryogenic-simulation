@@ -11,7 +11,7 @@
   "ore:oreGold": [
     {
       "item": "contenttweaker:block_golden_dust",
-      "amount": 4,
+      "amount": 3,
       "miningLevel": 0,
       "chance": 1.0,
       "fortuneChance": 0.0
