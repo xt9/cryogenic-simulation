@@ -15,12 +15,20 @@ Lightwell.addLiquefaction(<contenttweaker:troll_eye>, <liquid:troll_eye_goop>, 1
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_basicwand");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
+Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminator");
 
 Altar.addAttunementAltarRecipe("cryogenic:ct/portal_stone", <contenttweaker:blessed_portal_stone>, 1800, 240, [
     <contenttweaker:troll_eye>, <ore:ingotAstralStarmetal>, <contenttweaker:troll_eye>,
     <ore:slateTier2>, <extrautils2:compressedcobblestone:3>, <ore:slateTier2>,
     <ore:blockManyullyn>, <ore:ingotAstralStarmetal>, <ore:blockManyullyn>,
     <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>
+]);
+
+Altar.addAttunementAltarRecipe("cryogenic:ct/cave_illuminator", <astralsorcery:blockworldilluminator>, 1200, 160, [
+    <astralsorcery:blockmarble:3>, <astralsorcery:itemusabledust>, <astralsorcery:blockmarble:3>,
+    <ore:blockGlowstone>, <deepmoblearning:pristine_matter_witch>, <ore:blockGlowstone>,
+    <astralsorcery:blockmarble:3>, <astralsorcery:itemusabledust>, <astralsorcery:blockmarble:3>,
+    <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>
 ]);
 
 Altar.addAttunementAltarRecipe("cryogenic:mysticalagri/t2seed", <mysticalagriculture:crafting:18>, 80, 120, [
