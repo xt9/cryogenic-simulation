@@ -259,3 +259,6 @@ recipes.addShaped("te_cell_frame", <thermalexpansion:frame:128>, [
     [g_blessedReceptionCoil, g_blessedServo, g_blessedReceptionCoil], 
     [<ore:plateElectrum>, g_blessedConductanceCoil, <ore:plateElectrum>]
 ]);
+
+# Retrievers
+recipes.replaceAllOccurences(<ore:pearlEnderEye>, <ore:trollEye>, <thermaldynamics:retriever:*>);
