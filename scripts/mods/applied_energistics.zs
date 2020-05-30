@@ -97,5 +97,9 @@ recipes.addShapeless("ae2_glass_cable", <appliedenergistics2:part:16> * 4, [<app
 recipes.addShapeless("ae2_calculation_circuit", <appliedenergistics2:material:16>, [<appliedenergistics2:material:13>.reuse(), <ore:crystalCertusQuartz>]);
 recipes.addShapeless("ae2_logic_circuit", <appliedenergistics2:material:18>, [<appliedenergistics2:material:15>.reuse(), <ore:ingotGold>]);
 recipes.addShapeless("ae2_engineering_circuit", <appliedenergistics2:material:17>, [<appliedenergistics2:material:14>.reuse(), <ore:gemDiamond>]);
-recipes.addShapeless("ae2_silicon_circuit", <appliedenergistics2:material:20> * 4, [<appliedenergistics2:material:19>.reuse(), <minecraft:comparator>, <ore:itemSilicon>, <ore:itemSilicon>]);
+recipes.addShapeless("ae2_silicon_circuit", <appliedenergistics2:material:20> * 2, [
+    <appliedenergistics2:material:19>.reuse(), <ore:dustRedstone>, <ore:dustRedstone>,
+    <ore:plasticLightGray>, <ore:itemSilicon>, <ore:itemSilicon>,
+    <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>
+]);
 
