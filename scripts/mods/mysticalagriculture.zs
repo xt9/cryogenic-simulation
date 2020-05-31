@@ -68,7 +68,8 @@ var recipeRemovals = [
     <mysticalagriculture:intermedium_furnace>,
     <mysticalagriculture:superium_furnace>,
     <mysticalagriculture:supremium_furnace>,
-    <mysticalagriculture:ultimate_furnace>
+    <mysticalagriculture:ultimate_furnace>,
+    <mysticalagriculture:crafting:10>
 ] as IIngredient[];
 
 for item in recipeRemovals {
