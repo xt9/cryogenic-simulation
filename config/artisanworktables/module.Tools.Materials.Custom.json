@@ -72,8 +72,8 @@
       "efficiency": 6.5,
       "damage": 2.5,
       "enchantability": 10,
-      "color": "858585",
-      "shiny": false,
+      "color": "777777",
+      "shiny": true,
       "ingredient": "ore:ingotSteel",
       "langKey": "material.athenaeum.steel",
       "oreDictKey": "artisansToolSteel"
