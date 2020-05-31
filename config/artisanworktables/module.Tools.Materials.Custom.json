@@ -20,7 +20,7 @@
       "efficiency": 3.8,
       "damage": 1.0,
       "enchantability": 5,
-      "color": "1a1a1a",
+      "color": "3a3a3a",
       "shiny": true,
       "ingredient": "minecraft:flint",
       "langKey": "material.athenaeum.flint",
