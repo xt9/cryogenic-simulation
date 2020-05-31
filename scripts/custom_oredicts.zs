@@ -18,6 +18,9 @@ import mods.lateoredictremoval.OreDictUtil;
 <ore:slateTier4>.add(<bloodmagic:slate:3>);
 <ore:slateTier5>.add(<bloodmagic:slate:4>);
 
+# RFTools
+<ore:gemInfusedDiamond>.add(<rftools:infused_diamond>);
+
 # Ex nihilo
 <ore:exHammer>.add(
     <exnihilocreatio:hammer_stone>,

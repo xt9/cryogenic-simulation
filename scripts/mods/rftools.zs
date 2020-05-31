@@ -8,6 +8,7 @@ recipes.remove(<rftools:machine_base>);
 recipes.remove(<rftools:dimensional_shard>);
 recipes.remove(<rftools:powercell_simple>);
 recipes.remove(<rftools:powercell_card>);
+recipes.remove(<rftools:infused_diamond>);
 
 recipes.removeByRecipeName("rftools:powercell_normal");
 

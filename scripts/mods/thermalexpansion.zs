@@ -174,6 +174,8 @@ InductionSmelter.addRecipe(<enderio:block_dark_fused_quartz>, <enderio:block_fus
 InductionSmelter.addRecipe(<appliedenergistics2:quartz_glass>, <minecraft:glass>, <ore:dustQuartz>.firstItem * 2, 4000);
 # Soulium
 InductionSmelter.addRecipe(<mysticalagriculture:crafting:38>, <minecraft:soul_sand>, <ore:ingotInferium>.firstItem, 4000);
+# Infused Diamond
+InductionSmelter.addRecipe(<ore:gemInfusedDiamond>.firstItem, <rftools:dimensional_shard> * 8, <ore:gemDiamond>.firstItem, 4000);
 
 # ----------------
 # Compactor
