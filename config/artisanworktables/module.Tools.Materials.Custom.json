@@ -1,22 +1,9 @@
 {
   "list": [
     {
-      "name": "wood",
-      "harvestLevel": 0,
-      "maxUses": 59,
-      "efficiency": 2.0,
-      "damage": 0.0,
-      "enchantability": 15,
-      "color": "73523e",
-      "shiny": false,
-      "ingredient": "ore:plankWood",
-      "langKey": "material.athenaeum.wood",
-      "oreDictKey": "artisansToolWood"
-    },
-    {
       "name": "stone",
       "harvestLevel": 1,
-      "maxUses": 131,
+      "maxUses": 150,
       "efficiency": 4.0,
       "damage": 1.0,
       "enchantability": 5,
@@ -27,48 +14,9 @@
       "oreDictKey": "artisansToolStone"
     },
     {
-      "name": "iron",
-      "harvestLevel": 2,
-      "maxUses": 250,
-      "efficiency": 6.0,
-      "damage": 2.0,
-      "enchantability": 14,
-      "color": "d4d4d4",
-      "shiny": true,
-      "ingredient": "ore:ingotIron",
-      "langKey": "material.athenaeum.iron",
-      "oreDictKey": "artisansToolIron"
-    },
-    {
-      "name": "gold",
-      "harvestLevel": 0,
-      "maxUses": 32,
-      "efficiency": 12.0,
-      "damage": 0.0,
-      "enchantability": 22,
-      "color": "ffe947",
-      "shiny": false,
-      "ingredient": "ore:ingotGold",
-      "langKey": "material.athenaeum.gold",
-      "oreDictKey": "artisansToolGold"
-    },
-    {
-      "name": "diamond",
-      "harvestLevel": 3,
-      "maxUses": 1561,
-      "efficiency": 8.0,
-      "damage": 3.0,
-      "enchantability": 10,
-      "color": "33ebcb",
-      "shiny": false,
-      "ingredient": "ore:gemDiamond",
-      "langKey": "material.athenaeum.diamond",
-      "oreDictKey": "artisansToolDiamond"
-    },
-    {
       "name": "flint",
       "harvestLevel": 1,
-      "maxUses": 150,
+      "maxUses": 250,
       "efficiency": 3.8,
       "damage": 1.0,
       "enchantability": 5,
@@ -81,7 +29,7 @@
     {
       "name": "bone",
       "harvestLevel": 1,
-      "maxUses": 150,
+      "maxUses": 250,
       "efficiency": 3.8,
       "damage": 1.0,
       "enchantability": 5,
@@ -92,9 +40,22 @@
       "oreDictKey": "artisansToolBone"
     },
     {
-      "name": "bronze",
+      "name": "iron",
       "harvestLevel": 2,
       "maxUses": 500,
+      "efficiency": 6.0,
+      "damage": 2.0,
+      "enchantability": 14,
+      "color": "d4d4d4",
+      "shiny": true,
+      "ingredient": "ore:ingotIron",
+      "langKey": "material.athenaeum.iron",
+      "oreDictKey": "artisansToolIron"
+    },
+    {
+      "name": "bronze",
+      "harvestLevel": 2,
+      "maxUses": 750,
       "efficiency": 6.0,
       "damage": 2.0,
       "enchantability": 15,
@@ -105,22 +66,9 @@
       "oreDictKey": "artisansToolBronze"
     },
     {
-      "name": "copper",
-      "harvestLevel": 1,
-      "maxUses": 175,
-      "efficiency": 4.0,
-      "damage": 0.75,
-      "enchantability": 6,
-      "color": "ffa131",
-      "shiny": true,
-      "ingredient": "ore:ingotCopper",
-      "langKey": "material.athenaeum.copper",
-      "oreDictKey": "artisansToolCopper"
-    },
-    {
       "name": "steel",
       "harvestLevel": 2,
-      "maxUses": 500,
+      "maxUses": 1000,
       "efficiency": 6.5,
       "damage": 2.5,
       "enchantability": 10,
@@ -131,17 +79,17 @@
       "oreDictKey": "artisansToolSteel"
     },
     {
-      "name": "tin",
-      "harvestLevel": 1,
-      "maxUses": 200,
-      "efficiency": 4.5,
-      "damage": 1.0,
-      "enchantability": 7,
-      "color": "7c9ab2",
-      "shiny": true,
-      "ingredient": "ore:ingotTin",
-      "langKey": "material.athenaeum.tin",
-      "oreDictKey": "artisansToolTin"
+      "name": "diamond",
+      "harvestLevel": 3,
+      "maxUses": 2500,
+      "efficiency": 8.0,
+      "damage": 3.0,
+      "enchantability": 10,
+      "color": "33ebcb",
+      "shiny": false,
+      "ingredient": "ore:gemDiamond",
+      "langKey": "material.athenaeum.diamond",
+      "oreDictKey": "artisansToolDiamond"
     }
   ]
 }
