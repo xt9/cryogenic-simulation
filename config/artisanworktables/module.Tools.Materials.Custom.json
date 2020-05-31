@@ -92,19 +92,6 @@
       "oreDictKey": "artisansToolBone"
     },
     {
-      "name": "aluminum",
-      "harvestLevel": 1,
-      "maxUses": 225,
-      "efficiency": 10.0,
-      "damage": 1.0,
-      "enchantability": 14,
-      "color": "c5c6d0",
-      "shiny": true,
-      "ingredient": "ore:ingotAluminum",
-      "langKey": "material.athenaeum.aluminum",
-      "oreDictKey": "artisansToolAluminum"
-    },
-    {
       "name": "bronze",
       "harvestLevel": 2,
       "maxUses": 500,
@@ -118,19 +105,6 @@
       "oreDictKey": "artisansToolBronze"
     },
     {
-      "name": "constantan",
-      "harvestLevel": 2,
-      "maxUses": 275,
-      "efficiency": 6.0,
-      "damage": 1.5,
-      "enchantability": 20,
-      "color": "bd8d46",
-      "shiny": true,
-      "ingredient": "ore:ingotConstantan",
-      "langKey": "material.athenaeum.constantan",
-      "oreDictKey": "artisansToolConstantan"
-    },
-    {
       "name": "copper",
       "harvestLevel": 1,
       "maxUses": 175,
@@ -142,84 +116,6 @@
       "ingredient": "ore:ingotCopper",
       "langKey": "material.athenaeum.copper",
       "oreDictKey": "artisansToolCopper"
-    },
-    {
-      "name": "electrum",
-      "harvestLevel": 0,
-      "maxUses": 100,
-      "efficiency": 14.0,
-      "damage": 0.5,
-      "enchantability": 30,
-      "color": "ffe947",
-      "shiny": true,
-      "ingredient": "ore:ingotElectrum",
-      "langKey": "material.athenaeum.electrum",
-      "oreDictKey": "artisansToolElectrum"
-    },
-    {
-      "name": "invar",
-      "harvestLevel": 2,
-      "maxUses": 450,
-      "efficiency": 7.0,
-      "damage": 3.0,
-      "enchantability": 16,
-      "color": "8e9a95",
-      "shiny": true,
-      "ingredient": "ore:ingotInvar",
-      "langKey": "material.athenaeum.invar",
-      "oreDictKey": "artisansToolInvar"
-    },
-    {
-      "name": "lead",
-      "harvestLevel": 1,
-      "maxUses": 150,
-      "efficiency": 5.0,
-      "damage": 1.0,
-      "enchantability": 9,
-      "color": "8a93b1",
-      "shiny": true,
-      "ingredient": "ore:ingotLead",
-      "langKey": "material.athenaeum.lead",
-      "oreDictKey": "artisansToolLead"
-    },
-    {
-      "name": "nickel",
-      "harvestLevel": 2,
-      "maxUses": 300,
-      "efficiency": 6.5,
-      "damage": 2.5,
-      "enchantability": 18,
-      "color": "a2975d",
-      "shiny": true,
-      "ingredient": "ore:ingotNickel",
-      "langKey": "material.athenaeum.nickel",
-      "oreDictKey": "artisansToolNickel"
-    },
-    {
-      "name": "platinum",
-      "harvestLevel": 4,
-      "maxUses": 1700,
-      "efficiency": 9.0,
-      "damage": 4.0,
-      "enchantability": 9,
-      "color": "4bacd8",
-      "shiny": true,
-      "ingredient": "ore:ingotPlatinum",
-      "langKey": "material.athenaeum.platinum",
-      "oreDictKey": "artisansToolPlatinum"
-    },
-    {
-      "name": "silver",
-      "harvestLevel": 2,
-      "maxUses": 200,
-      "efficiency": 6.0,
-      "damage": 1.5,
-      "enchantability": 20,
-      "color": "7b9da4",
-      "shiny": true,
-      "ingredient": "ore:ingotSilver",
-      "langKey": "material.athenaeum.silver",
-      "oreDictKey": "artisansToolSilver"
     },
     {
       "name": "steel",
