@@ -85,6 +85,18 @@ recipes.removeByRecipeName("mysticalagriculture:marble_seeds_1");
 recipes.removeByRecipeName("mysticalagriculture:blockmarble");
 # Remove the regular marble recipe so we can add it as the AS marble
 recipes.removeByRecipeName("mysticalagriculture:marble2");
+# Remove ingot recipes, we want ores!
+recipes.removeByRecipeName("unidict:ingotiron_x6_shape.aaaa aaaa");
+recipes.removeByRecipeName("unidict:ingotgold_x4_shape.aaaa aaaa");
+recipes.removeByRecipeName("mysticalagriculture:ingotcopper");
+recipes.removeByRecipeName("mysticalagriculture:ingottin");
+recipes.removeByRecipeName("mysticalagriculture:ingotsilver");
+recipes.removeByRecipeName("mysticalagriculture:ingotnickel");
+recipes.removeByRecipeName("mysticalagriculture:ingotplatinum");
+recipes.removeByRecipeName("mysticalagriculture:ingots");
+recipes.removeByRecipeName("mysticalagriculture:ingots_1");
+recipes.removeByRecipeName("mysticalagriculture:ingotosmium");
+recipes.removeByRecipeName("mysticalagriculture:itemcraftingcomponent_1");
 
 # ------------------------
 # Resource Essence Tweaks
@@ -95,23 +107,92 @@ recipes.addShaped("ma_as_marble",<astralsorcery:blockmarble> * 16, [
     [<mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>]
 ]);
 
-
 recipes.addShaped("ma_as_sooty_marble", <astralsorcery:blockblackmarble> * 16, [
     [<mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>],
     [<mysticalagriculture:marble_essence>, <ore:dustCoal>, <mysticalagriculture:marble_essence>],
     [<mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>, <mysticalagriculture:marble_essence>]
 ]);
 
+recipes.addShaped("ma_as_starmetal_ore", <astralsorcery:blockcustomore:1>, [
+    [<mysticalagriculture:starmetal_essence>, <mysticalagriculture:starmetal_essence>, <mysticalagriculture:starmetal_essence>],
+    [<mysticalagriculture:starmetal_essence>, <ore:stone>, <mysticalagriculture:starmetal_essence>],
+    [<mysticalagriculture:starmetal_essence>, <mysticalagriculture:starmetal_essence>, <mysticalagriculture:starmetal_essence>]
+]);
+
+recipes.addShaped("ma_mek_osmium_ore", <ore:oreOsmium>.firstItem * 2, [
+    [<mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>],
+    [<mysticalagriculture:osmium_essence>, <ore:stone>, <mysticalagriculture:osmium_essence>],
+    [<mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>]
+]);
+
+recipes.addShaped("ma_tconstruct_cobalt_ore", <ore:oreCobalt>.firstItem, [
+    [<mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>],
+    [<mysticalagriculture:cobalt_essence>, <ore:stone>, <mysticalagriculture:cobalt_essence>],
+    [<mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>]
+]);
+
+recipes.addShaped("ma_tconstruct_ardite_ore", <ore:oreArdite>.firstItem, [
+    [<mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>],
+    [<mysticalagriculture:ardite_essence>, <ore:stone>, <mysticalagriculture:ardite_essence>],
+    [<mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>]
+]);
+
+recipes.addShaped("ma_te_platinum_ore", <ore:orePlatinum>.firstItem, [
+    [<mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>],
+    [<mysticalagriculture:platinum_essence>, <ore:stone>, <mysticalagriculture:platinum_essence>],
+    [<mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>]
+]);
+
+recipes.addShaped("ma_te_nickel_ore", <ore:oreNickel>.firstItem * 2, [
+    [<mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>],
+    [<mysticalagriculture:nickel_essence>, <ore:stone>, <mysticalagriculture:nickel_essence>],
+    [<mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>]
+]);
+
+recipes.addShaped("ma_te_silver_ore", <ore:oreSilver>.firstItem * 2, [
+    [<mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>],
+    [<mysticalagriculture:silver_essence>, <ore:stone>, <mysticalagriculture:silver_essence>],
+    [<mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>]
+]);
+
+recipes.addShaped("ma_te_tin_ore", <ore:oreTin>.firstItem * 4, [
+    [<mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>],
+    [<mysticalagriculture:tin_essence>, <ore:stone>, <mysticalagriculture:tin_essence>],
+    [<mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>]
+]);
+
+recipes.addShaped("ma_te_copper_ore", <ore:oreCopper>.firstItem * 4, [
+    [<mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>],
+    [<mysticalagriculture:copper_essence>, <ore:stone>, <mysticalagriculture:copper_essence>],
+    [<mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>]
+]);
+
+recipes.addShaped("ma_vanilla_iron_ore", <ore:oreIron>.firstItem * 4, [
+    [<mysticalagriculture:iron_essence>, <mysticalagriculture:iron_essence>, <mysticalagriculture:iron_essence>],
+    [<mysticalagriculture:iron_essence>, <ore:stone>, <mysticalagriculture:iron_essence>],
+    [<mysticalagriculture:iron_essence>, <mysticalagriculture:iron_essence>, <mysticalagriculture:iron_essence>]
+]);
+
+recipes.addShaped("ma_vanilla_gold_ore", <ore:oreGold>.firstItem, [
+    [<mysticalagriculture:gold_essence>, <mysticalagriculture:gold_essence>, <mysticalagriculture:gold_essence>],
+    [<mysticalagriculture:gold_essence>, <ore:stone>, <mysticalagriculture:gold_essence>],
+    [<mysticalagriculture:gold_essence>, <mysticalagriculture:gold_essence>, <mysticalagriculture:gold_essence>]
+]);
+
+
+
+
+
 # ----------------
 # General Recipes
 # ----------------
-recipes.addShaped("tier1_inferium_seeds", <mysticalagriculture:tier1_inferium_seeds>, [
+recipes.addShaped("ma_tier1_inferium_seeds", <mysticalagriculture:tier1_inferium_seeds>, [
     [<ore:blockInferiumEssence>, <ore:essenceInferium>, <ore:blockInferiumEssence>],
     [<ore:essenceInferium>, <mysticalagriculture:crafting:17>, <ore:essenceInferium>],
     [<ore:blockInferiumEssence>, <ore:essenceInferium>, <ore:blockInferiumEssence>]
 ]);
 
-recipes.addShaped("tier2_inferium_seeds", <mysticalagriculture:tier2_inferium_seeds>, [
+recipes.addShaped("ma_tier2_inferium_seeds", <mysticalagriculture:tier2_inferium_seeds>, [
     [<ore:blockPrudentiumEssence>, <ore:essencePrudentium>, <ore:blockPrudentiumEssence>],
     [<ore:essencePrudentium>, <ore:charredTerracotta>, <ore:essencePrudentium>],
     [<ore:blockPrudentiumEssence>, <ore:essencePrudentium>, <ore:blockPrudentiumEssence>]
