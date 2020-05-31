@@ -12,7 +12,7 @@
         },
         {
             "type": "crafting",
-            "recipe": "crafttweaker:tier1_inferium_seeds",
+            "recipe": "crafttweaker:ma_tier1_inferium_seeds",
             "recipe2": "mysticalagriculture:stone_seeds"
         },
         {

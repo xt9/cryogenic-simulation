@@ -35,7 +35,7 @@ Altar.addAttunementAltarRecipe("cryogenic:mysticalagri/t2seed", <mysticalagricul
     <ore:essencePrudentium>, <mysticalagriculture:nature_essence>, <ore:essencePrudentium>,
     <mysticalagriculture:nature_essence>, <mysticalagriculture:crafting:17>, <mysticalagriculture:nature_essence>,
     <ore:essencePrudentium>, <mysticalagriculture:nature_essence>, <ore:essencePrudentium>,
-    <ore:essencePrudentium>, <ore:essencePrudentium>, <ore:essencePrudentium>, <ore:essencePrudentium>
+    <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>, <ore:shardProsperity>
 ]);
 
 # ------------------
