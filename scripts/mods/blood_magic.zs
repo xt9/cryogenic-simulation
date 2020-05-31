@@ -54,7 +54,7 @@ BloodAltar.removeRecipe(<minecraft:bucket>);
 BloodAltar.addRecipe(<forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}), <minecraft:bucket>, 0, 1000, 15, 5);
 
 # Slate Tiers
-BloodAltar.addRecipe(<ore:slateTier1>.firstItem, <contenttweaker:block_charred_terracotta>, 0, 500, 15, 5);
+BloodAltar.addRecipe(<ore:slateTier1>.firstItem, <ore:charredTerracotta>.firstItem, 0, 500, 15, 5);
 BloodAltar.addRecipe(<ore:slateTier2>.firstItem, <ore:slateTier1>.firstItem, 1, 1500, 20, 5);
 BloodAltar.addRecipe(<ore:slateTier3>.firstItem, <ore:slateTier2>.firstItem, 2, 3000, 25, 5);
 BloodAltar.addRecipe(<ore:slateTier4>.firstItem, <ore:slateTier3>.firstItem, 3, 9000, 30, 15);

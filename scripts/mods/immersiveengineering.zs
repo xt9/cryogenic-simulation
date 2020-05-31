@@ -27,7 +27,7 @@ BlastFurnace.addRecipe(<minecraft:glass>, <ore:sand>, 100);
 # ----------------
 # Kiln Section
 # ----------------
-AlloySmelter.addRecipe(<contenttweaker:block_charred_terracotta> * 8, <contenttweaker:charred_feather>, <tconstruct:materials> * 8, 140);
+AlloySmelter.addRecipe(<ore:charredTerracotta>.firstItem * 8, <contenttweaker:charred_feather>, <tconstruct:materials> * 8, 140);
 AlloySmelter.addRecipe(<ore:ingotPigiron>.firstItem, <ore:ingotIron> * 2, <contenttweaker:bloody_mud>, 140);
 
 
@@ -259,9 +259,9 @@ recipes.addShaped("ie_cloche", <immersiveengineering:metal_device1:13>, [
 ]);
 
 recipes.addShaped("ie_radiator", <immersiveengineering:metal_decoration0:7> * 8, [
-    [<ore:plateSteel>, <contenttweaker:block_charred_terracotta>, <ore:plateSteel>],
-    [<contenttweaker:block_charred_terracotta>, <minecraft:water_bucket>, <contenttweaker:block_charred_terracotta>],
-    [<ore:plateSteel>, <contenttweaker:block_charred_terracotta>, <ore:plateSteel>]
+    [<ore:plateSteel>, <ore:charredTerracotta>, <ore:plateSteel>],
+    [<ore:charredTerracotta>, <minecraft:water_bucket>, <ore:charredTerracotta>],
+    [<ore:plateSteel>, <ore:charredTerracotta>, <ore:plateSteel>]
 ]);
 
 recipes.addShaped("ie_redstone_engineering", <immersiveengineering:metal_decoration0:3> * 4, [
@@ -351,19 +351,19 @@ recipes.addShaped("ie_tough_fabric", <immersiveengineering:material:5>, [
 recipes.addShaped("ie_lv_connector", <immersiveengineering:connector> * 8, [
     [null, null, null],
     [null, null, null],
-    [<contenttweaker:block_charred_terracotta>, <ore:ingotLead>, <contenttweaker:block_charred_terracotta>]
+    [<ore:charredTerracotta>, <ore:ingotLead>, <ore:charredTerracotta>]
 ]);
 
 recipes.addShaped("ie_mv_connector", <immersiveengineering:connector:2> * 8, [
     [null, null, null],
-    [<contenttweaker:block_charred_terracotta>, <ore:ingotElectrum>, <contenttweaker:block_charred_terracotta>],
-    [<contenttweaker:block_charred_terracotta>, <ore:ingotElectrum>, <contenttweaker:block_charred_terracotta>]
+    [<ore:charredTerracotta>, <ore:ingotElectrum>, <ore:charredTerracotta>],
+    [<ore:charredTerracotta>, <ore:ingotElectrum>, <ore:charredTerracotta>]
 ]);
 
 recipes.addShaped("ie_hv_connector", <immersiveengineering:connector:4> * 8, [
     [null, <ore:ingotSanguineMetal>, null],
-    [<contenttweaker:block_charred_terracotta>, <ore:ingotSanguineMetal>, <contenttweaker:block_charred_terracotta>],
-    [<contenttweaker:block_charred_terracotta>, <ore:ingotSanguineMetal>, <contenttweaker:block_charred_terracotta>]
+    [<ore:charredTerracotta>, <ore:ingotSanguineMetal>, <ore:charredTerracotta>],
+    [<ore:charredTerracotta>, <ore:ingotSanguineMetal>, <ore:charredTerracotta>]
 ]);
 
 recipes.addShaped("ie_lv_relay", <immersiveengineering:connector:1>, [

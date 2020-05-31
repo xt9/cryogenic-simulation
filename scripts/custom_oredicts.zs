@@ -6,6 +6,7 @@ import mods.lateoredictremoval.OreDictUtil;
 <ore:feather>.add(<contenttweaker:blood_raven_feather>);
 <ore:ravenFeather>.add(<contenttweaker:blood_raven_feather>);
 <ore:trollEye>.add(<contenttweaker:troll_eye>);
+<ore:charredTerracotta>.add(<contenttweaker:block_charred_terracotta>);
 
 # Tinkers Construct
 <ore:ingotBrickDried>.add(<tconstruct:materials:2>);

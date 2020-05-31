@@ -132,7 +132,7 @@ Transposer.addFillRecipe(<deepmoblearning:polymer_clay> * 4, <minecraft:clay_bal
 # Induction Smelter
 # ----------------
 # Charred terracotta
-InductionSmelter.addRecipe(<contenttweaker:block_charred_terracotta> * 8, <contenttweaker:charred_feather>, <tconstruct:materials> * 8, 3000);
+InductionSmelter.addRecipe(<ore:charredTerracotta>.firstItem * 8, <contenttweaker:charred_feather>, <tconstruct:materials> * 8, 3000);
 # Charred Feather Pile Qol recipe
 InductionSmelter.addRecipe(<contenttweaker:charred_feather> * 8, <ore:ravenFeather>.firstItem, <ore:dustCoal>.firstItem, 3000);
 # Pigiron QoL recipe
