@@ -44,9 +44,9 @@ recipes.addShaped("rft_dimensional_shard", <rftools:dimensional_shard> * 16, [
 ]);
 
 recipes.addShaped("rft_powercell_card", <rftools:powercell_card>, [
-    [<ore:alloyBasic>, <astralsorcery:itemcraftingcomponent:5>, <ore:alloyBasic>],
+    [<ore:dustRedstone>, <astralsorcery:itemcraftingcomponent:5>, <ore:dustRedstone>],
     [<ore:trollEye>, <ore:itemRubber>, <ore:trollEye>],
-    [<ore:alloyBasic>, <astralsorcery:itemcraftingcomponent:5>, <ore:alloyBasic>]
+    [<ore:dustRedstone>, <astralsorcery:itemcraftingcomponent:5>, <ore:dustRedstone>]
 ]);
 
 
