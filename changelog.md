@@ -1,27 +1,53 @@
 # 0.4.1
 ### Arid Waste
-- Air compressors cost 1 Ardite Large Plate instead of 2.
+- Air compressors cost 1 Ardite Large Plate instead of 2
 - Magician Blood Orb now costs a Sealing sigil instead of a Gold Block
 - ME Drive is not a bit cheaper to craft
-- 
+- Changed liquid plastic ratio (you now get 4 solid plastic from a bucket)
+- Changed the Printed Circuit Base to be more expensive but less microcrafty (that's totally a real verb)
+- Moved tier 2 seeds to being gated to the Arid Waste
+
 ### Lunar Plane
 - Trolls that spawns in caves no longer spawn in lit areas. (It felt bad that trolls spawned even in lit areas.)
 - The Blueprint recipe for Machine Parts now costs sanguine plates instead of gears. (It felt bad spending 8 sanguine for a blueprint, 2 is better)
 - Blessed frames now requires 2 Starmetal instead of 1 (While playtesting I brought a stack of iron and returned with 3 stacks of starmetal so it feels like this should be a little bit more pricey)
-- Added Silver requirements for several of the blessing recipes.
+- Added Silver requirements for several of the blessing recipes
 - Nerfed the amount of steel you get from Dungeon chests
-- You now get less Structural ducts per recipe, was a tad excessive.
-- Crafting Waystones now require troll eyes, a diamond, and a tad less Cobblestone.
-- Tier 1 slate crafting now consume 15lp per tick instead of 10lp per tick.
-- The Life Essence Bucket craft can nonw consume more lp per tick.
+- You now get less Structural ducts per recipe, was a tad excessive
+- Crafting Waystones now require troll eyes, a diamond, and a tad less Cobblestone
+- Tier 1 slate crafting now consume 15lp per tick instead of 10lp per tick
+- The Life Essence Bucket craft can nonw consume more lp per tick
+- Added sooted marble recipe (Using marble essence and charred terracotta)
+- Added power card recipe
+- Added recipe for TE retrievers
+
+### Contained Ecosystems
+- Lowered the yield of golden dust
+- Grout is now slightly more expensive to craft
+- Added some slight tiering to Improved Backpacks
+- Disabled dungeons
+
 ### Misc
+- Cleaned up unused Artisan Workbenches items and tweaked tool tiers
+- Added atlas tip for how you obtain Infused wood
+- Added chunkloaders to a patchouli QoL chapter
+- Added sound muffler to a patchouli QoL chapter
+- Removed the GUI trashcan from quark, players can create their own remote trashcan with enderpouches and trashcan blocks.
+- Gated the cave illuminator
+- Added convenience melting for EnderIO metals in the magma crucible
+- Removed EnderIO alloys from being craftable in the tinkers smeltery
+- Fir saplings is now a fuel
+- Added chest recipe using fir planks
+- Replaced v0idbackpacks with another backpack mod (v0idbackpacks was crashing servers and the project seems dead)
+- Removed a row of slots from the Diamond metal chest (max rows changed in newest version)
+- Removed a tier of metal chests to compensate for diamond chest being smaller
+- Removed salt from worldgen.
 - Removed Botania flowers from worldgen
-- Ticon tool parts are now done with their Strike (No longer hidden in JEI)
-- Disabled quark search bar in favor of JEIs chest search.
-- Enabled ExNihilo ticon hammers
-- Added a new oredict for redrock so that both red rock and red rock cobblestone is crushable by hammer.
-- Removed the simple powercell recipe, it's fairly redundant.
-- Disabled EIO Me conduits because they are pretty unintuitive, and works in wierd ways when 2 conduits are next to each other but not connected. Let's stick with the native cabling.
+- Ticon tool parts are now done with their workers strike (No longer hidden in JEI)
+- Disabled quark search bar in favor of JEIs chest search
+- Added a new oredict for redrock so that both red rock and red rock cobblestone is crushable by hammer
+- Removed the simple powercell recipe, it's fairly redundant
+- Disabled EIO Me conduits because they are pretty unintuitive, and works in wierd ways when 2 conduits are next to each other but not connected. Let's stick with the native cabling
 
 # 0.4
 A bit thin since a lot of the patch is progression addition and not actual changes.
