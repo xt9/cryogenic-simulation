@@ -34,7 +34,7 @@ CoFHWorld-1.12.2-1.4.0.1-universal.jar
 ContentTweaker-1.12.2-4.10.0.jar
 Controlling-3.0.9.jar
 CraftingTweaks_1.12.2-8.1.9.jar
-CraftTweaker2-1.12-4.1.20.574.jar
+CraftTweaker2-1.12-4.1.20.576.jar
 cryosimadditions-1.12.2-1.0.0-universal.jar
 CTM-MC1.12.2-1.0.2.31.jar
 Cucumber-1.12.2-1.1.3.jar
