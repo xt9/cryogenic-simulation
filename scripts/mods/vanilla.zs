@@ -26,6 +26,9 @@ recipes.remove(<minecraft:brewing_stand>);
 recipes.remove(<minecraft:gunpowder>);
 # Remove default tnt recipe
 recipes.remove(<minecraft:tnt>);
+# Remove end crystal recipe (crafted with DML)
+recipes.remove(<minecraft:end_crystal>);
+
 
 # ----------------
 # Crafting Table Recipes
