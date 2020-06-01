@@ -13,6 +13,7 @@ Lightwell.addLiquefaction(<contenttweaker:troll_eye>, <liquid:troll_eye_goop>, 1
 # Altar
 # ----------------
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_basicwand");
+Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_shiftstar");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminator");
@@ -24,7 +25,7 @@ Altar.addAttunementAltarRecipe("cryogenic:ct/portal_stone", <contenttweaker:bles
     <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>
 ]);
 
-Altar.addAttunementAltarRecipe("cryogenic:ct/cave_illuminator", <astralsorcery:blockworldilluminator>, 1200, 160, [
+Altar.addAttunementAltarRecipe("cryogenic:as/cave_illuminator", <astralsorcery:blockworldilluminator>, 1200, 160, [
     <astralsorcery:blockmarble:3>, <astralsorcery:itemusabledust>, <astralsorcery:blockmarble:3>,
     <ore:blockGlowstone>, <deepmoblearning:pristine_matter_witch>, <ore:blockGlowstone>,
     <astralsorcery:blockmarble:3>, <astralsorcery:itemusabledust>, <astralsorcery:blockmarble:3>,
@@ -36,6 +37,14 @@ Altar.addAttunementAltarRecipe("cryogenic:mysticalagri/t2seed", <mysticalagricul
     <mysticalagriculture:nature_essence>, <mysticalagriculture:crafting:17>, <mysticalagriculture:nature_essence>,
     <ore:shardProsperity>, <mysticalagriculture:nature_essence>, <ore:shardProsperity>,
     <ore:essencePrudentium>, <ore:essencePrudentium>, <ore:essencePrudentium>, <ore:essencePrudentium>
+]);
+
+
+Altar.addAttunementAltarRecipe("cryogenic:as/shifting_star", <astralsorcery:itemshiftingstar>, 800, 120, [
+    <ore:dustAstralStarmetal>, <deepmoblearning:pristine_matter_skeleton>, <ore:dustAstralStarmetal>,
+    <deepmoblearning:pristine_matter_zombie>, <astralsorcery:itemcraftingcomponent:4>, <deepmoblearning:pristine_matter_enderman>,
+    <ore:dustAstralStarmetal>, <deepmoblearning:pristine_matter_wither_skeleton>, <ore:dustAstralStarmetal>,
+    <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>
 ]);
 
 # ------------------
