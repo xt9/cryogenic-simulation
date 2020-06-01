@@ -140,7 +140,7 @@ InductionSmelter.addRecipe(<ore:ingotPigiron>.firstItem, <ore:ingotIron>.firstIt
 # Steel from coke dust
 InductionSmelter.addRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>.firstItem, <ore:dustCoke>.firstItem, 3000);
 # T3 Mystical Agriculture Essence
-InductionSmelter.addRecipe(<ore:essenceIntermedium>.firstItem, <ore:essencePrudentium>.firstItem * 4, <ore:dustPyrotheum>.firstItem, 3000);
+InductionSmelter.addRecipe(<ore:essenceIntermedium>.firstItem, <ore:essencePrudentium>.firstItem * 4, <ore:livingMatterHell>.firstItem * 4, 3000);
 
 # Metal chests cheaper recipes
 InductionSmelter.addRecipe(<ore:chestIron>.firstItem, <ore:ingotIron>.firstItem * 4, <minecraft:chest>, 5000);
