@@ -40,6 +40,11 @@ import mods.lateoredictremoval.OreDictUtil;
     <gamestagebooks:bm_stage>
 );
 
+# Deep Mob Learning
+<ore:livingMatterOverworld>.add(<deepmoblearning:living_matter_overworldian>);
+<ore:livingMatterHell>.add(<deepmoblearning:living_matter_hellish>);
+<ore:livingMatterEnd>.add(<deepmoblearning:living_matter_extraterrestrial>);
+
 # Dank Nulls
 <ore:dankNullTier1>.add(<danknull:dank_null_0>);
 <ore:dankNullTier2>.add(<danknull:dank_null_1>);
