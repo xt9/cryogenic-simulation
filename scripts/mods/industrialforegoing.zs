@@ -40,21 +40,21 @@ recipes.addShaped("if_stonework_factory", <industrialforegoing:material_stonewor
 ]);
 
 recipes.addShaped("if_black_hole_controller", <industrialforegoing:black_hole_controller_reworked>, [
-    [<ore:plasticGray>, <industrialforegoing:black_hole_unit>, <ore:plasticGray>],
-    [<ore:ingotPinkSlime>, <ore:chestObsidian>, <ore:ingotPinkSlime>],
-    [<pneumaticcraft:transistor>, <appliedenergistics2:material:37>, <pneumaticcraft:transistor>]
+    [<ore:plasticGray>, <ore:pearlEnderEye>, <ore:plasticGray>],
+    [<ore:ingotPinkSlime>, <appliedenergistics2:drive>, <ore:ingotPinkSlime>],
+    [<pneumaticcraft:transistor>, <deepmoblearning:machine_casing>, <pneumaticcraft:transistor>]
 ]);
 
 recipes.addShaped("if_black_hole_unit", <industrialforegoing:black_hole_unit>, [
     [<ore:plasticGray>, <ore:pearlEnderEye>, <ore:plasticGray>],
-    [<appliedenergistics2:material:37>, <ore:chestObsidian>, <appliedenergistics2:material:37>],
-    [<pneumaticcraft:transistor>, g_blessedMachineFrame, <pneumaticcraft:transistor>]
+    [<appliedenergistics2:material:36>, <ore:chestObsidian>, <appliedenergistics2:material:36>],
+    [<pneumaticcraft:transistor>, <deepmoblearning:machine_casing>, <pneumaticcraft:transistor>]
 ]);
 
 recipes.addShaped("if_black_hole_tank", <industrialforegoing:black_hole_tank>, [
     [<ore:plasticGray>, <ore:pearlEnderEye>, <ore:plasticGray>],
-    [<appliedenergistics2:material:56>, <extrautils2:drum:3>, <appliedenergistics2:material:56>],
-    [<pneumaticcraft:transistor>, g_blessedMachineFrame, <pneumaticcraft:transistor>]
+    [<appliedenergistics2:material:55>, <extrautils2:drum:3>, <appliedenergistics2:material:55>],
+    [<pneumaticcraft:transistor>, <deepmoblearning:machine_casing>, <pneumaticcraft:transistor>]
 ]);
 
 # Gate mob duplicators behind deep mob learning
