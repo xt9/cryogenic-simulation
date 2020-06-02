@@ -10,9 +10,9 @@ recipes.remove(<deepmoblearning:extraction_chamber>);
 recipes.remove(<deepmoblearning:data_model_blank>);
 
 recipes.addShaped("dml_machine_casing", <deepmoblearning:machine_casing>, [
-    [<deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_redstone>, <deepmoblearning:soot_covered_plate>],
-    [<deepmoblearning:soot_covered_redstone>, <rftools:machine_frame>, <deepmoblearning:soot_covered_redstone>],
-    [<deepmoblearning:soot_covered_plate>, <deepmoblearning:soot_covered_redstone>, <deepmoblearning:soot_covered_plate>]
+    [<deepmoblearning:soot_covered_plate>, <ore:plasticBlack>, <deepmoblearning:soot_covered_plate>],
+    [<ore:ingotHOPGraphite>, <rftools:machine_frame>, <ore:ingotHOPGraphite>],
+    [<deepmoblearning:soot_covered_plate>, <ore:plasticBlack>, <deepmoblearning:soot_covered_plate>]
 ]);
 
 recipes.addShaped("dml_simulation_chamber", <deepmoblearning:simulation_chamber>, [
