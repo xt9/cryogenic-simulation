@@ -26,6 +26,7 @@
 - Grout is now slightly more expensive to craft
 - Added some slight tiering to Improved Backpacks
 - Disabled dungeons
+- Removed Gold/Diamond/Emerald drawer upgrades to encourage Black hole units later on
 
 ### Misc
 - Cleaned up unused Artisan Workbenches items and tweaked tool tiers

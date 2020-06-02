@@ -4,7 +4,10 @@
 recipes.remove(<storagedrawers:controller>);
 recipes.remove(<storagedrawers:compdrawers>);
 recipes.remove(<storagedrawers:upgrade_template>);
-
+# Remove gold/diamond/emerald drawer upgrade tiers to encourage black hole units
+recipes.remove(<storagedrawers:upgrade_storage:2>);
+recipes.remove(<storagedrawers:upgrade_storage:3>);
+recipes.remove(<storagedrawers:upgrade_storage:4>);
 
 # Drawer Controller
 recipes.addShaped("sd_upgrade_template", <storagedrawers:upgrade_template> * 2, [
