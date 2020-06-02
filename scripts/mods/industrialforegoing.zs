@@ -15,6 +15,7 @@ recipes.remove(<industrialforegoing:black_hole_unit>);
 recipes.remove(<industrialforegoing:black_hole_tank>);
 recipes.remove(<industrialforegoing:water_condensator>);
 recipes.remove(<industrialforegoing:mob_duplicator>);
+recipes.remove(<industrialforegoing:black_hole_controller_reworked>);
 
 # ----------------
 # Recipes
@@ -38,21 +39,27 @@ recipes.addShaped("if_stonework_factory", <industrialforegoing:material_stonewor
     [<bloodmagic:component:1>, <pneumaticcraft:transistor>, <bloodmagic:component>]
 ]);
 
+recipes.addShaped("if_black_hole_controller", <industrialforegoing:black_hole_controller_reworked>, [
+    [<ore:plasticGray>, <industrialforegoing:black_hole_unit>, <ore:plasticGray>],
+    [<ore:ingotPinkSlime>, <ore:chestObsidian>, <ore:ingotPinkSlime>],
+    [<pneumaticcraft:transistor>, <appliedenergistics2:material:37>, <pneumaticcraft:transistor>]
+]);
+
 recipes.addShaped("if_black_hole_unit", <industrialforegoing:black_hole_unit>, [
-    [<ore:itemRubber>, <ore:pearlEnderEye>, <ore:itemRubber>],
+    [<ore:plasticGray>, <ore:pearlEnderEye>, <ore:plasticGray>],
     [<appliedenergistics2:material:37>, <ore:chestObsidian>, <appliedenergistics2:material:37>],
     [<pneumaticcraft:transistor>, g_blessedMachineFrame, <pneumaticcraft:transistor>]
 ]);
 
 recipes.addShaped("if_black_hole_tank", <industrialforegoing:black_hole_tank>, [
-    [<ore:itemRubber>, <ore:pearlEnderEye>, <ore:itemRubber>],
+    [<ore:plasticGray>, <ore:pearlEnderEye>, <ore:plasticGray>],
     [<appliedenergistics2:material:56>, <extrautils2:drum:3>, <appliedenergistics2:material:56>],
     [<pneumaticcraft:transistor>, g_blessedMachineFrame, <pneumaticcraft:transistor>]
 ]);
 
 # Gate mob duplicators behind deep mob learning
 recipes.addShaped("if_mob_duplicator", <industrialforegoing:mob_duplicator>, [
-    [<ore:itemRubber>, <deepmoblearning:deep_learner>, <ore:itemRubber>],
+    [<ore:plasticGray>, <deepmoblearning:deep_learner>, <ore:plasticGray>],
     [<deepmoblearning:pristine_matter_enderman>, <deepmoblearning:machine_casing>, <deepmoblearning:pristine_matter_enderman>],
     [<deepmoblearning:polymer_clay>, <ore:blockEmerald>, <deepmoblearning:polymer_clay>]
 ]);

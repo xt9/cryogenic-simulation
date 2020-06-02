@@ -40,6 +40,9 @@ import mods.lateoredictremoval.OreDictUtil;
     <gamestagebooks:bm_stage>
 );
 
+# Industrial foregoing
+<ore:ingotPinkSlime>.add(<industrialforegoing:pink_slime_ingot>);
+
 # Deep Mob Learning
 <ore:livingMatterOverworld>.add(<deepmoblearning:living_matter_overworldian>);
 <ore:livingMatterHell>.add(<deepmoblearning:living_matter_hellish>);
@@ -73,6 +76,7 @@ import mods.lateoredictremoval.OreDictUtil;
     <thermaldynamics:duct_0:4>
 );
 
+# TD Fluiduct
 <ore:fluiduct>.add(
     <thermaldynamics:duct_16>,
     <thermaldynamics:duct_16:2>
