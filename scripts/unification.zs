@@ -203,7 +203,9 @@ var chiselOreDicts = [
     <ore:sandstone>,
     <ore:obsidian>,
     <ore:netherrack>,
-    <ore:plankWood>
+    <ore:plankWood>,
+    <ore:paneGlass>,
+    <ore:paneGlassColorless>
 ] as IOreDictEntry[];
 
 for oreDictEntry in chiselOreDicts {
