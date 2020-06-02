@@ -153,8 +153,8 @@ pressurechamber.addRecipe([
 # Tier 2 crafting seed
 pressurechamber.addRecipe([
     <mysticalagriculture:crafting:18>,
-    <ore:essenceIntermedium> * 4,
-    <ore:shardProsperity> * 10
+    <ore:essenceIntermedium>.firstItem * 4,
+    <ore:shardProsperity>.firstItem * 10
 ], 3.0, [<mysticalagriculture:crafting:19>]);
 
 # Infinity BiMetal gear
