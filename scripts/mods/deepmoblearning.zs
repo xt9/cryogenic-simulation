@@ -28,7 +28,7 @@ recipes.addShaped("dml_loot_fabricator", <deepmoblearning:extraction_chamber>, [
 ]);
 
 recipes.addShaped("dml_data_model", <deepmoblearning:data_model_blank>, [
-    [<deepmoblearning:soot_covered_plate>, <minecraft:repeater>, <deepmoblearning:soot_covered_plate>],
+    [<deepmoblearning:soot_covered_plate>, <pneumaticcraft:capacitor>, <deepmoblearning:soot_covered_plate>],
     [<ore:plasticCyan>, <appliedenergistics2:material:23>, <ore:plasticCyan>],
     [<deepmoblearning:soot_covered_plate>, <ore:plateSanguineMetal>, <deepmoblearning:soot_covered_plate>]
 ]);
