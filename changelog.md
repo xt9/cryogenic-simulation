@@ -50,6 +50,9 @@
 - Removed the simple powercell recipe, it's fairly redundant
 - Disabled EIO Me conduits because they are pretty unintuitive, and works in wierd ways when 2 conduits are next to each other but not connected. Let's stick with the native cabling
 
+# Mods
+Updated most mods to the latest version
+
 # 0.4
 A bit thin since a lot of the patch is progression addition and not actual changes.
 ### Combat simulation
