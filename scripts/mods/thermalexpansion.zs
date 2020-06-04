@@ -126,7 +126,7 @@ Transposer.addFillRecipe(<contenttweaker:lubricated_gear>, <pneumaticcraft:compr
 # Inferium -> Prudentium
 Transposer.addFillRecipe(<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting> * 10, <liquid:biocrude> * 20, 2000);
 # Polymer Clay
-Transposer.addFillRecipe(<deepmoblearning:polymer_clay> * 4, <minecraft:clay_ball> * 16, <liquid:plastic> * 250, 4000);
+Transposer.addFillRecipe(<ore:polymerClay>.firstItem * 4, <minecraft:clay_ball> * 16, <liquid:plastic> * 250, 4000);
 
 # ----------------
 # Induction Smelter

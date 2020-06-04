@@ -61,7 +61,7 @@ recipes.addShaped("if_black_hole_tank", <industrialforegoing:black_hole_tank>, [
 recipes.addShaped("if_mob_duplicator", <industrialforegoing:mob_duplicator>, [
     [<ore:plasticGray>, <deepmoblearning:deep_learner>, <ore:plasticGray>],
     [<deepmoblearning:pristine_matter_enderman>, <deepmoblearning:machine_casing>, <deepmoblearning:pristine_matter_enderman>],
-    [<deepmoblearning:polymer_clay>, <ore:blockEmerald>, <deepmoblearning:polymer_clay>]
+    [<ore:polymerClay>, <ore:blockEmerald>, <ore:polymerClay>]
 ]);
 
 
