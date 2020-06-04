@@ -2,6 +2,10 @@ import mods.lateoredictremoval.OreDictUtil;
 
 #priority 998
 
+# Vanilla
+<ore:piston>.add(<minecraft:piston>);
+<ore:piston>.add(<minecraft:sticky_piston>);
+
 # ContentTweaker
 <ore:feather>.add(<contenttweaker:blood_raven_feather>);
 <ore:ravenFeather>.add(<contenttweaker:blood_raven_feather>);
