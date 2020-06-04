@@ -23,7 +23,7 @@ recipes.addShaped("mm_casing", <modularmachinery:blockcasing> * 4, [
 
 # Controller
 recipes.addShaped("mm_controller",<modularmachinery:blockcontroller>, [
-    [<ore:ingotElectrum>, <astralsorcery:itemcraftingcomponent:3>, <ore:ingotElectrum>],
+    [<ore:ingotElectrum>, <ore:glassLensPristine>, <ore:ingotElectrum>],
     [<ore:gearSanguineMetal>, <modularmachinery:blockcasing>, <ore:gearSanguineMetal>],
     [<ore:plateSanguineMetal>, <ore:dustAstralStarmetal>, <ore:plateSanguineMetal>],
 ]);

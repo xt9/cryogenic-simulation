@@ -45,7 +45,7 @@ recipes.addShaped("pn_liquid_air_compressor", <pneumaticcraft:liquid_compressor>
 
 recipes.addShaped("pn_refinery", <pneumaticcraft:refinery>, [
     [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>],
-    [<astralsorcery:itemcraftingcomponent:3>, <extrautils2:drum:2>, <astralsorcery:itemcraftingcomponent:3>], 
+    [<ore:glassLensPristine>, <extrautils2:drum:2>, <ore:glassLensPristine>], 
     [<ore:itemRubber>, <contenttweaker:lubricated_gear>, <ore:itemRubber>]
 ]);
 
@@ -62,7 +62,7 @@ recipes.addShaped("pn_vortex_tube", <pneumaticcraft:vortex_tube>, [
 ]);
 
 recipes.addShaped("pn_plastic_mixer", <pneumaticcraft:plastic_mixer>, [
-    [<ore:stickSteel>, <astralsorcery:itemcraftingcomponent:3>, <ore:stickSteel>],
+    [<ore:stickSteel>, <ore:glassLensPristine>, <ore:stickSteel>],
     [<ore:ingotHOPGraphite>, <industrialforegoing:dye_mixer>, <ore:ingotHOPGraphite>],
     [<tconstruct:large_plate>.withTag({Material: "cobalt"}), <contenttweaker:lubricated_gear>, <tconstruct:large_plate>.withTag({Material: "cobalt"})]
 ]);

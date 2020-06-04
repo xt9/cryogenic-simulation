@@ -12,6 +12,9 @@ import mods.lateoredictremoval.OreDictUtil;
 <ore:trollEye>.add(<contenttweaker:troll_eye>);
 <ore:charredTerracotta>.add(<contenttweaker:block_charred_terracotta>);
 
+# Astral Sorcery
+<ore:glassLensPristine>.add(<astralsorcery:itemcraftingcomponent:3>);
+
 # Tinkers Construct
 <ore:ingotBrickDried>.add(<tconstruct:materials:2>);
 

@@ -19,6 +19,8 @@ import crafttweaker.game.IGame;
 <mysticalagriculture:nether_quartz_seeds>.displayName = "Quartz Seeds";
 <mysticalagriculture:nether_quartz_essence>.displayName = "Quartz Essence";
 <minecraft:quartz_ore>.displayName = "Quartz Ore";
+# AS Pristine Glass Lens
+<astralsorcery:itemcraftingcomponent:3>.displayName = "Pristine Glass Lens";
 
 # Rename MM stuff
 <modularmachinery:blockfluidinputhatch:7>.displayName = "Fluid Input Hatch";

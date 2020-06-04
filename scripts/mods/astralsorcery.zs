@@ -29,7 +29,7 @@ Altar.addAttunementAltarRecipe("cryogenic:as/cave_illuminator", <astralsorcery:b
     <astralsorcery:blockmarble:3>, <astralsorcery:itemusabledust>, <astralsorcery:blockmarble:3>,
     <ore:blockGlowstone>, <deepmoblearning:pristine_matter_witch>, <ore:blockGlowstone>,
     <astralsorcery:blockmarble:3>, <astralsorcery:itemusabledust>, <astralsorcery:blockmarble:3>,
-    <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:3>
+    <ore:glassLensPristine>, <ore:glassLensPristine>, <ore:glassLensPristine>, <ore:glassLensPristine>
 ]);
 
 Altar.addAttunementAltarRecipe("cryogenic:mysticalagri/t2seed", <mysticalagriculture:crafting:18>, 80, 120, [

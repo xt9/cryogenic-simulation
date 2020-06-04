@@ -25,7 +25,7 @@ recipes.addShapeless("pack_guidebook", <patchouli:guide_book>.withTag({"patchoul
 
 # Chunkloaders
 recipes.addShaped("cc_chunkloader", <chickenchunks:chunk_loader>, [
-    [<ore:gemAquamarine>, <astralsorcery:itemcraftingcomponent:3>, <ore:gemAquamarine>],
+    [<ore:gemAquamarine>, <ore:glassLensPristine>, <ore:gemAquamarine>],
     [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],
     [<ore:obsidian>, <minecraft:enchanting_table>, <ore:obsidian>]
 ]);

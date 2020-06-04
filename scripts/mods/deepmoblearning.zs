@@ -14,13 +14,13 @@ recipes.addShaped("dml_machine_casing", <deepmoblearning:machine_casing>, [
 ]);
 
 recipes.addShaped("dml_simulation_chamber", <deepmoblearning:simulation_chamber>, [
-    [null, <astralsorcery:itemcraftingcomponent:3>, null],
+    [null, <ore:glassLensPristine>, null],
     [<ore:enderpearl>, <deepmoblearning:machine_casing>, <ore:enderpearl>],
     [<ore:plasticCyan>, <pneumaticcraft:advanced_pcb>, <ore:plasticCyan>]
 ]);
 
 recipes.addShaped("dml_loot_fabricator", <deepmoblearning:extraction_chamber>, [
-    [null, <astralsorcery:itemcraftingcomponent:3>, null],
+    [null, <ore:glassLensPristine>, null],
     [<ore:ingotGold>, <deepmoblearning:machine_casing>, <ore:ingotGold>],
     [<ore:plasticOrange>, <pneumaticcraft:advanced_pcb>, <ore:plasticOrange>]
 ]);
