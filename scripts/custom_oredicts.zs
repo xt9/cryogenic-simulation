@@ -48,6 +48,7 @@ import mods.lateoredictremoval.OreDictUtil;
 <ore:ingotPinkSlime>.add(<industrialforegoing:pink_slime_ingot>);
 
 # Deep Mob Learning
+<ore:polymerClay>.add(<deepmoblearning:polymer_clay>);
 <ore:livingMatterOverworld>.add(<deepmoblearning:living_matter_overworldian>);
 <ore:livingMatterHell>.add(<deepmoblearning:living_matter_hellish>);
 <ore:livingMatterEnd>.add(<deepmoblearning:living_matter_extraterrestrial>);

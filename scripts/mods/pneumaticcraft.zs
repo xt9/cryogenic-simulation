@@ -20,6 +20,7 @@ recipes.remove(<pneumaticcraft:liquid_compressor>);
 recipes.remove(<pneumaticcraft:advanced_air_compressor>);
 recipes.remove(<pneumaticcraft:advanced_liquid_compressor>);
 recipes.remove(<pneumaticcraft:network_component:3>);
+recipes.remove(<pneumaticcraft:advanced_pcb>);
 
 # Remove redundant pressure chamber recipes
 recipes.removeByRecipeName("pneumaticcraft:pressure_chamber_glass");
@@ -118,7 +119,7 @@ pressurechamber.removeRecipe([<forge:bucketfilled>.withTag({FluidName: "etchacid
 
 # Empty pcb
 pressurechamber.addRecipe([
-    <pneumaticcraft:plastic:11>,
+    <pneumaticcraft:plastic:11> * 4,
     <immersiveengineering:material:27>
 ], 3.0, [<pneumaticcraft:empty_pcb:100>]);
 
@@ -163,6 +164,13 @@ pressurechamber.addRecipe([
     <ore:ingotElectricalSteel>.firstItem * 4,
     <ore:dustBedrock>.firstItem * 4
 ], 3.0, [<enderio:item_material:11>]);
+
+# Advanced PCB
+pressurechamber.addRecipe([
+    <appliedenergistics2:material:22> * 8,
+    <appliedenergistics2:material:36> * 2,
+    <pneumaticcraft:printed_circuit_board>
+], 3.0, [<pneumaticcraft:advanced_pcb> * 8]);
 
 # ----------------
 # TPP
