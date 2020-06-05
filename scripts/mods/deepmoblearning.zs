@@ -15,11 +15,10 @@ recipes.addShaped("dml_machine_casing", <deepmoblearning:machine_casing>, [
 ]);
 
 recipes.addShaped("dml_deep_learner", <deepmoblearning:deep_learner>, [
-    [<deepmoblearning:soot_covered_plate>, <ore:plastic>, <deepmoblearning:soot_covered_plate>],
-    [<ore:plastic>, <ore:glassLensPristine>, <ore:plastic>],
+    [<deepmoblearning:soot_covered_plate>, <ore:plasticCyan>, <deepmoblearning:soot_covered_plate>],
+    [<ore:plasticPurple>, <ore:glassLensPristine>, <ore:plasticPurple>],
     [<deepmoblearning:soot_covered_plate>, <pneumaticcraft:advanced_pcb>, <deepmoblearning:soot_covered_plate>]
 ]);
-
 
 recipes.addShaped("dml_simulation_chamber", <deepmoblearning:simulation_chamber>, [
     [null, <ore:glassLensPristine>, null],
@@ -29,7 +28,7 @@ recipes.addShaped("dml_simulation_chamber", <deepmoblearning:simulation_chamber>
 
 recipes.addShaped("dml_loot_fabricator", <deepmoblearning:extraction_chamber>, [
     [null, <ore:glassLensPristine>, null],
-    [<ore:ingotGold>, <deepmoblearning:machine_casing>, <ore:ingotGold>],
+    [<ore:gearGold>, <deepmoblearning:machine_casing>, <ore:gearGold>],
     [<ore:plasticOrange>, <pneumaticcraft:advanced_pcb>, <ore:plasticOrange>]
 ]);
 
