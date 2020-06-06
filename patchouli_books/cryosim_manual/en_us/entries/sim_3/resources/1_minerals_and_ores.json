@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "text": "You can call upon the $(item)Old Gods$() you were $(l:sim_2/3_vein_tapping)acquainted with$() in the last simulation through various rituals, and one particular ritual will be very useful to you in this $(item)simulation$().$(br2)Using this ritual is part of your tasks this simulation and more instructions can be found $(l:sim_3/4_resources)here$()."
+            "text": "You can call upon the $(item)Old Gods$() you were $(l:sim_2/3_vein_tapping)acquainted with$() in the last simulation through various rituals, and one particular ritual will be very useful to you in this $(item)simulation$().$(br2)Using this ritual is one of your tasks during this simulation and more instructions can be found $(l:sim_3/4_resources)here$()."
         },
         {
             "type": "spotlight",
