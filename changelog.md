@@ -6,6 +6,7 @@
 - Changed liquid plastic ratio (you now get 4 solid plastic from a bucket)
 - Changed the Printed Circuit Base to be more expensive but less microcrafty (that's totally a real verb)
 - Moved tier 2 seeds to being gated to the Arid Waste
+- Added structure: Oil Rig, will spawn rarely in the Oil Ocean
 
 ### Lunar Plane
 - Trolls that spawns in caves no longer spawn in lit areas. (It felt bad that trolls spawned even in lit areas.)
