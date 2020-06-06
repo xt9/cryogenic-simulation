@@ -160,7 +160,7 @@ pressurechamber.addRecipe([
 
 # Infinity BiMetal gear
 pressurechamber.addRecipe([
-    <pneumaticcraft:compressed_iron_gear>,
+    <contenttweaker:lubricated_gear>,
     <ore:ingotElectricalSteel>.firstItem * 4,
     <ore:dustBedrock>.firstItem * 4
 ], 3.0, [<enderio:item_material:11>]);
