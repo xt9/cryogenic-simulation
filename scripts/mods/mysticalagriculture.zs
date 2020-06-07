@@ -193,9 +193,9 @@ recipes.addShaped("ma_tier1_inferium_seeds", <mysticalagriculture:tier1_inferium
 ]);
 
 recipes.addShaped("ma_tier2_inferium_seeds", <mysticalagriculture:tier2_inferium_seeds>, [
-    [<ore:blockPrudentiumEssence>, <ore:essencePrudentium>, <ore:blockPrudentiumEssence>],
-    [<ore:essencePrudentium>, <ore:charredTerracotta>, <ore:essencePrudentium>],
-    [<ore:blockPrudentiumEssence>, <ore:essencePrudentium>, <ore:blockPrudentiumEssence>]
+    [<ore:blockPrudentiumEssence>, <ore:essenceTier2>, <ore:blockPrudentiumEssence>],
+    [<ore:essenceTier2>, <mysticalagriculture:tier1_inferium_seeds>, <ore:essenceTier2>],
+    [<ore:blockPrudentiumEssence>, <ore:essenceTier2>, <ore:blockPrudentiumEssence>]
 ]);
 
 # ----------------
