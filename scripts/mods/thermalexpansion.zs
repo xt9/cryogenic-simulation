@@ -260,11 +260,5 @@ recipes.replaceAllOccurences(<ore:gearCopper>, <ore:gearBronze>, <thermalexpansi
 # Change magma crucible recipe
 recipes.replaceAllOccurences(<minecraft:nether_brick>, <ore:blockMagma>, <thermalexpansion:machine:6>);
 
-recipes.addShaped("te_cell_frame", <thermalexpansion:frame:128>, [
-    [<ore:plateElectrum>, g_blessedConductanceCoil, <ore:plateElectrum>],
-    [g_blessedReceptionCoil, g_blessedServo, g_blessedReceptionCoil], 
-    [<ore:plateElectrum>, g_blessedConductanceCoil, <ore:plateElectrum>]
-]);
-
 # Retrievers
 recipes.replaceAllOccurences(<ore:pearlEnderEye>, <ore:trollEye>, <thermaldynamics:retriever:*>);
