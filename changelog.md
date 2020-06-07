@@ -52,7 +52,8 @@
 - Disabled EIO Me conduits because they are pretty unintuitive, and works in wierd ways when 2 conduits are next to each other but not connected. Let's stick with the native cabling
 
 # Mods
-Updated most mods to the latest version
+Updated most mods to the latest version (I batch updated since a lot of mos were updated since 0.4, so not all of them will be added to this list)
+Updated ImmersiveEngineering to 0.12-98
 
 # 0.4
 A bit thin since a lot of the patch is progression addition and not actual changes.
