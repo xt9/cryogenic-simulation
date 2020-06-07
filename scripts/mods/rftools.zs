@@ -52,7 +52,7 @@ recipes.addShaped("rft_powercell", <rftools:powercell>, [
 ]);
 
 recipes.addShaped("rft_powercell_advanced", <rftools:powercell_advanced>, [
-    <pneumaticcraft:transistor>, <pneumaticcraft:network_component:2>, <pneumaticcraft:transistor>],
+    [<pneumaticcraft:transistor>, <pneumaticcraft:network_component:2>, <pneumaticcraft:transistor>],
     [<ore:gemInfusedDiamond>, <rftools:powercell>, <ore:gemInfusedDiamond>],
     [<pneumaticcraft:transistor>, <ore:gemInfusedDiamond>, <pneumaticcraft:transistor>]
 ]);
