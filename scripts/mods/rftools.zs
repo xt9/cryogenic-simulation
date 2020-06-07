@@ -9,6 +9,8 @@ recipes.remove(<rftools:dimensional_shard>);
 recipes.remove(<rftools:powercell_simple>);
 recipes.remove(<rftools:powercell_card>);
 recipes.remove(<rftools:infused_diamond>);
+recipes.remove(<rftools:powercell>);
+recipes.remove(<rftools:powercell_advanced>);
 
 recipes.removeByRecipeName("rftools:powercell_normal");
 
@@ -41,6 +43,18 @@ recipes.addShaped("rft_machine_base", <rftools:machine_base> * 3, [
 recipes.addShaped("rft_dimensional_shard", <rftools:dimensional_shard> * 16, [
     [<minecraft:diamond>, <mysticalagriculture:crafting:5>, <appliedenergistics2:material>],
     [<minecraft:quartz>, <minecraft:quartz>, <minecraft:prismarine_shard>]
+]);
+
+recipes.addShaped("rft_powercell", <rftools:powercell>, [
+    [<immersiveengineering:metal_decoration0:3>, <ore:trollEye>, <immersiveengineering:metal_decoration0:3>],
+    [<ore:gemDiamond>, <rftools:machine_frame>, <ore:gemDiamond>],
+    [<immersiveengineering:metal_decoration0:3>, <ore:gemEmerald>, <immersiveengineering:metal_decoration0:3>]
+]);
+
+recipes.addShaped("rft_powercell_advanced", <rftools:powercell_advanced>, [
+    <pneumaticcraft:transistor>, <pneumaticcraft:network_component:2>, <pneumaticcraft:transistor>],
+    [<ore:gemInfusedDiamond>, <rftools:powercell>, <ore:gemInfusedDiamond>],
+    [<pneumaticcraft:transistor>, <ore:gemInfusedDiamond>, <pneumaticcraft:transistor>]
 ]);
 
 recipes.addShaped("rft_powercell_card", <rftools:powercell_card>, [

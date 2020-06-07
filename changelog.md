@@ -7,6 +7,7 @@
 - Changed the Printed Circuit Base to be more expensive but less microcrafty (that's totally a real verb)
 - Moved tier 2 seeds to being gated to the Arid Waste
 - Added structure: Oil Rig, will spawn rarely in the Oil Ocean
+- Increased crafting cost of Advanced Powercell
 
 ### Lunar Plane
 - Trolls that spawns in caves no longer spawn in lit areas. (It felt bad that trolls spawned even in lit areas.)
@@ -22,6 +23,7 @@
 - Added power card recipe
 - Added recipe for TE retrievers
 - Removed TE Energy Cell recipe, Between IE and RFTools we have plenty of energy storage options at this point in the game
+- Changed the RFTools power cell recipe
 
 ### Contained Ecosystems
 - Lowered the yield of golden dust
