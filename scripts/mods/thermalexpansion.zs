@@ -121,6 +121,9 @@ for stack in <ore:fish>.items {
 # ----------------
 # Transposer
 # ----------------
+Transposer.removeFillRecipe(<thermaldynamics:duct_64>, <liquid:ender>);
+Transposer.removeFillRecipe(<thermaldynamics:duct_64:3>, <liquid:aerotheum>);
+
 Transposer.addFillRecipe(<astralsorcery:itemusabledust> * 4, <ore:dustGlowstone>.firstItem, <liquid:astralsorcery.liquidstarlight> * 500, 4000);
 Transposer.addFillRecipe(<contenttweaker:lubricated_gear>, <pneumaticcraft:compressed_iron_gear>, <liquid:lubricant> * 400, 4000);
 # Inferium -> Prudentium

@@ -46,8 +46,26 @@ recipes.addShaped("td_itemduct", <thermaldynamics:duct_32> * 16, [
 
 recipes.addShapeless("td_hardened_fluxduct", <thermaldynamics:duct_0:1>, [<thermaldynamics:duct_0>, <ore:ingotInvar>]);
 recipes.addShapeless("td_signalum_fluxduct", <thermaldynamics:duct_0:3>, [<thermaldynamics:duct_0:2>, <ore:ingotSignalum>]);
-
 recipes.addShapeless("td_hardened_fluiduct", <thermaldynamics:duct_16:2>, [<thermaldynamics:duct_16>, <ore:ingotInvar>]);
+
+recipes.addShaped("td_viaduct", <thermaldynamics:duct_64> * 8, [
+    [<ore:plateCopper>, <thermaldynamics:duct_48>, <ore:plateCopper>],
+    [<thermalfoundation:glass:3>, null, <thermalfoundation:glass:3>],
+    [<ore:plateCopper>, <thermaldynamics:duct_48>, <ore:plateCopper>]
+]);
+
+recipes.addShaped("td_long_range_linking_viaduct", <thermaldynamics:duct_64:2>, [
+    [<ore:trollEye>],
+    [<thermaldynamics:duct_64>],
+    [<ore:trollEye>]
+]);
+
+recipes.addShaped("td_long_range_viaduct", <thermaldynamics:duct_64:1>, [
+    [<ore:trollEye>],
+    [<thermaldynamics:duct_64>]
+]);
+
+
 
 # -----------------
 # Transposed Ducts
