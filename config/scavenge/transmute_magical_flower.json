@@ -1,0 +1,44 @@
+{
+    "block_pools": [
+        {
+            "name": "MagicalFlower",
+            "type": {
+                "type": "block",
+                "name": "midnight:ghost_plant"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "astralsorcery:itemwand"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "botania:flower"
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "spell",
+                    "amount": 33,
+                    "speed": 0.2,
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "botania:enchanterfade",
+                    "category": "master",
+                    "volume": 0.5,
+                    "pitch": 0.9,
+                    "disableJEI": true
+                }
+            ],
+            "drops": [],
+            "messages": [
+                {
+                    "id": "require_item",
+                    "message": "You must hold a Resonating Wand!"
+                }
+            ]
+        }
+    ]
+}
