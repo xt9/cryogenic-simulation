@@ -11,7 +11,7 @@
 ### Lunar Plane
 - Trolls that spawns in caves no longer spawn in lit areas. (It felt bad that trolls spawned even in lit areas.)
 - The Blueprint recipe for Machine Parts now costs sanguine plates instead of gears. (It felt bad spending 8 sanguine for a blueprint, 2 is better)
-- Blessed frames now requires 2 Starmetal instead of 1 (While playtesting I brought a stack of iron and returned with 3 stacks of starmetal so it feels like this should be a little bit more pricey)
+- Blessed frames now requires 2 Starmetal instead of 1
 - Added Silver requirements for several of the blessing recipes
 - Nerfed the amount of steel you get from Dungeon chests
 - You now get less Structural ducts per recipe, was a tad excessive
@@ -21,6 +21,7 @@
 - Added sooted marble recipe (Using marble essence and charred terracotta)
 - Added power card recipe
 - Added recipe for TE retrievers
+- Removed TE Energy Cell recipe, Between IE and RFTools we have plenty of energy storage options at this point in the game
 
 ### Contained Ecosystems
 - Lowered the yield of golden dust

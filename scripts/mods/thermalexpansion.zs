@@ -236,6 +236,7 @@ recipes.remove(<thermalexpansion:device:4>);
 # Remove bait recipes
 recipes.remove(<thermalfoundation:bait>);
 recipes.remove(<thermalfoundation:bait:1>);
+recipes.remove(<thermalexpansion:cell>);
 
 # ----------------
 # Recipes
