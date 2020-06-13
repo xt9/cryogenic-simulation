@@ -58,6 +58,7 @@
 Updated most mods to the latest version (I batch updated since a lot of mos were updated since 0.4, so not all of them will be added to this list)
 Updated ImmersiveEngineering to 0.12-98
 Updated Artisan Worktables to 1.23.4
+Updated PneumaticCraft to 11.15-398
 
 # 0.4
 A bit thin since a lot of the patch is progression addition and not actual changes.
