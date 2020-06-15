@@ -33,6 +33,8 @@ BloodAltar.removeRecipe(<minecraft:diamond>);
 BloodAltar.removeRecipe(<minecraft:redstone_block>);
 # Remove tier 3 blood orb
 BloodAltar.removeRecipe(<minecraft:gold_block>);
+# Remote tier 4 blood orb
+BloodAltar.removeRecipe(<bloodmagic:blood_shard>);
 # Remove Slates
 BloodAltar.removeRecipe(<minecraft:stone>);
 BloodAltar.removeRecipe(<bloodmagic:slate>);
@@ -41,14 +43,14 @@ BloodAltar.removeRecipe(<bloodmagic:slate:2>);
 BloodAltar.removeRecipe(<bloodmagic:slate:3>);
 # Remove dagger of sacrifice
 BloodAltar.removeRecipe(<minecraft:iron_sword>);
-# Remove Inscription Tool Air, Fire, Earth & Water
+# Remove Inscription Tool Air, Fire, Earth, Water & Dusk
 BloodAltar.removeRecipe(<minecraft:ghast_tear>);
 BloodAltar.removeRecipe(<minecraft:lapis_block>);
 BloodAltar.removeRecipe(<minecraft:magma_cream>);
 BloodAltar.removeRecipe(<minecraft:obsidian>);
+BloodAltar.removeRecipe(<minecraft:coal_block>);
 # Remove slow life essence bucket recipe
 BloodAltar.removeRecipe(<minecraft:bucket>);
-
 
 # Life Essence Bucket
 BloodAltar.addRecipe(<forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}), <minecraft:bucket>, 0, 1000, 15, 5);
@@ -64,19 +66,21 @@ BloodAltar.addRecipe(<ore:slateTier5>.firstItem, <ore:slateTier4>.firstItem, 4, 
 BloodAltar.addRecipe(<bloodmagic:soul_snare>, <ore:string>.firstItem, 0, 250, 10, 5);
 BloodAltar.addRecipe(<bloodmagic:dagger_of_sacrifice>, <astralsorcery:itemcrystalsword>, 1, 5000, 20, 5);
 
-# Blood Orbs TODO, DO ALL THE TIERS
-BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <ore:trollEye>.firstItem, 0, 2000, 15, 5);
-BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <ore:slimeballBlood>.firstItem, 1, 5000, 20, 5);
-BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <astralsorcery:itemperkseal>, 2, 10000, 25, 5);
+# Blood Orbs TODO, add archmage orb recipe
+BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({ orb: "bloodmagic:weak" }), <ore:trollEye>.firstItem, 0, 2000, 15, 5);
+BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({ orb: "bloodmagic:apprentice" }), <ore:slimeballBlood>.firstItem, 1, 3500, 20, 5);
+BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({ orb: "bloodmagic:magician" }), <astralsorcery:itemperkseal>, 2, 5000, 25, 5);
+BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({ orb: "bloodmagic:master" }), <midnight:dark_pearl_block>, 3, 7500, 25, 5);
 
-# Inscription Tool Air
-BloodAltar.addRecipe(<bloodmagic:inscription_tool:1>.withTag({uses: 10}), <infinitewatersource:infinitewatersource>, 2, 1000, 20, 5);
-BloodAltar.addRecipe(<bloodmagic:inscription_tool:2>.withTag({uses: 10}), <thermalfoundation:material:1024>, 2, 1000, 20, 5);
-BloodAltar.addRecipe(<bloodmagic:inscription_tool:3>.withTag({uses: 10}), <astralsorcery:blockblackmarble>, 2, 1000, 20, 5);
-BloodAltar.addRecipe(<bloodmagic:inscription_tool:4>.withTag({uses: 10}), <contenttweaker:blood_raven_feather>, 2, 1000, 20, 5);
+# Inscription Tools
+BloodAltar.addRecipe(<bloodmagic:inscription_tool:1>.withTag({ uses: 10 }), <infinitewatersource:infinitewatersource>, 2, 1000, 20, 5);
+BloodAltar.addRecipe(<bloodmagic:inscription_tool:2>.withTag({ uses: 10 }), <ore:dustPyrotheum>.firstItem, 2, 1000, 20, 5);
+BloodAltar.addRecipe(<bloodmagic:inscription_tool:3>.withTag({ uses: 10 }), <astralsorcery:blockblackmarble>, 2, 1000, 20, 5);
+BloodAltar.addRecipe(<bloodmagic:inscription_tool:4>.withTag({ uses: 10 }), <ore:ravenFeather>.firstItem, 2, 1000, 20, 5);
+BloodAltar.addRecipe(<bloodmagic:inscription_tool:5>.withTag({ uses: 10 }), <midnight:ebonys_block>, 3, 3000, 20, 5);
 
 # Tier 1 Crafting Seeds
-BloodAltar.addRecipe(<mysticalagriculture:crafting:17>, <minecraft:wheat_seeds>, 1, 800, 15, 5);
+BloodAltar.addRecipe(<mysticalagriculture:crafting:17>, <minecraft:wheat_seeds>, 1, 500, 15, 5);
 
 # Blood Diamond
 BloodAltar.addRecipe(<contenttweaker:blood_diamond>, <ore:gemDiamond>.firstItem, 2, 3000, 20, 5);
@@ -92,6 +96,7 @@ recipes.remove(<bloodmagic:blood_rune:4>);
 recipes.remove(<bloodmagic:incense_altar>);
 recipes.remove(<bloodmagic:soul_forge>);
 recipes.remove(<bloodmagic:blood_rune:8>);
+recipes.remove(<bloodmagic:activation_crystal:1>);
 
 # ----------------
 # Recipes
@@ -123,12 +128,11 @@ recipes.addShaped("bm_self_sacrifice_rune", <bloodmagic:blood_rune:4>, [
     [<astralsorcery:blockblackmarble>, null, <astralsorcery:blockblackmarble>]
 ]);
 
-recipes.addShaped("bm_rune_of_the_orb", <bloodmagic:blood_rune:8> * 4, [
+recipes.addShaped("bm_rune_of_the_orb", <bloodmagic:blood_rune:8> * 8, [
     [<bloodmagic:blood_rune>, <ore:enderpearl>, <bloodmagic:blood_rune>],
     [<ore:enderpearl>, <industrialforegoing:black_hole_tank>, <ore:enderpearl>],
     [<bloodmagic:blood_rune>, <ore:enderpearl>, <bloodmagic:blood_rune>]
 ]);
-
 
 recipes.addShaped("bm_altar", <bloodmagic:altar>, [
     [null, <contenttweaker:blood_raven_feather>, null],
@@ -147,4 +151,12 @@ recipes.addShaped("bm_soul_forge", <bloodmagic:soul_forge>, [
     [<ore:ingotBrickSeared>, <ore:blockSeared>, <ore:ingotBrickSeared>],
     [<ore:ingotBrickSeared>, <ore:plateSanguineMetal>, <ore:ingotBrickSeared>]
 ]);
+
+recipes.addShaped("bm_awakened_activation_crystal", <bloodmagic:activation_crystal:1>, [
+    [<ore:runeWaterB>, <ore:manaPearl>, <ore:runeFireB>],
+    [<ore:ingotManasteel>, <bloodmagic:activation_crystal>, <ore:ingotManasteel>],
+    [<ore:runeAirB>, <ore:manaDiamond>, <ore:runeEarthB>]
+]);
+
+
 

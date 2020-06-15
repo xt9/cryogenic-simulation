@@ -10,6 +10,10 @@ helpers.addAtlasTip(<botania:flower>, [
     format.yellow("Crafted by transmuting Ghost Plants with the Resonating Wand")
 ]);
 
+helpers.addAtlasTip(<botania:storage:3>, [
+    format.yellow("Can be sacrificed in the Mark of the Falling Tower ritual")
+]);
+
 # ----------------
 # Recipes
 # ----------------
@@ -91,10 +95,10 @@ RuneAltar.addRecipe(<botania:rune> * 2, [
     <ore:manaDiamond>.firstItem,
     <ore:manaPearl>.firstItem,
     <rftools:dimensional_shard>,
-    <minecraft:fish:3>,
-    <minecraft:fish:2>,
     <infinitewatersource:infinitewatersource>
-], 12000);
+    <minecraft:fish:3>,
+    <minecraft:fish:2>
+], 8000);
 
 # Rune of Fire
 RuneAltar.addRecipe(<botania:rune:1> * 2, [
@@ -107,7 +111,7 @@ RuneAltar.addRecipe(<botania:rune:1> * 2, [
     <ore:livingMatterHell>.firstItem,
     <ore:dustPyrotheum>.firstItem,
     <minecraft:tnt>
-], 12000);
+], 8000);
 
 # Rune of Earth
 RuneAltar.addRecipe(<botania:rune:2> * 2, [
@@ -120,7 +124,7 @@ RuneAltar.addRecipe(<botania:rune:2> * 2, [
     <ore:livingMatterOverworld>.firstItem,
     <midnight:midnight_dirt>,
     <astralsorcery:blockblackmarble>
-], 12000);
+], 8000);
 
 # Rune of Air
 RuneAltar.addRecipe(<botania:rune:3> * 2, [
@@ -133,7 +137,7 @@ RuneAltar.addRecipe(<botania:rune:3> * 2, [
     <ore:ravenFeather>.firstItem,
     <ore:manaString>.firstItem,
     <minecraft:cooked_chicken>
-], 12000);
+], 8000);
 
 # Rune of Winter
 RuneAltar.addRecipe(<botania:rune:7>, [
@@ -146,3 +150,16 @@ RuneAltar.addRecipe(<botania:rune:7>, [
     <minecraft:snow>,
     <minecraft:snow>
 ], 12000);
+
+# Dim 5 portal block
+RuneAltar.addRecipe(<ore:cropPumpkin>.firstItem, [
+    <botania:livingwood:5>,
+    <botania:pylon>,
+    <ore:ingotPlatinum>.firstItem,
+    <ore:ingotMithril>.firstItem,
+    <ore:ingotIridium>.firstItem,
+    <ore:ingotUranium>.firstItem,
+    <ore:runePrideB>.firstItem,
+    <ore:runeManaB>.firstItem,
+    <ore:runeWrathB>.firstItem
+], 50000);

@@ -1,3 +1,7 @@
+# 0.5
+Added progression for the Combat Simulation + The Midnight
+
+
 # 0.4.1
 ### Arid Waste
 - Air compressors cost 1 Ardite Large Plate instead of 2
