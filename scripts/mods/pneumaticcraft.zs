@@ -101,7 +101,7 @@ recipes.addShaped("pn_advanced_liquid_compressor", <pneumaticcraft:advanced_liqu
     [<pneumaticcraft:advanced_pressure_tube>, <pneumaticcraft:liquid_compressor>, <pneumaticcraft:advanced_pressure_tube>]
 ]);
 
-recipes.addShaped("pn_network_io_port", <pneumaticcraft:network_component:3> * 2, [
+recipes.addShaped("pn_network_io_port", <pneumaticcraft:network_component:3> * 8, [
     [null, <pneumaticcraft:capacitor>, null],
     [<modularmachinery:blockinputbus:6>, <appliedenergistics2:material:24>, <modularmachinery:blockoutputbus:6>],
     [null, <pneumaticcraft:capacitor>, null]

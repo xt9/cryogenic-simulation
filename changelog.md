@@ -8,6 +8,7 @@
 - Moved tier 2 seeds to being gated to the Arid Waste
 - Added structure: Oil Rig, will spawn rarely in the Oil Ocean
 - Increased crafting cost of Advanced Powercell
+- Increased yield of Network IO port recipe
 
 ### Lunar Plane
 - Trolls that spawns in caves no longer spawn in lit areas. (It felt bad that trolls spawned even in lit areas.)
