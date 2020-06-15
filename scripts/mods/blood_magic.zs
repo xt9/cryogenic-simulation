@@ -91,6 +91,7 @@ recipes.remove(<bloodmagic:blood_rune:3>);
 recipes.remove(<bloodmagic:blood_rune:4>);
 recipes.remove(<bloodmagic:incense_altar>);
 recipes.remove(<bloodmagic:soul_forge>);
+recipes.remove(<bloodmagic:blood_rune:8>);
 
 # ----------------
 # Recipes
@@ -121,6 +122,13 @@ recipes.addShaped("bm_self_sacrifice_rune", <bloodmagic:blood_rune:4>, [
     [<ore:dustGlowstone>, <bloodmagic:blood_rune>, <ore:dustGlowstone>],
     [<astralsorcery:blockblackmarble>, null, <astralsorcery:blockblackmarble>]
 ]);
+
+recipes.addShaped("bm_rune_of_the_orb", <bloodmagic:blood_rune:8> * 4, [
+    [<bloodmagic:blood_rune>, <ore:enderpearl>, <bloodmagic:blood_rune>],
+    [<ore:enderpearl>, <industrialforegoing:black_hole_tank>, <ore:enderpearl>],
+    [<bloodmagic:blood_rune>, <ore:enderpearl>, <bloodmagic:blood_rune>]
+]);
+
 
 recipes.addShaped("bm_altar", <bloodmagic:altar>, [
     [null, <contenttweaker:blood_raven_feather>, null],
