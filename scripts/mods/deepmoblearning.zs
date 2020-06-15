@@ -37,3 +37,5 @@ recipes.addShaped("dml_data_model", <deepmoblearning:data_model_blank>, [
     [<ore:plasticCyan>, <pneumaticcraft:advanced_pcb>, <ore:plasticCyan>],
     [<deepmoblearning:soot_covered_plate>, <ore:polymerClay>, <deepmoblearning:soot_covered_plate>]
 ]);
+
+recipes.replaceAllOccurences(<minecraft:comparator>, <pneumaticcraft:advanced_pcb>, <deepmoblearningbm:digital_agonizer>);
