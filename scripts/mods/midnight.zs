@@ -18,9 +18,3 @@ helpers.addAtlasTip(<midnight:ghost_plant>, [
 helpers.addAtlasTip(<midnight:dark_pearl>, [
     format.yellow("Rare drop from Dark Pearl Ore")
 ]);
-
-recipes.addShaped("midnight_mycelium", <midnight:midnight_mycelium> * 8, [
-    [<mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>, <mysticalagriculture:nature_essence>],
-    [<mysticalagriculture:dirt_essence>, <midnight:bloomcrystal>, <mysticalagriculture:dirt_essence>],
-    [<mysticalagriculture:dirt_essence>, <mysticalagriculture:dirt_essence>, <mysticalagriculture:dirt_essence>]
-]);
