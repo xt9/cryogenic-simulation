@@ -12,8 +12,8 @@
       }
     ],
     "soil": {
-      "item": "mysticalagriculture:storage",
-      "data": 4
+      "item": "botania:altgrass",
+      "data": 3
     }
   },
   "oak": {

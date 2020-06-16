@@ -5,7 +5,7 @@ furnace.setFuel(<cryosimadditions:block_blood_resin_log>, 0);
 
 helpers.addAtlasTip(<cryosimadditions:blessed_sapling>, [
     format.yellow("Can only be grown in a Cloche"),
-    format.yellow("on top of a ") + format.red("Block of Supremium Essence")
+    format.yellow("on top of ") + format.red("Scorched Grass")
 ]);
 
 
