@@ -95,7 +95,7 @@ RuneAltar.addRecipe(<botania:rune> * 2, [
     <ore:manaDiamond>.firstItem,
     <ore:manaPearl>.firstItem,
     <rftools:dimensional_shard>,
-    <infinitewatersource:infinitewatersource>
+    <infinitewatersource:infinitewatersource>,
     <minecraft:fish:3>,
     <minecraft:fish:2>
 ], 8000);
