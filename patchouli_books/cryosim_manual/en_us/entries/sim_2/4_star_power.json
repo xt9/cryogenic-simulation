@@ -35,7 +35,7 @@
         },
         {
             "type": "text",
-            "text": "Do not forget to remove the ceiling of the large shrine.$(br2)The crystal needs a view of the sky to craft the $(item)Starmetal Ore$()."
+            "text": "Do not forget to remove the ceiling of the large shrine.$(br2)The crystal needs a view of the sky to craft the $(item)Starmetal Ore$().$(br2)(If all conditions are met and it still does not work, $(item)restart$() the game)"
         }
     ]
 }

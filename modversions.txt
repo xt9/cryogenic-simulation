@@ -1,4 +1,4 @@
-# Pre-commit hook found 145 mods, with the following versions:
+# Pre-commit hook found 146 mods, with the following versions:
 
 AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar
 Alfinivia-0.4hotfix.jar
@@ -19,6 +19,7 @@ BNBGamingCore-1.12.2-0.11.0.jar
 BNBGamingLib-1.12.2-2.17.6.jar
 Bookshelf-1.12.2-2.3.590.jar
 Botania r1.10-363.jar
+botaniatweaks-1.8.6.jar
 BrandonsCore-1.12.2-2.4.18.210-universal.jar
 BuildingGadgets-2.8.3.jar
 CaveGenerator-0.17.jar
