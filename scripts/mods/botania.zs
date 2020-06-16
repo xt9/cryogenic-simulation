@@ -22,6 +22,9 @@ recipes.remove(<botania:pool:*>);
 recipes.remove(<botania:runealtar>);
 recipes.remove(<botania:spreader>);
 recipes.remove(<botania:fertilizer>);
+recipes.remove(<botania:floatingspecialflower>.withTag({ type: "orechid" }));
+recipes.remove(<botania:floatingspecialflower>.withTag({ type: "orechidIgnem" }));
+
 
 
 recipes.addShapeless("botania_floral_fertilizer", <botania:fertilizer> * 4, [<fertilization:florists_bonemeal>, <ore:livingMatterOverworld>, <botania:petal:*>]);
@@ -66,8 +69,10 @@ recipes.addShaped("botania_runic_altar", <botania:runealtar>, [
 # ------------------
 # Petal Apothecary
 # ------------------
-Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "endoflame"}));
-Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "hydroangeas"}));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({ type: "endoflame" }));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({ type: "hydroangeas" }));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({ type: "orechid" }));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({ type: "orechidIgnem" }));
 
 # ------------------
 # Pure Daisy
@@ -154,7 +159,7 @@ RuneAltar.addRecipe(<botania:rune:7>, [
 # Dim 5 portal block
 RuneAltar.addRecipe(<ore:cropPumpkin>.firstItem, [
     <botania:livingwood:5>,
-    <botania:pylon>,
+    <botania:pylon:1>,
     <ore:ingotPlatinum>.firstItem,
     <ore:ingotMithril>.firstItem,
     <ore:ingotIridium>.firstItem,

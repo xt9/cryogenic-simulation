@@ -3,6 +3,10 @@ import mods.jei.JEI;
 # Hide Brewing since it's disabled
 JEI.hideCategory("minecraft.brewing");
 
+# Hide orechid since it's disabled
+JEI.hideCategory("botania.orechid");
+JEI.hideCategory("botania.orechid_ignem");
+
 # Remove pointless/unnecessary categories
 JEI.hideCategory("Painter");
 JEI.hideCategory("EIOTank");
