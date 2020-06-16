@@ -128,18 +128,6 @@ recipes.addShaped("ma_mek_osmium_ore", <ore:oreOsmium>.firstItem * 2, [
     [<mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>]
 ]);
 
-recipes.addShaped("ma_tconstruct_cobalt_ore", <ore:oreCobalt>.firstItem, [
-    [<mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>],
-    [<mysticalagriculture:cobalt_essence>, <minecraft:stone>, <mysticalagriculture:cobalt_essence>],
-    [<mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>]
-]);
-
-recipes.addShaped("ma_tconstruct_ardite_ore", <ore:oreArdite>.firstItem, [
-    [<mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>],
-    [<mysticalagriculture:ardite_essence>, <minecraft:stone>, <mysticalagriculture:ardite_essence>],
-    [<mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>]
-]);
-
 recipes.addShaped("ma_te_platinum_ore", <ore:orePlatinum>.firstItem, [
     [<mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>],
     [<mysticalagriculture:platinum_essence>, <minecraft:stone>, <mysticalagriculture:platinum_essence>],
