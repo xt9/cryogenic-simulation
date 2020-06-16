@@ -141,7 +141,7 @@ RuneAltar.addRecipe(<botania:rune:3> * 2, [
     <rftools:dimensional_shard>,
     <ore:ravenFeather>.firstItem,
     <ore:manaString>.firstItem,
-    <minecraft:cooked_chicken>
+    <minecraft:chicken>
 ], 8000);
 
 # Rune of Winter
