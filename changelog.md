@@ -1,6 +1,8 @@
 # 0.5
 Added progression for the Combat Simulation + The Midnight
 
+# Mods
+- Added botaniatweaks
 
 # 0.4.1
 ### Arid Waste
@@ -58,6 +60,7 @@ Added progression for the Combat Simulation + The Midnight
 - Added a new oredict for redrock so that both red rock and red rock cobblestone is crushable by hammer
 - Removed the simple powercell recipe, it's fairly redundant
 - Disabled EIO Me conduits because they are pretty unintuitive, and works in wierd ways when 2 conduits are next to each other but not connected. Let's stick with the native cabling
+- Changed the required ingredients for growth reagent
 
 # Mods
 Updated most mods to the latest version (I batch updated since a lot of mos were updated since 0.4, so not all of them will be added to this list)
