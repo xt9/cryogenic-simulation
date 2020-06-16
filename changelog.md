@@ -2,7 +2,7 @@
 Added progression for the Combat Simulation + The Midnight
 
 # Mods
-- Added botaniatweaks
+- Added botaniatweaks 1.9.0
 
 # 0.4.1
 ### Arid Waste

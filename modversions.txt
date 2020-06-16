@@ -19,7 +19,7 @@ BNBGamingCore-1.12.2-0.11.0.jar
 BNBGamingLib-1.12.2-2.17.6.jar
 Bookshelf-1.12.2-2.3.590.jar
 Botania r1.10-363.jar
-botaniatweaks-1.8.6.jar
+botaniatweaks-1.9.0.jar
 BrandonsCore-1.12.2-2.4.18.210-universal.jar
 BuildingGadgets-2.8.3.jar
 CaveGenerator-0.17.jar
