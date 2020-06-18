@@ -3,6 +3,7 @@ Added progression for the Combat Simulation + The Midnight
 
 # Mods
 - Added botaniatweaks 1.9.0
+- Updated EnderIO to 5.2.56
 
 # 0.4.1
 ### Arid Waste

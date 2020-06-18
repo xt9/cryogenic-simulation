@@ -47,7 +47,7 @@ DimensionalControl-1.12.2-2.13.0.jar
 Ding-1.12.2-1.0.2.jar
 dropt-1.12.2-1.18.0.jar
 EnderCore-1.12.2-0.5.76.jar
-EnderIO-1.12.2-5.1.55.jar
+EnderIO-1.12.2-5.2.56.jar
 EnderStorage-1.12.2-2.4.6.137-universal.jar
 EnderTweaker-1.12.2-1.2.0.jar
 exnihilocreatio-1.12.2-0.4.7.2.jar
