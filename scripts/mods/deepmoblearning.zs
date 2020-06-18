@@ -39,3 +39,9 @@ recipes.addShaped("dml_data_model", <deepmoblearning:data_model_blank>, [
 ]);
 
 recipes.replaceAllOccurences(<minecraft:comparator>, <pneumaticcraft:advanced_pcb>, <deepmoblearningbm:digital_agonizer>);
+
+recipes.addShaped("dml_matter_to_netherrack", <minecraft:netherrack> * 32, [
+    [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+    [<ore:cobblestone>, <ore:livingMatterHell>, <ore:cobblestone>],
+    [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+]);
