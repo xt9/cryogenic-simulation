@@ -1,7 +1,0 @@
-{
-    "name": "Raw resources",
-    "description": "This chapter covers infomation about resources available to you in the first simulation.",
-    "icon": "minecraft:diamond_ore",
-    "parent": "sim_1",
-    "sortnum": 1
-}

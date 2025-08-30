@@ -1,8 +1,0 @@
-title @p times 20 100 20
-title @p subtitle ["",{"text":"Simulation "},{"text":"#3","color":"aqua"},{"text":": The Arid Waste"}]
-title @p title ["",{"text":"Welcome ","color":"aqua"},{"text":"to"}]
-
-give @p simple_trophies:trophy 1 0 {TrophyItem:{id:"contenttweaker:blessed_portal_stone",Count:1b,Damage:0s},TrophyName:"Lunar Plane Completion",TrophyColorRed:12,TrophyColorGreen:110,TrophyColorBlue:220,TrophyVariant:"neon"}
-give @p thermalexpansion:frame 4 0
-
-tellraw @p ["",{"text":"Good Job "},{"text":"XC-443","color":"aqua"},{"text":",\nyou made it to the Arid Waste\n\nYou have been rewarded with some "},{"text":"machine frames","color":"aqua"},{"text":"\naswell as a participation "},{"text":"trophy","color":"aqua"},{"text":" for completing\nthe second simulated dimension."}]

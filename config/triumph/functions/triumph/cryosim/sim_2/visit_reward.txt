@@ -1,8 +1,0 @@
-title @p times 20 100 20
-title @p subtitle ["",{"text":"Simulation "},{"text":"#2","color":"aqua"},{"text":": The Lunar Plane"}]
-title @p title ["",{"text":"Welcome ","color":"aqua"},{"text":"to"}]
-
-give @p simple_trophies:trophy 1 0 {TrophyItem:{id:"immersiveengineering:storage",Count:1b,Damage:8s},TrophyName:"Contained Ecosystems Completion",TrophyColorRed:12,TrophyColorGreen:110,TrophyColorBlue:220,TrophyVariant:"neon"}
-give @p thermalfoundation:material 16 160
-
-tellraw @p ["",{"text":"Good Job "},{"text":"XC-443","color":"aqua"},{"text":",\nyou made it to the Lunar Plane\n\nYou have been rewarded with some "},{"text":"steel","color":"aqua"},{"text":"\naswell as a participation "},{"text":"trophy","color":"aqua"},{"text":" for completing\nthe first simulated dimension."}]

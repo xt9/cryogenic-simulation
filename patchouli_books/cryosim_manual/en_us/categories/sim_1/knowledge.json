@@ -1,7 +1,0 @@
-{
-    "name": "Knowledge restrictions",
-    "description": "Before you can utilise certain crafting recipes you have too possess the required knowledge.$(br2)This chapter covers what is locked behind knowledge.",
-    "icon": "immersiveengineering:tool:3",
-    "parent": "sim_1",
-    "sortnum": 0
-}

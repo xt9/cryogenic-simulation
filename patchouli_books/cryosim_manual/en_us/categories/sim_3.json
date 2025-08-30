@@ -1,6 +1,0 @@
-{
-    "name": "The Arid Waste",
-    "description": "A near lifeless world that holds hidden resources alongside with a vast supply of unrefined $(item)Oil$(). Your goal is to refine that $(item)Oil$(), aswell as improve your $(item)Infrastructure$() and $(item)Logistics$().",
-    "icon": "traverse:red_rock",
-    "sortnum": 3
-}

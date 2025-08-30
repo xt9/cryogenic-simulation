@@ -1,3 +1,0 @@
-give @p astralsorcery:itemjournal 1
-
-as research @p BASIC_CRAFT

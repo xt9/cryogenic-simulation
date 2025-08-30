@@ -1,2 +1,0 @@
-give @p immersiveengineering:tool 1 3
-give @p immersiveengineering:jerrycan

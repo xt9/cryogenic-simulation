@@ -1,7 +1,0 @@
-{
-    "name": "Knowledge restrictions",
-    "description": "Before you can utilise certain crafting recipes you have too possess the required knowledge.$(br2)This chapter covers what is locked behind knowledge.",
-    "icon": "astralsorcery:itemjournal",
-    "parent": "sim_2",
-    "sortnum": 0
-}

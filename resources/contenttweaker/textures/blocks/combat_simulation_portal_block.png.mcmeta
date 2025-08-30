@@ -1,9 +1,0 @@
-{
-    "ctm": {
-        "ctm_version": 1,
-        "type": "ctm",
-        "textures": [
-            "contenttweaker:blocks/combat_simulation_portal_block-ctm"
-        ]
-    }
-}

@@ -1,8 +1,0 @@
-title @p times 20 100 20
-title @p subtitle ["",{"text":"Simulation "},{"text":"#4","color":"aqua"},{"text":": The Combat Simulation"}]
-title @p title ["",{"text":"Welcome ","color":"aqua"},{"text":"to"}]
-
-give @p simple_trophies:trophy 1 0 {TrophyItem:{id:"contenttweaker:combat_simulation_portal_block",Count:1b,Damage:0s},TrophyName:"Arid Waste Completion",TrophyColorRed:12,TrophyColorGreen:110,TrophyColorBlue:220,TrophyVariant:"neon"}
-give @p pneumaticcraft:plastic 32 15
-
-tellraw @p ["",{"text":"Good Job "},{"text":"XC-443","color":"aqua"},{"text":",\nyou made it to the Combat Simulation\n\nYou have been rewarded with some "},{"text":"plastic","color":"aqua"},{"text":"\naswell as a participation "},{"text":"trophy","color":"aqua"},{"text":" for completing\nthe third simulated dimension."}]
